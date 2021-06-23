@@ -1,0 +1,109 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 3 -x 880 -y 130 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -40 -y 90 -defaultsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -40 -y 50 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -40 -y 70 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x -40 -y 360 -defaultsOSRD
+preplace port SLOT_0_AXIS1 -pg 1 -lvl 3 -x 880 -y 460 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x -40 -y 380 -defaultsOSRD
+preplace port S_AXIS2 -pg 1 -lvl 0 -x -40 -y 650 -defaultsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 3 -x 880 -y 750 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x -40 -y 670 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -lvl 0 -x -40 -y 1540 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 3 -x 880 -y 1620 -defaultsOSRD
+preplace port S_AXIS3 -pg 1 -lvl 0 -x -40 -y 1520 -defaultsOSRD
+preplace port S_AXIS4 -pg 1 -lvl 0 -x -40 -y 1810 -defaultsOSRD
+preplace port SLOT_0_AXIS4 -pg 1 -lvl 3 -x 880 -y 1910 -defaultsOSRD
+preplace port S00_AXI5 -pg 1 -lvl 0 -x -40 -y 1830 -defaultsOSRD
+preplace port SLOT_0_AXIS5 -pg 1 -lvl 3 -x 880 -y 1040 -defaultsOSRD
+preplace port S_AXIS5 -pg 1 -lvl 0 -x -40 -y 940 -defaultsOSRD
+preplace port S00_AXI6 -pg 1 -lvl 0 -x -40 -y 960 -defaultsOSRD
+preplace port S_AXIS6 -pg 1 -lvl 0 -x -40 -y 1230 -defaultsOSRD
+preplace port SLOT_0_AXIS6 -pg 1 -lvl 3 -x 880 -y 1330 -defaultsOSRD
+preplace port S00_AXI7 -pg 1 -lvl 0 -x -40 -y 1250 -defaultsOSRD
+preplace port S00_AXI8 -pg 1 -lvl 0 -x -40 -y 2120 -defaultsOSRD
+preplace port SLOT_0_AXIS7 -pg 1 -lvl 3 -x 880 -y 2200 -defaultsOSRD
+preplace port S_AXIS7 -pg 1 -lvl 0 -x -40 -y 2100 -defaultsOSRD
+preplace port s_axis_aclk -pg 1 -lvl 0 -x -40 -y 1270 -defaultsOSRD
+preplace port s_axis_tvalid_i -pg 1 -lvl 0 -x -40 -y 230 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -40 -y 2280 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -40 -y 2300 -defaultsOSRD
+preplace port s_axis_aclk1 -pg 1 -lvl 0 -x -40 -y 1290 -defaultsOSRD
+preplace port s_axis_tvalid_i1 -pg 1 -lvl 0 -x -40 -y 520 -defaultsOSRD
+preplace port s_axis_tvalid_i2 -pg 1 -lvl 0 -x -40 -y 810 -defaultsOSRD
+preplace port s_axis_tvalid_i3 -pg 1 -lvl 0 -x -40 -y 1680 -defaultsOSRD
+preplace port s_axis_tvalid_i4 -pg 1 -lvl 0 -x -40 -y 1970 -defaultsOSRD
+preplace port s_axis_tvalid_i5 -pg 1 -lvl 0 -x -40 -y 1100 -defaultsOSRD
+preplace port s_axis_tvalid_i6 -pg 1 -lvl 0 -x -40 -y 1390 -defaultsOSRD
+preplace port s_axis_tvalid_i7 -pg 1 -lvl 0 -x -40 -y 2260 -defaultsOSRD
+preplace portBus Din_0 -pg 1 -lvl 0 -x -40 -y 980 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -40 -y 1330 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -40 -y 1350 -defaultsOSRD
+preplace portBus dac_control -pg 1 -lvl 0 -x -40 -y 1310 -defaultsOSRD
+preplace inst dac_block0_tile0 -pg 1 -lvl 1 -x 250 -y 140 -defaultsOSRD
+preplace inst dac_block1_tile0 -pg 1 -lvl 1 -x 250 -y 460 -defaultsOSRD
+preplace inst dac_block2_tile0 -pg 1 -lvl 1 -x 250 -y 750 -defaultsOSRD
+preplace inst dac_block3_tile0 -pg 1 -lvl 1 -x 250 -y 1620 -defaultsOSRD
+preplace inst dac_block2_tile1 -pg 1 -lvl 1 -x 250 -y 1910 -defaultsOSRD
+preplace inst dac_block0_tile1 -pg 1 -lvl 1 -x 250 -y 1040 -defaultsOSRD
+preplace inst dac_block1_tile1 -pg 1 -lvl 1 -x 250 -y 1330 -defaultsOSRD
+preplace inst dac_block3_tile1 -pg 1 -lvl 1 -x 250 -y 2200 -defaultsOSRD
+preplace inst tx_channelizer -pg 1 -lvl 2 -x 660 -y 300 -defaultsOSRD
+preplace netloc s_axis_aclk_1 1 0 1 20 90n
+preplace netloc s_axis_tvalid_i_1 1 0 1 -20J 210n
+preplace netloc s00_axi_aclk_1 1 0 1 50 230n
+preplace netloc Din_0_1 1 0 1 10 150n
+preplace netloc axi_resetn_1 1 0 1 0 170n
+preplace netloc s00_axi_aresetn_1 1 0 1 60 250n
+preplace netloc dac_clk_aresetn_1 1 0 1 -10 190n
+preplace netloc s_axis_aclk1_1 1 0 2 30 300 470
+preplace netloc dac_control_1 1 0 1 40 130n
+preplace netloc s_axis_tvalid_i_2 1 0 1 NJ 520
+preplace netloc s_axis_tvalid_i_3 1 0 1 NJ 810
+preplace netloc s_axis_tvalid_i_4 1 0 1 NJ 1680
+preplace netloc s_axis_tvalid_i_5 1 0 1 NJ 1970
+preplace netloc s_axis_tvalid_i_6 1 0 1 NJ 1100
+preplace netloc s_axis_tvalid_i_7 1 0 1 NJ 1390
+preplace netloc s_axis_tvalid_i_8 1 0 1 NJ 2260
+preplace netloc aresetn_1 1 1 1 480 180n
+preplace netloc Conn19 1 0 1 NJ 960
+preplace netloc dac_block3_tile1_SLOT_0_AXIS 1 1 1 520 350n
+preplace netloc Conn25 1 0 1 NJ 2100
+preplace netloc Conn14 1 0 1 NJ 1810
+preplace netloc dac_block1_tile0_SLOT_0_AXIS 1 1 1 440 230n
+preplace netloc dac_block1_tile1_SLOT_0_AXIS 1 1 1 490 290n
+preplace netloc Conn13 1 0 1 NJ 1520
+preplace netloc tx_channelizer_SLOT_0_AXIS 1 2 1 860 130n
+preplace netloc dac_block0_tile1_SLOT_0_AXIS 1 1 1 460 270n
+preplace netloc Conn3 1 0 1 -10J 30n
+preplace netloc Conn20 1 0 1 NJ 1230
+preplace netloc Conn18 1 0 1 NJ 940
+preplace netloc dac_block0_tile0_SLOT_0_AXIS 1 1 1 520 100n
+preplace netloc Conn2 1 0 1 10J 70n
+preplace netloc dac_block3_tile0_SLOT_0_AXIS 1 1 1 500 310n
+preplace netloc Conn5 1 0 1 NJ 360
+preplace netloc dac_block2_tile1_SLOT_0_AXIS 1 1 1 510 330n
+preplace netloc tx_channelizer_SLOT_0_AXIS5 1 2 1 840 290n
+preplace netloc tx_channelizer_SLOT_0_AXIS1 1 2 1 860 250n
+preplace netloc Conn23 1 0 1 NJ 2120
+preplace netloc tx_channelizer_SLOT_0_AXIS4 1 2 1 810 350n
+preplace netloc tx_channelizer_SLOT_0_AXIS7 1 2 1 800 370n
+preplace netloc Conn8 1 0 1 NJ 650
+preplace netloc tx_channelizer_SLOT_0_AXIS6 1 2 1 830 310n
+preplace netloc Conn10 1 0 1 NJ 670
+preplace netloc Conn22 1 0 1 NJ 1250
+preplace netloc tx_channelizer_SLOT_0_AXIS2 1 2 1 850 270n
+preplace netloc Conn16 1 0 1 NJ 1830
+preplace netloc Conn7 1 0 1 NJ 380
+preplace netloc tx_channelizer_SLOT_0_AXIS3 1 2 1 820 330n
+preplace netloc Conn4 1 0 1 0J 50n
+preplace netloc dac_block2_tile0_SLOT_0_AXIS 1 1 1 450 250n
+preplace netloc Conn11 1 0 1 NJ 1540
+levelinfo -pg 1 -40 250 660 880
+pagesize -pg 1 -db -bbox -sgen -240 -50 1040 2350
+"
+}
+0

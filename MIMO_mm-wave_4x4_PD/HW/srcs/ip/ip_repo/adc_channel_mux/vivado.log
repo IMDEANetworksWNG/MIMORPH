@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2328515 on Tue Sep 11 18:46:14 MDT 2018
+# IP Build 2318122 on Tue Sep 11 21:25:25 MDT 2018
+# Start of session at: Wed Sep 12 09:14:35 2018
+# Process ID: 113824
+# Current directory: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux
+# Command line: vivado
+# Log file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/vivado.log
+# Journal file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'NO'.
+Sourcing tcl script '/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/scripts/Vivado_init.tcl'
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.0 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.0/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.1 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.1/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.2/board.xml as part xczu9eg-ffvb1156-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.3 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.3/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:1.4 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/zcu102/1.4/board.xml as part xczu9eg-ffvb1156-2l-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118_es1:part0:1.2 available at /proj/rdi/data/CLs/2319403/data/boards/board_files/vcu118/1.2/board.xml as part xcvu9p-flga2104-2lv-e-es1 specified in board_part file is either invalid or not available
+create_project project_1 /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1 -part xczu28dr-ffvg1517-2-i-es1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:15 . Memory (MB): peak = 6465.859 ; gain = 43.027 ; free physical = 167214 ; free virtual = 203795
+set_property board_part xilinx.com:zcu111_es1:part0:1.0 [current_project]
+add_files -norecurse /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/hdl/src/verilog/adc_channel_mux.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:17:25 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:23:17 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:27:04 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:34:58 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:40:41 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:48:17 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 09:51:42 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+[Wed Sep 12 10:13:38 2018] Launched synth_1...
+Run output will be captured here: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.log
+ipx::package_project -root_dir /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux -vendor xilinx.com -library user -taxonomy /UserIP
+INFO: [IP_Flow 19-5107] Inferred bus interface 'm_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's0_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's1_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's2_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's3_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's4_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's5_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's6_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's7_axi_stream' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axis_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'resetn'.
+WARNING: [IP_Flow 19-3158] Bus Interface 'm_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's0_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's1_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's2_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's3_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's4_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's5_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's6_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3158] Bus Interface 's7_axi_stream': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3153] Bus Interface 's_axis_aclk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces s_axis_aclk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1'.)
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/xilinx.com_user_adc_channel_mux_1.0.zip [ipx::current_core]
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 12 11:36:05 2018...

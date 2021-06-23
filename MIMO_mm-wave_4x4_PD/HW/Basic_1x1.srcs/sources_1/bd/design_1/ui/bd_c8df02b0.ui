@@ -1,0 +1,107 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S07_AXIS -pg 1 -lvl 0 -x -60 -y 640 -defaultsOSRD
+preplace port S06_AXIS -pg 1 -lvl 0 -x -60 -y 600 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -60 -y 580 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -60 -y 230 -defaultsOSRD
+preplace port S00_AXIS1 -pg 1 -lvl 0 -x -60 -y 510 -defaultsOSRD
+preplace port S01_AXIS1 -pg 1 -lvl 0 -x -60 -y 800 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x -60 -y 530 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x -60 -y 960 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -lvl 0 -x -60 -y 1010 -defaultsOSRD
+preplace port S05_AXIS -pg 1 -lvl 0 -x -60 -y 350 -defaultsOSRD
+preplace port S04_AXIS -pg 1 -lvl 0 -x -60 -y 310 -defaultsOSRD
+preplace port S00_AXI5 -pg 1 -lvl 0 -x -60 -y 290 -defaultsOSRD
+preplace port S00_AXI6 -pg 1 -lvl 0 -x -60 -y 60 -defaultsOSRD
+preplace port S00_AXI7 -pg 1 -lvl 0 -x -60 -y 1070 -defaultsOSRD
+preplace port S03_AXIS -pg 1 -lvl 0 -x -60 -y 1190 -defaultsOSRD
+preplace port S02_AXIS -pg 1 -lvl 0 -x -60 -y 1150 -defaultsOSRD
+preplace port S00_AXI8 -pg 1 -lvl 0 -x -60 -y 1130 -defaultsOSRD
+preplace port M00_AXIS2 -pg 1 -lvl 7 -x 2140 -y 890 -defaultsOSRD
+preplace port M01_AXIS2 -pg 1 -lvl 7 -x 2140 -y 1110 -defaultsOSRD
+preplace port M00_AXIS3 -pg 1 -lvl 7 -x 2140 -y 1130 -defaultsOSRD
+preplace port M01_AXIS3 -pg 1 -lvl 7 -x 2140 -y 1150 -defaultsOSRD
+preplace port M00_AXIS1 -pg 1 -lvl 7 -x 2140 -y 120 -defaultsOSRD
+preplace port M01_AXIS1 -pg 1 -lvl 7 -x 2140 -y 140 -defaultsOSRD
+preplace port M00_AXIS -pg 1 -lvl 7 -x 2140 -y 360 -defaultsOSRD
+preplace port M01_AXIS -pg 1 -lvl 7 -x 2140 -y 380 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -60 -y 1210 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -60 -y 1250 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -60 -y 1270 -defaultsOSRD
+preplace port o_INC_BP_0 -pg 1 -lvl 7 -x 2140 -y 980 -defaultsOSRD
+preplace port o_RST_BP_0 -pg 1 -lvl 7 -x 2140 -y 1000 -defaultsOSRD
+preplace port o_RTN_BP_2 -pg 1 -lvl 7 -x 2140 -y 1020 -defaultsOSRD
+preplace portBus adc_clk_soft_aresetn -pg 1 -lvl 0 -x -60 -y 1230 -defaultsOSRD
+preplace portBus adc_control -pg 1 -lvl 0 -x -60 -y 880 -defaultsOSRD
+preplace portBus tvalid_i -pg 1 -lvl 0 -x -60 -y 860 -defaultsOSRD
+preplace inst packet_counter_3 -pg 1 -lvl 3 -x 900 -y 370 -defaultsOSRD
+preplace inst packet_counter_0 -pg 1 -lvl 4 -x 1260 -y 860 -defaultsOSRD
+preplace inst packet_counter_2 -pg 1 -lvl 3 -x 900 -y 130 -defaultsOSRD
+preplace inst packet_counter_1 -pg 1 -lvl 3 -x 900 -y 1140 -defaultsOSRD
+preplace inst PD_FLAG_block -pg 1 -lvl 3 -x 900 -y 870 -defaultsOSRD
+preplace inst control_switch0 -pg 1 -lvl 1 -x 120 -y 880 -defaultsOSRD
+preplace inst boundary_d -pg 1 -lvl 5 -x 1620 -y 990 -defaultsOSRD
+preplace inst SIVERS_gpio_0 -pg 1 -lvl 6 -x 1980 -y 1000 -defaultsOSRD
+preplace inst packet_detector_11AD_0 -pg 1 -lvl 3 -x 900 -y 630 -defaultsOSRD
+preplace inst packet_detector_11AD_2 -pg 1 -lvl 2 -x 440 -y 370 -defaultsOSRD
+preplace inst packet_detector_11AD_1 -pg 1 -lvl 2 -x 440 -y 1210 -defaultsOSRD
+preplace inst packet_detector_11AD_3 -pg 1 -lvl 2 -x 440 -y 660 -defaultsOSRD
+preplace netloc aclk_1 1 0 6 NJ 1210 290 160 680 990 1100 990 1420 880 1800J
+preplace netloc s00_axi_aclk_1 1 0 6 NJ 1250 270 190 700 1010 1120 1080 NJ 1080 1810J
+preplace netloc s00_axi_aresetn_1 1 0 6 NJ 1270 260 200 600 980 1070 720 NJ 720 1780J
+preplace netloc aresetn_1 1 0 6 NJ 1230 280 170 690 1000 1110 1000 1440 890 1770J
+preplace netloc PD_FLAG1_1 1 2 3 740 970 1080 730 1410
+preplace netloc SIVERS_gpio_0_o_INC_BP 1 6 1 NJ 980
+preplace netloc SIVERS_gpio_0_o_RST_BP 1 6 1 NJ 1000
+preplace netloc SIVERS_gpio_0_o_RTN_BP 1 6 1 NJ 1020
+preplace netloc boundary_detector_0_o_BD_FLAG 1 5 1 N 1010
+preplace netloc packet_detector_11AD_0_PD_FLAG 1 2 2 750 950 1050
+preplace netloc packet_detector_11AD_2_PD_FLAG 1 2 1 590 400n
+preplace netloc packet_detector_11AD_1_PD_FLAG 1 2 1 720 860n
+preplace netloc packet_detector_11AD_3_PD_FLAG 1 2 1 580 690n
+preplace netloc dac_control_1 1 0 1 NJ 880
+preplace netloc control_switch0_tvalid_o 1 1 2 300 220 650
+preplace netloc tready_i_1 1 0 3 -20 210 NJ 210 660
+preplace netloc tvalid_i_1 1 0 1 NJ 860
+preplace netloc Conn17 1 0 2 NJ 1130 NJ
+preplace netloc packet_counter_0_M01_AXIS 1 4 1 1400 870n
+preplace netloc Conn9 1 0 6 -30J 800 NJ 800 620J 780 1060J 710 NJ 710 1820J
+preplace netloc packet_detector_11AD_2_M01_AXIS 1 2 1 590 100n
+preplace netloc Conn16 1 0 2 NJ 1150 NJ
+preplace netloc packet_detector_11AD_0_M00_AXIS 1 2 1 610 320n
+preplace netloc Conn12 1 0 2 NJ 290 NJ
+preplace netloc Conn7 1 0 3 -30J 520 NJ 520 630J
+preplace netloc Conn14 1 0 3 NJ 1070 NJ 1070 NJ
+preplace netloc Conn1 1 0 2 NJ 640 NJ
+preplace netloc Conn11 1 0 2 NJ 310 NJ
+preplace netloc packet_counter_1_M01_AXIS1 1 3 4 NJ 1150 NJ 1150 NJ 1150 NJ
+preplace netloc Conn4 1 0 3 NJ 230 NJ 230 720J
+preplace netloc packet_detector_11AD_3_M00_AXIS 1 2 1 710 1090n
+preplace netloc packet_counter_3_M00_AXIS 1 3 4 NJ 360 NJ 360 NJ 360 NJ
+preplace netloc Conn15 1 0 2 NJ 1190 NJ
+preplace netloc packet_counter_0_M00_AXIS 1 4 1 1430 850n
+preplace netloc Conn3 1 0 2 NJ 580 NJ
+preplace netloc packet_detector_11AD_2_M00_AXIS 1 2 1 580 80n
+preplace netloc Conn6 1 0 3 -40J 180 NJ 180 670J
+preplace netloc Conn2 1 0 2 NJ 600 NJ
+preplace netloc Conn13 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc Conn8 1 0 4 NJ 960 NJ 960 NJ 960 1090J
+preplace netloc packet_counter_2_M01_AXIS 1 3 4 NJ 140 NJ 140 NJ 140 NJ
+preplace netloc packet_detector_11AD_3_M01_AXIS 1 2 1 730 1110n
+preplace netloc packet_detector_11AD_1_M00_AXIS 1 3 1 1120 600n
+preplace netloc packet_detector_11AD_1_M01_AXIS 1 3 1 1110 620n
+preplace netloc packet_counter_3_M01_AXIS 1 3 4 NJ 380 NJ 380 NJ 380 NJ
+preplace netloc packet_counter_1_M00_AXIS1 1 3 4 NJ 1130 NJ 1130 NJ 1130 NJ
+preplace netloc boundary_detector_0_M00_AXIS 1 5 2 1790J 890 NJ
+preplace netloc packet_counter_2_M00_AXIS 1 3 4 NJ 120 NJ 120 NJ 120 NJ
+preplace netloc Conn5 1 0 3 NJ 510 NJ 510 640J
+preplace netloc packet_detector_11AD_0_M01_AXIS 1 2 1 620 340n
+preplace netloc Conn10 1 0 2 NJ 350 NJ
+preplace netloc boundary_detector_0_M01_AXIS 1 5 2 1810J 880 2110J
+levelinfo -pg 1 -60 120 440 900 1260 1620 1980 2140
+pagesize -pg 1 -db -bbox -sgen -300 0 2280 1350
+"
+}
+0
