@@ -1,0 +1,79 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S07_AXIS -pg 1 -lvl 0 -x 0 -y 790 -defaultsOSRD
+preplace port S06_AXIS -pg 1 -lvl 0 -x 0 -y 770 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 750 -defaultsOSRD
+preplace port S00_AXIS1 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port S01_AXIS1 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port S05_AXIS -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port S04_AXIS -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace port S00_AXI5 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port S03_AXIS -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace port S02_AXIS -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port M00_AXIS2 -pg 1 -lvl 3 -x 660 -y 150 -defaultsOSRD
+preplace port M01_AXIS2 -pg 1 -lvl 3 -x 660 -y 170 -defaultsOSRD
+preplace port M00_AXIS3 -pg 1 -lvl 3 -x 660 -y 350 -defaultsOSRD
+preplace port M01_AXIS3 -pg 1 -lvl 3 -x 660 -y 370 -defaultsOSRD
+preplace port M00_AXIS1 -pg 1 -lvl 3 -x 660 -y 570 -defaultsOSRD
+preplace port M01_AXIS1 -pg 1 -lvl 3 -x 660 -y 590 -defaultsOSRD
+preplace port M00_AXIS -pg 1 -lvl 3 -x 660 -y 820 -defaultsOSRD
+preplace port M01_AXIS -pg 1 -lvl 3 -x 660 -y 840 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x 0 -y 810 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace portBus adc_clk_soft_aresetn -pg 1 -lvl 0 -x 0 -y 830 -defaultsOSRD
+preplace portBus adc_control -pg 1 -lvl 0 -x 0 -y 990 -defaultsOSRD
+preplace portBus tvalid_i -pg 1 -lvl 0 -x 0 -y 970 -defaultsOSRD
+preplace inst control_switch0 -pg 1 -lvl 1 -x 190 -y 990 -defaultsOSRD
+preplace inst bit_slicer_0 -pg 1 -lvl 1 -x 190 -y 120 -defaultsOSRD
+preplace inst bit_slicer_1 -pg 1 -lvl 1 -x 190 -y 340 -defaultsOSRD
+preplace inst bit_slicer_2 -pg 1 -lvl 1 -x 190 -y 560 -defaultsOSRD
+preplace inst bit_slicer_3 -pg 1 -lvl 1 -x 190 -y 810 -defaultsOSRD
+preplace inst sample_concatenation_0 -pg 1 -lvl 2 -x 500 -y 160 -defaultsOSRD
+preplace inst sample_concatenation_1 -pg 1 -lvl 2 -x 500 -y 360 -defaultsOSRD
+preplace inst sample_concatenation_2 -pg 1 -lvl 2 -x 500 -y 580 -defaultsOSRD
+preplace inst sample_concatenation_3 -pg 1 -lvl 2 -x 500 -y 830 -defaultsOSRD
+preplace netloc aclk_1 1 0 2 40 680 350
+preplace netloc s00_axi_aclk_1 1 0 1 20 160n
+preplace netloc s00_axi_aresetn_1 1 0 1 30 180n
+preplace netloc aresetn_1 1 0 2 50 690 360
+preplace netloc dac_control_1 1 0 1 NJ 990
+preplace netloc tvalid_i_1 1 0 1 NJ 970
+preplace netloc control_switch0_tvalid_o 1 1 1 340 130n
+preplace netloc sample_concatenation_0_M01_AXIS 1 2 1 NJ 170
+preplace netloc S00_AXI3_1 1 0 1 NJ 280
+preplace netloc S06_AXIS_1 1 0 1 NJ 770
+preplace netloc S00_AXI5_1 1 0 1 NJ 500
+preplace netloc bit_slicer_2_M00_AXIS 1 1 1 330 530n
+preplace netloc S07_AXIS_1 1 0 1 NJ 790
+preplace netloc S00_AXIS1_1 1 0 1 NJ 80
+preplace netloc bit_slicer_1_M00_AXIS 1 1 1 330 310n
+preplace netloc bit_slicer_1_M01_AXIS 1 1 1 N 350
+preplace netloc S00_AXI2_1 1 0 1 NJ 60
+preplace netloc sample_concatenation_3_M00_AXIS 1 2 1 NJ 820
+preplace netloc bit_slicer_3_M00_AXIS 1 1 1 330 780n
+preplace netloc S05_AXIS_1 1 0 1 NJ 540
+preplace netloc bit_slicer_0_M00_AXIS 1 1 1 N 110
+preplace netloc bit_slicer_2_M01_AXIS 1 1 1 N 570
+preplace netloc sample_concatenation_2_M01_AXIS 1 2 1 NJ 590
+preplace netloc S01_AXIS1_1 1 0 1 NJ 100
+preplace netloc S03_AXIS_1 1 0 1 NJ 320
+preplace netloc sample_concatenation_2_M00_AXIS 1 2 1 NJ 570
+preplace netloc sample_concatenation_3_M01_AXIS 1 2 1 NJ 840
+preplace netloc S02_AXIS_1 1 0 1 NJ 300
+preplace netloc sample_concatenation_1_M00_AXIS 1 2 1 NJ 350
+preplace netloc S04_AXIS_1 1 0 1 NJ 520
+preplace netloc bit_slicer_3_M01_AXIS 1 1 1 N 820
+preplace netloc sample_concatenation_0_M00_AXIS 1 2 1 NJ 150
+preplace netloc bit_slicer_0_M01_AXIS 1 1 1 330 130n
+preplace netloc sample_concatenation_1_M01_AXIS 1 2 1 NJ 370
+preplace netloc S00_AXI_1 1 0 1 NJ 750
+levelinfo -pg 1 0 190 500 660
+pagesize -pg 1 -db -bbox -sgen -240 0 790 1060
+"
+}
+0

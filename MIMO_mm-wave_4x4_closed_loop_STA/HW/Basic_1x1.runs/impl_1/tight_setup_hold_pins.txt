@@ -1,0 +1,12 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_3/packet_detector_11AD_3/U0/IN_valid_I_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_2/packet_detector_11AD_2/U0/IN_valid_I_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_3/packet_detector_11AD_3/U0/IN_valid_Q_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_2/packet_detector_11AD_2/U0/IN_valid_Q_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_1/packet_detector_11AD_1/U0/IN_valid_I_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_0/packet_detector_11AD_0/U0/IN_valid_Q_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_0/packet_detector_11AD_0/U0/IN_valid_I_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                               design_1_i/SPB_blocks/stream_1/packet_detector_11AD_1/U0/IN_valid_Q_r_reg/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

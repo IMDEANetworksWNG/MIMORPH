@@ -1,0 +1,49 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 2 -x 260 -y 80 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port SLOT_0_AXIS1 -pg 1 -lvl 2 -x 260 -y 220 -defaultsOSRD
+preplace port S_AXIS2 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 2 -x 260 -y 360 -defaultsOSRD
+preplace port S_AXIS3 -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port SLOT_0_AXIS5 -pg 1 -lvl 2 -x 260 -y 500 -defaultsOSRD
+preplace port S_AXIS4 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port SLOT_0_AXIS6 -pg 1 -lvl 2 -x 260 -y 640 -defaultsOSRD
+preplace port S_AXIS5 -pg 1 -lvl 0 -x 0 -y 760 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 2 -x 260 -y 780 -defaultsOSRD
+preplace port S_AXIS6 -pg 1 -lvl 0 -x 0 -y 900 -defaultsOSRD
+preplace port SLOT_0_AXIS4 -pg 1 -lvl 2 -x 260 -y 920 -defaultsOSRD
+preplace port S_AXIS7 -pg 1 -lvl 0 -x 0 -y 1040 -defaultsOSRD
+preplace port SLOT_0_AXIS7 -pg 1 -lvl 2 -x 260 -y 1060 -defaultsOSRD
+preplace inst axis_register_slice_0 -pg 1 -lvl 1 -x 130 -y 80 -defaultsOSRD
+preplace inst axis_register_slice_1 -pg 1 -lvl 1 -x 130 -y 220 -defaultsOSRD
+preplace inst axis_register_slice_3 -pg 1 -lvl 1 -x 130 -y 500 -defaultsOSRD
+preplace inst axis_register_slice_4 -pg 1 -lvl 1 -x 130 -y 640 -defaultsOSRD
+preplace inst axis_register_slice_5 -pg 1 -lvl 1 -x 130 -y 780 -defaultsOSRD
+preplace inst axis_register_slice_6 -pg 1 -lvl 1 -x 130 -y 920 -defaultsOSRD
+preplace inst axis_register_slice_7 -pg 1 -lvl 1 -x 130 -y 1060 -defaultsOSRD
+preplace inst axis_register_slice_2 -pg 1 -lvl 1 -x 130 -y 360 -defaultsOSRD
+preplace netloc S_AXIS_1 1 0 1 NJ 60
+preplace netloc axis_register_slice_0_M_AXIS 1 1 1 NJ 80
+preplace netloc Conn1 1 0 1 NJ 200
+preplace netloc Conn2 1 1 1 NJ 220
+preplace netloc Conn3 1 0 1 NJ 340
+preplace netloc Conn4 1 1 1 NJ 360
+preplace netloc Conn5 1 0 1 NJ 480
+preplace netloc Conn6 1 1 1 NJ 500
+preplace netloc Conn7 1 0 1 NJ 620
+preplace netloc Conn8 1 1 1 NJ 640
+preplace netloc S_AXIS5_1 1 0 1 NJ 760
+preplace netloc axis_register_slice_5_M_AXIS 1 1 1 NJ 780
+preplace netloc Conn9 1 0 1 NJ 900
+preplace netloc Conn10 1 1 1 NJ 920
+preplace netloc Conn11 1 0 1 NJ 1040
+preplace netloc Conn12 1 1 1 NJ 1060
+levelinfo -pg 1 0 130 260
+pagesize -pg 1 -db -bbox -sgen -110 0 420 1140
+"
+}
+

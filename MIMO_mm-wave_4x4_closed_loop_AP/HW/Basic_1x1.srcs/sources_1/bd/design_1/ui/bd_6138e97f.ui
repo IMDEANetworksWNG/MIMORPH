@@ -1,0 +1,57 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXIS0 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port S_AXIS2 -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port S_AXIS3 -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port S_AXIS4 -pg 1 -lvl 0 -x 0 -y 650 -defaultsOSRD
+preplace port S_AXIS5 -pg 1 -lvl 0 -x 0 -y 790 -defaultsOSRD
+preplace port S_AXIS6 -pg 1 -lvl 0 -x 0 -y 1070 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 3 -x 620 -y 510 -defaultsOSRD
+preplace port M_AXIS1 -pg 1 -lvl 3 -x 620 -y 680 -defaultsOSRD
+preplace port M_AXIS4 -pg 1 -lvl 3 -x 620 -y 840 -defaultsOSRD
+preplace port M_AXIS2 -pg 1 -lvl 3 -x 620 -y 230 -defaultsOSRD
+preplace port adc_clk -pg 1 -lvl 0 -x 0 -y 670 -defaultsOSRD
+preplace port adc_clk_soft_aresetn -pg 1 -lvl 0 -x 0 -y 810 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 1 -x 140 -y 360 -defaultsOSRD
+preplace inst axis_dwidth_converter_1 -pg 1 -lvl 1 -x 140 -y 500 -defaultsOSRD
+preplace inst axis_dwidth_converter_2 -pg 1 -lvl 1 -x 140 -y 80 -defaultsOSRD
+preplace inst axis_dwidth_converter_3 -pg 1 -lvl 1 -x 140 -y 220 -defaultsOSRD
+preplace inst axis_dwidth_converter_4 -pg 1 -lvl 1 -x 140 -y 950 -defaultsOSRD
+preplace inst axis_dwidth_converter_5 -pg 1 -lvl 1 -x 140 -y 670 -defaultsOSRD
+preplace inst axis_dwidth_converter_6 -pg 1 -lvl 1 -x 140 -y 810 -defaultsOSRD
+preplace inst axis_dwidth_converter_7 -pg 1 -lvl 1 -x 140 -y 1090 -defaultsOSRD
+preplace inst axis_combiner_0 -pg 1 -lvl 2 -x 440 -y 510 -defaultsOSRD
+preplace inst axis_combiner_2 -pg 1 -lvl 2 -x 440 -y 680 -defaultsOSRD
+preplace inst axis_combiner_3 -pg 1 -lvl 2 -x 440 -y 840 -defaultsOSRD
+preplace inst axis_combiner_1 -pg 1 -lvl 2 -x 440 -y 230 -defaultsOSRD
+preplace netloc adc_clk_1 1 0 2 30 580 260
+preplace netloc dac_clk_soft_aresetn2_1 1 0 2 20 590 270
+preplace netloc Conn1 1 0 1 NJ 340
+preplace netloc Conn2 1 0 1 NJ 480
+preplace netloc Conn3 1 0 1 NJ 60
+preplace netloc Conn4 1 0 1 NJ 200
+preplace netloc Conn5 1 0 1 NJ 930
+preplace netloc Conn6 1 0 1 NJ 650
+preplace netloc Conn7 1 0 1 NJ 790
+preplace netloc Conn8 1 0 1 NJ 1070
+preplace netloc Conn9 1 2 1 NJ 510
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 1 1 250 360n
+preplace netloc axis_dwidth_converter_1_M_AXIS 1 1 1 N 500
+preplace netloc axis_dwidth_converter_4_M_AXIS 1 1 1 250 650n
+preplace netloc Conn10 1 2 1 NJ 680
+preplace netloc axis_dwidth_converter_5_M_AXIS 1 1 1 N 670
+preplace netloc Conn13 1 2 1 NJ 840
+preplace netloc axis_dwidth_converter_7_M_AXIS 1 1 1 280 830n
+preplace netloc axis_dwidth_converter_6_M_AXIS 1 1 1 N 810
+preplace netloc Conn11 1 2 1 NJ 230
+preplace netloc axis_dwidth_converter_2_M_AXIS 1 1 1 250 80n
+preplace netloc axis_dwidth_converter_3_M_AXIS 1 1 1 N 220
+levelinfo -pg 1 0 140 440 620
+pagesize -pg 1 -db -bbox -sgen -200 0 730 1170
+"
+}
+

@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port dac_clk -pg 1 -lvl 0 -x -40 -y 190 -defaultsOSRD
+preplace port s_axis_aclk_300 -pg 1 -lvl 0 -x -40 -y 330 -defaultsOSRD
+preplace portBus Din_0 -pg 1 -lvl 0 -x -40 -y 130 -defaultsOSRD
+preplace portBus dac_clk_soft_aresetn -pg 1 -lvl 6 -x 1350 -y 60 -defaultsOSRD
+preplace portBus axi_soft_resetn -pg 1 -lvl 6 -x 1350 -y 380 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -40 -y 70 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -40 -y 390 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -x 400 -y 130 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 5 -x 1180 -y 60 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 5 -x 1180 -y 380 -defaultsOSRD
+preplace inst sync_0 -pg 1 -lvl 4 -x 930 -y 170 -defaultsOSRD
+preplace inst sync_1 -pg 1 -lvl 4 -x 930 -y 310 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 670 -y 250 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 3 -x 670 -y 130 -defaultsOSRD
+preplace netloc xlslice_0_Dout 1 2 1 NJ 130
+preplace netloc util_vector_logic_2_Res 1 3 1 820 130n
+preplace netloc xlconstant_0_dout 1 3 1 830 170n
+preplace netloc Din_1_1 1 0 2 NJ 130 N
+preplace netloc dest_clk_0_1 1 0 4 NJ 190 N 190 NJ 190 NJ
+preplace netloc dest_clk_1_1 1 0 4 NJ 330 N 330 NJ 330 NJ
+preplace netloc util_vector_logic_0_Res 1 5 1 NJ 60
+preplace netloc sync_0_dest_out 1 4 1 1030 50n
+preplace netloc sync_1_dest_out 1 4 1 1030 310n
+preplace netloc util_vector_logic_1_Res 1 5 1 NJ 380
+preplace netloc Op2_1_1 1 0 5 NJ 70 N 70 NJ 70 NJ 70 NJ
+preplace netloc Op2_2_1 1 0 5 NJ 390 N 390 NJ 390 NJ 390 N
+levelinfo -pg 1 -40 130 400 670 930 1180 1350
+pagesize -pg 1 -db -bbox -sgen -240 -180 1590 450
+"
+}
+0

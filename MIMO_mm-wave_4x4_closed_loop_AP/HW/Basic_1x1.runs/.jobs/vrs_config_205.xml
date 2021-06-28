@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_ddr4_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/MTS_4x4/Basic_1x1.runs/design_1_ddr4_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_4_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/MTS_4x4/Basic_1x1.runs/design_1_xbar_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ddr_writer_0_7_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/MTS_4x4/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,94 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S00_AXIS -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port S01_AXIS -pg 1 -lvl 0 -x 0 -y 390 -defaultsOSRD
+preplace port S02_AXIS -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port S03_AXIS -pg 1 -lvl 0 -x 0 -y 640 -defaultsOSRD
+preplace port S04_AXIS -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port S05_AXIS -pg 1 -lvl 0 -x 0 -y 940 -defaultsOSRD
+preplace port S06_AXIS -pg 1 -lvl 0 -x 0 -y 680 -defaultsOSRD
+preplace port S07_AXIS -pg 1 -lvl 0 -x 0 -y 980 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 4 -x 1140 -y 840 -defaultsOSRD
+preplace port M_AXIS1 -pg 1 -lvl 4 -x 1140 -y 410 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 91 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x 0 -y 920 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x 0 -y 410 -defaultsOSRD
+preplace port aresetn -pg 1 -lvl 0 -x 0 -y 700 -defaultsOSRD
+preplace port m_axis_tvalid1 -pg 1 -lvl 4 -x 1140 -y 860 -defaultsOSRD
+preplace port m_axis_tready1 -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port m_axis_tvalid2 -pg 1 -lvl 4 -x 1140 -y 430 -defaultsOSRD
+preplace port m_axis_tready2 -pg 1 -lvl 0 -x 0 -y 840 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace port PD_FLAG -pg 1 -lvl 4 -x 1140 -y 160 -defaultsOSRD
+preplace portBus tvalid_i -pg 1 -lvl 0 -x 0 -y 1260 -defaultsOSRD
+preplace portBus tready_o -pg 1 -lvl 4 -x 1140 -y 1160 -defaultsOSRD
+preplace portBus dac_control -pg 1 -lvl 0 -x 0 -y 1140 -defaultsOSRD
+preplace inst axis_combiner_0 -pg 1 -lvl 3 -x 920 -y 430 -defaultsOSRD
+preplace inst axis_combiner_1 -pg 1 -lvl 3 -x 920 -y 860 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 2 -x 560 -y 380 -defaultsOSRD
+preplace inst axis_dwidth_converter_1 -pg 1 -lvl 2 -x 560 -y 80 -defaultsOSRD
+preplace inst axis_dwidth_converter_2 -pg 1 -lvl 2 -x 560 -y 240 -defaultsOSRD
+preplace inst axis_dwidth_converter_3 -pg 1 -lvl 2 -x 560 -y 520 -defaultsOSRD
+preplace inst axis_dwidth_converter_4 -pg 1 -lvl 2 -x 560 -y 690 -defaultsOSRD
+preplace inst axis_dwidth_converter_5 -pg 1 -lvl 2 -x 560 -y 1180 -defaultsOSRD
+preplace inst axis_dwidth_converter_6 -pg 1 -lvl 2 -x 560 -y 850 -defaultsOSRD
+preplace inst axis_dwidth_converter_7 -pg 1 -lvl 2 -x 560 -y 1010 -defaultsOSRD
+preplace inst packet_detector_SSR1_0 -pg 1 -lvl 1 -x 220 -y 400 -defaultsOSRD
+preplace inst packet_detector_SSR1_1 -pg 1 -lvl 1 -x 220 -y 150 -defaultsOSRD -resize 240 196
+preplace inst packet_detector_SSR1_3 -pg 1 -lvl 1 -x 220 -y 1000 -defaultsOSRD
+preplace inst packet_detector_SSR1_2 -pg 1 -lvl 1 -x 220 -y 700 -defaultsOSRD
+preplace inst control_switch0 -pg 1 -lvl 3 -x 920 -y 1170 -defaultsOSRD
+preplace netloc aclk_1 1 0 3 40 10 430 1090 690
+preplace netloc aresetn_1 1 0 3 50 20 390 610 740
+preplace netloc axis_combiner_1_m_axis_tvalid 1 3 1 NJ 860
+preplace netloc m_axis_tready1_1 1 0 4 NJ 860 450J 770 720J 750 1100
+preplace netloc axis_combiner_0_m_axis_tvalid 1 3 1 NJ 430
+preplace netloc m_axis_tready2_1 1 0 4 NJ 840 370J 930 700J 740 1100
+preplace netloc s00_axi_aclk_1 1 0 1 20 195n
+preplace netloc s00_axi_aresetn_1 1 0 1 30 209n
+preplace netloc packet_detector_SSR1_0_PD_FLAG 1 1 3 410J 600 670J 170 1120J
+preplace netloc tvalid_i_1 1 0 3 30J 1270 NJ 1270 740J
+preplace netloc control_switch0_tready_o 1 3 1 NJ 1160
+preplace netloc tready_i_1 1 0 3 70 1260 NJ 1260 730J
+preplace netloc control_switch0_tvalid_o 1 0 4 60 30 450J 160 NJ 160 1110
+preplace netloc dac_control_1 1 0 3 NJ 1140 450J 1100 680J
+preplace netloc packet_detector_SSR1_1_M01_AXIS 1 1 1 420 140n
+preplace netloc Conn6 1 0 1 NJ 620
+preplace netloc S01_AXIS_1 1 0 1 NJ 390
+preplace netloc axis_dwidth_converter_1_M_AXIS 1 2 1 690 80n
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 2 1 N 380
+preplace netloc S06_AXIS_1 1 0 1 NJ 680
+preplace netloc packet_detector_SSR1_1_M00_AXIS 1 1 1 440 120n
+preplace netloc Conn5 1 0 1 NJ 310
+preplace netloc axis_dwidth_converter_5_M_AXIS 1 2 1 720 830n
+preplace netloc axis_dwidth_converter_3_M_AXIS 1 2 1 680 440n
+preplace netloc axis_dwidth_converter_7_M_AXIS 1 2 1 710 870n
+preplace netloc Conn1 1 3 1 NJ 840
+preplace netloc axis_dwidth_converter_4_M_AXIS 1 2 1 730 690n
+preplace netloc packet_detector_SSR1_3_M00_AXIS 1 1 1 400 500n
+preplace netloc packet_detector_SSR1_0_M00_AXIS 1 1 1 380 360n
+preplace netloc Conn4 1 0 1 NJ 920
+preplace netloc axis_dwidth_converter_6_M_AXIS 1 2 1 N 850
+preplace netloc Conn3 1 0 1 NJ 91
+preplace netloc S03_AXIS_1 1 0 1 NJ 640
+preplace netloc Conn2 1 3 1 NJ 410
+preplace netloc packet_detector_SSR1_3_M01_AXIS 1 1 1 370 690n
+preplace netloc S07_AXIS_1 1 0 1 NJ 980
+preplace netloc packet_detector_SSR1_2_M01_AXIS 1 1 1 N 990
+preplace netloc packet_detector_SSR1_0_M01_AXIS 1 1 1 370 60n
+preplace netloc S05_AXIS_1 1 0 1 NJ 940
+preplace netloc S04_AXIS_1 1 0 1 20J 135n
+preplace netloc S00_AXIS_1 1 0 1 NJ 330
+preplace netloc packet_detector_SSR1_2_M00_AXIS 1 1 1 370 970n
+preplace netloc S02_AXIS_1 1 0 1 20J 105n
+preplace netloc axis_dwidth_converter_2_M_AXIS 1 2 1 680 240n
+levelinfo -pg 1 0 220 560 920 1140
+pagesize -pg 1 -db -bbox -sgen -170 0 1300 1280
+"
+}
+0

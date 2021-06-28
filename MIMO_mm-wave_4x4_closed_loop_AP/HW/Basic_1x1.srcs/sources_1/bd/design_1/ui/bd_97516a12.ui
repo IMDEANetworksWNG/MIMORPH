@@ -1,0 +1,45 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S00_AXI5 -pg 1 -lvl 0 -x -40 -y 60 -defaultsOSRD
+preplace port S04_AXIS -pg 1 -lvl 0 -x -40 -y 80 -defaultsOSRD
+preplace port S05_AXIS -pg 1 -lvl 0 -x -40 -y 100 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -40 -y 240 -defaultsOSRD
+preplace port adc_clk_soft_aresetn -pg 1 -lvl 0 -x -40 -y 140 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -40 -y 180 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -40 -y 160 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -40 -y 120 -defaultsOSRD
+preplace port PD_FLAG -pg 1 -lvl 3 -x 660 -y 150 -defaultsOSRD
+preplace port i_PD_FLAG -pg 1 -lvl 0 -x -40 -y 400 -defaultsOSRD
+preplace port o_BD_FLAG -pg 1 -lvl 3 -x 660 -y 340 -defaultsOSRD
+preplace port ic_BD_flag -pg 1 -lvl 0 -x -40 -y 380 -defaultsOSRD
+preplace port adc_220_aclk -pg 1 -lvl 0 -x -40 -y 340 -defaultsOSRD
+preplace port adc_220_aresetn -pg 1 -lvl 0 -x -40 -y 360 -defaultsOSRD
+preplace port ch_en -pg 1 -lvl 3 -x 660 -y 320 -defaultsOSRD
+preplace port s00_axis_tvalid -pg 1 -lvl 0 -x -40 -y 40 -defaultsOSRD
+preplace inst packet_detector_11AD_2 -pg 1 -lvl 1 -x 190 -y 120 -defaultsOSRD
+preplace inst RX_Block_AP_0 -pg 1 -lvl 2 -x 490 -y 340 -defaultsOSRD
+preplace netloc adc_clk_soft_aresetn_1 1 0 2 10 320 NJ
+preplace netloc s00_axi_aresetn_1 1 0 2 -20 440 NJ
+preplace netloc s00_axi_aclk_1 1 0 2 -10 420 NJ
+preplace netloc aclk_1 1 0 2 20 300 NJ
+preplace netloc packet_detector_11AD_2_PD_FLAG 1 1 2 NJ 150 NJ
+preplace netloc ic_BD_flag_1 1 0 2 NJ 380 NJ
+preplace netloc i_PD_FLAG_1 1 0 2 NJ 400 NJ
+preplace netloc RX_Block_AP_0_oc_BD_flag 1 2 1 630J 330n
+preplace netloc adc_220_aclk_1 1 0 2 NJ 340 NJ
+preplace netloc adc_220_aresetn_1 1 0 2 NJ 360 NJ
+preplace netloc RX_Block_AP_0_ch_en 1 2 1 640 320n
+preplace netloc s00_axis_tvalid_1 1 0 1 30 40n
+preplace netloc Conn4 1 0 1 NJ 100
+preplace netloc packet_detector_11AD_2_M00_AXIS 1 1 1 350 90n
+preplace netloc Conn2 1 0 1 40J 40n
+preplace netloc packet_detector_11AD_2_M01_AXIS 1 1 1 330 110n
+preplace netloc Conn3 1 0 1 50J 60n
+preplace netloc S00_AXI_1 1 0 2 0J 260 340J
+levelinfo -pg 1 -40 190 490 660
+pagesize -pg 1 -db -bbox -sgen -240 -20 790 500
+"
+}
+0

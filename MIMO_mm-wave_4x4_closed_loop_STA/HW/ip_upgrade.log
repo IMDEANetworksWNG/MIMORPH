@@ -1,0 +1,2089 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 23 13:31:31 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 20) to (Rev. 32)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_RX_Block_STA_v2_0_3'.
+
+
+-Upgrade has added interface 'M00_AXIS' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'M01_AXIS' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_3'. These changes may impact your design.
+
+
+-Upgrade has added port 'm00_axis_tdata'
+
+-Upgrade has added port 'm00_axis_tkeep'
+
+-Upgrade has added port 'm00_axis_tlast'
+
+-Upgrade has added port 'm00_axis_tready'
+
+-Upgrade has added port 'm00_axis_tvalid'
+
+-Upgrade has added port 'm01_axis_tdata'
+
+-Upgrade has added port 'm01_axis_tkeep'
+
+-Upgrade has added port 'm01_axis_tlast'
+
+-Upgrade has added port 'm01_axis_tready'
+
+-Upgrade has added port 'm01_axis_tvalid'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 23 13:31:30 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 20) to (Rev. 32)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_RX_Block_STA_v2_0_2'.
+
+
+-Upgrade has added interface 'M00_AXIS' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'M01_AXIS' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_2'. These changes may impact your design.
+
+
+-Upgrade has added port 'm00_axis_tdata'
+
+-Upgrade has added port 'm00_axis_tkeep'
+
+-Upgrade has added port 'm00_axis_tlast'
+
+-Upgrade has added port 'm00_axis_tready'
+
+-Upgrade has added port 'm00_axis_tvalid'
+
+-Upgrade has added port 'm01_axis_tdata'
+
+-Upgrade has added port 'm01_axis_tkeep'
+
+-Upgrade has added port 'm01_axis_tlast'
+
+-Upgrade has added port 'm01_axis_tready'
+
+-Upgrade has added port 'm01_axis_tvalid'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 23 13:31:29 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 20) to (Rev. 32)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_RX_Block_STA_v2_0_1'.
+
+
+-Upgrade has added interface 'M00_AXIS' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'M01_AXIS' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'm00_axis_tdata'
+
+-Upgrade has added port 'm00_axis_tkeep'
+
+-Upgrade has added port 'm00_axis_tlast'
+
+-Upgrade has added port 'm00_axis_tready'
+
+-Upgrade has added port 'm00_axis_tvalid'
+
+-Upgrade has added port 'm01_axis_tdata'
+
+-Upgrade has added port 'm01_axis_tkeep'
+
+-Upgrade has added port 'm01_axis_tlast'
+
+-Upgrade has added port 'm01_axis_tready'
+
+-Upgrade has added port 'm01_axis_tvalid'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 23 13:31:29 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 20) to (Rev. 32)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_RX_Block_STA_v2_0_0'.
+
+
+-Upgrade has added interface 'M00_AXIS' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'M01_AXIS' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'm00_axis_tdata'
+
+-Upgrade has added port 'm00_axis_tkeep'
+
+-Upgrade has added port 'm00_axis_tlast'
+
+-Upgrade has added port 'm00_axis_tready'
+
+-Upgrade has added port 'm00_axis_tvalid'
+
+-Upgrade has added port 'm01_axis_tdata'
+
+-Upgrade has added port 'm01_axis_tkeep'
+
+-Upgrade has added port 'm01_axis_tlast'
+
+-Upgrade has added port 'm01_axis_tready'
+
+-Upgrade has added port 'm01_axis_tvalid'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 20 19:40:22 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 20 19:40:22 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 20 19:40:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 20 19:40:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 17) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 16 12:25:32 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 16 12:25:32 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 16 12:25:31 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 16 12:25:31 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 13 09:51:34 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 13 09:51:34 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 13 09:51:34 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 13 09:51:33 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Mar 22 13:23:49 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_5 (user.org:user:TX_Block_STA:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Mar 22 13:23:49 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_4 (user.org:user:TX_Block_STA:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Mar 22 13:23:48 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_3 (user.org:user:TX_Block_STA:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Mar 22 13:23:48 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_2 (user.org:user:TX_Block_STA:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Mar  2 12:18:58 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Mar  2 12:18:58 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Mar  2 12:18:57 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Mar  2 12:18:57 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 14) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 17:15:20 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 17:15:20 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 17:15:19 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 17:15:19 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 15:13:51 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 15:13:51 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 15:13:50 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 24 15:13:50 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 23 18:16:08 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 23 18:16:07 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 23 18:16:07 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 23 18:16:06 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 12:02:51 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 12:02:51 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 12:02:50 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 12:02:50 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 11:57:02 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 11:57:02 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 11:57:01 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Feb 19 11:57:01 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 17:52:24 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_3'. These changes may impact your design.
+
+
+-Upgrade has added port 'ch_en'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 17:52:23 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_2'. These changes may impact your design.
+
+
+-Upgrade has added port 'ch_en'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 17:52:23 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'ch_en'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 17:52:23 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 9) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_RX_Block_STA_v2_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ch_en'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 14:12:08 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 14:12:08 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 14:12:08 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 14:12:07 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 13:50:17 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 13:50:17 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 13:50:16 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Feb 18 13:50:16 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 17:09:03 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 17:09:03 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 17:09:03 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 17:09:03 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:34:58 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_5 (user.org:user:TX_Block_STA:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:34:57 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_4 (user.org:user:TX_Block_STA:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:34:57 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_3 (user.org:user:TX_Block_STA:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:34:57 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_TX_Block_STA_0_2 (user.org:user:TX_Block_STA:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:30:20 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_TX_Block_STA_0_5 (user.org:user:TX_Block_STA:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:30:20 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_TX_Block_STA_0_4 (user.org:user:TX_Block_STA:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:30:19 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_TX_Block_STA_0_3 (user.org:user:TX_Block_STA:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb 17 10:30:19 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_TX_Block_STA_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_TX_Block_STA_0_2 (user.org:user:TX_Block_STA:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 18:00:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 18:00:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 18:00:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 18:00:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:54:45 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:54:45 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:54:45 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:54:45 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:33:37 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_3 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:33:37 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_2 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:33:37 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_1 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Feb 16 17:33:36 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb  3 18:13:22 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_packet_detector_11AD_0_3 (user.org:user:packet_detector_11AD:1.0 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb  3 18:13:22 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_packet_detector_11AD_0_2 (user.org:user:packet_detector_11AD:1.0 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb  3 18:13:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_packet_detector_11AD_0_1 (user.org:user:packet_detector_11AD:1.0 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Feb  3 18:13:21 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_packet_detector_11AD_0_0 (user.org:user:packet_detector_11AD:1.0 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Mon Jan 25 17:18:49 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jan 15 11:42:36 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_3 (user.org:user:packet_detector_11AD:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jan 15 11:42:35 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_2 (user.org:user:packet_detector_11AD:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jan 15 11:42:35 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_1 (user.org:user:packet_detector_11AD:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jan 15 11:42:35 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_0 (user.org:user:packet_detector_11AD:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jan 15 11:42:34 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_STA_v2_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_STA_v2_0_0 (user.org:user:RX_Block_STA_v2:1.0) from (Rev. 1) to (Rev. 2)
+

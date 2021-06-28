@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port s00_axi3 -pg 1 -lvl 0 -x -10 -y 170 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 3 -x 560 -y 60 -defaultsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace port tlast -pg 1 -lvl 3 -x 560 -y 230 -defaultsOSRD
+preplace port trdy -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port rstn -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -10 -y 270 -defaultsOSRD
+preplace port s_axis_aclk -pg 1 -lvl 0 -x -10 -y 110 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -10 -y 290 -defaultsOSRD
+preplace port adc_clk_soft_aresetn -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port m_axis_tvalid -pg 1 -lvl 3 -x 560 -y 100 -defaultsOSRD
+preplace port adc_clk -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace inst tlast_gen_v1_0_0 -pg 1 -lvl 2 -x 430 -y 230 -defaultsOSRD
+preplace inst axis_data_fifo_2 -pg 1 -lvl 1 -x 160 -y 80 -defaultsOSRD
+preplace netloc tlast_gen_v1_0_2_tlast 1 2 1 NJ 230
+preplace netloc trdy_1 1 0 2 NJ 190 310
+preplace netloc rstn_1 1 0 2 NJ 250 NJ
+preplace netloc s00_axi_aclk_1 1 0 2 NJ 270 NJ
+preplace netloc s_axis_aclk_1 1 0 2 10 230 NJ
+preplace netloc s00_axi_aresetn_1 1 0 2 NJ 290 NJ
+preplace netloc adc_clk_soft_aresetn_1 1 0 1 NJ 70
+preplace netloc axis_data_fifo_2_m_axis_tvalid 1 1 2 320 100 NJ
+preplace netloc adc_clk_1 1 0 1 NJ 90
+preplace netloc Conn2 1 1 2 NJ 60 NJ
+preplace netloc Conn3 1 0 1 NJ 50
+preplace netloc Conn1 1 0 2 NJ 170 NJ
+levelinfo -pg 1 -10 160 430 560
+pagesize -pg 1 -db -bbox -sgen -210 -10 710 350
+"
+}
+0

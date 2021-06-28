@@ -1,0 +1,207 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                   design_1_i/adc_tile0/packet_counter_0/U0/tvalid_I_reg/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_2/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_7/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_5/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_2/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_7/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_2/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_7/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[7]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[6]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[5]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[4]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_5/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[3]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_3/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile0/packet_counter_0/U0/FSM_sequential_state_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile0/packet_counter_0/U0/FSM_sequential_state_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile0/packet_counter_0/U0/FSM_sequential_state_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[15]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[14]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[13]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[12]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[9]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[8]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[11]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[10]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[23]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[22]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[20]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[21]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_3/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[19]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[18]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[17]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[16]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_3/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[31]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[30]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[29]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[28]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[27]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[26]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[25]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile0/packet_counter_0/U0/counter_reg[24]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_0/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_0/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_0/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_5/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_4/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_4/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_3/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_3/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_1/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_1/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_0/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_0/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_2/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_2/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_1/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_4/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_6/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[1]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_6/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[0]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_6/inst/gen_upsizer_conversion.axisc_upsizer_0/state_reg[2]/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_6/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_6/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_1/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_1/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_5/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_5/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_4/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_4/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                   design_1_i/adc_tile2/packet_counter_0/U0/tvalid_I_reg/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_7/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[0]/S|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |design_1_i/rx_channelizer/axis_dwidth_converter_7/inst/gen_upsizer_conversion.axisc_upsizer_0/r0_reg_sel_reg[1]/R|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[31]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[29]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[28]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[30]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[23]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[22]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[21]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[20]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[25]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[26]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[27]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[24]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[13]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[12]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[15]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[14]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[18]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[19]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[17]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[16]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[11]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[9]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[10]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[8]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[3]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[7]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[6]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[5]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile3/packet_counter_0/U0/counter_reg[4]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile3/packet_counter_0/U0/FSM_sequential_state_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile3/packet_counter_0/U0/FSM_sequential_state_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile3/packet_counter_0/U0/FSM_sequential_state_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                   design_1_i/adc_tile3/packet_counter_0/U0/tvalid_I_reg/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile2/packet_counter_0/U0/FSM_sequential_state_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile2/packet_counter_0/U0/FSM_sequential_state_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                   design_1_i/adc_tile2/packet_counter_0/U0/FSM_sequential_state_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[24]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[27]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[26]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[25]/CE|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_3/U0/IN_valid_I_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_3/U0/IN_valid_Q_r_reg/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[17]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[19]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[18]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[16]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[10]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[11]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[9]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[8]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[31]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[30]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[29]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[28]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[1]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[3]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[2]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[0]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[23]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[22]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[21]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[20]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[12]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[15]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[14]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                               design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[13]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[7]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[6]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[5]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                                design_1_i/adc_tile2/packet_counter_0/U0/counter_reg[4]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_13/REGCEB|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_2/U0/IN_valid_Q_r_reg/D|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_1/U0/IN_valid_Q_r_reg/D|
+| clk_out4_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_2/U0/IN_valid_I_r_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_13/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_fwft.empty_fwft_i_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_fwft.gdvld_fwft.data_valid_fwft_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[0]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/FSM_sequential_gen_fwft.curr_fwft_state_reg[1]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[1]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_1/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[1]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_16/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_15/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_1/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_5/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_15/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[0]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_9/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/FSM_sequential_gen_fwft.curr_fwft_state_reg[0]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_16/ENBWREN|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_11/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_9/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_7/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_5/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_11/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_7/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[5]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[5]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[6]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[6]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[10]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_pntr_flags_cc.ram_empty_i_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_12/ENBWREN|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_3/CASOREGIMUXEN_B|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[8]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[7]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_pntr_flags_cc.gen_full_rst_val.ram_full_i_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_pntr_flags_cc.gen_full_rst_val.ram_full_n_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[8]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_bram_3/REGCEB|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[8]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[9]/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[1]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[0]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[2]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[8]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[1]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[7]/CE|
+| clk_out3_design_1_clk_wiz_0_0 |clk_out3_design_1_clk_wiz_0_0 |                                    design_1_i/rx_channelizer/packet_detector_SSR1_1/U0/IN_valid_I_r_reg/D|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdpp1_inst/count_value_i_reg[0]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[9]/CE|
+| clk_out1_design_1_clk_wiz_0_0 |clk_out1_design_1_clk_wiz_0_0 |design_1_i/dac_block0_tile0/axis_data_fifo_2/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/rdp_inst/count_value_i_reg[7]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,2095 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:28 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:27 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:27 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:27 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:27 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_2_0 (user.org:user:bit_slicer:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:27 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_1_0 (user.org:user:bit_slicer:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:26 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_1 (user.org:user:bit_slicer:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:26 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_0 (user.org:user:bit_slicer:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jun  3 16:28:26 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_0 (user.org:user:SIVERS_gpio:1.0) from (Rev. 9) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 17:26:48 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 17:26:48 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 17:26:48 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 17:26:48 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 16:22:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 16:22:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 16:22:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 16:22:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 15:53:41 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 15:53:41 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 15:53:41 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 15:53:41 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 10:01:22 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 10:01:22 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 10:01:21 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov 12 10:01:21 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov 10 11:18:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov 10 11:18:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov 10 11:18:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov 10 11:18:14 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:54:59 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_2_0 (user.org:user:bit_slicer:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:54:59 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_1_0 (user.org:user:bit_slicer:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:54:59 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_1 (user.org:user:bit_slicer:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:54:58 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_0 (user.org:user:bit_slicer:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:41:54 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:41:54 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:41:54 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:41:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:36 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:35 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:35 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:35 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:34 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_bit_slicer_2_0 (user.org:user:bit_slicer:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:34 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_bit_slicer_1_0 (user.org:user:bit_slicer:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:34 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_bit_slicer_0_1 (user.org:user:bit_slicer:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 17:27:33 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_bit_slicer_0_0 (user.org:user:bit_slicer:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 11:09:27 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 11:09:27 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 11:09:26 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Nov  6 11:09:26 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov  5 17:20:38 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_2_0 (user.org:user:bit_slicer:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov  5 17:20:38 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_1_0 (user.org:user:bit_slicer:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov  5 17:20:38 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_1 (user.org:user:bit_slicer:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Nov  5 17:20:37 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_0 (user.org:user:bit_slicer:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:20:35 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:20:35 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:20:34 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:20:34 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:17:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_2_0 (user.org:user:bit_slicer:1.0) from (Rev. 3) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:17:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_1_0 (user.org:user:bit_slicer:1.0) from (Rev. 3) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:17:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_1 (user.org:user:bit_slicer:1.0) from (Rev. 3) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 11:17:15 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bit_slicer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bit_slicer_0_0 (user.org:user:bit_slicer:1.0) from (Rev. 3) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 10:01:30 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 10:01:29 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 10:01:29 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Nov  3 10:01:29 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 30 17:52:33 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_2_0 (user.org:user:sample_concatenation:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 30 17:52:33 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_2 (user.org:user:sample_concatenation:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 30 17:52:33 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_1 (user.org:user:sample_concatenation:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 30 17:52:33 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_sample_concatenation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_sample_concatenation_0_0 (user.org:user:sample_concatenation:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Oct 21 15:54:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_boundary_detector_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_boundary_detector_0_0 (user.org:user:boundary_detector:1.0) from (Rev. 4) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Oct 21 13:40:18 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_writer_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_writer_0_7 (user.org:user:ddr_writer:1.0) from (Rev. 35) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Aug  7 18:08:51 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_1 (user.org:user:SIVERS_gpio:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Aug  7 18:08:51 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_0 (user.org:user:SIVERS_gpio:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Jul 28 13:20:37 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_3 (user.org:user:packet_detector_11AD:1.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Jul 28 13:20:37 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_2 (user.org:user:packet_detector_11AD:1.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Jul 28 13:20:36 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_1 (user.org:user:packet_detector_11AD:1.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Jul 28 13:20:36 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_0 (user.org:user:packet_detector_11AD:1.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:24 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_3 (user.org:user:packet_detector_11AD:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:23 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_2 (user.org:user:packet_detector_11AD:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:23 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_1 (user.org:user:packet_detector_11AD:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:23 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_0 (user.org:user:packet_detector_11AD:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:23 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_1 (user.org:user:SIVERS_gpio:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Jul 24 10:57:22 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_0 (user.org:user:SIVERS_gpio:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Jul 22 12:46:45 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_counter_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_counter_0_4 (user.org:user:packet_counter:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Jul 22 12:46:45 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_counter_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_counter_0_3 (user.org:user:packet_counter:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Jul 22 12:46:45 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_counter_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_counter_0_2 (user.org:user:packet_counter:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Jul 22 12:46:45 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_counter_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_counter_0_1 (user.org:user:packet_counter:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Jul 21 11:38:49 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_boundary_detector_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_boundary_detector_0_0 (user.org:user:boundary_detector:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Jul  9 12:11:13 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_SIVERS_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_SIVERS_gpio_0_0 (user.org:user:SIVERS_gpio:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Wed Jul  8 16:40:39 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_writer_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_ddr_writer_0_7 (user.org:user:ddr_writer:1.0) from (Rev. 29) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Apr 24 13:41:50 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_writer_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ddr_writer_0_7 (user.org:user:ddr_writer:1.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Thu Apr 16 17:54:40 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ddr_writer_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ddr_writer_0_7 (user.org:user:ddr_writer:1.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:54 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_9'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_9 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_8'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_8 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_7 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_4 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_3 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_2 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_10'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_10 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Tue Apr 14 14:23:53 2020
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rate_converter_5b_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_rate_converter_5b_0_1 (user.org:user:rate_converter_5b:1.0) from (Rev. 2) to (Rev. 3)
+

@@ -1,0 +1,30 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 3 -x 660 -y 190 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 3 -x 660 -y 210 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port send_pkt_i -pg 1 -lvl 0 -x 0 -y 250 -defaultsOSRD
+preplace port pl_clk0 -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace port peripheral_aresetn -pg 1 -lvl 0 -x 0 -y 230 -defaultsOSRD
+preplace port dac_aclk -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 190 -y 80 -defaultsOSRD
+preplace inst TX_Block_STA_0 -pg 1 -lvl 2 -x 500 -y 200 -defaultsOSRD
+preplace netloc Din_1 1 0 1 NJ 100
+preplace netloc pl_clk0_1 1 0 2 NJ 210 NJ
+preplace netloc peripheral_aresetn_1 1 0 2 NJ 230 NJ
+preplace netloc send_pkt_i_1 1 0 2 NJ 250 NJ
+preplace netloc dac_clk_aresetn_1 1 0 1 NJ 60
+preplace netloc dac_aclk_1 1 0 2 20 170 NJ
+preplace netloc soft_reset_dac_reset_soft 1 1 1 360 80n
+preplace netloc TX_Block_STA_0_M01_AXIS 1 2 1 NJ 210
+preplace netloc S00_AXI_1 1 0 2 NJ 150 NJ
+preplace netloc TX_Block_STA_0_M00_AXIS 1 2 1 NJ 190
+levelinfo -pg 1 0 190 500 660
+pagesize -pg 1 -db -bbox -sgen -200 0 820 310
+"
+}
+0

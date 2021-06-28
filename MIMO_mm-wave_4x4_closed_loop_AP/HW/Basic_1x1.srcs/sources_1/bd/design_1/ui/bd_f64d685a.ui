@@ -1,0 +1,75 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 2 -x 430 -y 1010 -defaultsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port SLOT_0_AXIS1 -pg 1 -lvl 2 -x 430 -y 1030 -defaultsOSRD
+preplace port S_AXIS2 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 2 -x 430 -y 440 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 2 -x 430 -y 460 -defaultsOSRD
+preplace port S_AXIS3 -pg 1 -lvl 0 -x 0 -y 640 -defaultsOSRD
+preplace port SLOT_0_AXIS4 -pg 1 -lvl 2 -x 430 -y 730 -defaultsOSRD
+preplace port SLOT_0_AXIS5 -pg 1 -lvl 2 -x 430 -y 750 -defaultsOSRD
+preplace port SLOT_0_AXIS6 -pg 1 -lvl 2 -x 430 -y 170 -defaultsOSRD
+preplace port SLOT_0_AXIS7 -pg 1 -lvl 2 -x 430 -y 150 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 950 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x 0 -y 970 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -lvl 0 -x 0 -y 660 -defaultsOSRD
+preplace port axis_aclk -pg 1 -lvl 0 -x 0 -y 680 -defaultsOSRD
+preplace port dac_aclk -pg 1 -lvl 0 -x 0 -y 990 -defaultsOSRD
+preplace port o_INC_BP_4 -pg 1 -lvl 2 -x 430 -y 1050 -defaultsOSRD
+preplace port send_pkt_i -pg 1 -lvl 0 -x 0 -y 1030 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x 0 -y 1130 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x 0 -y 1150 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 2 -x 430 -y 1070 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x 0 -y 1010 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x 0 -y 700 -defaultsOSRD
+preplace portBus Op2 -pg 1 -lvl 0 -x 0 -y 1110 -defaultsOSRD
+preplace portBus Op3 -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace portBus Op4 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace portBus Op5 -pg 1 -lvl 0 -x 0 -y 800 -defaultsOSRD
+preplace inst macro_channel_0 -pg 1 -lvl 1 -x 250 -y 1040 -defaultsOSRD
+preplace inst macro_channel_1 -pg 1 -lvl 1 -x 250 -y 450 -defaultsOSRD
+preplace inst macro_channel_2 -pg 1 -lvl 1 -x 250 -y 160 -defaultsOSRD
+preplace inst macro_channel_3 -pg 1 -lvl 1 -x 250 -y 740 -defaultsOSRD
+preplace netloc dac_aclk_1 1 0 1 70 120n
+preplace netloc axis_aclk_1 1 0 1 80 100n
+preplace netloc axi_resetn_1 1 0 1 50 160n
+preplace netloc dac_clk_aresetn_1 1 0 1 20 140n
+preplace netloc Din_1 1 0 1 60 180n
+preplace netloc send_pkt_i_1 1 0 1 40 200n
+preplace netloc macro_channel_0_o_INC_BP_4 1 1 1 NJ 1050
+preplace netloc Op2_1 1 0 1 NJ 1110
+preplace netloc Op2_2 1 0 1 NJ 510
+preplace netloc Op2_3 1 0 1 NJ 220
+preplace netloc Op2_4 1 0 1 NJ 800
+preplace netloc s00_axi_aclk_1 1 0 1 30 240n
+preplace netloc s00_axi_aresetn_1 1 0 1 90 260n
+preplace netloc macro_channel_0_o_RTN_BP_0 1 1 1 NJ 1070
+preplace netloc Conn3 1 0 1 NJ 370
+preplace netloc macro_channel_1_SLOT_0_AXIS2 1 1 1 NJ 440
+preplace netloc macro_channel_1_SLOT_0_AXIS3 1 1 1 NJ 460
+preplace netloc macro_channel_0_SLOT_0_AXIS 1 1 1 NJ 1010
+preplace netloc macro_channel_3_SLOT_0_AXIS4 1 1 1 NJ 730
+preplace netloc macro_channel_2_SLOT_0_AXIS7 1 1 1 NJ 150
+preplace netloc macro_channel_2_SLOT_0_AXIS6 1 1 1 NJ 170
+preplace netloc Conn5 1 0 1 NJ 660
+preplace netloc macro_channel_0_SLOT_0_AXIS1 1 1 1 NJ 1030
+preplace netloc S_AXIS_1 1 0 1 NJ 930
+preplace netloc S_AXIS1_1 1 0 1 NJ 350
+preplace netloc Conn2 1 0 1 NJ 970
+preplace netloc Conn4 1 0 1 NJ 80
+preplace netloc macro_channel_3_SLOT_0_AXIS5 1 1 1 NJ 750
+preplace netloc Conn1 1 0 1 NJ 950
+preplace netloc S_AXIS2_1 1 0 1 NJ 60
+preplace netloc S_AXIS3_1 1 0 1 NJ 640
+levelinfo -pg 1 0 250 430
+pagesize -pg 1 -db -bbox -sgen -200 0 590 1200
+"
+}
+0

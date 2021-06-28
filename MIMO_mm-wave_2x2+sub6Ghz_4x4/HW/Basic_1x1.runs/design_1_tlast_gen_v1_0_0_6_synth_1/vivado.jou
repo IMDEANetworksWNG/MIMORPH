@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 14 16:45:38 2020
+# Process ID: 12963
+# Current directory: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_6_synth_1
+# Command line: vivado -log design_1_tlast_gen_v1_0_0_6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_tlast_gen_v1_0_0_6.tcl
+# Log file: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_6_synth_1/design_1_tlast_gen_v1_0_0_6.vds
+# Journal file: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_6_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_tlast_gen_v1_0_0_6.tcl -notrace

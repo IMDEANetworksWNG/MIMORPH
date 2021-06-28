@@ -1,0 +1,47 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port M00_AXIS_0 -pg 1 -lvl 7 -x 2090 -y 150 -defaultsOSRD
+preplace port S_AXIS_0 -pg 1 -lvl 0 -x -30 -y 470 -defaultsOSRD
+preplace port dac_clk_0 -pg 1 -lvl 0 -x -30 -y 300 -defaultsOSRD
+preplace port s_axis_aclk_300_0 -pg 1 -lvl 0 -x -30 -y 320 -defaultsOSRD
+preplace portBus Din_0 -pg 1 -lvl 0 -x -30 -y 220 -defaultsOSRD
+preplace portBus axi_resetn_0 -pg 1 -lvl 0 -x -30 -y 360 -defaultsOSRD
+preplace portBus dac_clk_aresetn_0 -pg 1 -lvl 0 -x -30 -y 340 -defaultsOSRD
+preplace portBus dac_control -pg 1 -lvl 0 -x -30 -y 160 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 540 -y 490 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 2 -x 540 -y 80 -defaultsOSRD
+preplace inst axis_data_fifo_2 -pg 1 -lvl 4 -x 1190 -y 400 -defaultsOSRD
+preplace inst axis_register_slice_0 -pg 1 -lvl 5 -x 1510 -y 400 -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 6 -x 1880 -y 190 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -x 540 -y 220 -defaultsOSRD
+preplace inst adc_strm_mux_0 -pg 1 -lvl 3 -x 860 -y 380 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 190 -y 320 -defaultsOSRD
+preplace inst control_switch -pg 1 -lvl 5 -x 1510 -y 140 -defaultsOSRD
+preplace netloc xlslice_0_Dout 1 2 1 680 220n
+preplace netloc Din_0_1 1 0 2 0 220 NJ
+preplace netloc soft_reset_axi_soft_resetn 1 1 1 380 330n
+preplace netloc axi_resetn_1 1 0 1 NJ 360
+preplace netloc dac_clk_1 1 0 6 0 410 NJ 410 700 290 1010 290 1360 220 1700
+preplace netloc dac_clk_aresetn_1 1 0 1 NJ 340
+preplace netloc s_axis_aclk_300_1 1 0 2 -10 420 390
+preplace netloc soft_reset_dac_clk_soft_aresetn 1 1 5 410 400 670J 470 1020 320 1370 230 N
+preplace netloc Op2_0_1 1 0 5 NJ 160 400J 280 670J 160 NJ 160 NJ
+preplace netloc tready_i_1 1 4 2 1370 210 1670
+preplace netloc control_switch_tready_o 1 5 1 1650 130n
+preplace netloc tvalid_i_1 1 4 2 1360 60 1660
+preplace netloc control_switch_tvalid_o 1 5 1 1680 150n
+preplace netloc axis_data_fifo_2_M_AXIS 1 4 1 N 380
+preplace netloc axis_register_slice_0_M_AXIS 1 5 1 1690 150n
+preplace netloc axis_broadcaster_0_M01_AXIS 1 1 6 420 160 660J 50 NJ 50 NJ 50 NJ 50 2060
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 710 350n
+preplace netloc axis_data_fifo_1_M_AXIS 1 2 1 690 80n
+preplace netloc adc_strm_mux_0_m0_axi_stream 1 3 1 N 380
+preplace netloc Conn1 1 6 1 2070 150n
+preplace netloc Conn2 1 0 2 NJ 470 NJ
+levelinfo -pg 1 -30 190 540 860 1190 1510 1880 2090
+pagesize -pg 1 -db -bbox -sgen -250 0 2230 570
+"
+}
+

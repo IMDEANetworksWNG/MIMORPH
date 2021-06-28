@@ -1,0 +1,36 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXI_LITE -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port M00_AXIS -pg 1 -lvl 4 -x 1010 -y 130 -defaultsOSRD
+preplace port M01_AXIS -pg 1 -lvl 4 -x 1010 -y 150 -defaultsOSRD
+preplace port M02_AXIS -pg 1 -lvl 4 -x 1010 -y 170 -defaultsOSRD
+preplace port M03_AXIS -pg 1 -lvl 4 -x 1010 -y 190 -defaultsOSRD
+preplace port M_AXI_MM2S -pg 1 -lvl 4 -x 1010 -y 390 -defaultsOSRD
+preplace port s_axi_lite_aclk -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port m_axi_mm2s_aclk -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port axi_resetn -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port aresetn_300Mhz -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 1 -x 200 -y 110 -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 3 -x 800 -y 200 -defaultsOSRD
+preplace inst axi_register_slice_0 -pg 1 -lvl 3 -x 800 -y 390 -defaultsOSRD
+preplace inst axis_register_slice_0 -pg 1 -lvl 2 -x 510 -y 180 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 NJ 100
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 0 1 NJ 140
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 0 3 20 200 390 100 620
+preplace netloc aresetn_300Mhz_1 1 0 3 NJ 20 400 90 630
+preplace netloc Conn2 1 3 1 970J 150n
+preplace netloc axi_register_slice_0_M_AXI 1 3 1 NJ 390
+preplace netloc Conn4 1 3 1 990J 190n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 0 1 NJ 80
+preplace netloc axis_register_slice_0_M_AXIS 1 2 1 N 180
+preplace netloc axi_dma_0_M_AXI_MM2S 1 1 2 NJ 80 640
+preplace netloc Conn3 1 3 1 980J 170n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 1 380 100n
+preplace netloc Conn1 1 3 1 960J 130n
+levelinfo -pg 1 0 200 510 800 1010
+pagesize -pg 1 -db -bbox -sgen -180 0 1160 470
+"
+}
+0

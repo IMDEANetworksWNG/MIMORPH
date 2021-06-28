@@ -1,0 +1,69 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -10 -y 630 -defaultsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 9 -x 2770 -y 90 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -10 -y 210 -defaultsOSRD
+preplace port s_axis_aclk -pg 1 -lvl 0 -x -10 -y 730 -defaultsOSRD
+preplace port s_axis_aclk1 -pg 1 -lvl 0 -x -10 -y 670 -defaultsOSRD
+preplace port s_axis_tvalid_i -pg 1 -lvl 0 -x -10 -y 860 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -10 -y 150 -defaultsOSRD
+preplace port o_INC_BP_0 -pg 1 -lvl 9 -x 2770 -y 240 -defaultsOSRD
+preplace port o_RST_BP_0 -pg 1 -lvl 9 -x 2770 -y 260 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 9 -x 2770 -y 280 -defaultsOSRD
+preplace portBus dac_control -pg 1 -lvl 0 -x -10 -y 550 -defaultsOSRD
+preplace portBus Din_0 -pg 1 -lvl 0 -x -10 -y 650 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -10 -y 770 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -10 -y 750 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 640 -y 670 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 2 -x 640 -y 470 -defaultsOSRD
+preplace inst axis_data_fifo_2 -pg 1 -lvl 5 -x 1580 -y 510 -defaultsOSRD
+preplace inst adc_strm_mux_0 -pg 1 -lvl 3 -x 1010 -y 470 -defaultsOSRD
+preplace inst axis_register_slice_0 -pg 1 -lvl 4 -x 1280 -y 490 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 230 -y 730 -defaultsOSRD
+preplace inst axis_broadcaster_0 -pg 1 -lvl 6 -x 1970 -y 330 -defaultsOSRD
+preplace inst loopback_gpio -pg 1 -lvl 2 -x 640 -y 350 -defaultsOSRD
+preplace inst control_switch1 -pg 1 -lvl 5 -x 1580 -y 330 -defaultsOSRD
+preplace inst control_localstart -pg 1 -lvl 1 -x 230 -y 880 -defaultsOSRD
+preplace inst idle_packet_0 -pg 1 -lvl 7 -x 2340 -y 100 -defaultsOSRD
+preplace inst SIVERS_gpio_0 -pg 1 -lvl 8 -x 2620 -y 260 -defaultsOSRD
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 0 2 30 620 430J
+preplace netloc MTS_Block_dac_clk 1 0 8 40 610 440 550 830 560 1170 570 1390 240 1790 230 2190 230 NJ
+preplace netloc Din_0_1 1 0 2 20 350 NJ
+preplace netloc axi_resetn_1 1 0 1 NJ 770
+preplace netloc dac_clk_aresetn_1 1 0 1 NJ 750
+preplace netloc xlslice_0_Dout 1 2 1 840 350n
+preplace netloc soft_reset_dac_clk_soft_aresetn 1 1 7 420 570 NJ 570 1160 580 1410 410 1790 430 2200 250 NJ
+preplace netloc soft_reset_axi_soft_resetn 1 1 1 460 670n
+preplace netloc control_switch1_tready_o 1 5 1 1760 320n
+preplace netloc axis_broadcaster_0_s_axis_tready 1 4 2 1410 250 1780J
+preplace netloc axis_data_fifo_2_m_axis_tvalid 1 4 2 1410 400 1750
+preplace netloc control_switch1_tvalid_o 1 5 1 1780 330n
+preplace netloc dac_control_1 1 0 5 10J 290 NJ 290 NJ 290 NJ 290 1400J
+preplace netloc util_vector_logic_1_Res 1 1 1 450 650n
+preplace netloc s_axis_tvalid_i_1 1 0 1 NJ 860
+preplace netloc s00_axi_aclk_1 1 0 8 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 NJ 130 2180 290 NJ
+preplace netloc s00_axi_aresetn_1 1 0 8 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 NJ 150 2170 220 2480J
+preplace netloc SIVERS_gpio_0_o_INC_BP 1 8 1 NJ 240
+preplace netloc SIVERS_gpio_0_o_RST_BP 1 8 1 NJ 260
+preplace netloc SIVERS_gpio_0_o_RTN_BP 1 8 1 NJ 280
+preplace netloc idle_packet_0_trigger_o 1 7 1 2490 110n
+preplace netloc axis_data_fifo_1_M_AXIS 1 2 1 830 450n
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 820 440n
+preplace netloc idle_packet_0_M00_AXIS 1 7 2 NJ 90 NJ
+preplace netloc Conn2 1 0 8 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ
+preplace netloc axis_register_slice_0_M_AXIS 1 4 1 N 490
+preplace netloc Conn1 1 0 7 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ
+preplace netloc adc_strm_mux_0_m0_axi_stream 1 3 1 N 470
+preplace netloc axis_data_fifo_2_M_AXIS 1 5 1 1770 290n
+preplace netloc dac_dma_block_M_AXIS_MM2S 1 0 2 NJ 630 NJ
+preplace netloc axis_broadcaster_0_M01_AXIS 1 1 6 420 220 NJ 220 NJ 220 NJ 220 NJ 220 2150
+preplace netloc axis_broadcaster_0_M00_AXIS 1 6 1 2160 70n
+levelinfo -pg 1 -10 230 640 1010 1280 1580 1970 2340 2620 2770
+pagesize -pg 1 -db -bbox -sgen -210 -10 2920 960
+"
+}
+

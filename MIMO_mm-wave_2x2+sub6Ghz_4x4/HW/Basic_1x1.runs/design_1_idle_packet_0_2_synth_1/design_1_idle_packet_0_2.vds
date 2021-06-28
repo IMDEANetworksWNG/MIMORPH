@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jul  9 11:08:53 2020
+# Process ID: 13300
+# Current directory: /home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_2_synth_1
+# Command line: vivado -log design_1_idle_packet_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_idle_packet_0_2.tcl
+# Log file: /home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_2_synth_1/design_1_idle_packet_0_2.vds
+# Journal file: /home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_2_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_idle_packet_0_2.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/srcs/ip/ip_repo'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_idle_packet_0_2, cache-ID = 3c891a03a942d165.
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  9 11:09:05 2020...

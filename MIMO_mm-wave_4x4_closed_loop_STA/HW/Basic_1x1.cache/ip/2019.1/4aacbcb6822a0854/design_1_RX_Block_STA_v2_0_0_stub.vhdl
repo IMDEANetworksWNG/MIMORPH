@@ -1,0 +1,88 @@
+-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+-- Date        : Fri Feb 19 12:28:58 2021
+-- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+-- Command     : write_vhdl -force -mode synth_stub -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
+--               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ design_1_RX_Block_STA_v2_0_0_stub.vhdl
+-- Design      : design_1_RX_Block_STA_v2_0_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xczu28dr-ffvg1517-2-e
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+  Port ( 
+    adc_440_aclk : in STD_LOGIC;
+    adc_440_aresetn : in STD_LOGIC;
+    adc_220_aclk : in STD_LOGIC;
+    adc_220_aresetn : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC;
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    PD_FLAG : in STD_LOGIC;
+    BD_FLAG : in STD_LOGIC;
+    BD_FLAG_O : out STD_LOGIC;
+    captur_ready : out STD_LOGIC;
+    ch_en : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC;
+    s01_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s01_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s01_axi_awvalid : in STD_LOGIC;
+    s01_axi_awready : out STD_LOGIC;
+    s01_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s01_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s01_axi_wvalid : in STD_LOGIC;
+    s01_axi_wready : out STD_LOGIC;
+    s01_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s01_axi_bvalid : out STD_LOGIC;
+    s01_axi_bready : in STD_LOGIC;
+    s01_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s01_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s01_axi_arvalid : in STD_LOGIC;
+    s01_axi_arready : out STD_LOGIC;
+    s01_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s01_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s01_axi_rvalid : out STD_LOGIC;
+    s01_axi_rready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tkeep : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC
+  );
+
+end decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix;
+
+architecture stub of decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "adc_440_aclk,adc_440_aresetn,adc_220_aclk,adc_220_aresetn,s00_axi_awaddr[3:0],s00_axi_awprot[2:0],s00_axi_awvalid,s00_axi_awready,s00_axi_wdata[31:0],s00_axi_wstrb[3:0],s00_axi_wvalid,s00_axi_wready,s00_axi_bresp[1:0],s00_axi_bvalid,s00_axi_bready,s00_axi_araddr[3:0],s00_axi_arprot[2:0],s00_axi_arvalid,s00_axi_arready,s00_axi_rdata[31:0],s00_axi_rresp[1:0],s00_axi_rvalid,s00_axi_rready,s00_axi_aclk,s00_axi_aresetn,PD_FLAG,BD_FLAG,BD_FLAG_O,captur_ready,ch_en,s00_axis_tdata[127:0],s00_axis_tkeep[15:0],s00_axis_tlast,s00_axis_tvalid,s00_axis_tready,s01_axi_awaddr[3:0],s01_axi_awprot[2:0],s01_axi_awvalid,s01_axi_awready,s01_axi_wdata[31:0],s01_axi_wstrb[3:0],s01_axi_wvalid,s01_axi_wready,s01_axi_bresp[1:0],s01_axi_bvalid,s01_axi_bready,s01_axi_araddr[3:0],s01_axi_arprot[2:0],s01_axi_arvalid,s01_axi_arready,s01_axi_rdata[31:0],s01_axi_rresp[1:0],s01_axi_rvalid,s01_axi_rready,s01_axis_tdata[127:0],s01_axis_tkeep[15:0],s01_axis_tlast,s01_axis_tvalid,s01_axis_tready";
+attribute x_core_info : string;
+attribute x_core_info of stub : architecture is "RX_block_STA_v1_0,Vivado 2019.1";
+begin
+end;

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2328515 on Tue Sep 11 18:46:14 MDT 2018
+# IP Build 2318122 on Tue Sep 11 21:25:25 MDT 2018
+# Start of session at: Wed Sep 12 10:13:53 2018
+# Process ID: 68805
+# Current directory: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1
+# Command line: vivado -log adc_channel_mux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adc_channel_mux.tcl
+# Log file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/adc_channel_mux.vds
+# Journal file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source adc_channel_mux.tcl -notrace

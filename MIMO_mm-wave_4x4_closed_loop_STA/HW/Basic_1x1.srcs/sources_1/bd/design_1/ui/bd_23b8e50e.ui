@@ -1,0 +1,49 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXIS -pg 1 -lvl 4 -x 1000 -y 870 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -90 -y 1650 -defaultsOSRD
+preplace port aresetn -pg 1 -lvl 0 -x -90 -y 1630 -defaultsOSRD
+preplace inst axis_combiner_0 -pg 1 -lvl 2 -x 450 -y 970 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -x 50 -y -30 -defaultsOSRD
+preplace inst dds_compiler_1 -pg 1 -lvl 1 -x 50 -y 190 -defaultsOSRD
+preplace inst dds_compiler_2 -pg 1 -lvl 1 -x 50 -y 290 -defaultsOSRD
+preplace inst dds_compiler_3 -pg 1 -lvl 1 -x 50 -y 390 -defaultsOSRD
+preplace inst dds_compiler_4 -pg 1 -lvl 1 -x 50 -y 490 -defaultsOSRD
+preplace inst dds_compiler_5 -pg 1 -lvl 1 -x 50 -y 590 -defaultsOSRD
+preplace inst dds_compiler_6 -pg 1 -lvl 1 -x 50 -y 690 -defaultsOSRD
+preplace inst dds_compiler_7 -pg 1 -lvl 1 -x 50 -y 790 -defaultsOSRD
+preplace inst dds_compiler_8 -pg 1 -lvl 1 -x 50 -y 890 -defaultsOSRD
+preplace inst dds_compiler_9 -pg 1 -lvl 1 -x 50 -y 990 -defaultsOSRD
+preplace inst dds_compiler_10 -pg 1 -lvl 1 -x 50 -y 1090 -defaultsOSRD
+preplace inst dds_compiler_11 -pg 1 -lvl 1 -x 50 -y 1190 -defaultsOSRD
+preplace inst dds_compiler_12 -pg 1 -lvl 1 -x 50 -y 1290 -defaultsOSRD
+preplace inst dds_compiler_13 -pg 1 -lvl 1 -x 50 -y 1390 -defaultsOSRD
+preplace inst dds_compiler_14 -pg 1 -lvl 1 -x 50 -y 1490 -defaultsOSRD
+preplace inst dds_compiler_15 -pg 1 -lvl 1 -x 50 -y 1590 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 880 -y 300 -defaultsOSRD
+preplace netloc reset_block_peripheral_aresetn1 1 0 2 -60J 1650 250J
+preplace netloc aclk_1 1 0 3 -70 130 200 310 N
+preplace netloc dds_compiler_3_M_AXIS_DATA 1 1 1 220J 390n
+preplace netloc dds_compiler_1_M_AXIS_DATA 1 1 2 240J 290 N
+preplace netloc dds_compiler_15_M_AXIS_DATA 1 1 1 240J 1100n
+preplace netloc dds_compiler_4_M_AXIS_DATA 1 1 1 210J 490n
+preplace netloc dds_compiler_13_M_AXIS_DATA 1 1 1 220J 1060n
+preplace netloc dds_compiler_14_M_AXIS_DATA 1 1 1 230J 1080n
+preplace netloc dds_compiler_8_M_AXIS_DATA 1 1 1 160J 890n
+preplace netloc dds_compiler_12_M_AXIS_DATA 1 1 1 210J 1040n
+preplace netloc dds_compiler_6_M_AXIS_DATA 1 1 1 180J 690n
+preplace netloc dds_compiler_5_M_AXIS_DATA 1 1 1 190J 590n
+preplace netloc dds_compiler_11_M_AXIS_DATA 1 1 1 170J 1020n
+preplace netloc dds_compiler_2_M_AXIS_DATA 1 1 1 230J 290n
+preplace netloc dds_compiler_7_M_AXIS_DATA 1 1 1 170J 790n
+preplace netloc dds_compiler_9_M_AXIS_DATA 1 1 1 160J 980n
+preplace netloc dds_compiler_10_M_AXIS_DATA 1 1 1 160J 1000n
+preplace netloc axis_combiner_0_M_AXIS 1 2 2 610 870 N
+preplace netloc dds_compiler_0_M_AXIS_DATA 1 1 1 250 -30n
+levelinfo -pg 1 -90 50 450 880 1000
+pagesize -pg 1 -db -bbox -sgen -200 -120 1110 1720
+"
+}
+0

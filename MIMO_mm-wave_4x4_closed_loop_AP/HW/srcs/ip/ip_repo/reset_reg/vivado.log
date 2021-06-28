@@ -1,0 +1,70 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# Vivado v2018.2.0 (64-bit)
+# SW Build 2186352 on Mon Apr  2 20:25:56 MDT 2018
+# IP Build 2185990 on Mon Apr  2 22:44:01 MDT 2018
+# Start of session at: Wed Apr  4 11:09:59 2018
+# Process ID: 137749
+# Current directory: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+# Command line: vivado reset_reg.xpr
+# Log file: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg/vivado.log
+# Journal file: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/proj/xbuilds/HEAD_INT_daily_latest/installs/lin64/Vivado/HEAD/scripts/Vivado_init.tcl'
+start_gui
+Warning: Tried to connect to session manager, Could not open network socket
+open_project reset_reg.xpr
+INFO: [Project 1-313] Project file moved from '/wrk/paeg1/users/bokkaab/ccix_proj/hood_si/ccix_ip/ccix_dvsec/local_repos/reset_reg' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'reset_reg.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/proj/xbuilds/HEAD_INT_daily_latest/installs/lin64/Vivado/HEAD/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 6499.293 ; gain = 173.992 ; free physical = 33331 ; free virtual = 237506
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axilite' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_0_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_1_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_2_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_3_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_4_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_5_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_6_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_7_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's_axi_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 's_axi_clk': Added interface parameter 'ASSOCIATED_RESET' with value 's_axi_resetn'.
+WARNING: [IP_Flow 19-3158] Bus Interface 's_axilite': FREQ_HZ bus parameter missing from AXI interface when interface is not associated to a clock.
+WARNING: [IP_Flow 19-3153] Bus Interface 's_axi_clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces s_axi_clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg'
+set_property supported_families {kintex7l Production artix7l Production qzynq Production virtexu Production kintexuplus Production elbertevalfamily Production virtex7 Production kintex7 Production qkintex7 Production artix7 Production aartix7 Production zynq Production azynq Production aspartan7 Production zynquplus Production virtexuplusHBM Production kintexu Production viabloevalfamily Production aaaevalfamily Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production zynquplus Production virtexuplus Production virtexuplusHBM Production kintexuplus Production kintexu Production diabloevalfamily Production viabloevalfamily Production elbertevalfamily Production aaaevalfamily Production elbertolyevalfamily Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production zynquplusRFSOC Production virtexuplus Production kintexuplus Production zynquplus Production kintexu Production} [ipx::current_core]
+WARNING: [IP_Flow 19-4623] Unrecognized family  zynquplusRFSOC.  Please verify spelling and reissue command to set the supported files.
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg'
+set_property supported_families {virtexu Production kintex7 Production zynq Production virtexuplusHBM Production virtex7 Production qkintex7 Production aartix7 Production azynq Production zynquplus Production kintexu Production aaaevalfamily Production kintex7 Production artix7 Production zynq Production aspartan7 Production kintexuplus Production kintex7l Production qzynq Production kintexuplus Production virtex7 Production qkintex7 Production aartix7 Production azynq Production zynquplus Production kintexu Production aaaevalfamily Production qkintex7l Production spartan7 Production diabloevalfamily Production zynquplusRFSOC Production kintex7l Production artix7l Production qzynq Production virtexu Production kintexuplus Production elbertevalfamily Production virtex7 Production kintex7 Production qkintex7 Production artix7 Production aartix7 Production zynq Production azynq Production aspartan7 Production zynquplus Production virtexuplusHBM Production kintexu Production viabloevalfamily Production aaaevalfamily Production qvirtex7 Production qkintex7l Production qartix7 Production spartan7 Production virtexuplus Production diabloevalfamily Production elbertolyevalfamily Production zynquplusRFSOC Production virtex7 Beta qvirtex7 Beta kintex7 Beta kintex7l Beta qkintex7 Beta qkintex7l Beta artix7 Beta artix7l Beta aartix7 Beta qartix7 Beta zynq Beta qzynq Beta azynq Beta spartan7 Beta aspartan7 Beta virtexu Beta zynquplusRFSOC Beta virtexuplus Beta kintexuplus Beta zynquplus Beta kintexu Beta} [ipx::current_core]
+WARNING: [IP_Flow 19-4623] Unrecognized family  zynquplusRFSOC.  Please verify spelling and reissue command to set the supported files.
+WARNING: [IP_Flow 19-4623] Unrecognized family  zynquplusRFSOC.  Please verify spelling and reissue command to set the supported files.
+WARNING: [IP_Flow 19-4623] Unrecognized family  zynquplusRFSOC.  Please verify spelling and reissue command to set the supported files.
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+INFO: [IP_Flow 19-725] Reloaded user IP repository '/wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg'
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  4 11:28:41 2018...

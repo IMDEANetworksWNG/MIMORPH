@@ -1,0 +1,8 @@
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc00/mrk_cntr_ff_reg[*]/CE}]
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc02/mrk_cntr_ff_reg[*]/CE}]
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc10/mrk_cntr_ff_reg[*]/CE}]
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc12/mrk_cntr_ff_reg[*]/CE}]
+#set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc20/mrk_cntr_ff_reg[*]/CE}]
+#set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc22/mrk_cntr_ff_reg[*]/CE}]
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc30/mrk_cntr_ff_reg[*]/CE}]
+set_false_path -from [get_pins {design_1_i/MTS_Block/sync_2/inst/xpm_cdc_single_inst/syncstages_ff_reg[*]/C}] -to [get_pins {design_1_i/usp_rf_data_converter_0/inst/i_rf_conv_mt_mrk_counter_adc32/mrk_cntr_ff_reg[*]/CE}]

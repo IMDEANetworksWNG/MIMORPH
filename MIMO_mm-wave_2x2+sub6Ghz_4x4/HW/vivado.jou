@@ -1,0 +1,189 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 20 09:11:38 2019
+# Process ID: 12932
+# Current directory: C:/Users/rruiz/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18940
+# Log file: C:/Users/rruiz/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/rruiz/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+cd C:/SSRIPDesign_1x1/
+source ./scripts/create_project.tcl
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_nets axi_perf_mon_0_interrupt] [get_bd_intf_nets ps8_0_axi_periph_M04_AXI] [get_bd_cells axi_perf_mon_0]
+create_project Basic_1x1 C:/Basic_1x1 -part xczu28dr-ffvg1517-2-e
+set_property board_part xilinx.com:zcu111:part0:1.2 [current_project]
+set_property target_language VHDL [current_project]
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:zynq_ultra_ps_e:3.3 zynq_ultra_ps_e_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:usp_rf_data_converter:2.1 usp_rf_data_converter_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:ddr4:2.2 ddr4_0
+endgroup
+delete_bd_objs [get_bd_cells ddr4_0]
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+set_property -dict [list CONFIG.ADC0_Enable {0} CONFIG.ADC0_Fabric_Freq {0.0} CONFIG.ADC_Slice00_Enable {false} CONFIG.ADC_Decimation_Mode00 {0} CONFIG.ADC_Mixer_Type00 {3} CONFIG.ADC_Slice01_Enable {false} CONFIG.ADC_Decimation_Mode01 {0} CONFIG.ADC_Mixer_Type01 {3} CONFIG.DAC0_Enable {1} CONFIG.DAC0_Fabric_Freq {400.000} CONFIG.DAC_Slice00_Enable {true} CONFIG.DAC_Interpolation_Mode00 {1} CONFIG.DAC_Mixer_Type00 {0}] [get_bd_cells usp_rf_data_converter_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_fifo_mm_s:4.2 axi_fifo_mm_s_0
+endgroup
+set_property location {1 85 -463} [get_bd_cells axi_fifo_mm_s_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+set_property location {1 110 -457} [get_bd_cells axis_data_fifo_0]
+delete_bd_objs [get_bd_cells axi_fifo_mm_s_0]
+set_property -dict [list CONFIG.FIFO_DEPTH {2048} CONFIG.FIFO_MEMORY_TYPE {block}] [get_bd_cells axis_data_fifo_0]
+connect_bd_intf_net [get_bd_intf_pins axis_data_fifo_0/M_AXIS] [get_bd_intf_pins usp_rf_data_converter_0/s00_axis]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins usp_rf_data_converter_0/s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)" }  [get_bd_pins usp_rf_data_converter_0/s0_axis_aclk]
+endgroup
+set_property location {5 1259 -472} [get_bd_cells usp_rf_data_converter_0]
+set_property location {2 826 -444} [get_bd_cells axis_data_fifo_0]
+regenerate_bd_layout
+current_project zcu111_rfsoc_trd
+startgroup
+current_project Basic_1x1
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0
+endgroup
+set_property location {3 1112 -170} [get_bd_cells axi_dma_0]
+regenerate_bd_layout
+set_property -dict [list CONFIG.c_sg_include_stscntrl_strm {0} CONFIG.c_include_mm2s {1} CONFIG.c_include_s2mm {0}] [get_bd_cells axi_dma_0]
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+set_property location {2 797 575} [get_bd_cells axi_dma_0]
+startgroup
+set_property -dict [list CONFIG.PSU__GPIO_EMIO__PERIPHERAL__ENABLE {1}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Clk_slave {Auto} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_LPD} Slave {/axi_dma_0/S_AXI_LITE} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_dma_0/S_AXI_LITE]
+set_property location {3 1142 558} [get_bd_cells axi_dma_0]
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+startgroup
+set_property -dict [list CONFIG.PSU__GPIO0_MIO__PERIPHERAL__ENABLE {0} CONFIG.PSU__USE__M_AXI_GP0 {1}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_FPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM0_FPD]
+undo
+undo
+startgroup
+set_property -dict [list CONFIG.PSU__USE__S_AXI_GP2 {1}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/axi_dma_0/M_AXI_SG} Slave {/zynq_ultra_ps_e_0/S_AXI_HP0_FPD} intc_ip {Auto} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/S_AXI_HP0_FPD]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (96 MHz)} Master {/axi_dma_0/M_AXI_MM2S} Slave {/zynq_ultra_ps_e_0/S_AXI_HP0_FPD} intc_ip {/axi_smc} master_apm {0}}  [get_bd_intf_pins axi_dma_0/M_AXI_MM2S]
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins axis_data_fifo_0/S_AXIS]
+apply_bd_automation -rule xilinx.com:bd_rule:zynq_ultra_ps_e -config {apply_board_preset "1" }  [get_bd_cells zynq_ultra_ps_e_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM0_FPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM0_FPD]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM1_FPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM1_FPD]
+endgroup
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.PSU__QSPI__PERIPHERAL__ENABLE {0}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PSU__ENET3__PERIPHERAL__ENABLE {0} CONFIG.PSU__UART0__PERIPHERAL__ENABLE {0} CONFIG.PSU__UART1__PERIPHERAL__ENABLE {0} CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE {0} CONFIG.PSU__SATA__PERIPHERAL__ENABLE {0}] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES.VALUE_SRC USER] [get_bd_cells axis_data_fifo_0]
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {32}] [get_bd_cells axis_data_fifo_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.c_m_axi_mm2s_data_width {256} CONFIG.c_m_axis_mm2s_tdata_width {256} CONFIG.c_mm2s_burst_size {2}] [get_bd_cells axi_dma_0]
+endgroup
+create_bd_port -dir O v00
+startgroup
+connect_bd_net [get_bd_ports v00] [get_bd_pins usp_rf_data_converter_0/clk_dac0]
+endgroup
+undo
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+reset_property CLASS [get_bd_ports v00]
+delete_bd_objs [get_bd_ports v00]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins usp_rf_data_converter_0/vout00]
+endgroup
+regenerate_bd_layout
+startgroup
+set_property -dict [list CONFIG.NUM_SI {2} CONFIG.NUM_MI {2}] [get_bd_cells ps8_0_axi_periph]
+delete_bd_objs [get_bd_intf_nets zynq_ultra_ps_e_0_M_AXI_HPM0_LPD] [get_bd_intf_nets zynq_ultra_ps_e_0_M_AXI_HPM1_FPD]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM1_FPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM1_FPD]
+startgroup
+set_property -dict [list CONFIG.NUM_SI {1} CONFIG.NUM_MI {2}] [get_bd_cells ps8_0_axi_periph]
+delete_bd_objs [get_bd_intf_nets zynq_ultra_ps_e_0_M_AXI_HPM0_FPD]
+endgroup
+delete_bd_objs [get_bd_intf_nets zynq_ultra_ps_e_0_M_AXI_HPM1_FPD]
+connect_bd_intf_net [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM0_FPD] -boundary_type upper [get_bd_intf_pins ps8_0_axi_periph/S00_AXI]
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_slave {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Clk_xbar {/zynq_ultra_ps_e_0/pl_clk0 (99 MHz)} Master {/zynq_ultra_ps_e_0/M_AXI_HPM1_FPD} Slave {/usp_rf_data_converter_0/s_axi} intc_ip {/ps8_0_axi_periph} master_apm {0}}  [get_bd_intf_pins zynq_ultra_ps_e_0/M_AXI_HPM1_FPD]
+set_property location {3 940 215} [get_bd_cells zynq_ultra_ps_e_0]
+set_property location {2 434 223} [get_bd_cells axi_smc]
+set_property location {2 412 462} [get_bd_cells axi_dma_0]
+set_property location {3 973 460} [get_bd_cells rst_ps8_0_96M]
+set_property location {2.5 1446 501} [get_bd_cells axis_data_fifo_0]
+set_property location {3 1465 -12} [get_bd_cells ps8_0_axi_periph]
+set_property location {3.5 1732 500} [get_bd_cells usp_rf_data_converter_0]
+set_property location {4 1723 255} [get_bd_cells usp_rf_data_converter_0]
+set_property location {1990 235} [get_bd_intf_ports vout00_0]
+regenerate_bd_layout
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins usp_rf_data_converter_0/sysref_in]
+endgroup
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins usp_rf_data_converter_0/dac0_clk]
+endgroup
+regenerate_bd_layout
+save_bd_design
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+file mkdir C:/Basic_1x1/Basic_1x1.srcs/constrs_1
+file mkdir C:/Basic_1x1/Basic_1x1.srcs/constrs_1/new
+close [ open C:/Basic_1x1/Basic_1x1.srcs/constrs_1/new/placing_constraints.xdc w ]
+add_files -fileset constrs_1 C:/Basic_1x1/Basic_1x1.srcs/constrs_1/new/placing_constraints.xdc
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+set_property name sysref_in [get_bd_intf_ports sysref_in_0]
+set_property name dac0_clk [get_bd_intf_ports dac0_clk_0]
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+current_project zcu111_rfsoc_trd
+current_project Basic_1x1
+set_property name CLK_DIFF_2_SYSREF [get_bd_intf_ports sysref_in]
+save_bd_design
+validate_bd_design
+generate_target all [get_files  C:/Basic_1x1/Basic_1x1.srcs/sources_1/bd/design_1/design_1.bd]
+catch { config_ip_cache -export [get_ips -all design_1_zynq_ultra_ps_e_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_usp_rf_data_converter_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axis_data_fifo_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_xbar_0] }
+catch { config_ip_cache -export [get_ips -all design_1_rst_ps8_0_96M_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_smc_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_ds_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_ds_1] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_1] }
+export_ip_user_files -of_objects [get_files C:/Basic_1x1/Basic_1x1.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Basic_1x1/Basic_1x1.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs -jobs 6 {design_1_zynq_ultra_ps_e_0_0_synth_1 design_1_usp_rf_data_converter_0_0_synth_1 design_1_axis_data_fifo_0_0_synth_1 design_1_xbar_0_synth_1 design_1_rst_ps8_0_96M_0_synth_1 design_1_axi_dma_0_0_synth_1 design_1_axi_smc_0_synth_1 design_1_auto_ds_0_synth_1 design_1_auto_pc_0_synth_1 design_1_auto_ds_1_synth_1 design_1_auto_pc_1_synth_1}
+export_simulation -of_objects [get_files C:/Basic_1x1/Basic_1x1.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Basic_1x1/Basic_1x1.ip_user_files/sim_scripts -ip_user_files_dir C:/Basic_1x1/Basic_1x1.ip_user_files -ipstatic_source_dir C:/Basic_1x1/Basic_1x1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Basic_1x1/Basic_1x1.cache/compile_simlib/modelsim} {questa=C:/Basic_1x1/Basic_1x1.cache/compile_simlib/questa} {riviera=C:/Basic_1x1/Basic_1x1.cache/compile_simlib/riviera} {activehdl=C:/Basic_1x1/Basic_1x1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+reset_run design_1_auto_ds_1_synth_1
+reset_run design_1_auto_pc_1_synth_1
+archive_project C:/Users/rruiz/Documents/Basic_1x1.xpr.zip -temp_dir C:/Users/rruiz/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12932-DESKTOP-QHBGQFR -force -include_local_ip_cache

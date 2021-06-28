@@ -1,0 +1,55 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S01_AXIS1 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x -10 -y 40 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -10 -y 240 -defaultsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x -10 -y 260 -defaultsOSRD
+preplace port S00_AXIS -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x -10 -y -140 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -10 -y 120 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port adc_clk_soft_aresetn -pg 1 -lvl 0 -x -10 -y 140 -defaultsOSRD
+preplace port adc_220_aclk -pg 1 -lvl 0 -x -10 -y 360 -defaultsOSRD
+preplace port adc_220_aresetn -pg 1 -lvl 0 -x -10 -y 380 -defaultsOSRD
+preplace port BD_FLAG -pg 1 -lvl 0 -x -10 -y 20 -defaultsOSRD
+preplace port PD_FLAG -pg 1 -lvl 4 -x 1010 -y 520 -defaultsOSRD
+preplace port Res -pg 1 -lvl 4 -x 1010 -y 360 -defaultsOSRD
+preplace port BD_FLAG_O -pg 1 -lvl 4 -x 1010 -y 340 -defaultsOSRD
+preplace port PD_FLAG1 -pg 1 -lvl 0 -x -10 -y 440 -defaultsOSRD
+preplace port o_INC_BP_0 -pg 1 -lvl 4 -x 1010 -y -110 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 4 -x 1010 -y -70 -defaultsOSRD
+preplace portBus ch_en -pg 1 -lvl 4 -x 1010 -y 380 -defaultsOSRD
+preplace inst packet_detector_11AD_0 -pg 1 -lvl 2 -x 490 -y 120 -defaultsOSRD
+preplace inst SIVERS_gpio_0 -pg 1 -lvl 1 -x 180 -y -90 -defaultsOSRD
+preplace inst RX_Block_STA_v2_0 -pg 1 -lvl 3 -x 830 -y 350 -defaultsOSRD
+preplace netloc aclk_1 1 0 3 10 30 320 -30 690J
+preplace netloc s00_axi_aclk_1 1 0 3 30 70 340 -10 650J
+preplace netloc s00_axi_aresetn_1 1 0 3 50 90 350 0 630J
+preplace netloc adc_clk_soft_aresetn_1 1 0 3 20 110 330 -20 680J
+preplace netloc packet_detector_11AD_0_PD_FLAG 1 2 2 N 150 980J
+preplace netloc RX_Block_STA_v2_0_BD_FLAG_O 1 3 1 990 330n
+preplace netloc adc_220_aclk_1 1 0 3 NJ 360 N 360 NJ
+preplace netloc adc_220_aresetn_1 1 0 3 NJ 380 N 380 NJ
+preplace netloc RX_Block_STA_v2_0_captur_ready 1 3 1 970 350n
+preplace netloc PD_FLAG1_1 1 0 3 NJ 440 N 440 NJ
+preplace netloc BD_FLAG_1 1 0 3 40 20 310 -40 660J
+preplace netloc RX_Block_STA_v2_0_ch_en 1 3 1 970 370n
+preplace netloc SIVERS_gpio_0_o_INC_BP 1 1 3 NJ -110 NJ -110 NJ
+preplace netloc SIVERS_gpio_0_o_RTN_BP 1 1 3 NJ -70 NJ -70 NJ
+preplace netloc packet_detector_11AD_0_M00_AXIS 1 2 1 670 90n
+preplace netloc Conn2 1 0 2 NJ 100 N
+preplace netloc packet_detector_11AD_0_M01_AXIS 1 2 1 640 110n
+preplace netloc S00_AXI_1 1 0 3 NJ 240 N 240 NJ
+preplace netloc Conn1 1 0 2 NJ 80 N
+preplace netloc Conn4 1 0 1 N -140
+preplace netloc S01_AXI_1 1 0 3 NJ 260 N 260 NJ
+preplace netloc Conn3 1 0 2 NJ 60 N
+levelinfo -pg 1 -10 180 490 830 1010
+pagesize -pg 1 -db -bbox -sgen -210 -200 1150 660
+"
+}
+0

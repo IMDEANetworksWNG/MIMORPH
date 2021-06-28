@@ -1,0 +1,433 @@
+
+*** Running vivado
+    with args -log design_1_axis_combiner_0_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_combiner_0_5.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axis_combiner_0_5.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/srcs/ip/ip_repo'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_axis_combiner_0_5 -part xczu28dr-ffvg1517-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18327 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2371.637 ; gain = 143.684 ; free physical = 72602 ; free virtual = 104545
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_combiner_0_5' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_combiner_0_5/synth/design_1_axis_combiner_0_5.v:57]
+INFO: [Synth 8-6157] synthesizing module 'axis_combiner_v1_1_17_top' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7ff8/hdl/axis_combiner_v1_1_vl_rfs.v:56]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_SIGNAL_SET bound to: 31 - type: integer 
+	Parameter C_MASTER_PORT_NUM bound to: 0 - type: integer 
+	Parameter C_NUM_SI_SLOTS bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TPAYLOAD_WIDTH bound to: 161 - type: integer 
+	Parameter P_MASTER_PORT_NUM bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+	Parameter C_TDATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 161 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 31 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 128 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 144 - type: integer 
+	Parameter P_TLAST_INDX bound to: 160 - type: integer 
+	Parameter P_TID_INDX bound to: 161 - type: integer 
+	Parameter P_TDEST_INDX bound to: 161 - type: integer 
+	Parameter P_TUSER_INDX bound to: 161 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (1#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+	Parameter C_TDATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 161 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 31 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 128 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 144 - type: integer 
+	Parameter P_TLAST_INDX bound to: 160 - type: integer 
+	Parameter P_TID_INDX bound to: 161 - type: integer 
+	Parameter P_TDEST_INDX bound to: 161 - type: integer 
+	Parameter P_TUSER_INDX bound to: 161 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (2#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_combiner_v1_1_17_top' (3#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7ff8/hdl/axis_combiner_v1_1_vl_rfs.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_combiner_0_5' (4#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_combiner_0_5/synth/design_1_axis_combiner_0_5.v:57]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TID[0]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TDEST[0]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TUSER[3]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TUSER[2]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TUSER[1]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector has unconnected port TUSER[0]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[3]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[2]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[1]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[3]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[2]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2429.355 ; gain = 201.402 ; free physical = 72574 ; free virtual = 104533
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2435.293 ; gain = 207.340 ; free physical = 72529 ; free virtual = 104489
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2435.293 ; gain = 207.340 ; free physical = 72529 ; free virtual = 104489
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_combiner_0_5/design_1_axis_combiner_0_5_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_combiner_0_5/design_1_axis_combiner_0_5_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2593.855 ; gain = 0.000 ; free physical = 72412 ; free virtual = 104376
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2593.855 ; gain = 0.000 ; free physical = 72409 ; free virtual = 104373
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2593.855 ; gain = 365.902 ; free physical = 72491 ; free virtual = 104465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2593.855 ; gain = 365.902 ; free physical = 72493 ; free virtual = 104468
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2593.855 ; gain = 365.902 ; free physical = 72501 ; free virtual = 104476
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2593.855 ; gain = 365.902 ; free physical = 72491 ; free virtual = 104469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axis_combiner_v1_1_17_top 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[3]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[2]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[1]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tid[0]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[3]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[2]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[1]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tdest[0]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tuser[3]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tuser[2]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tuser[1]
+WARNING: [Synth 8-3331] design axis_combiner_v1_1_17_top has unconnected port s_axis_tuser[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2593.855 ; gain = 365.902 ; free physical = 72481 ; free virtual = 104461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 2893.598 ; gain = 665.645 ; free physical = 69894 ; free virtual = 101992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 2903.613 ; gain = 675.660 ; free physical = 69890 ; free virtual = 101988
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 2903.613 ; gain = 675.660 ; free physical = 69876 ; free virtual = 101974
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69859 ; free virtual = 101957
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69859 ; free virtual = 101957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69858 ; free virtual = 101957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69858 ; free virtual = 101957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69858 ; free virtual = 101957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69858 ; free virtual = 101957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     6|
+|2     |LUT5 |     1|
+|3     |LUT6 |     1|
+|4     |FDRE |     2|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------------------------+------+
+|      |Instance |Module                    |Cells |
++------+---------+--------------------------+------+
+|1     |top      |                          |    10|
+|2     |  inst   |axis_combiner_v1_1_17_top |    10|
++------+---------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.457 ; gain = 691.504 ; free physical = 69858 ; free virtual = 101957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.457 ; gain = 532.941 ; free physical = 69895 ; free virtual = 101993
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2919.465 ; gain = 691.504 ; free physical = 69895 ; free virtual = 101993
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2996.098 ; gain = 0.000 ; free physical = 69762 ; free virtual = 101864
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 2996.098 ; gain = 1550.809 ; free physical = 69846 ; free virtual = 101947
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2996.098 ; gain = 0.000 ; free physical = 69845 ; free virtual = 101947
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1/design_1_axis_combiner_0_5.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_combiner_0_5, cache-ID = c28737275fb0f26f
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3020.109 ; gain = 0.000 ; free physical = 69925 ; free virtual = 102027
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1/design_1_axis_combiner_0_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axis_combiner_0_5_utilization_synth.rpt -pb design_1_axis_combiner_0_5_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 10 14:41:24 2020...

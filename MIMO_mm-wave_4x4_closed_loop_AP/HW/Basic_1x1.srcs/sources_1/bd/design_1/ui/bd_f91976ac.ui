@@ -1,0 +1,51 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 3 -x 990 -y 130 -defaultsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -70 -y 40 -defaultsOSRD
+preplace port SLOT_0_AXIS1 -pg 1 -lvl 3 -x 990 -y 150 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -70 -y 60 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -70 -y 370 -defaultsOSRD
+preplace port axis_aclk -pg 1 -lvl 0 -x -70 -y 120 -defaultsOSRD
+preplace port dac_aclk -pg 1 -lvl 0 -x -70 -y 450 -defaultsOSRD
+preplace port send_pkt_i -pg 1 -lvl 0 -x -70 -y 230 -defaultsOSRD
+preplace port o_INC_BP_4 -pg 1 -lvl 3 -x 990 -y 400 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -70 -y 560 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -70 -y 350 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 3 -x 990 -y 440 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -70 -y 490 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -70 -y 430 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -70 -y 510 -defaultsOSRD
+preplace portBus Op2 -pg 1 -lvl 0 -x -70 -y 160 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 430 -y 470 -defaultsOSRD
+preplace inst loopback_0 -pg 1 -lvl 1 -x 430 -y 290 -defaultsOSRD
+preplace inst localstart_0 -pg 1 -lvl 1 -x 430 -y 140 -defaultsOSRD
+preplace inst TX_Block_AP_0 -pg 1 -lvl 2 -x 830 -y 160 -defaultsOSRD
+preplace inst SIVERS_gpio_0 -pg 1 -lvl 2 -x 830 -y 430 -defaultsOSRD
+preplace netloc axis_aclk_1 1 0 2 -20 210 600J
+preplace netloc dac_aclk_1 1 0 2 -40 560 630
+preplace netloc axi_resetn_1 1 0 1 NJ 490
+preplace netloc dac_clk_aresetn_1 1 0 1 NJ 430
+preplace netloc Din_1 1 0 1 -30 140n
+preplace netloc soft_reset_dac_reset_soft 1 1 1 610 140n
+preplace netloc soft_reset_axi_reset_soft 1 1 1 650 180n
+preplace netloc loopback_0_Dout 1 1 1 660J 220n
+preplace netloc send_pkt_i_1 1 0 2 NJ 230 640J
+preplace netloc Op2_1 1 0 1 NJ 160
+preplace netloc localstart_0_Res 1 1 1 600 100n
+preplace netloc s00_axi_aclk_1 1 0 2 -50J 570 670
+preplace netloc s00_axi_aresetn_1 1 0 2 NJ 350 680
+preplace netloc SIVERS_gpio_0_o_INC_BP 1 2 1 970 400n
+preplace netloc SIVERS_gpio_0_o_RTN_BP 1 2 1 970 440n
+preplace netloc TX_Block_AP_0_trn_pulse_o 1 1 2 690 320 970
+preplace netloc Conn1 1 2 1 NJ 130
+preplace netloc Conn3 1 2 1 NJ 150
+preplace netloc S00_AXI1_1 1 0 2 NJ 370 620
+preplace netloc Conn2 1 0 2 NJ 40 600J
+preplace netloc Conn4 1 0 2 NJ 60 NJ
+levelinfo -pg 1 -70 430 830 990
+pagesize -pg 1 -db -bbox -sgen -270 -160 1150 920
+"
+}
+0

@@ -1,0 +1,43 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 3 -x 750 -y 250 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x -50 -y 210 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 3 -x 750 -y 270 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -50 -y 190 -defaultsOSRD
+preplace port axis_aclk -pg 1 -lvl 0 -x -50 -y 100 -defaultsOSRD
+preplace port dac_aclk -pg 1 -lvl 0 -x -50 -y 80 -defaultsOSRD
+preplace port send_pkt_i -pg 1 -lvl 0 -x -50 -y 270 -defaultsOSRD
+preplace port pl_clk0 -pg 1 -lvl 0 -x -50 -y 370 -defaultsOSRD
+preplace port peripheral_aresetn -pg 1 -lvl 0 -x -50 -y 510 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -50 -y 140 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -50 -y 120 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -50 -y 60 -defaultsOSRD
+preplace portBus Op2 -pg 1 -lvl 0 -x -50 -y 320 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 190 -y 100 -defaultsOSRD
+preplace inst loopback_0 -pg 1 -lvl 1 -x 190 -y 430 -defaultsOSRD
+preplace inst localstart_0 -pg 1 -lvl 1 -x 190 -y 300 -defaultsOSRD
+preplace inst TX_Block_AP_1 -pg 1 -lvl 2 -x 560 -y 330 -defaultsOSRD
+preplace netloc axis_aclk_1 1 0 2 0 370 360J
+preplace netloc dac_aclk_1 1 0 2 10 220 370J
+preplace netloc soft_reset_dac_reset_soft 1 1 1 400 90n
+preplace netloc soft_reset_axi_reset_soft 1 1 1 380 110n
+preplace netloc Din_1 1 0 1 -10 140n
+preplace netloc axi_resetn_1 1 0 1 NJ 120
+preplace netloc dac_clk_aresetn_1 1 0 1 NJ 60
+preplace netloc loopback_0_Dout 1 1 1 390J 390n
+preplace netloc send_pkt_i_1 1 0 2 -20J 490 370J
+preplace netloc localstart_0_Res 1 1 1 360 270n
+preplace netloc Op2_1 1 0 1 N 320
+preplace netloc pl_clk0_1 1 0 2 -30J 500 400J
+preplace netloc peripheral_aresetn_1 1 0 2 NJ 510 410J
+preplace netloc Conn4 1 2 1 710J 270n
+preplace netloc Conn3 1 0 2 NJ 210 390J
+preplace netloc Conn1 1 0 2 NJ 190 410J
+preplace netloc Conn2 1 2 1 700J 250n
+levelinfo -pg 1 -50 190 560 750
+pagesize -pg 1 -db -bbox -sgen -250 0 910 560
+"
+}
+0

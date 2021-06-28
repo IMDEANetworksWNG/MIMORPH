@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2328515 on Tue Sep 11 18:46:14 MDT 2018
+# IP Build 2318122 on Tue Sep 11 21:25:25 MDT 2018
+# Start of session at: Wed Sep 12 09:14:35 2018
+# Process ID: 113824
+# Current directory: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux
+# Command line: vivado
+# Log file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/vivado.log
+# Journal file: /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1 -part xczu28dr-ffvg1517-2-i-es1
+set_property board_part xilinx.com:zcu111_es1:part0:1.0 [current_project]
+add_files -norecurse /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/hdl/src/verilog/adc_channel_mux.v
+update_compile_order -fileset sources_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -lsf {bsub -R select[type=X86_64] -q medium}
+wait_on_run synth_1
+ipx::package_project -root_dir /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux -vendor xilinx.com -library user -taxonomy /UserIP
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces s_axis_aclk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux [current_project]
+update_ip_catalog
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/xilinx.com_user_adc_channel_mux_1.0.zip [ipx::current_core]

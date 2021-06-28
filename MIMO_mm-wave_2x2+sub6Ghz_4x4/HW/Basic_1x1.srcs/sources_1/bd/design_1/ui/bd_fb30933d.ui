@@ -1,0 +1,105 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -150 -y 1200 -defaultsOSRD
+preplace port SLOT_0_AXIS -pg 1 -lvl 2 -x 450 -y 1270 -defaultsOSRD
+preplace port S_AXIS1 -pg 1 -lvl 0 -x -150 -y 280 -defaultsOSRD
+preplace port SLOT_0_AXIS1 -pg 1 -lvl 2 -x 450 -y 350 -defaultsOSRD
+preplace port S_AXIS2 -pg 1 -lvl 0 -x -150 -y 1660 -defaultsOSRD
+preplace port SLOT_0_AXIS2 -pg 1 -lvl 2 -x 450 -y 1730 -defaultsOSRD
+preplace port S_AXIS3 -pg 1 -lvl 0 -x -150 -y 50 -defaultsOSRD
+preplace port SLOT_0_AXIS3 -pg 1 -lvl 2 -x 450 -y 120 -defaultsOSRD
+preplace port S_AXIS4 -pg 1 -lvl 0 -x -150 -y 740 -defaultsOSRD
+preplace port SLOT_0_AXIS4 -pg 1 -lvl 2 -x 450 -y 810 -defaultsOSRD
+preplace port S_AXIS5 -pg 1 -lvl 0 -x -150 -y 1430 -defaultsOSRD
+preplace port SLOT_0_AXIS5 -pg 1 -lvl 2 -x 450 -y 1500 -defaultsOSRD
+preplace port S_AXIS6 -pg 1 -lvl 0 -x -150 -y 510 -defaultsOSRD
+preplace port SLOT_0_AXIS6 -pg 1 -lvl 2 -x 450 -y 580 -defaultsOSRD
+preplace port S_AXIS7 -pg 1 -lvl 0 -x -150 -y 970 -defaultsOSRD
+preplace port SLOT_0_AXIS7 -pg 1 -lvl 2 -x 450 -y 1040 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -150 -y 950 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -150 -y 70 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x -150 -y 330 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x -150 -y 620 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -lvl 0 -x -150 -y 910 -defaultsOSRD
+preplace port S00_AXI5 -pg 1 -lvl 0 -x -150 -y 1490 -defaultsOSRD
+preplace port S00_AXI6 -pg 1 -lvl 0 -x -150 -y 1780 -defaultsOSRD
+preplace port S00_AXI7 -pg 1 -lvl 0 -x -150 -y 2070 -defaultsOSRD
+preplace port S00_AXI8 -pg 1 -lvl 0 -x -150 -y 1220 -defaultsOSRD
+preplace port s_axis_aclk -pg 1 -lvl 0 -x -150 -y 990 -defaultsOSRD
+preplace port s_axis_aclk1 -pg 1 -lvl 0 -x -150 -y 1680 -defaultsOSRD
+preplace port s_axis_tvalid_i -pg 1 -lvl 0 -x -150 -y 1340 -defaultsOSRD
+preplace port s_axis_tvalid_i1 -pg 1 -lvl 0 -x -150 -y 420 -defaultsOSRD
+preplace port s_axis_tvalid_i2 -pg 1 -lvl 0 -x -150 -y 1800 -defaultsOSRD
+preplace port s_axis_tvalid_i3 -pg 1 -lvl 0 -x -150 -y 190 -defaultsOSRD
+preplace port s_axis_tvalid_i4 -pg 1 -lvl 0 -x -150 -y 880 -defaultsOSRD
+preplace port s_axis_tvalid_i5 -pg 1 -lvl 0 -x -150 -y 1570 -defaultsOSRD
+preplace port s_axis_tvalid_i6 -pg 1 -lvl 0 -x -150 -y 650 -defaultsOSRD
+preplace port s_axis_tvalid_i7 -pg 1 -lvl 0 -x -150 -y 1110 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -150 -y 1150 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -150 -y 1170 -defaultsOSRD
+preplace port o_INC_BP_0 -pg 1 -lvl 2 -x 450 -y 1290 -defaultsOSRD
+preplace port o_RST_BP_0 -pg 1 -lvl 2 -x 450 -y 1310 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 2 -x 450 -y 1330 -defaultsOSRD
+preplace portBus dac_control -pg 1 -lvl 0 -x -150 -y 1010 -defaultsOSRD
+preplace portBus Din_0 -pg 1 -lvl 0 -x -150 -y 760 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -150 -y 1030 -defaultsOSRD
+preplace portBus dac_clk_aresetn -pg 1 -lvl 0 -x -150 -y 1050 -defaultsOSRD
+preplace inst dac_block3_tile0 -pg 1 -lvl 1 -x 220 -y 1590 -defaultsOSRD
+preplace inst dac_block1_tile0 -pg 1 -lvl 1 -x 220 -y 410 -defaultsOSRD
+preplace inst dac_block3_tile1 -pg 1 -lvl 1 -x 220 -y 2170 -defaultsOSRD
+preplace inst dac_block1_tile1 -pg 1 -lvl 1 -x 220 -y 120 -defaultsOSRD
+preplace inst dac_block2_tile0 -pg 1 -lvl 1 -x 220 -y 990 -defaultsOSRD
+preplace inst dac_block2_tile1 -pg 1 -lvl 1 -x 220 -y 1880 -defaultsOSRD
+preplace inst dac_block0_tile1 -pg 1 -lvl 1 -x 220 -y 700 -defaultsOSRD
+preplace inst dac_block0_tile0 -pg 1 -lvl 1 -x 220 -y 1290 -defaultsOSRD
+preplace netloc ddr_block_c0_ddr4_ui_clk 1 0 1 -20 60n
+preplace netloc MTS_Block_dac_clk 1 0 1 -10 80n
+preplace netloc control_block_dest_out_0 1 0 1 0 100n
+preplace netloc zynq_ultra_ps_e_0_emio_gpio_o 1 0 1 10 120n
+preplace netloc rst_ddr4_0_333M_peripheral_aresetn 1 0 1 20 140n
+preplace netloc reset_block_peripheral_aresetn1 1 0 1 30 160n
+preplace netloc dac_dma_block_M03_AXIS_tvalid 1 0 1 -60J 1340n
+preplace netloc s_axis_tvalid_i_1 1 0 1 60J 420n
+preplace netloc dac_dma_block_M07_AXIS_tvalid 1 0 1 -130J 1800n
+preplace netloc dac_dma_block_M05_AXIS_tvalid 1 0 1 -50J 180n
+preplace netloc dac_dma_block_M02_AXIS_tvalid 1 0 1 60J 880n
+preplace netloc dac_dma_block_M06_AXIS_tvalid 1 0 1 -90J 1570n
+preplace netloc dac_dma_block_M04_AXIS_tvalid 1 0 1 60J 650n
+preplace netloc dac_dma_block_M00_AXIS_tvalid 1 0 1 -40J 1110n
+preplace netloc s00_axi_aclk_1 1 0 1 40 200n
+preplace netloc s00_axi_aresetn_1 1 0 1 50 220n
+preplace netloc dac_block0_tile0_o_INC_BP_0 1 1 1 380 1280n
+preplace netloc dac_block0_tile0_o_RST_BP_0 1 1 1 380 1300n
+preplace netloc dac_block0_tile0_o_RTN_BP_0 1 1 1 380 1320n
+preplace netloc S_AXIS_3 1 0 1 -50J 1200n
+preplace netloc dac_block3_tile0_SLOT_0_AXIS 1 1 1 390J 1270n
+preplace netloc S_AXIS_1 1 0 1 60J 280n
+preplace netloc dac_block1_tile0_SLOT_0_AXIS 1 1 1 390J 350n
+preplace netloc S_AXIS_7 1 0 1 -110J 1660n
+preplace netloc dac_block3_tile1_SLOT_0_AXIS 1 1 1 410J 1730n
+preplace netloc S_AXIS_5 1 0 1 -50J 20n
+preplace netloc dac_block1_tile1_SLOT_0_AXIS 1 1 1 NJ 120
+preplace netloc S_AXIS_2 1 0 1 -30J 740n
+preplace netloc dac_block2_tile0_SLOT_0_AXIS 1 1 1 390J 810n
+preplace netloc S_AXIS_6 1 0 1 -80J 1430n
+preplace netloc dac_block2_tile1_SLOT_0_AXIS 1 1 1 400J 1500n
+preplace netloc S_AXIS_4 1 0 1 -30J 510n
+preplace netloc dac_block0_tile1_SLOT_0_AXIS 1 1 1 390J 580n
+preplace netloc dac_dma_block_M00_AXIS 1 0 1 -50J 970n
+preplace netloc axis_data_fifo_2_M_AXIS 1 1 1 390J 1040n
+preplace netloc Conn1 1 0 1 -30 950n
+preplace netloc Conn2 1 0 1 -30 40n
+preplace netloc Conn3 1 0 1 N 330
+preplace netloc Conn4 1 0 1 N 620
+preplace netloc Conn5 1 0 1 N 910
+preplace netloc Conn6 1 0 1 -70 1490n
+preplace netloc Conn7 1 0 1 -100 1780n
+preplace netloc Conn8 1 0 1 -120 2070n
+preplace netloc Conn9 1 0 1 N 1220
+levelinfo -pg 1 -150 220 450
+pagesize -pg 1 -db -bbox -sgen -350 -40 610 2320
+"
+}
+

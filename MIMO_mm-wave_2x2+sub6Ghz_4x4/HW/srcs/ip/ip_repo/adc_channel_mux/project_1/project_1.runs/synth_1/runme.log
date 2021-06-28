@@ -1,0 +1,322 @@
+To monitor the LSF job for this run, please use any of the following commands in a new terminal window:
+bjobs -J /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.sh
+bhist -l -J /group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/runme.sh
+
+*** Running vivado
+    with args -log adc_channel_mux.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source adc_channel_mux.tcl
+
+     **** ENVIRONMENT DEBUG INFO ****
+              XILINX: "/proj/xbuilds/2018.2_weekly_latest/installs/lin64/Vivado/2018.2/ids_lite/ISE"
+          XILINX_SDK: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2"
+         XILINX_PATH: ""
+         RDI_APPROOT: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2"
+         HDI_APPROOT: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2"
+        RDI_BASEROOT: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado"
+         RDI_DATADIR: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/data:/proj/rdi/data/CLs/2319403/data"
+          RDI_LIBDIR: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lib/lnx64.o/Default:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lib/lnx64.o"
+          RDI_BINDIR: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/bin"
+        RDI_JAVAROOT: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/tps/lnx64/jre"
+     LD_LIBRARY_PATH: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lib/lnx64.o/Default:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lib/lnx64.o:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/tps/lnx64/jre/lib/amd64:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/tps/lnx64/jre/lib/amd64/server:/proj/xbuilds/2018.2_weekly_latest/installs/lin64/Vivado/2018.2/ids_lite/ISE/lib/lin64:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDx/2018.2/lib/lnx64.o/Default:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDx/2018.2/lib/lnx64.o:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDx/2018.2/runtime/lib/x86_64:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lib/lnx64.o:/group/xsjfarm/lsf/10.1/linux2.6-glibc2.3-x86_64/lib:/proj/xbuilds/2018.2_weekly_latest/installs/lin64/Vivado/2018.2/ids_lite/ISE/lib/lin64:/tools/batonroot/rodin/devkits/lnx64/gcc-6.2.0/lib64:/tools/packages/cad/release/common/common/lib:/tools/packages/cad/release/common/common/lib64:/tools/local/lib64/legacy:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/bin/../lnx64/tools/dot/lib:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/bin/../lnx64/tools/dot/lib"
+                PATH: "/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/tps/lnx64/jre/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/bin:/proj/xbuilds/2018.2_weekly_latest/installs/lin64/Vivado/2018.2/ids_lite/ISE/bin/lin64:/tools/installs/mentor/questa/10.6c/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Model_Composer/2017.4/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/DocNav:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/microblaze/lin/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/arm/lin/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_be/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDx/2018.2/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/SDx/2018.2/gnu/arm/2013.11/lin/bin:/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/lnx64/tools/gcc/bin:/group/xsjfarm/lsf/10.1/linux2.6-glibc2.3-x86_64/etc:/group/xsjfarm/lsf/10.1/linux2.6-glibc2.3-x86_64/bin:/tools/gensys/modelsim/10.6c/linux:/tools/batonroot/rodin/devkits/lnx64/gcc-6.2.0/bin:/tools/batonroot/rodin/devkits/lnx64/gcc-6.2.0/lib64:/tools/batonroot/rodin/devkits/lnx64/binutils-2.26/bin:proj/xbuilds/2017.3_INT_daily_latest/installs/lin64/sdnet/2017.3/bin:/home/ckohn/bin:/group/paeg/zynq_git/git/bin:/group/paeg/zynq_git/git/libexec/git-core:/proj/sdk/tools/CodeSourcery/2011.09/lin/Sourcery_CodeBench_Lite/bin:/group/siv/proj/pele/arm/tools/gcc/gcc-4.3.3/bin:/tools/gensys/modelsim/10.6b/linux:/tools/xint/prod/bin:/home/sweathar/bin:/group/icdes/bin:/bin:/usr/bin:/usr/kerberos/bin:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/local/bin:.:/tools/local/bin:/tools/packages/cad/release/common/holistic/setup/bin:/opt/puppetlabs/bin"
+/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/bin/unwrapped/lnx64.o/vivado -log adc_channel_mux.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adc_channel_mux.tcl
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2328515 on Tue Sep 11 18:46:14 MDT 2018
+  **** IP Build 2318122 on Tue Sep 11 21:25:25 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'NO'.
+Sourcing tcl script '/proj/xbuilds/2018.2_INT_daily_latest/installs/lin64/Vivado/2018.2/scripts/Vivado_init.tcl'
+source adc_channel_mux.tcl -notrace
+Command: synth_design -top adc_channel_mux -part xczu28dr-ffvg1517-2-i-es1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr-es1'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr-es1'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 68822 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1482.496 ; gain = 97.500 ; free physical = 76895 ; free virtual = 213324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'adc_channel_mux' [/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/hdl/src/verilog/adc_channel_mux.v:6]
+	Parameter AXIS_TDATA_WIDTH bound to: 256 - type: integer 
+	Parameter AXIS_TKEEP_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/hdl/src/verilog/adc_channel_mux.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'adc_channel_mux' (1#1) [/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/hdl/src/verilog/adc_channel_mux.v:6]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[30]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[29]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[28]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[27]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[26]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[25]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[24]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[23]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[22]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[21]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[20]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[19]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[18]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[17]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[16]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[15]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[14]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[13]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[12]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[11]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[10]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[9]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[8]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1527.871 ; gain = 142.875 ; free physical = 76890 ; free virtual = 213324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1527.871 ; gain = 142.875 ; free physical = 76886 ; free virtual = 213320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-i-es1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1530.250 ; gain = 145.254 ; free physical = 76886 ; free virtual = 213320
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-i-es1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1545.828 ; gain = 160.832 ; free physical = 76860 ; free virtual = 213313
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 5     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adc_channel_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 5     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   8 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[30]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[29]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[28]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[27]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[26]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[25]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[24]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[23]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[22]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[21]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[20]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[19]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[18]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[17]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[16]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[15]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[14]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[13]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[12]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[11]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[10]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[9]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[8]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75844 ; free virtual = 212404
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75844 ; free virtual = 212404
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75841 ; free virtual = 212401
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT2  |     1|
+|4     |LUT3  |     8|
+|5     |LUT4  |     3|
+|6     |LUT5  |     2|
+|7     |LUT6  |   600|
+|8     |MUXF7 |   290|
+|9     |FDRE  |    13|
+|10    |IBUF  |  2335|
+|11    |OBUF  |   298|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3552|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75822 ; free virtual = 212384
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 46 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.023 ; gain = 955.027 ; free physical = 75823 ; free virtual = 212386
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2340.031 ; gain = 955.027 ; free physical = 75834 ; free virtual = 212396
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2626 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'adc_channel_mux' is not ideal for floorplanning, since the cellview 'adc_channel_mux' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2336 instances were transformed.
+  BUFG => BUFGCE: 1 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 2335 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2366.551 ; gain = 981.992 ; free physical = 77234 ; free virtual = 213854
+INFO: [Common 17-600] The following parameters have non-default value.
+synth.vivado.isSynthRun
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/group/paeg/sweathar/caher/beta/TRD_2018_07_18/rdf0476-zcu111-RFdc-eval-tool-2018-2_tdm/pl_sim/srcs/ip/ip_repo/adc_channel_mux/project_1/project_1.runs/synth_1/adc_channel_mux.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file adc_channel_mux_utilization_synth.rpt -pb adc_channel_mux_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.47 ; elapsed = 00:00:00.64 . Memory (MB): peak = 2372.129 ; gain = 0.000 ; free physical = 77220 ; free virtual = 213844
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 12 10:14:28 2018...

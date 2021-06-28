@@ -1,0 +1,28 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x -20 -y 160 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -20 -y 140 -defaultsOSRD
+preplace port C0_DDR4_0 -pg 1 -lvl 3 -x 710 -y -10 -defaultsOSRD
+preplace port user_si570_sysclk -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace port c0_ddr4_aresetn -pg 1 -lvl 0 -x -20 -y 200 -defaultsOSRD
+preplace port c0_ddr4_ui_clk -pg 1 -lvl 3 -x 710 -y 70 -defaultsOSRD
+preplace port c0_ddr4_ui_clk_sync_rst -pg 1 -lvl 3 -x 710 -y 90 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -20 -y 70 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 1 -x 150 -y 170 -defaultsOSRD
+preplace inst ddr4_0 -pg 1 -lvl 2 -x 500 -y 50 -defaultsOSRD
+preplace netloc c0_ddr4_aresetn_1 1 0 2 0 60 N
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 0 3 10 80 300 170 680
+preplace netloc ddr4_0_c0_ddr4_ui_clk_sync_rst 1 2 1 NJ 90
+preplace netloc reset_1 1 0 2 NJ 70 310J
+preplace netloc Conn2 1 0 1 NJ 160
+preplace netloc Conn4 1 0 1 NJ 140
+preplace netloc Conn1 1 2 1 N -10
+preplace netloc Conn3 1 0 2 NJ 20 NJ
+preplace netloc smartconnect_0_M00_AXI 1 1 1 290 40n
+levelinfo -pg 1 -20 150 500 710
+pagesize -pg 1 -db -bbox -sgen -200 -70 930 550
+"
+}
+0

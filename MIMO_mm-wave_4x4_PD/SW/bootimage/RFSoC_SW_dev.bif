@@ -1,8 +1,0 @@
-//arch = zynqmp; split = false; format = BIN
-the_ROM_image:
-{
-	[fsbl_config]a53_x64
-	[bootloader]C:\Users\rruiz\Documents\SDK_workspace\FSBL\Debug\FSBL.elf
-	[destination_cpu = a53-0]C:\Users\rruiz\Documents\SDK_workspace\RFSoC_SW_dev\Debug\RFSoC_SW_dev.elf
-	[destination_device = pl]C:\Users\rruiz\Documents\SDK_workspace\design_1_wrapper.bit
-}

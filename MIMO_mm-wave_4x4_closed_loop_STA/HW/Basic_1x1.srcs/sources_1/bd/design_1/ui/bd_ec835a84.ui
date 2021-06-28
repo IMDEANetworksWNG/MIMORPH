@@ -1,0 +1,50 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port Op4 -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port Op5 -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port Op7 -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port Op10 -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port Op11 -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port Op12 -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace portBus Op1 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace portBus Op2 -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace portBus Op3 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace portBus Op6 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace portBus Op8 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus Res -pg 1 -lvl 2 -x 290 -y 130 -defaultsOSRD
+preplace portBus Res1 -pg 1 -lvl 2 -x 290 -y 360 -defaultsOSRD
+preplace portBus Op9 -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace portBus Res2 -pg 1 -lvl 2 -x 290 -y 590 -defaultsOSRD
+preplace portBus Op13 -pg 1 -lvl 0 -x 0 -y 370 -defaultsOSRD
+preplace portBus Op14 -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace portBus Op15 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace portBus Op16 -pg 1 -lvl 0 -x 0 -y 640 -defaultsOSRD
+preplace inst PD_FLAG -pg 1 -lvl 1 -x 160 -y 130 -defaultsOSRD
+preplace inst BD_FLAG -pg 1 -lvl 1 -x 160 -y 360 -defaultsOSRD
+preplace inst CAPTURE_READY -pg 1 -lvl 1 -x 160 -y 590 -defaultsOSRD
+preplace netloc PD_FLAG_Res 1 1 1 NJ 130
+preplace netloc Op3_1 1 0 1 NJ 60
+preplace netloc Op1_1 1 0 1 NJ 80
+preplace netloc Op8_1 1 0 1 NJ 100
+preplace netloc Op6_1 1 0 1 NJ 120
+preplace netloc Op7_1 1 0 1 NJ 290
+preplace netloc Op5_1 1 0 1 NJ 310
+preplace netloc Op2_1 1 0 1 NJ 330
+preplace netloc Op4_1 1 0 1 NJ 350
+preplace netloc BD_FLAG_Res1 1 1 1 NJ 360
+preplace netloc Op9_1 1 0 1 NJ 520
+preplace netloc Op10_1 1 0 1 NJ 540
+preplace netloc Op11_1 1 0 1 NJ 560
+preplace netloc Op12_1 1 0 1 NJ 580
+preplace netloc CAPTURE_READY_Res 1 1 1 NJ 590
+preplace netloc Op13_1 1 0 1 50 140n
+preplace netloc Op14_1 1 0 1 40 160n
+preplace netloc Op15_1 1 0 1 30 180n
+preplace netloc Op16_1 1 0 1 20 200n
+levelinfo -pg 1 0 160 290
+pagesize -pg 1 -db -bbox -sgen -130 0 410 710
+"
+}
+0

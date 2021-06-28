@@ -1,0 +1,100 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port S07_AXIS -pg 1 -lvl 0 -x -20 -y 1100 -defaultsOSRD
+preplace port S06_AXIS -pg 1 -lvl 0 -x -20 -y 1120 -defaultsOSRD
+preplace port S01_AXIS1 -pg 1 -lvl 0 -x -20 -y 390 -defaultsOSRD
+preplace port S00_AXI2 -pg 1 -lvl 0 -x -20 -y 410 -defaultsOSRD
+preplace port S05_AXIS -pg 1 -lvl 0 -x -20 -y 740 -defaultsOSRD
+preplace port S04_AXIS -pg 1 -lvl 0 -x -20 -y 760 -defaultsOSRD
+preplace port S03_AXIS -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace port S02_AXIS -pg 1 -lvl 0 -x -20 -y 80 -defaultsOSRD
+preplace port S00_AXI8 -pg 1 -lvl 0 -x -20 -y 20 -defaultsOSRD
+preplace port S00_AXI17 -pg 1 -lvl 0 -x -20 -y 430 -defaultsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x -20 -y 450 -defaultsOSRD
+preplace port S01_AXI3 -pg 1 -lvl 0 -x -20 -y 40 -defaultsOSRD
+preplace port S00_AXIS -pg 1 -lvl 0 -x -20 -y 470 -defaultsOSRD
+preplace port S00_AXI1 -pg 1 -lvl 0 -x -20 -y 490 -defaultsOSRD
+preplace port S00_AXI3 -pg 1 -lvl 0 -x -20 -y 100 -defaultsOSRD
+preplace port S00_AXI6 -pg 1 -lvl 0 -x -20 -y 780 -defaultsOSRD
+preplace port S00_AXI7 -pg 1 -lvl 0 -x -20 -y 1140 -defaultsOSRD
+preplace port S00_AXI4 -pg 1 -lvl 0 -x -20 -y 1160 -defaultsOSRD
+preplace port S01_AXI1 -pg 1 -lvl 0 -x -20 -y 1180 -defaultsOSRD
+preplace port S00_AXI9 -pg 1 -lvl 0 -x -20 -y 120 -defaultsOSRD
+preplace port S01_AXI2 -pg 1 -lvl 0 -x -20 -y 140 -defaultsOSRD
+preplace port S00_AXI10 -pg 1 -lvl 0 -x -20 -y 800 -defaultsOSRD
+preplace port S01_AXI4 -pg 1 -lvl 0 -x -20 -y 820 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -20 -y 510 -defaultsOSRD
+preplace port aclk -pg 1 -lvl 0 -x -20 -y 1260 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -lvl 0 -x -20 -y 1370 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -lvl 0 -x -20 -y 1390 -defaultsOSRD
+preplace port adc_220_aclk -pg 1 -lvl 0 -x -20 -y 1330 -defaultsOSRD
+preplace port adc_220_aresetn -pg 1 -lvl 0 -x -20 -y 1350 -defaultsOSRD
+preplace port o_INC_BP_0 -pg 1 -lvl 4 -x 2060 -y 410 -defaultsOSRD
+preplace port o_RTN_BP_0 -pg 1 -lvl 4 -x 2060 -y 388 -defaultsOSRD
+preplace portBus adc_clk_soft_aresetn -pg 1 -lvl 0 -x -20 -y 1240 -defaultsOSRD
+preplace portBus Res -pg 1 -lvl 4 -x 2060 -y 870 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -20 -y 1280 -defaultsOSRD
+preplace inst stream_0 -pg 1 -lvl 2 -x 870 -y 674 -defaultsOSRD
+preplace inst stream_1 -pg 1 -lvl 2 -x 870 -y 174 -defaultsOSRD
+preplace inst stream_2 -pg 1 -lvl 2 -x 870 -y 1030 -defaultsOSRD
+preplace inst stream_3 -pg 1 -lvl 2 -x 870 -y 1364 -defaultsOSRD
+preplace inst soft_reset -pg 1 -lvl 1 -x 200 -y 1260 -defaultsOSRD
+preplace inst PD_and_BD_block -pg 1 -lvl 3 -x 1910 -y 618 -defaultsOSRD
+preplace netloc aclk_1 1 0 2 0 1170 530
+preplace netloc s00_axi_aclk_1 1 0 2 NJ 1370 490
+preplace netloc s00_axi_aresetn_1 1 0 2 NJ 1390 500
+preplace netloc adc_220_aclk_1 1 0 2 NJ 1330 430
+preplace netloc adc_220_aresetn_1 1 0 2 NJ 1350 510
+preplace netloc stream_3_PD_FLAG1 1 2 1 1140 608n
+preplace netloc stream_2_PD_FLAG 1 2 1 1100 568n
+preplace netloc soft_reset_dac_reset_soft 1 1 1 400 214n
+preplace netloc adc_clk_soft_aresetn_1 1 0 1 NJ 1240
+preplace netloc Din_1 1 0 1 NJ 1280
+preplace netloc stream_0_PD_FLAG 1 2 1 1040 468n
+preplace netloc stream_0_BD_FLAG_O 1 2 1 1070 488n
+preplace netloc stream_1_PD_FLAG 1 2 1 1150 144n
+preplace netloc stream_1_BD_FLAG_O 1 2 1 1140 164n
+preplace netloc stream_2_BD_FLAG_O 1 2 1 1090 548n
+preplace netloc stream_3_BD_FLAG_O 1 2 1 1130 588n
+preplace netloc PD_and_BD_block_Res 1 1 3 600 464 1030 818 2030
+preplace netloc PD_and_BD_block_Res1 1 1 3 610 474 1020 828 2020
+preplace netloc stream_0_Res 1 2 1 1080 628n
+preplace netloc stream_1_captur_ready 1 2 1 1120 184n
+preplace netloc stream_2_captur_ready 1 2 1 1150 668n
+preplace netloc stream_3_captur_ready 1 2 1 1170 688n
+preplace netloc PD_and_BD_block_Res2 1 3 1 2040 638n
+preplace netloc Op13_1 1 2 1 1070 684n
+preplace netloc Op14_1 1 2 1 1110 204n
+preplace netloc Op15_1 1 2 1 1160 748n
+preplace netloc Op16_1 1 2 1 1180 768n
+preplace netloc stream_0_o_INC_BP_0 1 2 2 1060J 408 2020J
+preplace netloc stream_0_o_RTN_BP_0 1 2 2 1050J 388 NJ
+preplace netloc Conn2 1 0 2 NJ 450 560J
+preplace netloc Conn1 1 0 2 NJ 430 570J
+preplace netloc Conn12 1 0 2 NJ 820 370J
+preplace netloc S07_AXIS_1 1 0 2 NJ 1100 480J
+preplace netloc S00_AXI2_1 1 0 2 NJ 410 580J
+preplace netloc Conn5 1 0 2 NJ 780 410J
+preplace netloc Conn8 1 0 2 NJ 1180 440J
+preplace netloc S05_AXIS_1 1 0 2 NJ 740 380J
+preplace netloc Conn11 1 0 2 NJ 800 390J
+preplace netloc Conn14 1 0 2 NJ 470 550J
+preplace netloc Conn4 1 0 2 NJ 100 610J
+preplace netloc Conn3 1 0 2 NJ 490 540J
+preplace netloc S02_AXIS_1 1 0 2 0J 74 NJ
+preplace netloc Conn13 1 0 2 NJ 510 520J
+preplace netloc Conn10 1 0 2 NJ 140 610J
+preplace netloc S01_AXIS1_1 1 0 2 NJ 390 590J
+preplace netloc S06_AXIS_1 1 0 2 NJ 1120 470J
+preplace netloc S03_AXIS_1 1 0 2 NJ 60 610J
+preplace netloc Conn9 1 0 2 NJ 120 610J
+preplace netloc Conn6 1 0 2 NJ 1140 460J
+preplace netloc Conn7 1 0 2 NJ 1160 450J
+preplace netloc S04_AXIS_1 1 0 2 NJ 760 420J
+levelinfo -pg 1 -20 200 870 1910 2060
+pagesize -pg 1 -db -bbox -sgen -260 -10 2200 1780
+"
+}
+0
