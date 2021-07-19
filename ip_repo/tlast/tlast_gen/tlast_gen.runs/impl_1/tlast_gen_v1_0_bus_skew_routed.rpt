@@ -1,0 +1,16 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date              : Tue Apr  7 18:49:56 2020
+| Host              : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command           : report_bus_skew -warn_on_violation -file tlast_gen_v1_0_bus_skew_routed.rpt -pb tlast_gen_v1_0_bus_skew_routed.pb -rpx tlast_gen_v1_0_bus_skew_routed.rpx
+| Design            : tlast_gen_v1_0
+| Device            : xczu28dr-ffvg1517
+| Speed File        : -2  PRODUCTION 1.25 05-09-2019
+| Temperature Grade : E
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

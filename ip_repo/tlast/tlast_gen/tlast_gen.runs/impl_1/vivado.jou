@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr  7 18:46:48 2020
+# Process ID: 11977
+# Current directory: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/impl_1
+# Command line: vivado -log tlast_gen_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tlast_gen_v1_0.tcl -notrace
+# Log file: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/impl_1/tlast_gen_v1_0.vdi
+# Journal file: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source tlast_gen_v1_0.tcl -notrace

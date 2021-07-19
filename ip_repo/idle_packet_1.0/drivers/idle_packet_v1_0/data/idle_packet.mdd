@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER idle_packet
+	OPTION supported_peripherals = (idle_packet);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = idle_packet;
+END DRIVER

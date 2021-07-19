@@ -1,0 +1,377 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr  7 18:45:44 2020
+# Process ID: 11408
+# Current directory: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/synth_1
+# Command line: vivado -log tlast_gen_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tlast_gen_v1_0.tcl
+# Log file: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/synth_1/tlast_gen_v1_0.vds
+# Journal file: /home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source tlast_gen_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top tlast_gen_v1_0 -part xczu28dr-ffvg1517-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11561 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2368.742 ; gain = 142.715 ; free physical = 93702 ; free virtual = 113041
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0' [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
+	Parameter STAGES bound to: 2 - type: integer 
+	Parameter STARTUP_VALUE bound to: 1'b0 
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (1#1) [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0_S00_AXI.v:232]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0_S00_AXI.v:373]
+INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0_S00_AXI' (2#1) [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0' (3#1) [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen_v1_0.v:4]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2422.492 ; gain = 196.465 ; free physical = 93722 ; free virtual = 113061
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2428.430 ; gain = 202.402 ; free physical = 93718 ; free virtual = 113057
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2428.430 ; gain = 202.402 ; free physical = 93718 ; free virtual = 113057
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2602.055 ; gain = 0.000 ; free physical = 93637 ; free virtual = 112977
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2602.055 ; gain = 0.000 ; free physical = 93637 ; free virtual = 112977
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2602.055 ; gain = 376.027 ; free physical = 93700 ; free virtual = 113039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2602.055 ; gain = 376.027 ; free physical = 93700 ; free virtual = 113039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2602.055 ; gain = 376.027 ; free physical = 93700 ; free virtual = 113039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2602.055 ; gain = 376.027 ; free physical = 93693 ; free virtual = 113033
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 34    
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tlast_gen_v1_0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module tlast_gen_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+Module vt_single_sync 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design tlast_gen_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'tlast_gen_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'tlast_gen_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tlast_gen_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2602.055 ; gain = 376.027 ; free physical = 93680 ; free virtual = 113022
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2891.766 ; gain = 665.738 ; free physical = 93200 ; free virtual = 112542
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2891.766 ; gain = 665.738 ; free physical = 93200 ; free virtual = 112542
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2903.797 ; gain = 677.770 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY8 |    10|
+|3     |LUT1   |    28|
+|4     |LUT2   |     2|
+|5     |LUT3   |     2|
+|6     |LUT4   |    51|
+|7     |LUT5   |     1|
+|8     |LUT6   |    42|
+|9     |FDCE   |    28|
+|10    |FDRE   |   234|
+|11    |FDSE   |     1|
+|12    |IBUF   |    51|
+|13    |OBUF   |    42|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------------+-----------------------+------+
+|      |Instance                                              |Module                 |Cells |
++------+------------------------------------------------------+-----------------------+------+
+|1     |top                                                   |                       |   494|
+|2     |  \sync_control_signal[0].vt_single_sync_100_to_300   |vt_single_sync         |     2|
+|3     |  \sync_control_signal[10].vt_single_sync_100_to_300  |vt_single_sync_0       |     3|
+|4     |  \sync_control_signal[11].vt_single_sync_100_to_300  |vt_single_sync_1       |     3|
+|5     |  \sync_control_signal[12].vt_single_sync_100_to_300  |vt_single_sync_2       |     4|
+|6     |  \sync_control_signal[13].vt_single_sync_100_to_300  |vt_single_sync_3       |     3|
+|7     |  \sync_control_signal[14].vt_single_sync_100_to_300  |vt_single_sync_4       |     3|
+|8     |  \sync_control_signal[15].vt_single_sync_100_to_300  |vt_single_sync_5       |     3|
+|9     |  \sync_control_signal[16].vt_single_sync_100_to_300  |vt_single_sync_6       |     3|
+|10    |  \sync_control_signal[17].vt_single_sync_100_to_300  |vt_single_sync_7       |     3|
+|11    |  \sync_control_signal[18].vt_single_sync_100_to_300  |vt_single_sync_8       |     3|
+|12    |  \sync_control_signal[19].vt_single_sync_100_to_300  |vt_single_sync_9       |     3|
+|13    |  \sync_control_signal[1].vt_single_sync_100_to_300   |vt_single_sync_10      |     2|
+|14    |  \sync_control_signal[20].vt_single_sync_100_to_300  |vt_single_sync_11      |     4|
+|15    |  \sync_control_signal[21].vt_single_sync_100_to_300  |vt_single_sync_12      |     3|
+|16    |  \sync_control_signal[22].vt_single_sync_100_to_300  |vt_single_sync_13      |     3|
+|17    |  \sync_control_signal[23].vt_single_sync_100_to_300  |vt_single_sync_14      |     3|
+|18    |  \sync_control_signal[24].vt_single_sync_100_to_300  |vt_single_sync_15      |     3|
+|19    |  \sync_control_signal[25].vt_single_sync_100_to_300  |vt_single_sync_16      |     3|
+|20    |  \sync_control_signal[26].vt_single_sync_100_to_300  |vt_single_sync_17      |     3|
+|21    |  \sync_control_signal[27].vt_single_sync_100_to_300  |vt_single_sync_18      |     3|
+|22    |  \sync_control_signal[28].vt_single_sync_100_to_300  |vt_single_sync_19      |     4|
+|23    |  \sync_control_signal[29].vt_single_sync_100_to_300  |vt_single_sync_20      |     3|
+|24    |  \sync_control_signal[2].vt_single_sync_100_to_300   |vt_single_sync_21      |     3|
+|25    |  \sync_control_signal[30].vt_single_sync_100_to_300  |vt_single_sync_22      |     4|
+|26    |  \sync_control_signal[31].vt_single_sync_100_to_300  |vt_single_sync_23      |     3|
+|27    |  \sync_control_signal[3].vt_single_sync_100_to_300   |vt_single_sync_24      |     2|
+|28    |  \sync_control_signal[4].vt_single_sync_100_to_300   |vt_single_sync_25      |     5|
+|29    |  \sync_control_signal[5].vt_single_sync_100_to_300   |vt_single_sync_26      |     2|
+|30    |  \sync_control_signal[6].vt_single_sync_100_to_300   |vt_single_sync_27      |     3|
+|31    |  \sync_control_signal[7].vt_single_sync_100_to_300   |vt_single_sync_28      |     3|
+|32    |  \sync_control_signal[8].vt_single_sync_100_to_300   |vt_single_sync_29      |     3|
+|33    |  \sync_control_signal[9].vt_single_sync_100_to_300   |vt_single_sync_30      |     3|
+|34    |  tlast_gen_v1_0_S00_AXI_inst                         |tlast_gen_v1_0_S00_AXI |   227|
++------+------------------------------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.672 ; gain = 691.645 ; free physical = 93197 ; free virtual = 112539
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 2917.672 ; gain = 518.020 ; free physical = 93237 ; free virtual = 112579
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2917.680 ; gain = 691.645 ; free physical = 93237 ; free virtual = 112579
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 63 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2993.312 ; gain = 0.000 ; free physical = 93167 ; free virtual = 112509
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 53 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 51 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:53 . Memory (MB): peak = 2993.312 ; gain = 1567.918 ; free physical = 93264 ; free virtual = 112606
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2993.312 ; gain = 0.000 ; free physical = 93264 ; free virtual = 112606
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/ip_repo/tlast/tlast_gen/tlast_gen.runs/synth_1/tlast_gen_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tlast_gen_v1_0_utilization_synth.rpt -pb tlast_gen_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  7 18:46:46 2020...
