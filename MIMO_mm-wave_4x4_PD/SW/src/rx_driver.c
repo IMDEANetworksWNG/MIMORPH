@@ -69,7 +69,7 @@ int configSiversGPIOrx(convData_t* cmdArrgs){
 	u32 T_HIGH=	cmdArrgs[5].u;
 	u32 enable= cmdArrgs[6].u;
 
-	u32 packet = (L)<<25 | (N)<<15 | (M)<<10 | (P);
+	u32 packet = (L)<<27 | (N)<<17 | (M)<<10 | (P);
 
 	printf("Setting configuration for SIVERS GPIO RX: %d %d %d %d %d %d \n",P, M, N, L,T_INIT,T_HIGH);
 
