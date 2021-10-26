@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xczu28dr-ffvg1517-2-e" LaunchTime="1624634474">
-  <File Type="VDS-TIMINGSUMMARY" Name="design_1_wrapper_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
-  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="design_1_wrapper_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
@@ -61,46 +58,46 @@
   <Strategy Version="1" Minor="2">
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design">
-      <Option Id="FlattenHierarchy">1</Option>
       <Option Id="KeepEquivalentRegisters">1</Option>
+      <Option Id="FlattenHierarchy">1</Option>
     </Step>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_SIVERS_gpio_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_8"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_6"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_4"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_2_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_combiner_0_6"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_9"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_combiner_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_data_fifo_2_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_counter_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_counter_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_register_slice_0_14"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_usp_rf_data_converter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ddr4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_packet_counter_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_data_fifo_2_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_counter_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_SIVERS_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ddr_writer_0_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_10"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_combiner_0_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_combiner_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_counter_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_packet_detector_SSR1_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_4"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_10"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_ddr_writer_0_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_8"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_ddr4_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_6"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_ila_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_tlast_gen_v1_0_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_broadcaster_0_5"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_usp_rf_data_converter_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_register_slice_0_14"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_axis_dwidth_converter_0_11"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_idle_packet_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_zynq_ultra_ps_e_0_0"/>
 </GenRun>

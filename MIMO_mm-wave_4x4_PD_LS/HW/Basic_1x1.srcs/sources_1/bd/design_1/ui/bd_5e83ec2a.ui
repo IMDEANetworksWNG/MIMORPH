@@ -1,0 +1,51 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace portBus Op1 -pg 1 -lvl 0 -x -10 -y 20 -defaultsOSRD
+preplace portBus SPI_SCLK0 -pg 1 -lvl 3 -x 910 -y 70 -defaultsOSRD
+preplace portBus SPI_SCLK1 -pg 1 -lvl 3 -x 910 -y 190 -defaultsOSRD
+preplace portBus Op2 -pg 1 -lvl 0 -x -10 -y 80 -defaultsOSRD
+preplace portBus Op3 -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace portBus SPI_SCLK2 -pg 1 -lvl 3 -x 910 -y 310 -defaultsOSRD
+preplace portBus SPI_SCLK3 -pg 1 -lvl 3 -x 910 -y 430 -defaultsOSRD
+preplace portBus Op4 -pg 1 -lvl 0 -x -10 -y 320 -defaultsOSRD
+preplace portBus Op5 -pg 1 -lvl 0 -x -10 -y 440 -defaultsOSRD
+preplace portBus Op6 -pg 1 -lvl 0 -x -10 -y 260 -defaultsOSRD
+preplace portBus Op7 -pg 1 -lvl 0 -x -10 -y 280 -defaultsOSRD
+preplace portBus SPI_MO0 -pg 1 -lvl 3 -x 910 -y 370 -defaultsOSRD
+preplace portBus SPI_MO1 -pg 1 -lvl 3 -x 910 -y 450 -defaultsOSRD
+preplace portBus Op8 -pg 1 -lvl 0 -x -10 -y 380 -defaultsOSRD
+preplace portBus SPI_MO2 -pg 1 -lvl 3 -x 910 -y 390 -defaultsOSRD
+preplace portBus SPI_MO3 -pg 1 -lvl 3 -x 910 -y 410 -defaultsOSRD
+preplace inst ss2 -pg 1 -lvl 1 -x 170 -y 320 -defaultsOSRD
+preplace inst ss3 -pg 1 -lvl 1 -x 170 -y 440 -defaultsOSRD
+preplace inst ss1 -pg 1 -lvl 1 -x 170 -y 200 -defaultsOSRD
+preplace inst ss0 -pg 1 -lvl 1 -x 170 -y 80 -defaultsOSRD
+preplace inst clk -pg 1 -lvl 2 -x 750 -y 160 -defaultsOSRD
+preplace inst data -pg 1 -lvl 2 -x 750 -y 400 -defaultsOSRD
+preplace netloc Op1_1 1 0 2 NJ 20 370
+preplace netloc util_vector_logic_0_Res 1 2 1 890J 70n
+preplace netloc util_vector_logic_1_Res 1 2 1 NJ 190
+preplace netloc Op2_1 1 0 1 NJ 80
+preplace netloc util_vector_logic_7_Res 1 1 1 360J 80n
+preplace netloc Op3_1 1 0 1 NJ 200
+preplace netloc util_vector_logic_6_Res 1 1 1 330J 200n
+preplace netloc util_vector_logic_2_Res 1 2 1 890J 150n
+preplace netloc util_vector_logic_3_Res 1 2 1 880J 170n
+preplace netloc Op4_1 1 0 1 NJ 320
+preplace netloc Op5_1 1 0 1 NJ 440
+preplace netloc util_vector_logic_4_Res 1 1 1 370J 170n
+preplace netloc util_vector_logic_5_Res 1 1 1 350J 190n
+preplace netloc Op6_1 1 0 2 10J 140 370
+preplace netloc Op1_2 1 0 2 20J 260 340J
+preplace netloc data_SPI_SCLK0 1 2 1 N 370
+preplace netloc data_SPI_SCLK1 1 2 1 870 430n
+preplace netloc Op6_2 1 0 2 NJ 380 320J
+preplace netloc data_SPI_SCLK2 1 2 1 N 390
+preplace netloc data_SPI_SCLK3 1 2 1 N 410
+levelinfo -pg 1 -10 170 750 910
+pagesize -pg 1 -db -bbox -sgen -130 0 1070 500
+"
+}
+

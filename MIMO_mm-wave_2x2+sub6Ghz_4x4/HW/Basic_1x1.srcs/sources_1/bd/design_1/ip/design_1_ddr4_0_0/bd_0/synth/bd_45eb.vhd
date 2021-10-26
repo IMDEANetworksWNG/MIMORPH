@@ -378,27 +378,27 @@ architecture STRUCTURE of bd_45eb is
   signal dlmb_port_EN : STD_LOGIC;
   signal dlmb_port_RST : STD_LOGIC;
   signal dlmb_port_WE : STD_LOGIC_VECTOR ( 0 to 3 );
-  signal dlmb_sl_0_ABUS : STD_LOGIC_VECTOR ( 0 to 31 );
-  signal dlmb_sl_0_ADDRSTROBE : STD_LOGIC;
-  signal dlmb_sl_0_BE : STD_LOGIC_VECTOR ( 0 to 3 );
   signal dlmb_sl_0_CE : STD_LOGIC;
   signal dlmb_sl_0_READDBUS : STD_LOGIC_VECTOR ( 0 to 31 );
-  signal dlmb_sl_0_READSTROBE : STD_LOGIC;
   signal dlmb_sl_0_READY : STD_LOGIC;
   signal dlmb_sl_0_UE : STD_LOGIC;
   signal dlmb_sl_0_WAIT : STD_LOGIC;
-  signal dlmb_sl_0_WRITEDBUS : STD_LOGIC_VECTOR ( 0 to 31 );
-  signal dlmb_sl_0_WRITESTROBE : STD_LOGIC;
   signal dlmb_sl_1_CE : STD_LOGIC;
   signal dlmb_sl_1_READDBUS : STD_LOGIC_VECTOR ( 0 to 31 );
   signal dlmb_sl_1_READY : STD_LOGIC;
   signal dlmb_sl_1_UE : STD_LOGIC;
   signal dlmb_sl_1_WAIT : STD_LOGIC;
+  signal dlmb_sl_2_ABUS : STD_LOGIC_VECTOR ( 0 to 31 );
+  signal dlmb_sl_2_ADDRSTROBE : STD_LOGIC;
+  signal dlmb_sl_2_BE : STD_LOGIC_VECTOR ( 0 to 3 );
   signal dlmb_sl_2_CE : STD_LOGIC;
   signal dlmb_sl_2_READDBUS : STD_LOGIC_VECTOR ( 0 to 31 );
+  signal dlmb_sl_2_READSTROBE : STD_LOGIC;
   signal dlmb_sl_2_READY : STD_LOGIC;
   signal dlmb_sl_2_UE : STD_LOGIC;
   signal dlmb_sl_2_WAIT : STD_LOGIC;
+  signal dlmb_sl_2_WRITEDBUS : STD_LOGIC_VECTOR ( 0 to 31 );
+  signal dlmb_sl_2_WRITESTROBE : STD_LOGIC;
   signal ilmb_ABUS : STD_LOGIC_VECTOR ( 0 to 31 );
   signal ilmb_ADDRSTROBE : STD_LOGIC;
   signal ilmb_CE : STD_LOGIC;
@@ -484,15 +484,15 @@ architecture STRUCTURE of bd_45eb is
   signal NLW_rst_0_peripheral_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_second_lmb_bram_I_rsta_busy_UNCONNECTED : STD_LOGIC;
   signal NLW_second_lmb_bram_I_rstb_busy_UNCONNECTED : STD_LOGIC;
+  attribute BMM_INFO_ADDRESS_SPACE : string;
+  attribute BMM_INFO_ADDRESS_SPACE of dlmb_cntlr : label is "byte  0x00000000 32 >  bd_45eb lmb_bram_I bd_45eb second_lmb_bram_I";
   attribute KEEP_HIERARCHY : string;
   attribute KEEP_HIERARCHY of dlmb_cntlr : label is "yes";
-  attribute bmm_info_address_space : string;
-  attribute bmm_info_address_space of dlmb_cntlr : label is "byte  0x00000000 32 >  bd_45eb lmb_bram_I bd_45eb second_lmb_bram_I";
+  attribute BMM_INFO_PROCESSOR : string;
+  attribute BMM_INFO_PROCESSOR of microblaze_I : label is "microblaze-le > bd_45eb dlmb_cntlr";
   attribute KEEP_HIERARCHY of microblaze_I : label is "yes";
-  attribute bmm_info_processor : string;
-  attribute bmm_info_processor of microblaze_I : label is "microblaze-le > bd_45eb dlmb_cntlr";
-  attribute bmm_info_address_range : string;
-  attribute bmm_info_address_range of second_dlmb_cntlr : label is " ";
+  attribute BMM_INFO_ADDRESS_RANGE : string;
+  attribute BMM_INFO_ADDRESS_RANGE of second_dlmb_cntlr : label is " ";
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of Clk : signal is "xilinx.com:signal:clock:1.0 CLK.CLK CLK";
   attribute X_INTERFACE_PARAMETER : string;
@@ -579,19 +579,19 @@ begin
   iomodule_0_IO_READ_DATA(31 downto 0) <= IO_read_data(31 downto 0);
 dlmb: component bd_45eb_dlmb_0
      port map (
-      LMB_ABus(0 to 31) => dlmb_sl_0_ABUS(0 to 31),
-      LMB_AddrStrobe => dlmb_sl_0_ADDRSTROBE,
-      LMB_BE(0 to 3) => dlmb_sl_0_BE(0 to 3),
+      LMB_ABus(0 to 31) => dlmb_sl_2_ABUS(0 to 31),
+      LMB_AddrStrobe => dlmb_sl_2_ADDRSTROBE,
+      LMB_BE(0 to 3) => dlmb_sl_2_BE(0 to 3),
       LMB_CE => dlmb_CE,
       LMB_Clk => Clk2,
       LMB_ReadDBus(0 to 31) => dlmb_READDBUS(0 to 31),
-      LMB_ReadStrobe => dlmb_sl_0_READSTROBE,
+      LMB_ReadStrobe => dlmb_sl_2_READSTROBE,
       LMB_Ready => dlmb_READY,
       LMB_Rst => NLW_dlmb_LMB_Rst_UNCONNECTED,
       LMB_UE => dlmb_UE,
       LMB_Wait => dlmb_WAIT,
-      LMB_WriteDBus(0 to 31) => dlmb_sl_0_WRITEDBUS(0 to 31),
-      LMB_WriteStrobe => dlmb_sl_0_WRITESTROBE,
+      LMB_WriteDBus(0 to 31) => dlmb_sl_2_WRITEDBUS(0 to 31),
+      LMB_WriteStrobe => dlmb_sl_2_WRITESTROBE,
       M_ABus(0 to 31) => dlmb_ABUS(0 to 31),
       M_AddrStrobe => dlmb_ADDRSTROBE,
       M_BE(0 to 3) => dlmb_BE(0 to 3),
@@ -655,14 +655,14 @@ dlmb_cntlr: component bd_45eb_dlmb_cntlr_0
       BRAM_EN_A => dlmb_port_EN,
       BRAM_Rst_A => dlmb_port_RST,
       BRAM_WEN_A(0 to 3) => dlmb_port_WE(0 to 3),
-      LMB_ABus(0 to 31) => dlmb_sl_0_ABUS(0 to 31),
-      LMB_AddrStrobe => dlmb_sl_0_ADDRSTROBE,
-      LMB_BE(0 to 3) => dlmb_sl_0_BE(0 to 3),
+      LMB_ABus(0 to 31) => dlmb_sl_2_ABUS(0 to 31),
+      LMB_AddrStrobe => dlmb_sl_2_ADDRSTROBE,
+      LMB_BE(0 to 3) => dlmb_sl_2_BE(0 to 3),
       LMB_Clk => Clk2,
-      LMB_ReadStrobe => dlmb_sl_0_READSTROBE,
+      LMB_ReadStrobe => dlmb_sl_2_READSTROBE,
       LMB_Rst => LMB_Rst2(0),
-      LMB_WriteDBus(0 to 31) => dlmb_sl_0_WRITEDBUS(0 to 31),
-      LMB_WriteStrobe => dlmb_sl_0_WRITESTROBE,
+      LMB_WriteDBus(0 to 31) => dlmb_sl_2_WRITEDBUS(0 to 31),
+      LMB_WriteStrobe => dlmb_sl_2_WRITESTROBE,
       Sl_CE => dlmb_sl_0_CE,
       Sl_DBus(0 to 31) => dlmb_sl_0_READDBUS(0 to 31),
       Sl_Ready => dlmb_sl_0_READY,
@@ -767,12 +767,12 @@ iomodule_0: component bd_45eb_iomodule_0_0
       IO_Ready => iomodule_0_IO_READY,
       IO_Write_Data(31 downto 0) => iomodule_0_IO_WRITE_DATA(31 downto 0),
       IO_Write_Strobe => iomodule_0_IO_WRITE_STROBE,
-      LMB_ABus(0 to 31) => dlmb_sl_0_ABUS(0 to 31),
-      LMB_AddrStrobe => dlmb_sl_0_ADDRSTROBE,
-      LMB_BE(0 to 3) => dlmb_sl_0_BE(0 to 3),
-      LMB_ReadStrobe => dlmb_sl_0_READSTROBE,
-      LMB_WriteDBus(0 to 31) => dlmb_sl_0_WRITEDBUS(0 to 31),
-      LMB_WriteStrobe => dlmb_sl_0_WRITESTROBE,
+      LMB_ABus(0 to 31) => dlmb_sl_2_ABUS(0 to 31),
+      LMB_AddrStrobe => dlmb_sl_2_ADDRSTROBE,
+      LMB_BE(0 to 3) => dlmb_sl_2_BE(0 to 3),
+      LMB_ReadStrobe => dlmb_sl_2_READSTROBE,
+      LMB_WriteDBus(0 to 31) => dlmb_sl_2_WRITEDBUS(0 to 31),
+      LMB_WriteStrobe => dlmb_sl_2_WRITESTROBE,
       Rst => IO_Rst(0),
       Sl_CE => dlmb_sl_1_CE,
       Sl_DBus(0 to 31) => dlmb_sl_1_READDBUS(0 to 31),
@@ -1039,14 +1039,14 @@ second_dlmb_cntlr: component bd_45eb_second_dlmb_cntlr_0
       BRAM_EN_A => dlmb_port_2_EN,
       BRAM_Rst_A => dlmb_port_2_RST,
       BRAM_WEN_A(0 to 3) => dlmb_port_2_WE(0 to 3),
-      LMB_ABus(0 to 31) => dlmb_sl_0_ABUS(0 to 31),
-      LMB_AddrStrobe => dlmb_sl_0_ADDRSTROBE,
-      LMB_BE(0 to 3) => dlmb_sl_0_BE(0 to 3),
+      LMB_ABus(0 to 31) => dlmb_sl_2_ABUS(0 to 31),
+      LMB_AddrStrobe => dlmb_sl_2_ADDRSTROBE,
+      LMB_BE(0 to 3) => dlmb_sl_2_BE(0 to 3),
       LMB_Clk => Clk2,
-      LMB_ReadStrobe => dlmb_sl_0_READSTROBE,
+      LMB_ReadStrobe => dlmb_sl_2_READSTROBE,
       LMB_Rst => LMB_Rst2(0),
-      LMB_WriteDBus(0 to 31) => dlmb_sl_0_WRITEDBUS(0 to 31),
-      LMB_WriteStrobe => dlmb_sl_0_WRITESTROBE,
+      LMB_WriteDBus(0 to 31) => dlmb_sl_2_WRITEDBUS(0 to 31),
+      LMB_WriteStrobe => dlmb_sl_2_WRITESTROBE,
       Sl_CE => dlmb_sl_2_CE,
       Sl_DBus(0 to 31) => dlmb_sl_2_READDBUS(0 to 31),
       Sl_Ready => dlmb_sl_2_READY,

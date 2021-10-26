@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Wed Jul 22 12:55:30 2020
+// Date        : Fri Oct 22 14:46:52 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 // Command     : write_verilog -force -mode funcsim -rename_top design_1_packet_counter_0_1 -prefix
 //               design_1_packet_counter_0_1_ design_1_packet_counter_0_2_sim_netlist.v

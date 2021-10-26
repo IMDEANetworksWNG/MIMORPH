@@ -2,15 +2,19 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Apr 14 16:44:31 2020
-# Process ID: 11608
-# Current directory: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1
+# Start of session at: Fri Oct 22 16:46:32 2021
+# Process ID: 29028
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1
 # Command line: vivado -log design_1_tlast_gen_v1_0_0_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_tlast_gen_v1_0_0_5.tcl
-# Log file: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.vds
-# Journal file: /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/vivado.jou
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_tlast_gen_v1_0_0_5.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
@@ -24,15 +28,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/MTS_8x8/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_tlast_gen_v1_0_0_5 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -41,31 +38,31 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 11735 
+INFO: Helper process launched with PID 30299 
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2370.582 ; gain = 142.684 ; free physical = 112509 ; free virtual = 119775
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2370.227 ; gain = 142.715 ; free physical = 12756 ; free virtual = 64602
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_tlast_gen_v1_0_0_5' [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/synth/design_1_tlast_gen_v1_0_0_5.v:57]
-INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0' [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'design_1_tlast_gen_v1_0_0_5' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/synth/design_1_tlast_gen_v1_0_0_5.v:57]
+INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0.v:4]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (1#1) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
-INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen/tlast_gen.srcs/sources_1/imports/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-6157] synthesizing module 'tlast_gen_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:4]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter ADDR_LSB bound to: 2 - type: integer 
 	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:232]
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:373]
-INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0_S00_AXI' (2#1) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:4]
-INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0' (3#1) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0.v:4]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_tlast_gen_v1_0_0_5' (4#1) [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/synth/design_1_tlast_gen_v1_0_0_5.v:57]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:232]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:373]
+INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0_S00_AXI' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tlast_gen_v1_0' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/e885/tlast_gen_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_tlast_gen_v1_0_0_5' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/synth/design_1_tlast_gen_v1_0_0_5.v:57]
 WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
 WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
 WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
@@ -73,7 +70,7 @@ WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI
 WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
 WARNING: [Synth 8-3331] design tlast_gen_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2427.301 ; gain = 199.402 ; free physical = 112525 ; free virtual = 119791
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2426.945 ; gain = 199.434 ; free physical = 12528 ; free virtual = 64375
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -86,29 +83,29 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2433.238 ; gain = 205.340 ; free physical = 112521 ; free virtual = 119788
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2432.883 ; gain = 205.371 ; free physical = 12546 ; free virtual = 64393
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2433.238 ; gain = 205.340 ; free physical = 112521 ; free virtual = 119788
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2432.883 ; gain = 205.371 ; free physical = 12546 ; free virtual = 64393
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc] for cell 'inst'
-Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_tlast_gen_v1_0_0_5/tlast_gen/tlast_gen.srcs/constrs_1/new/constraints.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2604.895 ; gain = 0.000 ; free physical = 112423 ; free virtual = 119689
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2604.539 ; gain = 0.000 ; free physical = 12189 ; free virtual = 64041
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2604.895 ; gain = 0.000 ; free physical = 112422 ; free virtual = 119688
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2604.539 ; gain = 0.000 ; free physical = 12195 ; free virtual = 64047
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2604.895 ; gain = 376.996 ; free physical = 112485 ; free virtual = 119751
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.539 ; gain = 377.027 ; free physical = 11891 ; free virtual = 63748
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -116,17 +113,17 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2604.895 ; gain = 376.996 ; free physical = 112485 ; free virtual = 119751
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.539 ; gain = 377.027 ; free physical = 11890 ; free virtual = 63748
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2604.895 ; gain = 376.996 ; free physical = 112485 ; free virtual = 119751
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.539 ; gain = 377.027 ; free physical = 11886 ; free virtual = 63744
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2604.895 ; gain = 376.996 ; free physical = 112478 ; free virtual = 119745
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.539 ; gain = 377.027 ; free physical = 11893 ; free virtual = 63752
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,7 +203,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\tla
 INFO: [Synth 8-3886] merging instance 'inst/tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\tlast_gen_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 2604.895 ; gain = 376.996 ; free physical = 112465 ; free virtual = 119734
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2604.539 ; gain = 377.027 ; free physical = 11727 ; free virtual = 63590
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -218,13 +215,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2893.637 ; gain = 665.738 ; free physical = 111882 ; free virtual = 119159
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:57 . Memory (MB): peak = 2893.312 ; gain = 665.801 ; free physical = 17368 ; free virtual = 69233
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2894.637 ; gain = 666.738 ; free physical = 111882 ; free virtual = 119159
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:57 . Memory (MB): peak = 2894.312 ; gain = 666.801 ; free physical = 17362 ; free virtual = 69227
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -236,7 +233,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:39 . Memory (MB): peak = 2905.660 ; gain = 677.762 ; free physical = 111878 ; free virtual = 119154
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:57 . Memory (MB): peak = 2905.336 ; gain = 677.824 ; free physical = 17339 ; free virtual = 69205
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -260,7 +257,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111836 ; free virtual = 119113
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17373 ; free virtual = 69240
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -273,7 +270,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111836 ; free virtual = 119113
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17376 ; free virtual = 69243
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -285,25 +282,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111835 ; free virtual = 119112
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17375 ; free virtual = 69241
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111835 ; free virtual = 119112
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17375 ; free virtual = 69241
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111835 ; free virtual = 119112
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17370 ; free virtual = 69237
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111835 ; free virtual = 119112
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17370 ; free virtual = 69237
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -372,34 +369,34 @@ Report Instance Areas:
 |35    |    tlast_gen_v1_0_S00_AXI_inst                         |tlast_gen_v1_0_S00_AXI |   227|
 +------+--------------------------------------------------------+-----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.535 ; gain = 691.637 ; free physical = 111835 ; free virtual = 119112
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.211 ; gain = 692.699 ; free physical = 17370 ; free virtual = 69236
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 2919.535 ; gain = 519.980 ; free physical = 111874 ; free virtual = 119151
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2919.543 ; gain = 691.637 ; free physical = 111874 ; free virtual = 119151
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.211 ; gain = 521.043 ; free physical = 17399 ; free virtual = 69266
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2920.219 ; gain = 692.699 ; free physical = 17399 ; free virtual = 69266
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2994.176 ; gain = 0.000 ; free physical = 111782 ; free virtual = 119060
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2993.883 ; gain = 0.000 ; free physical = 17440 ; free virtual = 69306
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-38 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+33 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:54 . Memory (MB): peak = 2994.176 ; gain = 1541.941 ; free physical = 111877 ; free virtual = 119155
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2994.176 ; gain = 0.000 ; free physical = 111877 ; free virtual = 119155
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:01:19 . Memory (MB): peak = 2993.883 ; gain = 1560.941 ; free physical = 17523 ; free virtual = 69390
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2993.883 ; gain = 0.000 ; free physical = 17518 ; free virtual = 69385
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_tlast_gen_v1_0_0_5, cache-ID = f015afee291dcb5a
 INFO: [Coretcl 2-1174] Renamed 34 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3018.188 ; gain = 0.000 ; free physical = 111856 ; free virtual = 119134
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3017.895 ; gain = 0.000 ; free physical = 17708 ; free virtual = 69575
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_5_synth_1/design_1_tlast_gen_v1_0_0_5.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_tlast_gen_v1_0_0_5_utilization_synth.rpt -pb design_1_tlast_gen_v1_0_0_5_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 16:45:36 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:48:08 2021...

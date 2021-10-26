@@ -2,16 +2,19 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Jun 25 15:32:15 2021
-# Process ID: 17075
-# Current directory: /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1
+# Start of session at: Fri Oct 22 16:54:18 2021
+# Process ID: 13078
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1
 # Command line: vivado -log design_1_SIVERS_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_SIVERS_gpio_0_0.tcl
-# Log file: /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.vds
-# Journal file: /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/vivado.jou
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_SIVERS_gpio_0_0.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
@@ -25,16 +28,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/tlast'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_SIVERS_gpio_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -43,232 +38,232 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17160 
+INFO: Helper process launched with PID 14076 
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2385.844 ; gain = 142.715 ; free physical = 40888 ; free virtual = 105423
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2383.219 ; gain = 142.715 ; free physical = 12573 ; free virtual = 64930
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_SIVERS_gpio_0_0' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'design_1_SIVERS_gpio_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:88]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'SIVERS_gpio_v1_0' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:5' bound to instance 'U0' of component 'SIVERS_gpio_v1_0' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:162]
-INFO: [Synth 8-638] synthesizing module 'SIVERS_gpio_v1_0' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:52]
+INFO: [Synth 8-3491] module 'SIVERS_gpio_v1_0' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:5' bound to instance 'U0' of component 'SIVERS_gpio_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'SIVERS_gpio_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:52]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'SIVERS_gpio_v1_0_S00_AXI' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:5' bound to instance 'SIVERS_gpio_v1_0_S00_AXI_inst' of component 'SIVERS_gpio_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:133]
-INFO: [Synth 8-638] synthesizing module 'SIVERS_gpio_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:87]
+INFO: [Synth 8-3491] module 'SIVERS_gpio_v1_0_S00_AXI' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:5' bound to instance 'SIVERS_gpio_v1_0_S00_AXI_inst' of component 'SIVERS_gpio_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'SIVERS_gpio_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:87]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:225]
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:355]
-WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:223]
-INFO: [Synth 8-256] done synthesizing module 'SIVERS_gpio_v1_0_S00_AXI' (1#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:87]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:225]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:355]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:223]
+INFO: [Synth 8-256] done synthesizing module 'SIVERS_gpio_v1_0_S00_AXI' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd:87]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
-INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:26]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (2#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:26]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:167]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
-INFO: [Synth 8-3491] module 'SIVERS_GPIO_CHANGE_v2' declared at '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:30' bound to instance 'SIVERS_GPIO_CHANGE_v2_inst' of component 'SIVERS_GPIO_CHANGE_v2' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:194]
-INFO: [Synth 8-638] synthesizing module 'SIVERS_GPIO_CHANGE_v2' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:46]
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:102]
-INFO: [Synth 8-256] done synthesizing module 'SIVERS_GPIO_CHANGE_v2' (3#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'SIVERS_gpio_v1_0' (4#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:52]
-INFO: [Synth 8-256] done synthesizing module 'design_1_SIVERS_gpio_0_0' (5#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:88]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:181]
+INFO: [Synth 8-3491] module 'SIVERS_GPIO_CHANGE_v2' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:30' bound to instance 'SIVERS_GPIO_CHANGE_v2_inst' of component 'SIVERS_GPIO_CHANGE_v2' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'SIVERS_GPIO_CHANGE_v2' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:46]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'SIVERS_GPIO_CHANGE_v2' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'SIVERS_gpio_v1_0' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'design_1_SIVERS_gpio_0_0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/synth/design_1_SIVERS_gpio_0_0.vhd:88]
 WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
 WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
 WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
@@ -276,7 +271,7 @@ WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_A
 WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
 WARNING: [Synth 8-3331] design SIVERS_gpio_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2443.562 ; gain = 200.434 ; free physical = 40908 ; free virtual = 105446
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2440.938 ; gain = 200.434 ; free physical = 13777 ; free virtual = 66131
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -289,29 +284,29 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2449.500 ; gain = 206.371 ; free physical = 40907 ; free virtual = 105445
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2446.875 ; gain = 206.371 ; free physical = 13601 ; free virtual = 65954
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2449.500 ; gain = 206.371 ; free physical = 40907 ; free virtual = 105445
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2446.875 ; gain = 206.371 ; free physical = 13600 ; free virtual = 65954
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/src/constraints.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/src/constraints.xdc] for cell 'U0'
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/src/constraints.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/src/constraints.xdc] for cell 'U0'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2629.125 ; gain = 0.000 ; free physical = 40805 ; free virtual = 105352
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2625.531 ; gain = 0.000 ; free physical = 12520 ; free virtual = 64880
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2629.125 ; gain = 0.000 ; free physical = 40805 ; free virtual = 105351
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2625.531 ; gain = 0.000 ; free physical = 12510 ; free virtual = 64870
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2629.125 ; gain = 385.996 ; free physical = 40867 ; free virtual = 105415
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.531 ; gain = 385.027 ; free physical = 13170 ; free virtual = 65523
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -319,14 +314,14 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2629.125 ; gain = 385.996 ; free physical = 40868 ; free virtual = 105415
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.531 ; gain = 385.027 ; free physical = 13170 ; free virtual = 65523
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2629.125 ; gain = 385.996 ; free physical = 40867 ; free virtual = 105415
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.531 ; gain = 385.027 ; free physical = 13176 ; free virtual = 65529
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'SIVERS_GPIO_CHANGE_v2'
 ---------------------------------------------------------------------------------------------------
@@ -339,7 +334,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'SIVER
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'SIVERS_GPIO_CHANGE_v2'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2629.125 ; gain = 385.996 ; free physical = 40861 ; free virtual = 105409
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.531 ; gain = 385.027 ; free physical = 13079 ; free virtual = 65432
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -435,7 +430,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\SIVER
 INFO: [Synth 8-3886] merging instance 'U0/SIVERS_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/SIVERS_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\SIVERS_gpio_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2629.125 ; gain = 385.996 ; free physical = 40839 ; free virtual = 105392
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2625.531 ; gain = 385.027 ; free physical = 12568 ; free virtual = 64919
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -447,13 +442,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2910.867 ; gain = 667.738 ; free physical = 40340 ; free virtual = 104917
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 2909.273 ; gain = 668.770 ; free physical = 14686 ; free virtual = 67027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2911.867 ; gain = 668.738 ; free physical = 40339 ; free virtual = 104916
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:51 . Memory (MB): peak = 2910.273 ; gain = 669.770 ; free physical = 14740 ; free virtual = 67081
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -465,7 +460,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2932.906 ; gain = 689.777 ; free physical = 40335 ; free virtual = 104913
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:52 . Memory (MB): peak = 2931.312 ; gain = 690.809 ; free physical = 14688 ; free virtual = 67029
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -489,7 +484,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40334 ; free virtual = 104912
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16263 ; free virtual = 68602
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -502,7 +497,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40335 ; free virtual = 104912
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16263 ; free virtual = 68601
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -514,25 +509,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40335 ; free virtual = 104912
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16255 ; free virtual = 68594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40335 ; free virtual = 104912
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16255 ; free virtual = 68594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40334 ; free virtual = 104912
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16253 ; free virtual = 68591
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40334 ; free virtual = 104912
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16260 ; free virtual = 68599
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -648,34 +643,34 @@ Report Instance Areas:
 |68    |    \SYNC_100_TO_220_BLOCK_2[9].vt_single_sync_inst_X   |vt_single_sync_62        |     2|
 +------+--------------------------------------------------------+-------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.844 ; gain = 695.715 ; free physical = 40334 ; free virtual = 104912
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.250 ; gain = 696.746 ; free physical = 16259 ; free virtual = 68598
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2938.844 ; gain = 516.090 ; free physical = 40375 ; free virtual = 104952
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2938.852 ; gain = 695.715 ; free physical = 40375 ; free virtual = 104952
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2937.250 ; gain = 518.090 ; free physical = 16284 ; free virtual = 68623
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2937.258 ; gain = 696.746 ; free physical = 16288 ; free virtual = 68627
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3014.547 ; gain = 0.000 ; free physical = 40306 ; free virtual = 104884
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3012.891 ; gain = 0.000 ; free physical = 16092 ; free virtual = 68430
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-105 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+105 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:57 . Memory (MB): peak = 3014.547 ; gain = 1573.020 ; free physical = 40404 ; free virtual = 104982
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3014.547 ; gain = 0.000 ; free physical = 40404 ; free virtual = 104982
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:01:13 . Memory (MB): peak = 3012.891 ; gain = 1564.051 ; free physical = 16184 ; free virtual = 68523
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3012.891 ; gain = 0.000 ; free physical = 16184 ; free virtual = 68523
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_SIVERS_gpio_0_0, cache-ID = 00bbe622f1c21cb7
 INFO: [Coretcl 2-1174] Renamed 67 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3038.559 ; gain = 0.000 ; free physical = 40386 ; free virtual = 104966
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3036.902 ; gain = 0.000 ; free physical = 16061 ; free virtual = 68401
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1/design_1_SIVERS_gpio_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_SIVERS_gpio_0_0_utilization_synth.rpt -pb design_1_SIVERS_gpio_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 15:33:24 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:55:50 2021...

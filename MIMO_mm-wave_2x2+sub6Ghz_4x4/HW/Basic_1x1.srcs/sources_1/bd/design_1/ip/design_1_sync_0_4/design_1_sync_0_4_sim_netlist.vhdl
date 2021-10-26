@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Thu Nov 28 16:13:26 2019
+-- Date        : Fri Oct 22 16:47:46 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_sync_0_4 -prefix
---               design_1_sync_0_4_ design_1_sync_0_4_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sync_0_4/design_1_sync_0_4_sim_netlist.vhdl
 -- Design      : design_1_sync_0_4
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -25,6 +25,8 @@ entity design_1_sync_0_4_xpm_cdc_single is
   attribute DEST_SYNC_FF of design_1_sync_0_4_xpm_cdc_single : entity is 2;
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of design_1_sync_0_4_xpm_cdc_single : entity is 0;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_sync_0_4_xpm_cdc_single : entity is "xpm_cdc_single";
   attribute SIM_ASSERT_CHK : integer;
   attribute SIM_ASSERT_CHK of design_1_sync_0_4_xpm_cdc_single : entity is 0;
   attribute SRC_INPUT_REG : integer;
@@ -82,6 +84,8 @@ entity design_1_sync_0_4_sync is
     src_in : in STD_LOGIC;
     dest_clk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_sync_0_4_sync : entity is "sync";
 end design_1_sync_0_4_sync;
 
 architecture STRUCTURE of design_1_sync_0_4_sync is

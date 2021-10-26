@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Apr 17 16:45:07 2020" VIVADOVERSION="2019.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 22 16:42:49 2021" VIVADOVERSION="2019.1">
 
   <SYSTEMINFO ARCH="zynquplusRFSOC" BOARD="xilinx.com:zcu111:part0:1.2" DEVICE="xczu28dr" NAME="bd_45eb" PACKAGE="ffvg1517" SPEEDGRADE="-2"/>
 
@@ -20,6 +20,46 @@
     <PORT DIR="I" NAME="Reset" SIGIS="rst" SIGNAME="External_Ports_Reset">
       <CONNECTIONS>
         <CONNECTION INSTANCE="rst_0" PORT="ext_reset_in"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IO_addr_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Addr_Strobe">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Addr_Strobe"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="IO_address" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Address">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Address"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="IO_byte_enable" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Byte_Enable">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Byte_Enable"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="IO_read_data" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Read_Data">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Read_Data"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IO_read_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Read_Strobe">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Read_Strobe"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="IO_ready" SIGIS="undef" SIGNAME="iomodule_0_IO_Ready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Ready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="IO_write_data" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Write_Data">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Write_Data"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="IO_write_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Write_Strobe">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Write_Strobe"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="O" NAME="TRACE_data_access" SIGIS="undef" SIGNAME="microblaze_I_Trace_Data_Access">
@@ -170,46 +210,6 @@
     <PORT DIR="O" NAME="TRACE_valid_instr" SIGIS="undef" SIGNAME="microblaze_I_Trace_Valid_Instr">
       <CONNECTIONS>
         <CONNECTION INSTANCE="microblaze_I" PORT="Trace_Valid_Instr"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IO_addr_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Addr_Strobe">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Addr_Strobe"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="31" NAME="IO_address" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Address">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Address"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="3" NAME="IO_byte_enable" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Byte_Enable">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Byte_Enable"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" LEFT="31" NAME="IO_read_data" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Read_Data">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Read_Data"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IO_read_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Read_Strobe">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Read_Strobe"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="IO_ready" SIGIS="undef" SIGNAME="iomodule_0_IO_Ready">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Ready"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" LEFT="31" NAME="IO_write_data" RIGHT="0" SIGIS="undef" SIGNAME="iomodule_0_IO_Write_Data">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Write_Data"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="IO_write_strobe" SIGIS="undef" SIGNAME="iomodule_0_IO_Write_Strobe">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="iomodule_0" PORT="IO_Write_Strobe"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -1115,6 +1115,9 @@
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=iomodule;v=v3_1;d=pg111-iomodule.pdf"/>
       </DOCUMENTS>
+      <ADDRESSBLOCKS>
+        <ADDRESSBLOCK ACCESS="read-write" INTERFACE="SLMB" NAME="IO" RANGE="65536" USAGE="register"/>
+      </ADDRESSBLOCKS>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="SLMB" NAME="Reg" RANGE="4096" USAGE="register">
           <REGISTERS>
@@ -3470,9 +3473,6 @@
             </REGISTER>
           </REGISTERS>
         </ADDRESSBLOCK>
-      </ADDRESSBLOCKS>
-      <ADDRESSBLOCKS>
-        <ADDRESSBLOCK ACCESS="read-write" INTERFACE="SLMB" NAME="IO" RANGE="65536" USAGE="register"/>
       </ADDRESSBLOCKS>
       <PARAMETERS>
         <PARAMETER NAME="C_FAMILY" VALUE="zynquplus"/>

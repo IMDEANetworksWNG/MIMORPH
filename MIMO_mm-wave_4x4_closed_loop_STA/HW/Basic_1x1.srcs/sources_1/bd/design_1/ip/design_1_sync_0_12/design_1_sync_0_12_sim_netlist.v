@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Wed Dec  4 17:37:12 2019
+// Date        : Fri Oct 22 15:41:40 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_sync_0_12 -prefix
-//               design_1_sync_0_12_ design_1_sync_0_12_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sync_0_12/design_1_sync_0_12_sim_netlist.v
 // Design      : design_1_sync_0_12
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -23,7 +23,7 @@ module design_1_sync_0_12
   input src_in;
   output dest_out;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 src_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME src_clk, ASSOCIATED_BUSIF src_in, FREQ_HZ 100000000, PHASE 0.000, INSERT_VIP 0" *) input src_clk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 dest_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 440000000, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *) input dest_clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 dest_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 440000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *) input dest_clk;
 
   wire dest_clk;
   wire dest_out;
@@ -37,6 +37,7 @@ module design_1_sync_0_12
         .src_in(src_in));
 endmodule
 
+(* ORIG_REF_NAME = "sync" *) 
 module design_1_sync_0_12_sync
    (dest_out,
     src_clk,
@@ -66,9 +67,9 @@ module design_1_sync_0_12_sync
         .src_in(src_in));
 endmodule
 
-(* DEST_SYNC_FF = "2" *) (* INIT_SYNC_FF = "0" *) (* SIM_ASSERT_CHK = "0" *) 
-(* SRC_INPUT_REG = "0" *) (* VERSION = "0" *) (* XPM_MODULE = "TRUE" *) 
-(* xpm_cdc = "SINGLE" *) 
+(* DEST_SYNC_FF = "2" *) (* INIT_SYNC_FF = "0" *) (* ORIG_REF_NAME = "xpm_cdc_single" *) 
+(* SIM_ASSERT_CHK = "0" *) (* SRC_INPUT_REG = "0" *) (* VERSION = "0" *) 
+(* XPM_MODULE = "TRUE" *) (* xpm_cdc = "SINGLE" *) 
 module design_1_sync_0_12_xpm_cdc_single
    (src_clk,
     src_in,

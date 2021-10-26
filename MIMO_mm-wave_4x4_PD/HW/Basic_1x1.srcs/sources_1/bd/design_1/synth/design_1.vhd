@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
---Date        : Thu Jun 10 10:07:17 2021
+--Date        : Fri Oct 22 14:44:42 2021
 --Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 --Command     : generate_target design_1.bd
 --Design      : design_1
@@ -10801,11 +10801,14 @@ entity SPB_blocks_imp_UQ6IDJ is
 end SPB_blocks_imp_UQ6IDJ;
 
 architecture STRUCTURE of SPB_blocks_imp_UQ6IDJ is
-  component design_1_packet_counter_0_4 is
+  component design_1_SIVERS_gpio_0_1 is
   port (
-    PD_FLAG : in STD_LOGIC;
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
+    i_TRIGGER : in STD_LOGIC;
+    o_INC_BP : out STD_LOGIC;
+    o_RST_BP : out STD_LOGIC;
+    o_RTN_BP : out STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s00_axi_awvalid : in STD_LOGIC;
@@ -10826,25 +10829,9 @@ architecture STRUCTURE of SPB_blocks_imp_UQ6IDJ is
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_rready : in STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m01_axis_tlast : out STD_LOGIC;
-    m01_axis_tvalid : out STD_LOGIC;
-    m01_axis_tready : in STD_LOGIC;
-    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s01_axis_tlast : in STD_LOGIC;
-    s01_axis_tvalid : in STD_LOGIC;
-    s01_axis_tready : out STD_LOGIC;
-    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s00_axis_tlast : in STD_LOGIC;
-    s00_axis_tvalid : in STD_LOGIC;
-    s00_axis_tready : out STD_LOGIC;
-    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m00_axis_tlast : out STD_LOGIC;
-    m00_axis_tvalid : out STD_LOGIC;
-    m00_axis_tready : in STD_LOGIC
+    s00_axi_aresetn : in STD_LOGIC
   );
-  end component design_1_packet_counter_0_4;
+  end component design_1_SIVERS_gpio_0_1;
   component design_1_packet_counter_0_1 is
   port (
     PD_FLAG : in STD_LOGIC;
@@ -10977,14 +10964,11 @@ architecture STRUCTURE of SPB_blocks_imp_UQ6IDJ is
     m00_axis_tready : in STD_LOGIC
   );
   end component design_1_packet_counter_0_3;
-  component design_1_SIVERS_gpio_0_1 is
+  component design_1_packet_counter_0_4 is
   port (
+    PD_FLAG : in STD_LOGIC;
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
-    i_TRIGGER : in STD_LOGIC;
-    o_INC_BP : out STD_LOGIC;
-    o_RST_BP : out STD_LOGIC;
-    o_RTN_BP : out STD_LOGIC;
     s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s00_axi_awvalid : in STD_LOGIC;
@@ -11005,9 +10989,25 @@ architecture STRUCTURE of SPB_blocks_imp_UQ6IDJ is
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_rready : in STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC
+    s00_axi_aresetn : in STD_LOGIC;
+    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m01_axis_tlast : out STD_LOGIC;
+    m01_axis_tvalid : out STD_LOGIC;
+    m01_axis_tready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC
   );
-  end component design_1_SIVERS_gpio_0_1;
+  end component design_1_packet_counter_0_4;
   component design_1_packet_detector_11AD_0_0 is
   port (
     PD_FLAG : out STD_LOGIC;

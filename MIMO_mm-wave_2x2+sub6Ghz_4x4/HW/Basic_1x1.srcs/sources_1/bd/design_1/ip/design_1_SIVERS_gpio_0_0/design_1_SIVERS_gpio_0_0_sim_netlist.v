@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Fri Jun 25 15:33:24 2021
+// Date        : Fri Oct 22 16:55:49 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/design_1_SIVERS_gpio_0_0_sim_netlist.v
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/design_1_SIVERS_gpio_0_0_sim_netlist.v
 // Design      : design_1_SIVERS_gpio_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

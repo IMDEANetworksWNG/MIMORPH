@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER RX_block_STA
+	OPTION supported_peripherals = (RX_block_STA);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = RX_block_STA;
+END DRIVER

@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
---Date        : Fri Jun 25 17:18:44 2021
+--Date        : Fri Oct 22 16:42:04 2021
 --Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 --Command     : generate_target design_1.bd
 --Design      : design_1
@@ -7820,6 +7820,38 @@ architecture STRUCTURE of adc_tile0_imp_SRVIHM is
     s00_axi_rready : in STD_LOGIC
   );
   end component design_1_tlast_gen_v1_0_0_6;
+  component design_1_axis_register_slice_0_23 is
+  port (
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s_axis_tvalid : in STD_LOGIC;
+    s_axis_tready : out STD_LOGIC;
+    s_axis_tdata : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    s_axis_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s_axis_tlast : in STD_LOGIC;
+    m_axis_tvalid : out STD_LOGIC;
+    m_axis_tready : in STD_LOGIC;
+    m_axis_tdata : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    m_axis_tkeep : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m_axis_tlast : out STD_LOGIC
+  );
+  end component design_1_axis_register_slice_0_23;
+  component design_1_axis_register_slice_0_24 is
+  port (
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s_axis_tvalid : in STD_LOGIC;
+    s_axis_tready : out STD_LOGIC;
+    s_axis_tdata : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    s_axis_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s_axis_tlast : in STD_LOGIC;
+    m_axis_tvalid : out STD_LOGIC;
+    m_axis_tready : in STD_LOGIC;
+    m_axis_tdata : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    m_axis_tkeep : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m_axis_tlast : out STD_LOGIC
+  );
+  end component design_1_axis_register_slice_0_24;
   component design_1_packet_counter_0_1 is
   port (
     PD_FLAG : in STD_LOGIC;
@@ -7864,38 +7896,6 @@ architecture STRUCTURE of adc_tile0_imp_SRVIHM is
     m00_axis_tready : in STD_LOGIC
   );
   end component design_1_packet_counter_0_1;
-  component design_1_axis_register_slice_0_23 is
-  port (
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s_axis_tvalid : in STD_LOGIC;
-    s_axis_tready : out STD_LOGIC;
-    s_axis_tdata : in STD_LOGIC_VECTOR ( 255 downto 0 );
-    s_axis_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s_axis_tlast : in STD_LOGIC;
-    m_axis_tvalid : out STD_LOGIC;
-    m_axis_tready : in STD_LOGIC;
-    m_axis_tdata : out STD_LOGIC_VECTOR ( 255 downto 0 );
-    m_axis_tkeep : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    m_axis_tlast : out STD_LOGIC
-  );
-  end component design_1_axis_register_slice_0_23;
-  component design_1_axis_register_slice_0_24 is
-  port (
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s_axis_tvalid : in STD_LOGIC;
-    s_axis_tready : out STD_LOGIC;
-    s_axis_tdata : in STD_LOGIC_VECTOR ( 255 downto 0 );
-    s_axis_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s_axis_tlast : in STD_LOGIC;
-    m_axis_tvalid : out STD_LOGIC;
-    m_axis_tready : in STD_LOGIC;
-    m_axis_tdata : out STD_LOGIC_VECTOR ( 255 downto 0 );
-    m_axis_tkeep : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    m_axis_tlast : out STD_LOGIC
-  );
-  end component design_1_axis_register_slice_0_24;
   signal Din_0_1 : STD_LOGIC_VECTOR ( 94 downto 0 );
   signal MTS_Block_dac_clk : STD_LOGIC;
   signal PD_FLAG2_1 : STD_LOGIC;
@@ -17693,6 +17693,12 @@ architecture STRUCTURE of design_1 is
     dout : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component design_1_xlconstant_0_14;
+  component design_1_ila_0_0 is
+  port (
+    clk : in STD_LOGIC;
+    probe0 : in STD_LOGIC_VECTOR ( 0 to 0 )
+  );
+  end component design_1_ila_0_0;
   component design_1_ddr_writer_0_7 is
   port (
     pd_flag : in STD_LOGIC;
@@ -17765,12 +17771,6 @@ architecture STRUCTURE of design_1 is
     s00_axis_aresetn : in STD_LOGIC
   );
   end component design_1_ddr_writer_0_7;
-  component design_1_ila_0_0 is
-  port (
-    clk : in STD_LOGIC;
-    probe0 : in STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component design_1_ila_0_0;
   signal CLK_DIFF_SYSREF_CLK_1_CLK_N : STD_LOGIC_VECTOR ( 0 to 0 );
   signal CLK_DIFF_SYSREF_CLK_1_CLK_P : STD_LOGIC_VECTOR ( 0 to 0 );
   signal CLK_IN_D_0_1_CLK_N : STD_LOGIC_VECTOR ( 0 to 0 );

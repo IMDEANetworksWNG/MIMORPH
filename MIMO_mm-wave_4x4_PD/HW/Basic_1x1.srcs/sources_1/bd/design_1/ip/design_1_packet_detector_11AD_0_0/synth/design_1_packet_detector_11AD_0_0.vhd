@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: user.org:user:packet_detector_11AD:1.0
--- IP Revision: 18
+-- IP Revision: 22
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

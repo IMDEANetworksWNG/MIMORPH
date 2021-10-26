@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/rafael/Documentos/RFSoc/MTS_8x8/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_6_synth_1'
+HD_PWD='/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_tlast_gen_v1_0_0_6_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

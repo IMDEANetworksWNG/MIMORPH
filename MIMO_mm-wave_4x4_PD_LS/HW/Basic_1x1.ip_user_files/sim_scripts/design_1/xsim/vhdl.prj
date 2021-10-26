@@ -1,0 +1,64 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_rst_ps8_0_96M_0/sim/design_1_rst_ps8_0_96M_0.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_0_2/util_ds_buf.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_0_2/sim/design_1_util_ds_buf_0_2.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps8_0_96M_1/sim/design_1_rst_ps8_0_96M_1.vhd" \
+
+vhdl fifo_generator_v13_2_4  \
+"../../../../Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_0/sim/bd_45eb_microblaze_I_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_1/sim/bd_45eb_rst_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_2/sim/bd_45eb_ilmb_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_3/sim/bd_45eb_dlmb_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_4/sim/bd_45eb_dlmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_5/sim/bd_45eb_ilmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_7/sim/bd_45eb_second_dlmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_8/sim/bd_45eb_second_ilmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_10/sim/bd_45eb_iomodule_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/sim/bd_45eb.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_0/sim/design_1_ddr4_0_0_microblaze_mcs.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ddr4_0_333M_1/sim/design_1_rst_ddr4_0_333M_1.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_0_3/sim/design_1_util_ds_buf_0_3.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps8_0_96M1_0/sim/design_1_rst_ps8_0_96M1_0.vhd" \
+"../../../bd/design_1/ipshared/4e6e/src/vt_single_sync.vhd" \
+"../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_48ac_psr_aclk_0.vhd" \
+"../../../bd/design_1/ip/design_1_smartconnect_0_0/sim/design_1_smartconnect_0_0.vhd" \
+"../../../bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_0/sim/design_1_idle_packet_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_1/sim/design_1_idle_packet_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_2/sim/design_1_idle_packet_0_2.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_3/sim/design_1_idle_packet_0_3.vhd" \
+"../../../bd/design_1/ipshared/51c7/hdl/packet_counter_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/51c7/hdl/packet_counter_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_packet_counter_0_2/sim/design_1_packet_counter_0_2.vhd" \
+"../../../bd/design_1/ip/design_1_packet_counter_0_4/sim/design_1_packet_counter_0_4.vhd" \
+"../../../bd/design_1/ip/design_1_packet_counter_0_1/sim/design_1_packet_counter_0_1.vhd" \
+"../../../bd/design_1/ipshared/4cf3/hdl/packet_detector_11AD_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/4cf3/hdl/packet_detector_11AD_v1_0.vhd" \
+"../../../bd/design_1/ipshared/4cf3/src/packet_detector_v3.vhd" \
+"../../../bd/design_1/ip/design_1_packet_detector_11AD_0_0/sim/design_1_packet_detector_11AD_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_packet_counter_0_3/sim/design_1_packet_counter_0_3.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_5/sim/design_1_idle_packet_0_5.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_7/sim/design_1_idle_packet_0_7.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_4/sim/design_1_idle_packet_0_4.vhd" \
+"../../../bd/design_1/ip/design_1_idle_packet_0_6/sim/design_1_idle_packet_0_6.vhd" \
+"../../../bd/design_1/ipshared/74b9/src/SIVERS_GPIO_CHANGE_v2.vhd" \
+"../../../bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/74b9/hdl/SIVERS_gpio_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_SIVERS_gpio_0_0/sim/design_1_SIVERS_gpio_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_packet_detector_11AD_0_1/sim/design_1_packet_detector_11AD_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_packet_detector_11AD_0_3/sim/design_1_packet_detector_11AD_0_3.vhd" \
+"../../../bd/design_1/ipshared/cb05/scrs/Boundary_Detector_v1.vhd" \
+"../../../bd/design_1/ipshared/cb05/scrs/ifr1max6i.vhd" \
+"../../../bd/design_1/ipshared/cb05/scrs/ifr1max_r2i.vhd" \
+"../../../bd/design_1/ipshared/cb05/hdl/boundary_detector_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_boundary_detector_0_0/sim/design_1_boundary_detector_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_SIVERS_gpio_0_1/sim/design_1_SIVERS_gpio_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_packet_detector_11AD_0_2/sim/design_1_packet_detector_11AD_0_2.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

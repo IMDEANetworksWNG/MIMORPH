@@ -1,0 +1,1170 @@
+
+*** Running vivado
+    with args -log design_1_ddr_writer_0_7.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ddr_writer_0_7.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_ddr_writer_0_7.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_ddr_writer_0_7 -part xczu28dr-ffvg1517-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9381 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2385.617 ; gain = 142.715 ; free physical = 41180 ; free virtual = 80979
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ddr_writer_0_7' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/synth/design_1_ddr_writer_0_7.v:56]
+INFO: [Synth 8-6157] synthesizing module 'ddr_writer_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_M00_AXI_TARGET_SLAVE_BASE_ADDR bound to: 36'b010000000000000000010000000000000000 
+	Parameter C_M00_AXI_BURST_LEN bound to: 16 - type: integer 
+	Parameter C_M00_AXI_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_M00_AXI_ADDR_WIDTH bound to: 64 - type: integer 
+	Parameter C_M00_AXI_DATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_M00_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ddr_writer_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'ddr_writer_v1_0_S00_AXI' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'DDR_writer' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:23]
+	Parameter C_AXI_ID_WIDTH bound to: 3 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_M_TARGET_SLAVE_BASE_ADDR bound to: 36'b010000000000000000010000000000000000 
+	Parameter TCQ bound to: 0 - type: integer 
+	Parameter C_AXI_NBURST_SUPPORT bound to: 0 - type: integer 
+	Parameter APP_DATA_WIDTH bound to: 0 - type: integer 
+	Parameter ECC bound to: OFF - type: string 
+	Parameter WAIT_TRIGGER bound to: 3'b000 
+	Parameter START bound to: 3'b001 
+	Parameter WAIT_PACKET bound to: 3'b010 
+	Parameter STORAGE bound to: 3'b101 
+	Parameter END_STORAGE bound to: 3'b110 
+	Parameter FINISH bound to: 3'b111 
+	Parameter BURST bound to: 256 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/vt_single_sync.vhd:26]
+	Parameter STAGES bound to: 2 - type: integer 
+	Parameter STARTUP_VALUE bound to: 1'b0 
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'DDR_WRITER_FIFO' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/synth/DDR_WRITER_FIFO.vhd:78]
+	Parameter C_COMMON_CLOCK bound to: 0 - type: integer 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_COUNT_TYPE bound to: 0 - type: integer 
+	Parameter C_DATA_COUNT_WIDTH bound to: 14 - type: integer 
+	Parameter C_DEFAULT_VALUE bound to: BlankString - type: string 
+	Parameter C_DIN_WIDTH bound to: 18 - type: integer 
+	Parameter C_DOUT_RST_VAL bound to: 0 - type: string 
+	Parameter C_DOUT_WIDTH bound to: 18 - type: integer 
+	Parameter C_ENABLE_RLOCS bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_FULL_FLAGS_RST_VAL bound to: 1 - type: integer 
+	Parameter C_HAS_ALMOST_EMPTY bound to: 0 - type: integer 
+	Parameter C_HAS_ALMOST_FULL bound to: 0 - type: integer 
+	Parameter C_HAS_BACKUP bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_INT_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_MEMINIT_FILE bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_RD_DATA_COUNT bound to: 1 - type: integer 
+	Parameter C_HAS_RD_RST bound to: 0 - type: integer 
+	Parameter C_HAS_RST bound to: 1 - type: integer 
+	Parameter C_HAS_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_VALID bound to: 0 - type: integer 
+	Parameter C_HAS_WR_ACK bound to: 0 - type: integer 
+	Parameter C_HAS_WR_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_HAS_WR_RST bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE bound to: 2 - type: integer 
+	Parameter C_INIT_WR_PNTR_VAL bound to: 0 - type: integer 
+	Parameter C_MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter C_MIF_FILE_NAME bound to: BlankString - type: string 
+	Parameter C_OPTIMIZATION_MODE bound to: 0 - type: integer 
+	Parameter C_OVERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_PRELOAD_LATENCY bound to: 2 - type: integer 
+	Parameter C_PRELOAD_REGS bound to: 1 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE bound to: 2kx18 - type: string 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL bound to: 256 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_NEGATE_VAL bound to: 512 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE bound to: 2 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL bound to: 16381 - type: integer 
+	Parameter C_PROG_FULL_THRESH_NEGATE_VAL bound to: 16380 - type: integer 
+	Parameter C_PROG_FULL_TYPE bound to: 2 - type: integer 
+	Parameter C_RD_DATA_COUNT_WIDTH bound to: 14 - type: integer 
+	Parameter C_RD_DEPTH bound to: 16384 - type: integer 
+	Parameter C_RD_FREQ bound to: 1 - type: integer 
+	Parameter C_RD_PNTR_WIDTH bound to: 14 - type: integer 
+	Parameter C_UNDERFLOW_LOW bound to: 0 - type: integer 
+	Parameter C_USE_DOUT_RST bound to: 1 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_USE_EMBEDDED_REG bound to: 1 - type: integer 
+	Parameter C_USE_PIPELINE_REG bound to: 0 - type: integer 
+	Parameter C_POWER_SAVING_MODE bound to: 0 - type: integer 
+	Parameter C_USE_FIFO16_FLAGS bound to: 0 - type: integer 
+	Parameter C_USE_FWFT_DATA_COUNT bound to: 0 - type: integer 
+	Parameter C_VALID_LOW bound to: 0 - type: integer 
+	Parameter C_WR_ACK_LOW bound to: 0 - type: integer 
+	Parameter C_WR_DATA_COUNT_WIDTH bound to: 14 - type: integer 
+	Parameter C_WR_DEPTH bound to: 16384 - type: integer 
+	Parameter C_WR_FREQ bound to: 1 - type: integer 
+	Parameter C_WR_PNTR_WIDTH bound to: 14 - type: integer 
+	Parameter C_WR_RESPONSE_LATENCY bound to: 1 - type: integer 
+	Parameter C_MSGON_VAL bound to: 1 - type: integer 
+	Parameter C_ENABLE_RST_SYNC bound to: 1 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 1 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE bound to: 0 - type: integer 
+	Parameter C_SYNCHRONIZER_STAGE bound to: 2 - type: integer 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_WR_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_RD_CHANNEL bound to: 1 - type: integer 
+	Parameter C_HAS_SLAVE_CE bound to: 0 - type: integer 
+	Parameter C_HAS_MASTER_CE bound to: 0 - type: integer 
+	Parameter C_ADD_NGC_CONSTRAINT bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_COMMON_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_USE_DEFAULT_SETTINGS bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_AXI_DATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_AXI_LEN_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXI_LOCK_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_AWUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_WUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_BUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_ARUSER bound to: 0 - type: integer 
+	Parameter C_HAS_AXI_RUSER bound to: 0 - type: integer 
+	Parameter C_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TDATA bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TID bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TDEST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TUSER bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TREADY bound to: 1 - type: integer 
+	Parameter C_HAS_AXIS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TSTRB bound to: 0 - type: integer 
+	Parameter C_HAS_AXIS_TKEEP bound to: 0 - type: integer 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 4 - type: integer 
+	Parameter C_AXIS_TSTRB_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TKEEP_WIDTH bound to: 1 - type: integer 
+	Parameter C_WACH_TYPE bound to: 0 - type: integer 
+	Parameter C_WDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_WRCH_TYPE bound to: 0 - type: integer 
+	Parameter C_RACH_TYPE bound to: 0 - type: integer 
+	Parameter C_RDCH_TYPE bound to: 0 - type: integer 
+	Parameter C_AXIS_TYPE bound to: 0 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_WRCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RACH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_RDCH bound to: 1 - type: integer 
+	Parameter C_IMPLEMENTATION_TYPE_AXIS bound to: 1 - type: integer 
+	Parameter C_APPLICATION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_APPLICATION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PRIM_FIFO_TYPE_WACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WDCH bound to: 512x72 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_WRCH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RACH bound to: 512x36 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_RDCH bound to: 512x72 - type: string 
+	Parameter C_PRIM_FIFO_TYPE_AXIS bound to: 1kx18 - type: string 
+	Parameter C_USE_ECC_WACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_WRCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RACH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_RDCH bound to: 0 - type: integer 
+	Parameter C_USE_ECC_AXIS bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_ERROR_INJECTION_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_DIN_WIDTH_WACH bound to: 1 - type: integer 
+	Parameter C_DIN_WIDTH_WDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_WRCH bound to: 2 - type: integer 
+	Parameter C_DIN_WIDTH_RACH bound to: 32 - type: integer 
+	Parameter C_DIN_WIDTH_RDCH bound to: 64 - type: integer 
+	Parameter C_DIN_WIDTH_AXIS bound to: 1 - type: integer 
+	Parameter C_WR_DEPTH_WACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_WDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_WRCH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RACH bound to: 16 - type: integer 
+	Parameter C_WR_DEPTH_RDCH bound to: 1024 - type: integer 
+	Parameter C_WR_DEPTH_AXIS bound to: 1024 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_WRCH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RACH bound to: 4 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_RDCH bound to: 10 - type: integer 
+	Parameter C_WR_PNTR_WIDTH_AXIS bound to: 10 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_DATA_COUNTS_AXIS bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_WRCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RACH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_RDCH bound to: 0 - type: integer 
+	Parameter C_HAS_PROG_FLAGS_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_WRCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RACH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_RDCH bound to: 1023 - type: integer 
+	Parameter C_PROG_FULL_THRESH_ASSERT_VAL_AXIS bound to: 1023 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_WRCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RACH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_RDCH bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_TYPE_AXIS bound to: 0 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_WRCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RACH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_RDCH bound to: 1022 - type: integer 
+	Parameter C_PROG_EMPTY_THRESH_ASSERT_VAL_AXIS bound to: 1022 - type: integer 
+	Parameter C_REG_SLICE_MODE_WACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_WRCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RACH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_RDCH bound to: 0 - type: integer 
+	Parameter C_REG_SLICE_MODE_AXIS bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'fifo_generator_v13_2_4' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd:38586' bound to instance 'U0' of component 'fifo_generator_v13_2_4' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/synth/DDR_WRITER_FIFO.vhd:548]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1111]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (3#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:205]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (4#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:358]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (18#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-256] done synthesizing module 'DDR_WRITER_FIFO' (35#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/synth/DDR_WRITER_FIFO.vhd:78]
+WARNING: [Synth 8-689] width (512) of port connection 'din' does not match port width (18) of module 'DDR_WRITER_FIFO' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:249]
+WARNING: [Synth 8-689] width (512) of port connection 'dout' does not match port width (18) of module 'DDR_WRITER_FIFO' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:252]
+WARNING: [Synth 8-6014] Unused sequential element packets_read_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:160]
+INFO: [Synth 8-4471] merging register 'axi_arsize_reg[2:0]' into 'axi_arid_reg[2:0]' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:330]
+INFO: [Synth 8-4471] merging register 'axi_arprot_reg[2:0]' into 'axi_arid_reg[2:0]' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:334]
+INFO: [Synth 8-4471] merging register 'axi_arvalid_reg' into 'axi_arlock_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:335]
+INFO: [Synth 8-4471] merging register 'axi_rready_reg' into 'axi_arlock_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:336]
+WARNING: [Synth 8-6014] Unused sequential element axi_arsize_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:330]
+WARNING: [Synth 8-6014] Unused sequential element axi_arprot_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:334]
+WARNING: [Synth 8-6014] Unused sequential element axi_arvalid_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:335]
+WARNING: [Synth 8-6014] Unused sequential element axi_rready_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:336]
+WARNING: [Synth 8-3848] Net axi_wdata in module/entity DDR_writer does not have driver. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'DDR_writer' (36#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/src/DDR_writer.v:23]
+WARNING: [Synth 8-3848] Net m00_axi_awqos in module/entity ddr_writer_v1_0 does not have driver. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0.v:80]
+WARNING: [Synth 8-3848] Net m00_axi_arqos in module/entity ddr_writer_v1_0 does not have driver. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'ddr_writer_v1_0' (37#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ddr_writer_0_7' (38#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/synth/design_1_ddr_writer_0_7.v:56]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[13]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[12]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[11]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[10]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[9]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[8]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[7]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[6]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[5]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[4]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[3]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[2]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[1]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH[0]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[13]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[12]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[11]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[10]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[9]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[8]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[7]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[6]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[5]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[4]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[3]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[2]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[1]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_ASSERT[0]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[13]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[12]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[11]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[10]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[9]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[8]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[7]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[6]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[5]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[4]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[3]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[2]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[1]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port PROG_FULL_THRESH_NEGATE[0]
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port WR_RST
+WARNING: [Synth 8-3331] design wr_pf_as has unconnected port RST_FULL_FF
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port RST_FULL_FF
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port SAFETY_CKT_WR_RST
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[13]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[12]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[11]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[10]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[9]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[8]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[7]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[6]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[5]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[4]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[3]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[2]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[1]
+WARNING: [Synth 8-3331] design wr_status_flags_as has unconnected port WR_PNTR_PLUS3[0]
+WARNING: [Synth 8-3331] design wr_bin_cntr has unconnected port RST
+WARNING: [Synth 8-3331] design wr_logic has unconnected port WR_EN_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic has unconnected port WR_RST_INTO_LOGIC
+WARNING: [Synth 8-3331] design wr_logic has unconnected port RD_EN
+WARNING: [Synth 8-3331] design wr_logic has unconnected port SRST_FULL_FF
+WARNING: [Synth 8-3331] design wr_logic has unconnected port WR_RST_BUSY
+WARNING: [Synth 8-3331] design wr_logic has unconnected port EMPTY
+WARNING: [Synth 8-3331] design wr_logic has unconnected port RAM_RD_EN
+WARNING: [Synth 8-3331] design wr_logic has unconnected port ALMOST_EMPTY
+WARNING: [Synth 8-3331] design rd_dc_as has unconnected port RD_RST
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[13]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[12]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[11]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[10]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[9]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[8]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[7]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[6]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[5]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[4]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[3]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[2]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[1]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH[0]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[13]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[12]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[11]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[10]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[9]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[8]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[7]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[6]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[5]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[4]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[3]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[2]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[1]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_ASSERT[0]
+WARNING: [Synth 8-3331] design rd_pe_as has unconnected port PROG_EMPTY_THRESH_NEGATE[13]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:50 ; elapsed = 00:01:01 . Memory (MB): peak = 2618.297 ; gain = 375.395 ; free physical = 41883 ; free virtual = 81738
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:01:01 . Memory (MB): peak = 2630.172 ; gain = 387.270 ; free physical = 41881 ; free virtual = 81737
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:51 ; elapsed = 00:01:01 . Memory (MB): peak = 2630.172 ; gain = 387.270 ; free physical = 41881 ; free virtual = 81737
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_writer_impl.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_writer_impl.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/DDR_WRITER_FIFO.xdc] for cell 'inst/DDR_writer_inst/FIFO_RX/U0'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/DDR_WRITER_FIFO.xdc] for cell 'inst/DDR_writer_inst/FIFO_RX/U0'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ddr_writer_0_7_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ddr_writer_0_7_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/DDR_WRITER_FIFO_clocks.xdc] for cell 'inst/DDR_writer_inst/FIFO_RX/U0'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/DDR_WRITER_FIFO_clocks.xdc] for cell 'inst/DDR_writer_inst/FIFO_RX/U0'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_cdc_inst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_cdc_inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ddr_writer_0_7_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ddr_writer_0_7_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_ddr_writer_0_7_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_ddr_writer_0_7_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2789.922 ; gain = 0.000 ; free physical = 41770 ; free virtual = 81628
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2789.922 ; gain = 0.000 ; free physical = 41766 ; free virtual = 81625
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:56 ; elapsed = 00:01:08 . Memory (MB): peak = 2789.922 ; gain = 547.020 ; free physical = 41835 ; free virtual = 81694
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:56 ; elapsed = 00:01:08 . Memory (MB): peak = 2789.922 ; gain = 547.020 ; free physical = 41835 ; free virtual = 81694
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/dont_touch.xdc, line 11).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/dont_touch.xdc, line 18).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /rd_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /\gntv_or_sync_fifo.gcx.clkx /wr_pntr_cdc_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/DDR_writer_inst/FIFO_RX/U0/inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst . (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:08 . Memory (MB): peak = 2789.922 ; gain = 547.020 ; free physical = 41834 ; free virtual = 81694
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:57 ; elapsed = 00:01:09 . Memory (MB): peak = 2789.922 ; gain = 547.020 ; free physical = 41825 ; free virtual = 81684
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input     15 Bit       Adders := 2     
+	   2 Input     14 Bit       Adders := 2     
+	   3 Input     14 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     14 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 98    
++---Registers : 
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 9     
+	               15 Bit    Registers := 2     
+	               14 Bit    Registers := 15    
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 20    
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 75    
+	                1 Bit    Registers := 97    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 5     
+	   7 Input     32 Bit        Muxes := 4     
+	   4 Input     18 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 22    
+	   7 Input      1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ddr_writer_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+Module xpm_cdc_sync_rst 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module xpm_cdc_single 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module reset_blk_ramfifo 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module bindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module blk_mem_gen_prim_width 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized0 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_prim_width__parameterized6 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
+Module blk_mem_gen_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     18 Bit        Muxes := 1     
+Module blk_mem_gen_mux__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     18 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module memory 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module xpm_cdc_gray 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     14 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 13    
++---Registers : 
+	               14 Bit    Registers := 4     
+Module rd_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 2     
+Module compare 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
+Module rd_status_flags_as 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module rd_pe_as 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module rd_dc_as 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+Module wr_bin_cntr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 3     
+Module wr_status_flags_as 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module wr_pf_as 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module vt_single_sync 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module DDR_writer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 3     
+	               32 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   7 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 17    
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arcache_reg[0]' (FD) to 'inst/DDR_writer_inst/axi_arcache_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arcache_reg[1]' (FD) to 'inst/DDR_writer_inst/axi_arcache_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arcache_reg[2]' (FD) to 'inst/DDR_writer_inst/axi_arcache_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arcache_reg[3]' (FD) to 'inst/DDR_writer_inst/axi_arburst_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlock_reg' (FD) to 'inst/DDR_writer_inst/axi_arburst_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arburst_reg[0]' (FD) to 'inst/DDR_writer_inst/axi_arburst_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arburst_reg[1]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[0]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[1]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[2]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[3]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[4]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[5]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[6]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arlen_reg[7]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[0]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[1]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[2]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[3]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[4]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[5]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[6]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[7]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[8]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[9]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[10]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[11]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[12]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[13]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[14]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[15]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[16]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[17]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[18]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[19]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[20]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[21]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[22]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[23]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[24]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[25]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[26]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[27]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[28]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[29]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[30]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[31]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[32]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[33]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[34]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[35]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[36]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[37]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[38]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[39]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[40]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[41]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[42]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[43]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[44]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[45]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[46]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[47]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[48]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[49]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[50]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[51]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[52]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[53]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[54]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[55]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[56]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[57]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[58]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[59]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[60]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[61]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[62]' (FD) to 'inst/DDR_writer_inst/axi_araddr_reg[63]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_araddr_reg[63]' (FD) to 'inst/DDR_writer_inst/axi_arid_reg[0]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arid_reg[0]' (FD) to 'inst/DDR_writer_inst/axi_arid_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_arid_reg[1]' (FD) to 'inst/DDR_writer_inst/axi_arid_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\DDR_writer_inst/axi_arid_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/\DDR_writer_inst/axi_bready_reg )
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[0]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[1]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[2]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[3]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[4]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[5]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[6]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[7]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[8]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[8]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[9]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[9]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[10]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[10]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[11]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[11]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[12]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[12]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[13]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[13]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[14]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[14]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[15]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[15]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[16]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[16]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[17]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[17]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[18]'
+INFO: [Synth 8-3886] merging instance 'inst/DDR_writer_inst/axi_wstrb_reg[18]' (FDRE) to 'inst/DDR_writer_inst/axi_wstrb_reg[19]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\DDR_writer_inst/axi_awlock_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\DDR_writer_inst/axi_awsize_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\DDR_writer_inst/axi_awaddr_reg_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\ddr_writer_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/\ddr_writer_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:11 . Memory (MB): peak = 2789.922 ; gain = 547.020 ; free physical = 41815 ; free virtual = 81683
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:16 ; elapsed = 00:01:41 . Memory (MB): peak = 2919.742 ; gain = 676.840 ; free physical = 43189 ; free virtual = 83098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:41 . Memory (MB): peak = 2920.742 ; gain = 677.840 ; free physical = 43188 ; free virtual = 83097
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:41 . Memory (MB): peak = 2941.773 ; gain = 698.871 ; free physical = 43184 ; free virtual = 83093
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:42 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:42 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name            | RTL Name                                                                                                                                                                                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|fifo_generator_v13_2_4 | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmgc.ngecc.bmg/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/SAFETY_CKT_GEN.RSTB_SHFT_REG_reg[4] | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |    36|
+|2     |LUT1     |    39|
+|3     |LUT2     |    84|
+|4     |LUT3     |    14|
+|5     |LUT4     |   116|
+|6     |LUT5     |    19|
+|7     |LUT6     |    93|
+|8     |MUXCY    |    28|
+|9     |RAMB36E2 |     8|
+|10    |SRL16E   |     2|
+|11    |FDRE     |   724|
+|12    |FDSE     |     9|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------------------------------------------------+-----------------------------------------+------+
+|      |Instance                                                                                  |Module                                   |Cells |
++------+------------------------------------------------------------------------------------------+-----------------------------------------+------+
+|1     |top                                                                                       |                                         |  1172|
+|2     |  inst                                                                                    |ddr_writer_v1_0                          |  1172|
+|3     |    DDR_writer_inst                                                                       |DDR_writer                               |   945|
+|4     |      FIFO_RX                                                                             |DDR_WRITER_FIFO                          |   510|
+|5     |        U0                                                                                |fifo_generator_v13_2_4                   |   510|
+|6     |          inst_fifo_gen                                                                   |fifo_generator_v13_2_4_synth             |   510|
+|7     |            \gconvfifo.rf                                                                 |fifo_generator_top                       |   510|
+|8     |              \grf.rf                                                                     |fifo_generator_ramfifo                   |   510|
+|9     |                \gntv_or_sync_fifo.gcx.clkx                                               |clk_x_pntrs                              |   212|
+|10    |                  wr_pntr_cdc_inst                                                        |xpm_cdc_gray__2                          |    82|
+|11    |                  rd_pntr_cdc_inst                                                        |xpm_cdc_gray                             |    82|
+|12    |                \gntv_or_sync_fifo.gl0.rd                                                 |rd_logic                                 |   114|
+|13    |                  \gras.gpe.rdpe                                                          |rd_pe_as                                 |    24|
+|14    |                  \gras.grdc1.rdc                                                         |rd_dc_as                                 |    14|
+|15    |                  \gras.rsts                                                              |rd_status_flags_as                       |    19|
+|16    |                    c0                                                                    |compare_67                               |     7|
+|17    |                    c1                                                                    |compare_68                               |     8|
+|18    |                  rpntr                                                                   |rd_bin_cntr                              |    57|
+|19    |                \gntv_or_sync_fifo.gl0.wr                                                 |wr_logic                                 |   101|
+|20    |                  \gwas.gpf.wrpf                                                          |wr_pf_as                                 |    21|
+|21    |                  \gwas.wsts                                                              |wr_status_flags_as                       |    18|
+|22    |                    c1                                                                    |compare                                  |     8|
+|23    |                    c2                                                                    |compare_66                               |     7|
+|24    |                  wpntr                                                                   |wr_bin_cntr                              |    62|
+|25    |                \gntv_or_sync_fifo.mem                                                    |memory                                   |    46|
+|26    |                  \gbm.gbmg.gbmgc.ngecc.bmg                                               |blk_mem_gen_v8_4_3                       |    45|
+|27    |                    inst_blk_mem_gen                                                      |blk_mem_gen_v8_4_3_synth                 |    45|
+|28    |                      \gnbram.gnativebmg.native_blk_mem_gen                               |blk_mem_gen_top                          |    45|
+|29    |                        \valid.cstr                                                       |blk_mem_gen_generic_cstr                 |    45|
+|30    |                          \has_mux_b.B                                                    |blk_mem_gen_mux__parameterized0          |    22|
+|31    |                          \ramloop[0].ram.r                                               |blk_mem_gen_prim_width                   |     1|
+|32    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper                 |     1|
+|33    |                          \ramloop[1].ram.r                                               |blk_mem_gen_prim_width__parameterized0   |     1|
+|34    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized0 |     1|
+|35    |                          \ramloop[2].ram.r                                               |blk_mem_gen_prim_width__parameterized1   |     1|
+|36    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized1 |     1|
+|37    |                          \ramloop[3].ram.r                                               |blk_mem_gen_prim_width__parameterized2   |     1|
+|38    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized2 |     1|
+|39    |                          \ramloop[4].ram.r                                               |blk_mem_gen_prim_width__parameterized3   |    16|
+|40    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized3 |     2|
+|41    |                          \ramloop[5].ram.r                                               |blk_mem_gen_prim_width__parameterized4   |     1|
+|42    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized4 |     1|
+|43    |                          \ramloop[6].ram.r                                               |blk_mem_gen_prim_width__parameterized5   |     1|
+|44    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized5 |     1|
+|45    |                          \ramloop[7].ram.r                                               |blk_mem_gen_prim_width__parameterized6   |     1|
+|46    |                            \prim_noinit.ram                                              |blk_mem_gen_prim_wrapper__parameterized6 |     1|
+|47    |                rstblk                                                                    |reset_blk_ramfifo                        |    37|
+|48    |                  \ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst           |xpm_cdc_sync_rst__2                      |     5|
+|49    |                  \ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_sync_rst_inst_wrst   |xpm_cdc_sync_rst                         |     5|
+|50    |                  \ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_wrst_rd  |xpm_cdc_single__2                        |     5|
+|51    |                  \ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.xpm_cdc_single_inst_rrst_wr  |xpm_cdc_single                           |     5|
+|52    |      \gen_code_label[0].vt_single_sync_100_to_300                                        |vt_single_sync                           |     9|
+|53    |      \gen_code_label[10].vt_single_sync_100_to_300                                       |vt_single_sync_0                         |     3|
+|54    |      \gen_code_label[11].vt_single_sync_100_to_300                                       |vt_single_sync_1                         |     3|
+|55    |      \gen_code_label[12].vt_single_sync_100_to_300                                       |vt_single_sync_2                         |     3|
+|56    |      \gen_code_label[13].vt_single_sync_100_to_300                                       |vt_single_sync_3                         |     3|
+|57    |      \gen_code_label[14].vt_single_sync_100_to_300                                       |vt_single_sync_4                         |     3|
+|58    |      \gen_code_label[15].vt_single_sync_100_to_300                                       |vt_single_sync_5                         |     3|
+|59    |      \gen_code_label[16].vt_single_sync_100_to_300                                       |vt_single_sync_6                         |     3|
+|60    |      \gen_code_label[17].vt_single_sync_100_to_300                                       |vt_single_sync_7                         |     3|
+|61    |      \gen_code_label[18].vt_single_sync_100_to_300                                       |vt_single_sync_8                         |     3|
+|62    |      \gen_code_label[19].vt_single_sync_100_to_300                                       |vt_single_sync_9                         |     3|
+|63    |      \gen_code_label[1].vt_single_sync_100_to_300                                        |vt_single_sync_10                        |     3|
+|64    |      \gen_code_label[20].vt_single_sync_100_to_300                                       |vt_single_sync_11                        |     3|
+|65    |      \gen_code_label[21].vt_single_sync_100_to_300                                       |vt_single_sync_12                        |     3|
+|66    |      \gen_code_label[22].vt_single_sync_100_to_300                                       |vt_single_sync_13                        |     3|
+|67    |      \gen_code_label[23].vt_single_sync_100_to_300                                       |vt_single_sync_14                        |     3|
+|68    |      \gen_code_label[24].vt_single_sync_100_to_300                                       |vt_single_sync_15                        |     3|
+|69    |      \gen_code_label[25].vt_single_sync_100_to_300                                       |vt_single_sync_16                        |     3|
+|70    |      \gen_code_label[26].vt_single_sync_100_to_300                                       |vt_single_sync_17                        |     3|
+|71    |      \gen_code_label[27].vt_single_sync_100_to_300                                       |vt_single_sync_18                        |     3|
+|72    |      \gen_code_label[28].vt_single_sync_100_to_300                                       |vt_single_sync_19                        |     3|
+|73    |      \gen_code_label[29].vt_single_sync_100_to_300                                       |vt_single_sync_20                        |     3|
+|74    |      \gen_code_label[2].vt_single_sync_100_to_300                                        |vt_single_sync_21                        |     3|
+|75    |      \gen_code_label[30].vt_single_sync_100_to_300                                       |vt_single_sync_22                        |     3|
+|76    |      \gen_code_label[31].vt_single_sync_100_to_300                                       |vt_single_sync_23                        |    11|
+|77    |      \gen_code_label[3].vt_single_sync_100_to_300                                        |vt_single_sync_24                        |     3|
+|78    |      \gen_code_label[4].vt_single_sync_100_to_300                                        |vt_single_sync_25                        |     3|
+|79    |      \gen_code_label[5].vt_single_sync_100_to_300                                        |vt_single_sync_26                        |     3|
+|80    |      \gen_code_label[6].vt_single_sync_100_to_300                                        |vt_single_sync_27                        |     3|
+|81    |      \gen_code_label[7].vt_single_sync_100_to_300                                        |vt_single_sync_28                        |     3|
+|82    |      \gen_code_label[8].vt_single_sync_100_to_300                                        |vt_single_sync_29                        |     3|
+|83    |      \gen_code_label[9].vt_single_sync_100_to_300                                        |vt_single_sync_30                        |     3|
+|84    |      \sync_control_signal[0].vt_single_sync_100_to_300                                   |vt_single_sync_31                        |     3|
+|85    |      \sync_control_signal[10].vt_single_sync_100_to_300                                  |vt_single_sync_32                        |     2|
+|86    |      \sync_control_signal[11].vt_single_sync_100_to_300                                  |vt_single_sync_33                        |     2|
+|87    |      \sync_control_signal[12].vt_single_sync_100_to_300                                  |vt_single_sync_34                        |     3|
+|88    |      \sync_control_signal[13].vt_single_sync_100_to_300                                  |vt_single_sync_35                        |     2|
+|89    |      \sync_control_signal[14].vt_single_sync_100_to_300                                  |vt_single_sync_36                        |     2|
+|90    |      \sync_control_signal[15].vt_single_sync_100_to_300                                  |vt_single_sync_37                        |     3|
+|91    |      \sync_control_signal[16].vt_single_sync_100_to_300                                  |vt_single_sync_38                        |     2|
+|92    |      \sync_control_signal[17].vt_single_sync_100_to_300                                  |vt_single_sync_39                        |     2|
+|93    |      \sync_control_signal[18].vt_single_sync_100_to_300                                  |vt_single_sync_40                        |     3|
+|94    |      \sync_control_signal[19].vt_single_sync_100_to_300                                  |vt_single_sync_41                        |     2|
+|95    |      \sync_control_signal[1].vt_single_sync_100_to_300                                   |vt_single_sync_42                        |     2|
+|96    |      \sync_control_signal[20].vt_single_sync_100_to_300                                  |vt_single_sync_43                        |     2|
+|97    |      \sync_control_signal[21].vt_single_sync_100_to_300                                  |vt_single_sync_44                        |     2|
+|98    |      \sync_control_signal[22].vt_single_sync_100_to_300                                  |vt_single_sync_45                        |     2|
+|99    |      \sync_control_signal[23].vt_single_sync_100_to_300                                  |vt_single_sync_46                        |     5|
+|100   |      \sync_control_signal[24].vt_single_sync_100_to_300                                  |vt_single_sync_47                        |     2|
+|101   |      \sync_control_signal[25].vt_single_sync_100_to_300                                  |vt_single_sync_48                        |     2|
+|102   |      \sync_control_signal[26].vt_single_sync_100_to_300                                  |vt_single_sync_49                        |     3|
+|103   |      \sync_control_signal[27].vt_single_sync_100_to_300                                  |vt_single_sync_50                        |     2|
+|104   |      \sync_control_signal[28].vt_single_sync_100_to_300                                  |vt_single_sync_51                        |     3|
+|105   |      \sync_control_signal[29].vt_single_sync_100_to_300                                  |vt_single_sync_52                        |     2|
+|106   |      \sync_control_signal[2].vt_single_sync_100_to_300                                   |vt_single_sync_53                        |     2|
+|107   |      \sync_control_signal[30].vt_single_sync_100_to_300                                  |vt_single_sync_54                        |     2|
+|108   |      \sync_control_signal[31].vt_single_sync_100_to_300                                  |vt_single_sync_55                        |     3|
+|109   |      \sync_control_signal[3].vt_single_sync_100_to_300                                   |vt_single_sync_56                        |     3|
+|110   |      \sync_control_signal[4].vt_single_sync_100_to_300                                   |vt_single_sync_57                        |     2|
+|111   |      \sync_control_signal[5].vt_single_sync_100_to_300                                   |vt_single_sync_58                        |     2|
+|112   |      \sync_control_signal[6].vt_single_sync_100_to_300                                   |vt_single_sync_59                        |     2|
+|113   |      \sync_control_signal[7].vt_single_sync_100_to_300                                   |vt_single_sync_60                        |     2|
+|114   |      \sync_control_signal[8].vt_single_sync_100_to_300                                   |vt_single_sync_61                        |     3|
+|115   |      \sync_control_signal[9].vt_single_sync_100_to_300                                   |vt_single_sync_62                        |     3|
+|116   |      vt_single_sync_220_to_300                                                           |vt_single_sync_63                        |     2|
+|117   |      vt_single_sync_220_to_300_2                                                         |vt_single_sync_64                        |     2|
+|118   |      vt_single_sync_300_to_220                                                           |vt_single_sync_65                        |     2|
+|119   |    ddr_writer_v1_0_S00_AXI_inst                                                          |ddr_writer_v1_0_S00_AXI                  |   227|
++------+------------------------------------------------------------------------------------------+-----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.711 ; gain = 704.809 ; free physical = 43184 ; free virtual = 83094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1601 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:14 ; elapsed = 00:01:38 . Memory (MB): peak = 2947.711 ; gain = 545.059 ; free physical = 43224 ; free virtual = 83134
+Synthesis Optimization Complete : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 2947.719 ; gain = 704.809 ; free physical = 43224 ; free virtual = 83134
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3029.320 ; gain = 0.000 ; free physical = 43149 ; free virtual = 83059
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  (CARRY4) => CARRY8: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+161 Infos, 128 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:57 . Memory (MB): peak = 3029.320 ; gain = 1577.082 ; free physical = 43248 ; free virtual = 83158
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3029.320 ; gain = 0.000 ; free physical = 43248 ; free virtual = 83158
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/design_1_ddr_writer_0_7.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ddr_writer_0_7, cache-ID = ee77539475925174
+INFO: [Coretcl 2-1174] Renamed 118 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3053.332 ; gain = 0.000 ; free physical = 43245 ; free virtual = 83157
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.runs/design_1_ddr_writer_0_7_synth_1/design_1_ddr_writer_0_7.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ddr_writer_0_7_utilization_synth.rpt -pb design_1_ddr_writer_0_7_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 14:47:55 2021...

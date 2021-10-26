@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Thu Nov 28 16:13:26 2019
+-- Date        : Fri Oct 22 16:47:49 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 -- Command     : write_vhdl -force -mode funcsim -rename_top design_1_sync_0_3 -prefix
 --               design_1_sync_0_3_ design_1_sync_0_5_sim_netlist.vhdl
@@ -135,7 +135,7 @@ architecture STRUCTURE of design_1_sync_0_3 is
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of dest_clk : signal is "xilinx.com:signal:clock:1.0 dest_clk CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of dest_clk : signal is "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 220000000, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of dest_clk : signal is "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of src_clk : signal is "xilinx.com:signal:clock:1.0 src_clk CLK";
   attribute X_INTERFACE_PARAMETER of src_clk : signal is "XIL_INTERFACENAME src_clk, ASSOCIATED_BUSIF src_in, FREQ_HZ 100000000, PHASE 0.000, INSERT_VIP 0";
 begin

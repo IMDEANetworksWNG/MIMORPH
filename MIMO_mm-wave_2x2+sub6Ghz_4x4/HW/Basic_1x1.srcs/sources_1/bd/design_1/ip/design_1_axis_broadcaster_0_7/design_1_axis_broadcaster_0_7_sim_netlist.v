@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Wed Aug 26 11:49:34 2020
+// Date        : Fri Oct 22 16:55:59 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_broadcaster_0_7/design_1_axis_broadcaster_0_7_sim_netlist.v
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_broadcaster_0_7/design_1_axis_broadcaster_0_7_sim_netlist.v
 // Design      : design_1_axis_broadcaster_0_7
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Tue Mar  2 12:29:27 2021
+| Date         : Fri Oct 22 15:43:57 2021
 | Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 | Command      : report_utilization -file design_1_SIVERS_gpio_0_0_utilization_synth.rpt -pb design_1_SIVERS_gpio_0_0_utilization_synth.pb
 | Design       : design_1_SIVERS_gpio_0_0
@@ -36,8 +36,8 @@ Table of Contents
 |   LUT as Memory            |    1 |     0 |    213600 | <0.01 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |    1 |     0 |           |       |
-| CLB Registers              |  620 |     0 |    850560 |  0.07 |
-|   Register as Flip Flop    |  620 |     0 |    850560 |  0.07 |
+| CLB Registers              |  622 |     0 |    850560 |  0.07 |
+|   Register as Flip Flop    |  622 |     0 |    850560 |  0.07 |
 |   Register as Latch        |    0 |     0 |    850560 |  0.00 |
 | CARRY8                     |   78 |     0 |     53160 |  0.15 |
 | F7 Muxes                   |    0 |     0 |    212640 |  0.00 |
@@ -62,7 +62,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 3     |          Yes |         Set |            - |
-| 617   |          Yes |       Reset |            - |
+| 619   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -161,11 +161,11 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  617 |            Register |
-| LUT2     |  169 |                 CLB |
+| FDRE     |  619 |            Register |
+| LUT2     |  167 |                 CLB |
 | LUT3     |  110 |                 CLB |
 | CARRY8   |   78 |                 CLB |
-| LUT4     |   60 |                 CLB |
+| LUT4     |   64 |                 CLB |
 | LUT6     |   51 |                 CLB |
 | LUT1     |    9 |                 CLB |
 | FDSE     |    3 |            Register |

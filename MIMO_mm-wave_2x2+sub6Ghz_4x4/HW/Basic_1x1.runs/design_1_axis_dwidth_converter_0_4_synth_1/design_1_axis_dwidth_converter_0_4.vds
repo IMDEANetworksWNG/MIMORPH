@@ -2,16 +2,19 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Sep 10 14:40:12 2020
-# Process ID: 18093
-# Current directory: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1
+# Start of session at: Fri Oct 22 16:54:29 2021
+# Process ID: 13452
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1
 # Command line: vivado -log design_1_axis_dwidth_converter_0_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_dwidth_converter_0_4.tcl
-# Log file: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.vds
-# Journal file: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/vivado.jou
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_axis_dwidth_converter_0_4.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
@@ -25,16 +28,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_axis_dwidth_converter_0_4 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -43,13 +38,13 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18233 
+INFO: Helper process launched with PID 14427 
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2371.699 ; gain = 142.715 ; free physical = 72666 ; free virtual = 104609
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2369.984 ; gain = 142.684 ; free physical = 13031 ; free virtual = 65387
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_axis_dwidth_converter_0_4' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/synth/design_1_axis_dwidth_converter_0_4.v:57]
-INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_dwidth_converter_0_4' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/synth/design_1_axis_dwidth_converter_0_4.v:57]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 16 - type: integer 
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
@@ -87,7 +82,7 @@ INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwi
 	Parameter P_D3_TUSER_WIDTH bound to: 4 - type: integer 
 	Parameter P_D1_REG_CONFIG bound to: 0 - type: integer 
 	Parameter P_D3_REG_CONFIG bound to: 0 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_S_AXIS_TDATA_WIDTH bound to: 16 - type: integer 
 	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
@@ -131,9 +126,9 @@ INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_up
 	Parameter SM_ACTIVE bound to: 3'b101 
 	Parameter SM_END bound to: 3'b011 
 	Parameter SM_END_TO_ACTIVE bound to: 3'b010 
-INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:525]
-INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' (1#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:525]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_AXIS_TDATA_WIDTH bound to: 16 - type: integer 
 	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
@@ -165,7 +160,7 @@ INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_regis
 	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
 	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
 	Parameter P_TPAYLOAD_WIDTH bound to: 21 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
 	Parameter C_TDATA_WIDTH bound to: 16 - type: integer 
 	Parameter C_TID_WIDTH bound to: 1 - type: integer 
 	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
@@ -198,8 +193,8 @@ INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2v
 	Parameter P_TID_INDX bound to: 21 - type: integer 
 	Parameter P_TDEST_INDX bound to: 21 - type: integer 
 	Parameter P_TUSER_INDX bound to: 21 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (2#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_DATA_WIDTH bound to: 21 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
@@ -207,8 +202,8 @@ INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_regi
 	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
 	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
 	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' (3#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
 	Parameter C_TDATA_WIDTH bound to: 16 - type: integer 
 	Parameter C_TID_WIDTH bound to: 1 - type: integer 
 	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
@@ -241,9 +236,9 @@ INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector
 	Parameter P_TID_INDX bound to: 21 - type: integer 
 	Parameter P_TDEST_INDX bound to: 21 - type: integer 
 	Parameter P_TUSER_INDX bound to: 21 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (4#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
@@ -275,7 +270,7 @@ INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_regis
 	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
 	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
 	Parameter P_TPAYLOAD_WIDTH bound to: 41 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
 	Parameter C_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_TID_WIDTH bound to: 1 - type: integer 
 	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
@@ -308,8 +303,8 @@ INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2v
 	Parameter P_TID_INDX bound to: 41 - type: integer 
 	Parameter P_TDEST_INDX bound to: 41 - type: integer 
 	Parameter P_TUSER_INDX bound to: 41 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
 	Parameter C_FAMILY bound to: zynquplus - type: string 
 	Parameter C_DATA_WIDTH bound to: 41 - type: integer 
 	Parameter C_REG_CONFIG bound to: 0 - type: integer 
@@ -317,8 +312,8 @@ INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_regi
 	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
 	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
 	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
 	Parameter C_TDATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_TID_WIDTH bound to: 1 - type: integer 
 	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
@@ -351,10 +346,10 @@ INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector
 	Parameter P_TID_INDX bound to: 41 - type: integer 
 	Parameter P_TDEST_INDX bound to: 41 - type: integer 
 	Parameter P_TUSER_INDX bound to: 41 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
-INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' (6#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_dwidth_converter_0_4' (7#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/synth/design_1_axis_dwidth_converter_0_4.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/635c/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_dwidth_converter_0_4' (7#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/synth/design_1_axis_dwidth_converter_0_4.v:57]
 WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ACLK2X
 WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ARESET
@@ -377,7 +372,7 @@ WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_convert
 WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_converter has unconnected port s_axis_tkeep[0]
 WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_converter has unconnected port s_axis_tuser[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2430.418 ; gain = 201.434 ; free physical = 72528 ; free virtual = 104487
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2428.703 ; gain = 201.402 ; free physical = 12647 ; free virtual = 64998
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -390,29 +385,29 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2436.355 ; gain = 207.371 ; free physical = 72556 ; free virtual = 104515
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2434.641 ; gain = 207.340 ; free physical = 12620 ; free virtual = 64971
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2436.355 ; gain = 207.371 ; free physical = 72555 ; free virtual = 104515
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2434.641 ; gain = 207.340 ; free physical = 12619 ; free virtual = 64970
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/design_1_axis_dwidth_converter_0_4_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/design_1_axis_dwidth_converter_0_4_ooc.xdc] for cell 'inst'
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/design_1_axis_dwidth_converter_0_4_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_dwidth_converter_0_4/design_1_axis_dwidth_converter_0_4_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2623.918 ; gain = 0.000 ; free physical = 72353 ; free virtual = 104317
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2623.203 ; gain = 0.000 ; free physical = 10991 ; free virtual = 63322
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2623.918 ; gain = 0.000 ; free physical = 72352 ; free virtual = 104316
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2623.203 ; gain = 0.000 ; free physical = 10968 ; free virtual = 63300
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2623.918 ; gain = 394.934 ; free physical = 72460 ; free virtual = 104431
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2623.203 ; gain = 395.902 ; free physical = 10030 ; free virtual = 62399
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -420,18 +415,18 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2623.918 ; gain = 394.934 ; free physical = 72463 ; free virtual = 104434
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2623.203 ; gain = 395.902 ; free physical = 10029 ; free virtual = 62398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2623.918 ; gain = 394.934 ; free physical = 72463 ; free virtual = 104434
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2623.203 ; gain = 395.902 ; free physical = 10027 ; free virtual = 62396
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2623.918 ; gain = 394.934 ; free physical = 72434 ; free virtual = 104406
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 2623.203 ; gain = 395.902 ; free physical = 9984 ; free virtual = 62353
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -500,7 +495,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-4471] merging register 'gen_upsizer_conversion.axisc_upsizer_0/r0_dest_reg[0:0]' into 'gen_upsizer_conversion.axisc_upsizer_0/r0_id_reg[0:0]' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:707]
+INFO: [Synth 8-4471] merging register 'gen_upsizer_conversion.axisc_upsizer_0/r0_dest_reg[0:0]' into 'gen_upsizer_conversion.axisc_upsizer_0/r0_id_reg[0:0]' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/7d46/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:707]
 WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_converter has unconnected port s_axis_tkeep[1]
 WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_converter has unconnected port s_axis_tkeep[0]
 WARNING: [Synth 8-3331] design axis_dwidth_converter_v1_1_18_axis_dwidth_converter has unconnected port s_axis_tid[0]
@@ -512,7 +507,7 @@ INFO: [Synth 8-3886] merging instance 'inst/gen_upsizer_conversion.axisc_upsizer
 INFO: [Synth 8-3886] merging instance 'inst/gen_upsizer_conversion.axisc_upsizer_0/acc_keep_reg[2]' (FDRE) to 'inst/gen_upsizer_conversion.axisc_upsizer_0/acc_keep_reg[3]'
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (inst/\gen_upsizer_conversion.axisc_upsizer_0/acc_keep_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2623.918 ; gain = 394.934 ; free physical = 72500 ; free virtual = 104480
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 2623.203 ; gain = 395.902 ; free physical = 9846 ; free virtual = 62217
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -524,13 +519,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2895.691 ; gain = 666.707 ; free physical = 69890 ; free virtual = 101988
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:54 . Memory (MB): peak = 2893.883 ; gain = 666.582 ; free physical = 18572 ; free virtual = 70988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2914.723 ; gain = 685.738 ; free physical = 69881 ; free virtual = 101979
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:54 . Memory (MB): peak = 2912.914 ; gain = 685.613 ; free physical = 18573 ; free virtual = 70988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -542,7 +537,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69869 ; free virtual = 101968
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:54 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 18566 ; free virtual = 70982
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -566,7 +561,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101996
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19561 ; free virtual = 71975
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -579,7 +574,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101996
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19564 ; free virtual = 71978
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -591,25 +586,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101995
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19573 ; free virtual = 71987
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101995
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19575 ; free virtual = 71990
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101995
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19582 ; free virtual = 71996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101995
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19586 ; free virtual = 72000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -644,32 +639,32 @@ Report Instance Areas:
 |3     |    \gen_upsizer_conversion.axisc_upsizer_0  |axis_dwidth_converter_v1_1_18_axisc_upsizer         |    76|
 +------+---------------------------------------------+----------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.730 ; gain = 693.746 ; free physical = 69897 ; free virtual = 101995
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2920.922 ; gain = 693.621 ; free physical = 19589 ; free virtual = 72003
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2922.730 ; gain = 506.184 ; free physical = 69932 ; free virtual = 102030
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2922.738 ; gain = 693.746 ; free physical = 69932 ; free virtual = 102030
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 2920.922 ; gain = 505.059 ; free physical = 19787 ; free virtual = 72201
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:56 . Memory (MB): peak = 2920.930 ; gain = 693.621 ; free physical = 19793 ; free virtual = 72208
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.418 ; gain = 0.000 ; free physical = 69836 ; free virtual = 101938
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2963.609 ; gain = 0.000 ; free physical = 20714 ; free virtual = 73059
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-45 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+45 Infos, 43 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 2965.418 ; gain = 1522.098 ; free physical = 69928 ; free virtual = 102030
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.418 ; gain = 0.000 ; free physical = 69928 ; free virtual = 102030
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:01:15 . Memory (MB): peak = 2963.609 ; gain = 1530.605 ; free physical = 20740 ; free virtual = 73085
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2963.609 ; gain = 0.000 ; free physical = 20740 ; free virtual = 73085
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_dwidth_converter_0_4, cache-ID = 3d87be81118bd6a7
 INFO: [Coretcl 2-1174] Renamed 2 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.418 ; gain = 0.000 ; free physical = 69933 ; free virtual = 102035
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2963.609 ; gain = 0.000 ; free physical = 20744 ; free virtual = 73091
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_axis_dwidth_converter_0_4_synth_1/design_1_axis_dwidth_converter_0_4.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axis_dwidth_converter_0_4_utilization_synth.rpt -pb design_1_axis_dwidth_converter_0_4_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Sep 10 14:41:24 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:56:02 2021...

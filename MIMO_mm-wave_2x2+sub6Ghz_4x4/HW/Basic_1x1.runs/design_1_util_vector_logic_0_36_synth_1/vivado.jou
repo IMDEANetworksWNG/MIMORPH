@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 22 16:53:49 2021
+# Process ID: 11595
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_util_vector_logic_0_36_synth_1
+# Command line: vivado -log design_1_util_vector_logic_0_36.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_util_vector_logic_0_36.tcl
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_util_vector_logic_0_36_synth_1/design_1_util_vector_logic_0_36.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_util_vector_logic_0_36_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_util_vector_logic_0_36.tcl -notrace

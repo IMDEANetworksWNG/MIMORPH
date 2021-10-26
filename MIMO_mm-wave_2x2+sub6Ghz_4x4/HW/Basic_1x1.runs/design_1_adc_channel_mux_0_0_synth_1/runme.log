@@ -1,0 +1,388 @@
+
+*** Running vivado
+    with args -log design_1_adc_channel_mux_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_adc_channel_mux_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_adc_channel_mux_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_adc_channel_mux_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 30213 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2370.527 ; gain = 143.715 ; free physical = 13316 ; free virtual = 65155
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_adc_channel_mux_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_adc_channel_mux_0_0/synth/design_1_adc_channel_mux_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'adc_channel_mux' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:6]
+	Parameter AXIS_TDATA_WIDTH bound to: 512 - type: integer 
+	Parameter AXIS_TKEEP_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:116]
+INFO: [Synth 8-251] chan_num:  3'b000, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b001, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b010, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b011, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b100, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b101, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b110, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b111, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'b111, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:109]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:101]
+INFO: [Synth 8-251] chan_num:  3'bxxx, chans_active[chan_num]: 1'bx [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:109]
+INFO: [Synth 8-6155] done synthesizing module 'adc_channel_mux' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2300/hdl/src/verilog/adc_channel_mux.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_adc_channel_mux_0_0' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_adc_channel_mux_0_0/synth/design_1_adc_channel_mux_0_0.v:57]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[30]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[29]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[28]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[27]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[26]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[25]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[24]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[23]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[22]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[21]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[20]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[19]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[18]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[17]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[16]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[15]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[14]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[13]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[12]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[11]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[10]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[9]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2427.246 ; gain = 200.434 ; free physical = 13157 ; free virtual = 65002
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2433.184 ; gain = 206.371 ; free physical = 13071 ; free virtual = 64916
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2433.184 ; gain = 206.371 ; free physical = 13071 ; free virtual = 64916
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2516.027 ; gain = 0.000 ; free physical = 12526 ; free virtual = 64373
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2538.840 ; gain = 22.812 ; free physical = 12489 ; free virtual = 64336
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2538.840 ; gain = 312.027 ; free physical = 12323 ; free virtual = 64176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2538.840 ; gain = 312.027 ; free physical = 12322 ; free virtual = 64175
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2538.840 ; gain = 312.027 ; free physical = 12320 ; free virtual = 64173
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2538.840 ; gain = 312.027 ; free physical = 12222 ; free virtual = 64075
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 7     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   8 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adc_channel_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 7     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   8 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[30]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[29]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[28]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[27]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[26]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[25]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[24]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[23]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[22]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[21]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[20]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[19]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[18]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[17]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[16]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[15]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[14]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[13]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[12]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[11]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[10]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[9]
+WARNING: [Synth 8-3331] design adc_channel_mux has unconnected port channels_active_mode[8]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2585.824 ; gain = 359.012 ; free physical = 11776 ; free virtual = 63639
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:01:03 . Memory (MB): peak = 2902.551 ; gain = 675.738 ; free physical = 17424 ; free virtual = 69290
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:01:03 . Memory (MB): peak = 2904.551 ; gain = 677.738 ; free physical = 17409 ; free virtual = 69275
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:01:04 . Memory (MB): peak = 2929.324 ; gain = 702.512 ; free physical = 17376 ; free virtual = 69242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17458 ; free virtual = 69325
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17464 ; free virtual = 69330
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17516 ; free virtual = 69382
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17513 ; free virtual = 69380
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17509 ; free virtual = 69376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17527 ; free virtual = 69394
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |LUT2  |     5|
+|3     |LUT3  |    14|
+|4     |LUT4  |     4|
+|5     |LUT5  |    12|
+|6     |LUT6  |  1124|
+|7     |MUXF7 |   546|
+|8     |FDRE  |    13|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |  1719|
+|2     |  inst   |adc_channel_mux |  1719|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.293 ; gain = 706.480 ; free physical = 17527 ; free virtual = 69394
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:01:01 . Memory (MB): peak = 2933.293 ; gain = 600.824 ; free physical = 17653 ; free virtual = 69520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2933.301 ; gain = 706.480 ; free physical = 17666 ; free virtual = 69534
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 546 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_adc_channel_mux_0_0' is not ideal for floorplanning, since the cellview 'adc_channel_mux' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3011.965 ; gain = 0.000 ; free physical = 19302 ; free virtual = 71167
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 65 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:01:27 . Memory (MB): peak = 3011.965 ; gain = 1578.449 ; free physical = 19389 ; free virtual = 71254
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3011.965 ; gain = 0.000 ; free physical = 19385 ; free virtual = 71250
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_adc_channel_mux_0_0_synth_1/design_1_adc_channel_mux_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_adc_channel_mux_0_0, cache-ID = 38aaf31550440c6b
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3035.977 ; gain = 0.000 ; free physical = 20849 ; free virtual = 72714
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_adc_channel_mux_0_0_synth_1/design_1_adc_channel_mux_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_adc_channel_mux_0_0_utilization_synth.rpt -pb design_1_adc_channel_mux_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:48:13 2021...

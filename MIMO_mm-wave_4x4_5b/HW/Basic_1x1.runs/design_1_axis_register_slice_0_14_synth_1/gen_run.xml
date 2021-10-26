@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="design_1_axis_register_slice_0_14_synth_1" LaunchPart="xczu28dr-ffvg1517-2-e" LaunchTime="1586185649">
+  <File Type="PA-TCL" Name="design_1_axis_register_slice_0_14.tcl"/>
+  <File Type="RDS-UTIL" Name="design_1_axis_register_slice_0_14_utilization_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="design_1_axis_register_slice_0_14_reports.tcl"/>
   <File Type="RDS-UTIL-PB" Name="design_1_axis_register_slice_0_14_utilization_synth.pb"/>
   <File Type="RDS-RDS" Name="design_1_axis_register_slice_0_14.vds"/>
   <File Type="RDS-DCP" Name="design_1_axis_register_slice_0_14.dcp"/>
-  <File Type="RDS-UTIL" Name="design_1_axis_register_slice_0_14_utilization_synth.rpt"/>
-  <File Type="PA-TCL" Name="design_1_axis_register_slice_0_14.tcl"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/design_1_axis_register_slice_0_14">
     <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_axis_register_slice_0_14/design_1_axis_register_slice_0_14.xci">
       <FileInfo>

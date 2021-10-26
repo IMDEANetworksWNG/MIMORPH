@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Fri Jan  8 13:41:29 2021
+// Date        : Fri Oct 22 15:46:10 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode synth_stub -rename_top design_1_auto_ds_0 -prefix
-//               design_1_auto_ds_0_ design_1_auto_ds_0_stub.v
+// Command     : write_verilog -force -mode synth_stub
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.v
 // Design      : design_1_auto_ds_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu28dr-ffvg1517-2-e

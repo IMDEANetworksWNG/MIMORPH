@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Wed Jul 22 12:55:30 2020
+-- Date        : Fri Oct 22 14:46:54 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_packet_counter_0_2 -prefix
---               design_1_packet_counter_0_2_ design_1_packet_counter_0_2_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_packet_counter_0_2/design_1_packet_counter_0_2_sim_netlist.vhdl
 -- Design      : design_1_packet_counter_0_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -35,6 +35,8 @@ entity design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI is
     s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI : entity is "packet_counter_v1_0_S00_AXI";
 end design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI;
 
 architecture STRUCTURE of design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI is
@@ -2146,6 +2148,8 @@ entity design_1_packet_counter_0_2_vt_single_sync is
     aclk : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_packet_counter_0_2_vt_single_sync : entity is "vt_single_sync";
 end design_1_packet_counter_0_2_vt_single_sync;
 
 architecture STRUCTURE of design_1_packet_counter_0_2_vt_single_sync is
@@ -4375,6 +4379,8 @@ entity design_1_packet_counter_0_2_packet_counter_v1_0 is
   attribute C_S00_AXI_ADDR_WIDTH of design_1_packet_counter_0_2_packet_counter_v1_0 : entity is 4;
   attribute C_S00_AXI_DATA_WIDTH : integer;
   attribute C_S00_AXI_DATA_WIDTH of design_1_packet_counter_0_2_packet_counter_v1_0 : entity is 32;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_packet_counter_0_2_packet_counter_v1_0 : entity is "packet_counter_v1_0";
 end design_1_packet_counter_0_2_packet_counter_v1_0;
 
 architecture STRUCTURE of design_1_packet_counter_0_2_packet_counter_v1_0 is

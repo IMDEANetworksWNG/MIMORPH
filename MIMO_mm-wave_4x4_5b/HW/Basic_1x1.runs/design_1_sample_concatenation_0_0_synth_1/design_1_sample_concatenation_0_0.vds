@@ -1,0 +1,1009 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 25 10:18:37 2021
+# Process ID: 3184
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1
+# Command line: vivado -log design_1_sample_concatenation_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_sample_concatenation_0_0.tcl
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/design_1_sample_concatenation_0_0.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_sample_concatenation_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_sample_concatenation_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3370 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2390.230 ; gain = 143.684 ; free physical = 19972 ; free virtual = 75045
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_sample_concatenation_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/synth/design_1_sample_concatenation_0_0.vhd:79]
+	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_M01_AXIS_TDATA_WIDTH bound to: 128 - type: integer 
+	Parameter sampleSize bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'sample_concatenation_v1_0' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:5' bound to instance 'U0' of component 'sample_concatenation_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/synth/design_1_sample_concatenation_0_0.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'sample_concatenation_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:47]
+	Parameter sampleSize bound to: 5 - type: integer 
+	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_M01_AXIS_TDATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-3491] module 'reg_and_mux' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:5' bound to instance 'reg_and_mux_0' of component 'reg_and_mux' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'reg_and_mux' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:30]
+	Parameter sampleSize bound to: 5 - type: integer 
+	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_and_mux' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:30]
+INFO: [Synth 8-3491] module 'reg_and_mux' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:5' bound to instance 'reg_and_mux_1' of component 'reg_and_mux' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:119]
+INFO: [Synth 8-3491] module 'axis_dwidth_converter_0' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/synth/axis_dwidth_converter_0.v:57' bound to instance 'axis_dwidth_converter_0_0' of component 'axis_dwidth_converter_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:135]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/synth/axis_dwidth_converter_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000000010011 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_SS_TKEEP_REQUIRED bound to: 8 - type: integer 
+	Parameter P_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter P_S_RATIO bound to: 16 - type: integer 
+	Parameter P_M_RATIO bound to: 1 - type: integer 
+	Parameter P_D2_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter P_D1_TUSER_WIDTH bound to: 5 - type: integer 
+	Parameter P_D2_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter P_D3_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter P_D1_REG_CONFIG bound to: 0 - type: integer 
+	Parameter P_D3_REG_CONFIG bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_M_AXIS_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter C_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter C_RATIO bound to: 16 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_READY_EXIST bound to: 1'b1 
+	Parameter P_DATA_EXIST bound to: 1'b1 
+	Parameter P_STRB_EXIST bound to: 1'b0 
+	Parameter P_KEEP_EXIST bound to: 1'b1 
+	Parameter P_LAST_EXIST bound to: 1'b1 
+	Parameter P_ID_EXIST bound to: 1'b0 
+	Parameter P_DEST_EXIST bound to: 1'b0 
+	Parameter P_USER_EXIST bound to: 1'b0 
+	Parameter P_S_AXIS_TSTRB_WIDTH bound to: 5 - type: integer 
+	Parameter P_M_AXIS_TSTRB_WIDTH bound to: 80 - type: integer 
+	Parameter SM_RESET bound to: 3'b000 
+	Parameter SM_IDLE bound to: 3'b001 
+	Parameter SM_ACTIVE bound to: 3'b101 
+	Parameter SM_END bound to: 3'b011 
+	Parameter SM_END_TO_ACTIVE bound to: 3'b010 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:525]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axisc_upsizer' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:437]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter C_REG_CONFIG bound to: 0 - type: integer 
+	Parameter C_NUM_SLR_CROSSINGS bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
+	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TPAYLOAD_WIDTH bound to: 46 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+	Parameter C_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 46 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 40 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 40 - type: integer 
+	Parameter P_TLAST_INDX bound to: 45 - type: integer 
+	Parameter P_TID_INDX bound to: 46 - type: integer 
+	Parameter P_TDEST_INDX bound to: 46 - type: integer 
+	Parameter P_TUSER_INDX bound to: 46 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_DATA_WIDTH bound to: 46 - type: integer 
+	Parameter C_REG_CONFIG bound to: 0 - type: integer 
+	Parameter C_NUM_SLR_CROSSINGS bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
+	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+	Parameter C_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 5 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 46 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 40 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 40 - type: integer 
+	Parameter P_TLAST_INDX bound to: 45 - type: integer 
+	Parameter P_TID_INDX bound to: 46 - type: integer 
+	Parameter P_TDEST_INDX bound to: 46 - type: integer 
+	Parameter P_TUSER_INDX bound to: 46 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter C_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter C_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter C_REG_CONFIG bound to: 0 - type: integer 
+	Parameter C_NUM_SLR_CROSSINGS bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
+	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TPAYLOAD_WIDTH bound to: 721 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+	Parameter C_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 721 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 640 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 640 - type: integer 
+	Parameter P_TLAST_INDX bound to: 720 - type: integer 
+	Parameter P_TID_INDX bound to: 721 - type: integer 
+	Parameter P_TDEST_INDX bound to: 721 - type: integer 
+	Parameter P_TUSER_INDX bound to: 721 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_DATA_WIDTH bound to: 721 - type: integer 
+	Parameter C_REG_CONFIG bound to: 0 - type: integer 
+	Parameter C_NUM_SLR_CROSSINGS bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MASTER bound to: 0 - type: integer 
+	Parameter C_PIPELINES_SLAVE bound to: 0 - type: integer 
+	Parameter C_PIPELINES_MIDDLE bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axisc_register_slice__parameterized0' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:1751]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+	Parameter C_TDATA_WIDTH bound to: 640 - type: integer 
+	Parameter C_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_TUSER_WIDTH bound to: 80 - type: integer 
+	Parameter C_TPAYLOAD_WIDTH bound to: 721 - type: integer 
+	Parameter C_SIGNAL_SET bound to: 32'b00000000000000000000000000011011 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_TDATA_INDX bound to: 0 - type: integer 
+	Parameter P_TSTRB_INDX bound to: 640 - type: integer 
+	Parameter P_TKEEP_INDX bound to: 640 - type: integer 
+	Parameter P_TLAST_INDX bound to: 720 - type: integer 
+	Parameter P_TID_INDX bound to: 721 - type: integer 
+	Parameter P_TDEST_INDX bound to: 721 - type: integer 
+	Parameter P_TUSER_INDX bound to: 721 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_19_axis_register_slice__parameterized0' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_register_slice_v1_1_vl_rfs.v:2594]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_18_axis_dwidth_converter' (7#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_0' (8#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/synth/axis_dwidth_converter_0.v:57]
+INFO: [Synth 8-3491] module 'axis_dwidth_converter_0' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/synth/axis_dwidth_converter_0.v:57' bound to instance 'axis_dwidth_converter_0_1' of component 'axis_dwidth_converter_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:152]
+INFO: [Synth 8-256] done synthesizing module 'sample_concatenation_v1_0' (9#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/hdl/sample_concatenation_v1_0.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'design_1_sample_concatenation_0_0' (10#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/synth/design_1_sample_concatenation_0_0.vhd:79]
+WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ACLK
+WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ACLK2X
+WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ARESET
+WARNING: [Synth 8-3331] design axis_register_slice_v1_1_19_axisc_register_slice__parameterized0 has unconnected port ACLKEN
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[79]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[78]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[77]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[76]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[75]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[74]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[73]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[72]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[71]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[70]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[69]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[68]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[67]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[66]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[65]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[64]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[63]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[62]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[61]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[60]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[59]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[58]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[57]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[56]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[55]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[54]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[53]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[52]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[51]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[50]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[49]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[48]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[47]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[46]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[45]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[44]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[43]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[42]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[41]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[40]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[39]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[38]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[37]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[36]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[35]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[34]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[33]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[32]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[31]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[30]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[29]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[28]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[27]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[26]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[25]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[24]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[23]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[22]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[21]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[20]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[19]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[18]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[17]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[16]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[15]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[14]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[13]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[12]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[11]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[10]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[9]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[8]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[7]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[6]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[5]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[4]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[3]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[2]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[1]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TSTRB[0]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TID[0]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TDEST[0]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[79]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[78]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[77]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[76]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[75]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[74]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[73]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[72]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[71]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[70]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[69]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[68]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[67]
+WARNING: [Synth 8-3331] design axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 has unconnected port TUSER[66]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2448.949 ; gain = 202.402 ; free physical = 19874 ; free virtual = 74948
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2452.918 ; gain = 206.371 ; free physical = 19915 ; free virtual = 74989
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2452.918 ; gain = 206.371 ; free physical = 19917 ; free virtual = 74991
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2633.574 ; gain = 0.000 ; free physical = 19751 ; free virtual = 74826
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2633.574 ; gain = 0.000 ; free physical = 19741 ; free virtual = 74815
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2633.574 ; gain = 387.027 ; free physical = 19919 ; free virtual = 74995
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2633.574 ; gain = 387.027 ; free physical = 19924 ; free virtual = 75000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/axis_dwidth_converter_0_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/axis_dwidth_converter_0_1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2633.574 ; gain = 387.027 ; free physical = 19928 ; free virtual = 75006
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2633.574 ; gain = 387.027 ; free physical = 19866 ; free virtual = 74948
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	              640 Bit    Registers := 2     
+	              128 Bit    Registers := 2     
+	               40 Bit    Registers := 34    
+	               16 Bit    Registers := 2     
+	                5 Bit    Registers := 102   
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     15 Bit        Muxes := 4     
+	   3 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module reg_and_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	              640 Bit    Registers := 1     
+	              128 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+Module axis_dwidth_converter_v1_1_18_axisc_upsizer 
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 17    
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 51    
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input     15 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module axis_register_slice_v1_1_19_axis_register_slice 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module axis_register_slice_v1_1_19_axis_register_slice__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module axis_dwidth_converter_v1_1_18_axis_dwidth_converter 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'inst/gen_upsizer_conversion.axisc_upsizer_0/r0_dest_reg[0:0]' into 'inst/gen_upsizer_conversion.axisc_upsizer_0/r0_id_reg[0:0]' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:707]
+INFO: [Synth 8-4471] merging register 'inst/gen_upsizer_conversion.axisc_upsizer_0/r0_user_reg[4:0]' into 'inst/gen_upsizer_conversion.axisc_upsizer_0/r0_strb_reg[4:0]' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sample_concatenation_0_0/src/axis_dwidth_converter_0/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:708]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[512] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[384] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[256] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[128] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[513] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[385] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[257] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[129] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[514] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[386] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[258] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[130] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[515] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[387] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[259] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[131] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[516] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[388] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[260] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[132] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[517] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[389] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[261] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[133] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[518] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[390] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[262] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[134] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[519] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[391] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[263] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[135] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[520] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[392] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[264] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[136] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[521] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[393] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[265] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[137] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[522] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[394] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[266] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[138] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[523] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[395] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[267] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[139] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[524] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[396] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[268] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[140] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[525] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[397] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[269] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[141] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[526] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[398] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[270] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[142] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[527] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[399] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[271] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[143] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[528] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[400] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[272] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[144] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[529] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[401] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[273] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[145] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[530] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[402] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[274] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[146] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[531] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[403] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[275] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[147] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/reg_and_mux_1/INTERFACE_REG_reg[19] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[0]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[1]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[2]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[3]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[4]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[5]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[6]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[7]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[8]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[9]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[10]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[11]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[12]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[13]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[14]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[15]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[16]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[17]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[18]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[19]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[20]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[21]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[22]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[23]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[24]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[25]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[26]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[27]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[28]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[29]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[30]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[31]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[32]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[33]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[34]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[35]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[36]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[37]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[38]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[39]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[40]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[41]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[42]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[43]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[44]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[45]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[46]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[47]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[48]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[49]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[50]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[51]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[52]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[53]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[54]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[55]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[56]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[57]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[58]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[59]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[60]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[61]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[62]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[63]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[64]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[65]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[66]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[67]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[68]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[69]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[70]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[71]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[72]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[73]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[74]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[75]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[76]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[77]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[78]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[79]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[80]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[81]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[82]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[83]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[84]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[85]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[86]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[87]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[88]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[89]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[90]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[91]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[92]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[93]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[94]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[95]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[96]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[97]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[98]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_and_mux_1/AXI_M00_TDATA_S_reg[99]' (FDE) to 'U0/reg_and_mux_0/AXI_M00_TDATA_S_reg[0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'U0/reg_and_mux_0/S00_TREADY_SIGNAL_reg__0/Q' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'U0/reg_and_mux_1/S00_TREADY_SIGNAL_reg__0/Q' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:64]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2633.574 ; gain = 387.027 ; free physical = 19799 ; free virtual = 74885
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2914.285 ; gain = 667.738 ; free physical = 18471 ; free virtual = 73478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2915.285 ; gain = 668.738 ; free physical = 18463 ; free virtual = 73470
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_0/SEL_reg[3]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_0/SEL_reg[3] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_0/SEL_reg[2]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_0/SEL_reg[2] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_0/SEL_reg[1]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_0/SEL_reg[1] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_0/SEL_reg[0]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_0/SEL_reg[0] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_1/SEL_reg[3]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_1/SEL_reg[3] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_1/SEL_reg[2]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_1/SEL_reg[2] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_1/SEL_reg[1]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_1/SEL_reg[1] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+INFO: [Synth 8-5966] Removing register instance (\U0/reg_and_mux_1/SEL_reg[0]__0 ) from module (design_1_sample_concatenation_0_0) as it has self-loop and (\U0/reg_and_mux_1/SEL_reg[0] ) is actual driver [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/9138/src/reg_and_mux.vhd:66]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 2935.324 ; gain = 688.777 ; free physical = 18388 ; free virtual = 73395
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18374 ; free virtual = 73385
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18375 ; free virtual = 73386
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18405 ; free virtual = 73416
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18412 ; free virtual = 73423
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18417 ; free virtual = 73428
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18417 ; free virtual = 73428
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     4|
+|3     |LUT3  |     6|
+|4     |LUT4  |    32|
+|5     |LUT5  |    34|
+|6     |LUT6  |    14|
+|7     |MUXF7 |     4|
+|8     |FDRE  |  1440|
+|9     |FDSE  |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------+------------------------------------------------------+------+
+|      |Instance                                         |Module                                                |Cells |
++------+-------------------------------------------------+------------------------------------------------------+------+
+|1     |top                                              |                                                      |  1543|
+|2     |  U0                                             |sample_concatenation_v1_0                             |  1543|
+|3     |    reg_and_mux_0                                |reg_and_mux                                           |    10|
+|4     |    reg_and_mux_1                                |reg_and_mux_0                                         |    10|
+|5     |    axis_dwidth_converter_0_0                    |axis_dwidth_converter_0__1                            |   760|
+|6     |      inst                                       |axis_dwidth_converter_v1_1_18_axis_dwidth_converter_1 |   760|
+|7     |        \gen_upsizer_conversion.axisc_upsizer_0  |axis_dwidth_converter_v1_1_18_axisc_upsizer_2         |   758|
+|8     |    axis_dwidth_converter_0_1                    |axis_dwidth_converter_0                               |   760|
+|9     |      inst                                       |axis_dwidth_converter_v1_1_18_axis_dwidth_converter   |   760|
+|10    |        \gen_upsizer_conversion.axisc_upsizer_0  |axis_dwidth_converter_v1_1_18_axisc_upsizer           |   758|
++------+-------------------------------------------------+------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.262 ; gain = 694.715 ; free physical = 18417 ; free virtual = 73428
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:40 . Memory (MB): peak = 2941.262 ; gain = 514.059 ; free physical = 18453 ; free virtual = 73464
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 2941.270 ; gain = 694.715 ; free physical = 18453 ; free virtual = 73464
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3017.902 ; gain = 0.000 ; free physical = 18397 ; free virtual = 73409
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+265 Infos, 117 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:57 . Memory (MB): peak = 3017.902 ; gain = 1576.957 ; free physical = 18477 ; free virtual = 73489
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3017.902 ; gain = 0.000 ; free physical = 18477 ; free virtual = 73489
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/design_1_sample_concatenation_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_sample_concatenation_0_0, cache-ID = 0ba577bb08589390
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3041.914 ; gain = 0.000 ; free physical = 18550 ; free virtual = 73563
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_5b/HW/Basic_1x1.runs/design_1_sample_concatenation_0_0_synth_1/design_1_sample_concatenation_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_sample_concatenation_0_0_utilization_synth.rpt -pb design_1_sample_concatenation_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 25 10:19:48 2021...

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jun 10 10:08:43 2021" VIVADOVERSION="2019.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 22 14:44:52 2021" VIVADOVERSION="2019.1">
 
   <SYSTEMINFO ARCH="zynquplusRFSOC" BOARD="xilinx.com:zcu111:part0:1.2" DEVICE="xczu28dr" NAME="design_1" PACKAGE="ffvg1517" SPEEDGRADE="-2"/>
 
@@ -1279,16 +1279,16 @@
             <CONNECTION INSTANCE="usp_rf_data_converter_0" PORT="m3_axis_aclk"/>
             <CONNECTION INSTANCE="usp_rf_data_converter_0" PORT="m0_axis_aclk"/>
             <CONNECTION INSTANCE="usp_rf_data_converter_0" PORT="m1_axis_aclk"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="aclk"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="aclk"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="aclk"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_3" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_2" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_0" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_1" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_boundary_detector_0" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_0" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_2" PORT="aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_1" PORT="aclk"/>
@@ -1600,11 +1600,11 @@
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="SPB_blocks_PD_FLAG_block_util_vector_logic_2_Res">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="PD_FLAG"/>
+            <CONNECTION INSTANCE="SPB_blocks_boundary_d_boundary_detector_0" PORT="i_PD_FLAG"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="PD_FLAG"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="PD_FLAG"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="PD_FLAG"/>
-            <CONNECTION INSTANCE="SPB_blocks_boundary_d_boundary_detector_0" PORT="i_PD_FLAG"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="PD_FLAG"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -2588,7 +2588,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/SPB_blocks/packet_counter_0" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/SPB_blocks/packet_counter_0" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -2951,7 +2951,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/SPB_blocks/packet_counter_1" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/SPB_blocks/packet_counter_1" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -3314,7 +3314,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/SPB_blocks/packet_counter_2" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/SPB_blocks/packet_counter_2" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -3677,7 +3677,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="15" FULLNAME="/SPB_blocks/packet_counter_3" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
+    <MODULE COREREVISION="16" FULLNAME="/SPB_blocks/packet_counter_3" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_counter_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_counter" VLNV="user.org:user:packet_counter:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -4040,7 +4040,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/SPB_blocks/packet_detector_11AD_0" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
+    <MODULE COREREVISION="22" FULLNAME="/SPB_blocks/packet_detector_11AD_0" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -4446,7 +4446,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/SPB_blocks/packet_detector_11AD_1" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
+    <MODULE COREREVISION="22" FULLNAME="/SPB_blocks/packet_detector_11AD_1" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -4849,7 +4849,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/SPB_blocks/packet_detector_11AD_2" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
+    <MODULE COREREVISION="22" FULLNAME="/SPB_blocks/packet_detector_11AD_2" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -5252,7 +5252,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="18" FULLNAME="/SPB_blocks/packet_detector_11AD_3" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
+    <MODULE COREREVISION="22" FULLNAME="/SPB_blocks/packet_detector_11AD_3" HWVERSION="1.0" INSTANCE="SPB_blocks_packet_detector_11AD_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="packet_detector_11AD" VLNV="user.org:user:packet_detector_11AD:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -15563,7 +15563,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="37" FULLNAME="/ddr_writer_0" HWVERSION="1.0" INSTANCE="ddr_writer_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ddr_writer" VLNV="user.org:user:ddr_writer:1.0">
+    <MODULE COREREVISION="38" FULLNAME="/ddr_writer_0" HWVERSION="1.0" INSTANCE="ddr_writer_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ddr_writer" VLNV="user.org:user:ddr_writer:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -16219,11 +16219,11 @@
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M22_ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M23_ARESETN"/>
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M24_ARESETN"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="s00_axi_aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="s00_axi_aresetn"/>
-            <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="s00_axi_aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_2" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_1" PORT="s00_axi_aresetn"/>
@@ -20900,16 +20900,16 @@
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="rx_datapath_soft_reset_util_vector_logic_0_Res">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="aresetn"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="aresetn"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="aresetn"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_3" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_2" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_axis_dwidth_converter_1" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_boundary_d_boundary_detector_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="aresetn"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_0" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_2" PORT="aresetn"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_1" PORT="aresetn"/>
@@ -40254,11 +40254,11 @@
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M22_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M23_ACLK"/>
             <CONNECTION INSTANCE="axi_interconnect_2" PORT="M24_ACLK"/>
-            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="s00_axi_aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_2" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_counter_1" PORT="s00_axi_aclk"/>
-            <CONNECTION INSTANCE="SPB_blocks_SIVERS_gpio_0" PORT="s00_axi_aclk"/>
+            <CONNECTION INSTANCE="SPB_blocks_packet_counter_3" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_2" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="SPB_blocks_packet_detector_11AD_1" PORT="s00_axi_aclk"/>

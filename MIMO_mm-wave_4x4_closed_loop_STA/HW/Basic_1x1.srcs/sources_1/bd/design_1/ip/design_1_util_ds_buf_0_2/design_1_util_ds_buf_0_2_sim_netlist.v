@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Wed Nov 20 13:59:18 2019
+// Date        : Fri Oct 22 15:41:45 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_util_ds_buf_0_2 -prefix
-//               design_1_util_ds_buf_0_2_ design_1_util_ds_buf_0_2_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_2/design_1_util_ds_buf_0_2_sim_netlist.v
 // Design      : design_1_util_ds_buf_0_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -77,6 +77,7 @@ module design_1_util_ds_buf_0_2
 endmodule
 
 (* C_BUFGCE_DIV = "1" *) (* C_BUF_TYPE = "IBUFDS" *) (* C_SIZE = "1" *) 
+(* ORIG_REF_NAME = "util_ds_buf" *) 
 module design_1_util_ds_buf_0_2_util_ds_buf
    (IBUF_DS_P,
     IBUF_DS_N,

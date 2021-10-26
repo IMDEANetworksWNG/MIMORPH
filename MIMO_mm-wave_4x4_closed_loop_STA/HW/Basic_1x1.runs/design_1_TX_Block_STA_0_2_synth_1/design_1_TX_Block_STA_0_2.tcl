@@ -17,11 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param power.enableLutRouteBelPower 1
-set_param chipscope.maxJobs 4
-set_param power.BramSDPPropagationFix 1
-set_param power.enableUnconnectedCarry8PinPower 1
-set_param power.enableCarry8RouteBelPower 1
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
@@ -48,21 +43,21 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.cache/wt [current_project]
-set_property parent.project_path /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.xpr [current_project]
+set_property webtalk.parent_dir /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.cache/wt [current_project]
+set_property parent.project_path /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part xilinx.com:zcu111:part0:1.2 [current_project]
 set_property ip_repo_paths {
-  /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/srcs/ip/ip_repo
-  /home/rafael/Documentos/RFSoC_Vivado/ip_repo
+  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/srcs/ip/ip_repo
+  /home/rafael/Documents/MIMORPH/MIMORPH/ip_repo
 } [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.cache/ip [current_project]
+set_property ip_output_repo /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.xci
-set_property used_in_implementation false [get_files -all /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/TX_Block_STA_v1_0/TX_Block_STA_v1_0.srcs/constrs_1/new/constrains.xdc]
+read_ip -quiet /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.xci
+set_property used_in_implementation false [get_files -all /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/hdl/contraints.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -76,7 +71,7 @@ read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-set cached_ip [config_ip_cache -export -no_bom  -dir /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1 -new_name design_1_TX_Block_STA_0_2 -ip [get_ips design_1_TX_Block_STA_0_2]]
+set cached_ip [config_ip_cache -export -no_bom  -dir /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1 -new_name design_1_TX_Block_STA_0_2 -ip [get_ips design_1_TX_Block_STA_0_2]]
 
 if { $cached_ip eq {} } {
 close [open __synthesis_is_running__ w]
@@ -117,32 +112,32 @@ write_checkpoint -force -noxdef design_1_TX_Block_STA_0_2.dcp
 create_report "design_1_TX_Block_STA_0_2_synth_1_synth_report_utilization_0" "report_utilization -file design_1_TX_Block_STA_0_2_utilization_synth.rpt -pb design_1_TX_Block_STA_0_2_utilization_synth.pb"
 
 if { [catch {
-  file copy -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2.dcp /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.dcp
+  file copy -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2.dcp /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v
+  write_verilog -force -mode synth_stub /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl
+  write_vhdl -force -mode synth_stub /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.v
+  write_verilog -force -mode funcsim /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -152,47 +147,47 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2.dcp /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.dcp
+  file copy -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2.dcp /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_stub.v /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v
+  file rename -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_stub.v /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_stub.vhdl /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl
+  file rename -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_stub.vhdl /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_sim_netlist.v /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.v
+  file rename -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_sim_netlist.v /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_sim_netlist.vhdl /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.vhdl
+  file rename -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.runs/design_1_TX_Block_STA_0_2_synth_1/design_1_TX_Block_STA_0_2_sim_netlist.vhdl /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 }; # end if cached_ip 
 
-if {[file isdir /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2]} {
+if {[file isdir /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2]} {
   catch { 
-    file copy -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2
+    file copy -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.v /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2
   }
 }
 
-if {[file isdir /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2]} {
+if {[file isdir /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2]} {
   catch { 
-    file copy -force /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2
+    file copy -force /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_TX_Block_STA_0_2/design_1_TX_Block_STA_0_2_stub.vhdl /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.ip_user_files/ip/design_1_TX_Block_STA_0_2
   }
 }
 file delete __synthesis_is_running__

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.0 (64-bit)
+# SW Build 2186352 on Mon Apr  2 20:25:56 MDT 2018
+# IP Build 2185990 on Mon Apr  2 22:44:01 MDT 2018
+# Start of session at: Wed Apr  4 11:09:59 2018
+# Process ID: 137749
+# Current directory: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+# Command line: vivado reset_reg.xpr
+# Log file: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg/vivado.log
+# Journal file: /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project reset_reg.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg -vendor xilinx.com -library user -taxonomy /UserIP -force
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces s_axi_clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+set_property supported_families {kintex7l Production artix7l Production qzynq Production virtexu Production kintexuplus Production elbertevalfamily Production virtex7 Production kintex7 Production qkintex7 Production artix7 Production aartix7 Production zynq Production azynq Production aspartan7 Production zynquplus Production virtexuplusHBM Production kintexu Production viabloevalfamily Production aaaevalfamily Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production zynquplus Production virtexuplus Production virtexuplusHBM Production kintexuplus Production kintexu Production diabloevalfamily Production viabloevalfamily Production elbertevalfamily Production aaaevalfamily Production elbertolyevalfamily Production virtex7 Production qvirtex7 Production kintex7 Production kintex7l Production qkintex7 Production qkintex7l Production artix7 Production artix7l Production aartix7 Production qartix7 Production zynq Production qzynq Production azynq Production spartan7 Production aspartan7 Production virtexu Production zynquplusRFSOC Production virtexuplus Production kintexuplus Production zynquplus Production kintexu Production} [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg
+set_property supported_families {virtexu Production kintex7 Production zynq Production virtexuplusHBM Production virtex7 Production qkintex7 Production aartix7 Production azynq Production zynquplus Production kintexu Production aaaevalfamily Production kintex7 Production artix7 Production zynq Production aspartan7 Production kintexuplus Production kintex7l Production qzynq Production kintexuplus Production virtex7 Production qkintex7 Production aartix7 Production azynq Production zynquplus Production kintexu Production aaaevalfamily Production qkintex7l Production spartan7 Production diabloevalfamily Production zynquplusRFSOC Production kintex7l Production artix7l Production qzynq Production virtexu Production kintexuplus Production elbertevalfamily Production virtex7 Production kintex7 Production qkintex7 Production artix7 Production aartix7 Production zynq Production azynq Production aspartan7 Production zynquplus Production virtexuplusHBM Production kintexu Production viabloevalfamily Production aaaevalfamily Production qvirtex7 Production qkintex7l Production qartix7 Production spartan7 Production virtexuplus Production diabloevalfamily Production elbertolyevalfamily Production zynquplusRFSOC Production virtex7 Beta qvirtex7 Beta kintex7 Beta kintex7l Beta qkintex7 Beta qkintex7l Beta artix7 Beta artix7l Beta aartix7 Beta qartix7 Beta zynq Beta qzynq Beta azynq Beta spartan7 Beta aspartan7 Beta virtexu Beta zynquplusRFSOC Beta virtexuplus Beta kintexuplus Beta zynquplus Beta kintexu Beta} [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path /wrk/paeg1/users/bokkaab/caher_perf/temp/ip_repo/reset_reg

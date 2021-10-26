@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
---Date        : Fri Apr 23 13:32:37 2021
+--Date        : Fri Oct 22 15:38:35 2021
 --Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 --Command     : generate_target design_1.bd
 --Design      : design_1
@@ -6987,59 +6987,6 @@ entity stream_0_imp_1NVPUXS is
 end stream_0_imp_1NVPUXS;
 
 architecture STRUCTURE of stream_0_imp_1NVPUXS is
-  component design_1_packet_detector_11AD_0_0 is
-  port (
-    PD_FLAG : out STD_LOGIC;
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
-    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    m02_axis_tlast : out STD_LOGIC;
-    m02_axis_tvalid : out STD_LOGIC;
-    m02_axis_tready : in STD_LOGIC;
-    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m00_axis_tlast : out STD_LOGIC;
-    m00_axis_tvalid : out STD_LOGIC;
-    m00_axis_tready : in STD_LOGIC;
-    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m01_axis_tlast : out STD_LOGIC;
-    m01_axis_tvalid : out STD_LOGIC;
-    m01_axis_tready : in STD_LOGIC;
-    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_awvalid : in STD_LOGIC;
-    s00_axi_awready : out STD_LOGIC;
-    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_wvalid : in STD_LOGIC;
-    s00_axi_wready : out STD_LOGIC;
-    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_bvalid : out STD_LOGIC;
-    s00_axi_bready : in STD_LOGIC;
-    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_arvalid : in STD_LOGIC;
-    s00_axi_arready : out STD_LOGIC;
-    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_rvalid : out STD_LOGIC;
-    s00_axi_rready : in STD_LOGIC;
-    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s01_axis_tlast : in STD_LOGIC;
-    s01_axis_tvalid : in STD_LOGIC;
-    s01_axis_tready : out STD_LOGIC;
-    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s00_axis_tlast : in STD_LOGIC;
-    s00_axis_tvalid : in STD_LOGIC;
-    s00_axis_tready : out STD_LOGIC
-  );
-  end component design_1_packet_detector_11AD_0_0;
   component design_1_SIVERS_gpio_0_0 is
   port (
     aclk : in STD_LOGIC;
@@ -7144,6 +7091,59 @@ architecture STRUCTURE of stream_0_imp_1NVPUXS is
     s01_axis_tready : out STD_LOGIC
   );
   end component design_1_RX_Block_STA_v2_0_0;
+  component design_1_packet_detector_11AD_0_0 is
+  port (
+    PD_FLAG : out STD_LOGIC;
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
+    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    m02_axis_tlast : out STD_LOGIC;
+    m02_axis_tvalid : out STD_LOGIC;
+    m02_axis_tready : in STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC;
+    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m01_axis_tlast : out STD_LOGIC;
+    m01_axis_tvalid : out STD_LOGIC;
+    m01_axis_tready : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC
+  );
+  end component design_1_packet_detector_11AD_0_0;
   signal BD_FLAG_1 : STD_LOGIC;
   signal Conn1_TDATA : STD_LOGIC_VECTOR ( 127 downto 0 );
   signal Conn1_TREADY : STD_LOGIC;
@@ -7604,59 +7604,6 @@ entity stream_1_imp_1HGJ5PF is
 end stream_1_imp_1HGJ5PF;
 
 architecture STRUCTURE of stream_1_imp_1HGJ5PF is
-  component design_1_packet_detector_11AD_0_2 is
-  port (
-    PD_FLAG : out STD_LOGIC;
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
-    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    m02_axis_tlast : out STD_LOGIC;
-    m02_axis_tvalid : out STD_LOGIC;
-    m02_axis_tready : in STD_LOGIC;
-    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m00_axis_tlast : out STD_LOGIC;
-    m00_axis_tvalid : out STD_LOGIC;
-    m00_axis_tready : in STD_LOGIC;
-    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m01_axis_tlast : out STD_LOGIC;
-    m01_axis_tvalid : out STD_LOGIC;
-    m01_axis_tready : in STD_LOGIC;
-    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_awvalid : in STD_LOGIC;
-    s00_axi_awready : out STD_LOGIC;
-    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_wvalid : in STD_LOGIC;
-    s00_axi_wready : out STD_LOGIC;
-    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_bvalid : out STD_LOGIC;
-    s00_axi_bready : in STD_LOGIC;
-    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_arvalid : in STD_LOGIC;
-    s00_axi_arready : out STD_LOGIC;
-    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_rvalid : out STD_LOGIC;
-    s00_axi_rready : in STD_LOGIC;
-    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s01_axis_tlast : in STD_LOGIC;
-    s01_axis_tvalid : in STD_LOGIC;
-    s01_axis_tready : out STD_LOGIC;
-    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s00_axis_tlast : in STD_LOGIC;
-    s00_axis_tvalid : in STD_LOGIC;
-    s00_axis_tready : out STD_LOGIC
-  );
-  end component design_1_packet_detector_11AD_0_2;
   component design_1_RX_Block_STA_v2_0_1 is
   port (
     adc_440_aclk : in STD_LOGIC;
@@ -7730,6 +7677,59 @@ architecture STRUCTURE of stream_1_imp_1HGJ5PF is
     s01_axis_tready : out STD_LOGIC
   );
   end component design_1_RX_Block_STA_v2_0_1;
+  component design_1_packet_detector_11AD_0_2 is
+  port (
+    PD_FLAG : out STD_LOGIC;
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
+    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    m02_axis_tlast : out STD_LOGIC;
+    m02_axis_tvalid : out STD_LOGIC;
+    m02_axis_tready : in STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC;
+    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m01_axis_tlast : out STD_LOGIC;
+    m01_axis_tvalid : out STD_LOGIC;
+    m01_axis_tready : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC
+  );
+  end component design_1_packet_detector_11AD_0_2;
   signal BD_FLAG_1 : STD_LOGIC_VECTOR ( 0 to 0 );
   signal Conn1_TDATA : STD_LOGIC_VECTOR ( 127 downto 0 );
   signal Conn1_TREADY : STD_LOGIC;
@@ -8117,59 +8117,6 @@ entity stream_2_imp_1X4P4KM is
 end stream_2_imp_1X4P4KM;
 
 architecture STRUCTURE of stream_2_imp_1X4P4KM is
-  component design_1_packet_detector_11AD_0_1 is
-  port (
-    PD_FLAG : out STD_LOGIC;
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
-    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    m02_axis_tlast : out STD_LOGIC;
-    m02_axis_tvalid : out STD_LOGIC;
-    m02_axis_tready : in STD_LOGIC;
-    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m00_axis_tlast : out STD_LOGIC;
-    m00_axis_tvalid : out STD_LOGIC;
-    m00_axis_tready : in STD_LOGIC;
-    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m01_axis_tlast : out STD_LOGIC;
-    m01_axis_tvalid : out STD_LOGIC;
-    m01_axis_tready : in STD_LOGIC;
-    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_awvalid : in STD_LOGIC;
-    s00_axi_awready : out STD_LOGIC;
-    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_wvalid : in STD_LOGIC;
-    s00_axi_wready : out STD_LOGIC;
-    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_bvalid : out STD_LOGIC;
-    s00_axi_bready : in STD_LOGIC;
-    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_arvalid : in STD_LOGIC;
-    s00_axi_arready : out STD_LOGIC;
-    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_rvalid : out STD_LOGIC;
-    s00_axi_rready : in STD_LOGIC;
-    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s01_axis_tlast : in STD_LOGIC;
-    s01_axis_tvalid : in STD_LOGIC;
-    s01_axis_tready : out STD_LOGIC;
-    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s00_axis_tlast : in STD_LOGIC;
-    s00_axis_tvalid : in STD_LOGIC;
-    s00_axis_tready : out STD_LOGIC
-  );
-  end component design_1_packet_detector_11AD_0_1;
   component design_1_RX_Block_STA_v2_0_2 is
   port (
     adc_440_aclk : in STD_LOGIC;
@@ -8243,6 +8190,59 @@ architecture STRUCTURE of stream_2_imp_1X4P4KM is
     s01_axis_tready : out STD_LOGIC
   );
   end component design_1_RX_Block_STA_v2_0_2;
+  component design_1_packet_detector_11AD_0_1 is
+  port (
+    PD_FLAG : out STD_LOGIC;
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
+    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    m02_axis_tlast : out STD_LOGIC;
+    m02_axis_tvalid : out STD_LOGIC;
+    m02_axis_tready : in STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC;
+    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m01_axis_tlast : out STD_LOGIC;
+    m01_axis_tvalid : out STD_LOGIC;
+    m01_axis_tready : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC
+  );
+  end component design_1_packet_detector_11AD_0_1;
   signal BD_FLAG_1 : STD_LOGIC;
   signal Conn1_ARADDR : STD_LOGIC_VECTOR ( 39 downto 0 );
   signal Conn1_ARPROT : STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -8630,59 +8630,6 @@ entity stream_3_imp_1U4YS6D is
 end stream_3_imp_1U4YS6D;
 
 architecture STRUCTURE of stream_3_imp_1U4YS6D is
-  component design_1_packet_detector_11AD_0_3 is
-  port (
-    PD_FLAG : out STD_LOGIC;
-    aclk : in STD_LOGIC;
-    aresetn : in STD_LOGIC;
-    s00_axi_aclk : in STD_LOGIC;
-    s00_axi_aresetn : in STD_LOGIC;
-    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
-    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    m02_axis_tlast : out STD_LOGIC;
-    m02_axis_tvalid : out STD_LOGIC;
-    m02_axis_tready : in STD_LOGIC;
-    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m00_axis_tlast : out STD_LOGIC;
-    m00_axis_tvalid : out STD_LOGIC;
-    m00_axis_tready : in STD_LOGIC;
-    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
-    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    m01_axis_tlast : out STD_LOGIC;
-    m01_axis_tvalid : out STD_LOGIC;
-    m01_axis_tready : in STD_LOGIC;
-    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_awvalid : in STD_LOGIC;
-    s00_axi_awready : out STD_LOGIC;
-    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_wvalid : in STD_LOGIC;
-    s00_axi_wready : out STD_LOGIC;
-    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_bvalid : out STD_LOGIC;
-    s00_axi_bready : in STD_LOGIC;
-    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
-    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
-    s00_axi_arvalid : in STD_LOGIC;
-    s00_axi_arready : out STD_LOGIC;
-    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    s00_axi_rvalid : out STD_LOGIC;
-    s00_axi_rready : in STD_LOGIC;
-    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s01_axis_tlast : in STD_LOGIC;
-    s01_axis_tvalid : in STD_LOGIC;
-    s01_axis_tready : out STD_LOGIC;
-    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
-    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    s00_axis_tlast : in STD_LOGIC;
-    s00_axis_tvalid : in STD_LOGIC;
-    s00_axis_tready : out STD_LOGIC
-  );
-  end component design_1_packet_detector_11AD_0_3;
   component design_1_RX_Block_STA_v2_0_3 is
   port (
     adc_440_aclk : in STD_LOGIC;
@@ -8756,6 +8703,59 @@ architecture STRUCTURE of stream_3_imp_1U4YS6D is
     s01_axis_tready : out STD_LOGIC
   );
   end component design_1_RX_Block_STA_v2_0_3;
+  component design_1_packet_detector_11AD_0_3 is
+  port (
+    PD_FLAG : out STD_LOGIC;
+    aclk : in STD_LOGIC;
+    aresetn : in STD_LOGIC;
+    s00_axi_aclk : in STD_LOGIC;
+    s00_axi_aresetn : in STD_LOGIC;
+    m02_axis_tdata : out STD_LOGIC_VECTOR ( 79 downto 0 );
+    m02_axis_tstrb : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    m02_axis_tlast : out STD_LOGIC;
+    m02_axis_tvalid : out STD_LOGIC;
+    m02_axis_tready : in STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC;
+    m01_axis_tdata : out STD_LOGIC_VECTOR ( 127 downto 0 );
+    m01_axis_tstrb : out STD_LOGIC_VECTOR ( 15 downto 0 );
+    m01_axis_tlast : out STD_LOGIC;
+    m01_axis_tvalid : out STD_LOGIC;
+    m01_axis_tready : in STD_LOGIC;
+    s00_axi_awaddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_awvalid : in STD_LOGIC;
+    s00_axi_awready : out STD_LOGIC;
+    s00_axi_wdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_wvalid : in STD_LOGIC;
+    s00_axi_wready : out STD_LOGIC;
+    s00_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_bvalid : out STD_LOGIC;
+    s00_axi_bready : in STD_LOGIC;
+    s00_axi_araddr : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    s00_axi_arvalid : in STD_LOGIC;
+    s00_axi_arready : out STD_LOGIC;
+    s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    s00_axi_rvalid : out STD_LOGIC;
+    s00_axi_rready : in STD_LOGIC;
+    s01_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s01_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s01_axis_tlast : in STD_LOGIC;
+    s01_axis_tvalid : in STD_LOGIC;
+    s01_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 127 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC
+  );
+  end component design_1_packet_detector_11AD_0_3;
   signal BD_FLAG_1 : STD_LOGIC;
   signal Conn1_TDATA : STD_LOGIC_VECTOR ( 127 downto 0 );
   signal Conn1_TREADY : STD_LOGIC;

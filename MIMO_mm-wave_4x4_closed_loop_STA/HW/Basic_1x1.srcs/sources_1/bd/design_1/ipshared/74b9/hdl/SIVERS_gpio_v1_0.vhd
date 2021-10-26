@@ -99,7 +99,7 @@ port (  clk : in std_logic;
         rst_n : in std_logic;
         i_TRIGGER : in std_logic;
         i_P_TRN : in std_logic_vector(9 downto 0); -- P x T_TRN (T_TRN is the period of a TRN subfield, P is the number of repetitions of TRN subfields on the same TRN unit)
-        i_M : in std_logic_vector(4 downto 0);
+        i_M : in std_logic_vector(6 downto 0);
         i_N_TRN : in std_logic_vector(9 downto 0);
         i_L : in std_logic_vector(3 downto 0);
         i_T_INIT : in std_logic_vector(15 downto 0); -- 0 -> 48 cycles (128*6/16) ; 1 -> 96 cycles (2*128*6/16) 
@@ -197,9 +197,9 @@ SIVERS_GPIO_CHANGE_v2_inst : SIVERS_GPIO_CHANGE_v2
         rst_n => aresetn,
         i_TRIGGER => i_TRIGGER,
         i_P_TRN => control_PMNL_o(9 downto 0), -- P x T_TRN (T_TRN is the period of a TRN subfield, P is the number of repetitions of TRN subfields on the same TRN unit)
-        i_M => control_PMNL_o(14 downto 10),
-        i_N_TRN => control_PMNL_o(24 downto 15),
-        i_L => control_PMNL_o(28 downto 25),
+        i_M => control_PMNL_o(16 downto 10),
+        i_N_TRN => control_PMNL_o(26 downto 17),
+        i_L => control_PMNL_o(30 downto 27),
         i_T_INIT => control_T_o(15 downto 0), -- 0 -> 48 cycles (128*6/16) ; 1 -> 96 cycles (2*128*6/16) 
         i_T_HIGH => control_T_o(22 downto 16),
         o_INC_BP => INC,

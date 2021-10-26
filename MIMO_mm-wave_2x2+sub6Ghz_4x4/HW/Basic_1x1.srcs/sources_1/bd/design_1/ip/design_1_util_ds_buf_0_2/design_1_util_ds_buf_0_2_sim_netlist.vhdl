@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Wed Nov 20 13:59:18 2019
+-- Date        : Fri Oct 22 16:46:09 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_util_ds_buf_0_2 -prefix
---               design_1_util_ds_buf_0_2_ design_1_util_ds_buf_0_2_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_2/design_1_util_ds_buf_0_2_sim_netlist.vhdl
 -- Design      : design_1_util_ds_buf_0_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -55,6 +55,8 @@ entity design_1_util_ds_buf_0_2_util_ds_buf is
   attribute C_BUF_TYPE of design_1_util_ds_buf_0_2_util_ds_buf : entity is "IBUFDS";
   attribute C_SIZE : integer;
   attribute C_SIZE of design_1_util_ds_buf_0_2_util_ds_buf : entity is 1;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_util_ds_buf_0_2_util_ds_buf : entity is "util_ds_buf";
 end design_1_util_ds_buf_0_2_util_ds_buf;
 
 architecture STRUCTURE of design_1_util_ds_buf_0_2_util_ds_buf is

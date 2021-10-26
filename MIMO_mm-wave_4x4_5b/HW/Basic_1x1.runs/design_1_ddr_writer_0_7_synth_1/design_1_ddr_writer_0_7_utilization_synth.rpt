@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Wed Oct 21 17:46:43 2020
+| Date         : Mon Oct 25 10:20:47 2021
 | Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 | Command      : report_utilization -file design_1_ddr_writer_0_7_utilization_synth.rpt -pb design_1_ddr_writer_0_7_utilization_synth.pb
 | Design       : design_1_ddr_writer_0_7
@@ -31,13 +31,13 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  | 1250 |     0 |    425280 |  0.29 |
-|   LUT as Logic             | 1022 |     0 |    425280 |  0.24 |
-|   LUT as Memory            |  228 |     0 |    213600 |  0.11 |
+| CLB LUTs*                  |  319 |     0 |    425280 |  0.08 |
+|   LUT as Logic             |  317 |     0 |    425280 |  0.07 |
+|   LUT as Memory            |    2 |     0 |    213600 | <0.01 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
-|     LUT as Shift Register  |  228 |     0 |           |       |
-| CLB Registers              | 1971 |     0 |    850560 |  0.23 |
-|   Register as Flip Flop    | 1971 |     0 |    850560 |  0.23 |
+|     LUT as Shift Register  |    2 |     0 |           |       |
+| CLB Registers              |  733 |     0 |    850560 |  0.09 |
+|   Register as Flip Flop    |  733 |     0 |    850560 |  0.09 |
 |   Register as Latch        |    0 |     0 |    850560 |  0.00 |
 | CARRY8                     |   40 |     0 |     53160 |  0.08 |
 | F7 Muxes                   |    0 |     0 |    212640 |  0.00 |
@@ -61,8 +61,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 126   |          Yes |         Set |            - |
-| 1845  |          Yes |       Reset |            - |
+| 9     |          Yes |         Set |            - |
+| 724   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -72,9 +72,9 @@ Table of Contents
 +-------------------+------+-------+-----------+-------+
 |     Site Type     | Used | Fixed | Available | Util% |
 +-------------------+------+-------+-----------+-------+
-| Block RAM Tile    |  114 |     0 |      1080 | 10.56 |
-|   RAMB36/FIFO*    |  114 |     0 |      1080 | 10.56 |
-|     RAMB36E2 only |  114 |       |           |       |
+| Block RAM Tile    |    8 |     0 |      1080 |  0.74 |
+|   RAMB36/FIFO*    |    8 |     0 |      1080 |  0.74 |
+|     RAMB36E2 only |    8 |       |           |       |
 |   RAMB18          |    0 |     0 |      2160 |  0.00 |
 | URAM              |    0 |     0 |        80 |  0.00 |
 +-------------------+------+-------+-----------+-------+
@@ -162,17 +162,17 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 1845 |            Register |
-| LUT2     |  546 |                 CLB |
-| LUT3     |  528 |                 CLB |
-| LUT4     |  230 |                 CLB |
-| SRL16E   |  228 |                 CLB |
-| FDSE     |  126 |            Register |
-| RAMB36E2 |  114 |           Block Ram |
-| LUT6     |   72 |                 CLB |
+| FDRE     |  724 |            Register |
+| LUT4     |  116 |                 CLB |
+| LUT6     |   93 |                 CLB |
+| LUT2     |   84 |                 CLB |
 | CARRY8   |   40 |                 CLB |
 | LUT1     |   39 |                 CLB |
 | LUT5     |   19 |                 CLB |
+| LUT3     |   14 |                 CLB |
+| FDSE     |    9 |            Register |
+| RAMB36E2 |    8 |           Block Ram |
+| SRL16E   |    2 |                 CLB |
 +----------+------+---------------------+
 
 

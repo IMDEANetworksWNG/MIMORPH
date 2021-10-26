@@ -12,6 +12,9 @@ source design_1_usp_rf_data_converter_0_0.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
@@ -24,16 +27,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/tlast'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_usp_rf_data_converter_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -42,25 +37,25 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 20136 
+INFO: Helper process launched with PID 26578 
 load diablo GTM unisim library
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:499]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:504]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:509]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:514]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:522]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:526]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:530]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:534]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:538]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:542]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:546]
-WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:550]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:499]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:504]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:509]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:514]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:522]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:526]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:530]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:534]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:538]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:542]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:546]
+WARNING: [Synth 8-2292] literal value truncated to fit in 3 bits [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:550]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2389.648 ; gain = 152.621 ; free physical = 40157 ; free virtual = 105055
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2387.457 ; gain = 152.590 ; free physical = 13354 ; free virtual = 65115
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.v:52]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_block' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:56]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.v:52]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_block' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:56]
 	Parameter dac00_enable bound to: 1'b1 
 	Parameter dac00_data_type bound to: 1'b0 
 	Parameter dac00_interpolation bound to: 3'b001 
@@ -170,7 +165,7 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_blo
 	Parameter MRK_CNTR_BITS bound to: 16 - type: integer 
 	Parameter MTS_SYSREF_COUNT_NBITS bound to: 8 - type: integer 
 	Parameter MTS_SYSREF_FREQ_NBITS bound to: 15 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_rf_wrapper' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rf_wrapper.v:50]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_rf_wrapper' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rf_wrapper.v:50]
 	Parameter NMR_DAC_TILES bound to: 2 - type: integer 
 	Parameter NMR_ADC_TILES bound to: 4 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
@@ -181,10 +176,10 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [/opt/Xilinx/Vivado/20
 	Parameter VERSION bound to: 0 - type: integer 
 INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:205]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (1#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm_top' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm_top.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm_top' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm_top.sv:47]
 	Parameter start_val_500_nanosecs bound to: 24'b000000000000000000110010 
 	Parameter start_val_20_microsecs bound to: 24'b000000000000011111010000 
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_tile_config' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_tile_config' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:47]
 	Parameter idle bound to: 3'b000 
 	Parameter memory_delay bound to: 3'b001 
 	Parameter check_tile_index bound to: 3'b010 
@@ -192,20 +187,20 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_til
 	Parameter write_drp bound to: 3'b100 
 	Parameter wait_for_write_rdy bound to: 3'b101 
 	Parameter finished bound to: 3'b110 
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_device_rom' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:47]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:69]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_device_rom' (2#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:47]
-WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:252]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_tile_config' (3#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_constants_config' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_device_rom' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:47]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:69]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_device_rom' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_device_rom.sv:47]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:252]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_tile_config' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_constants_config' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:48]
 	Parameter idle bound to: 3'b000 
 	Parameter wait_for_start bound to: 3'b001 
 	Parameter wait_for_drp bound to: 3'b010 
 	Parameter check_subdrp bound to: 3'b011 
 	Parameter write_drp bound to: 3'b100 
 	Parameter wait_for_write_rdy bound to: 3'b101 
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_constants_config' (4#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:48]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_bgt_fsm' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_constants_config' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:48]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_bgt_fsm' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:47]
 	Parameter idle bound to: 5'b00000 
 	Parameter request_drp bound to: 5'b00001 
 	Parameter write_vbg_ctrl_1 bound to: 5'b00010 
@@ -223,9 +218,9 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_bgt
 	Parameter wait_for_vbg_status bound to: 5'b01110 
 	Parameter write_vbg_ctrl_9 bound to: 5'b01111 
 	Parameter write_vbg_ctrl_10 bound to: 5'b10000 
-WARNING: [Synth 8-6014] Unused sequential element timer_125ns_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:116]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_bgt_fsm' (5#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
+WARNING: [Synth 8-6014] Unused sequential element timer_125ns_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_bgt_fsm' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
 	Parameter ADC bound to: 1 - type: integer 
 	Parameter NO_OF_SLICES bound to: 4 - type: integer 
 	Parameter PLL bound to: 0 - type: integer 
@@ -256,13 +251,13 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por
 	Parameter write_subdrp bound to: 4'b1010 
 	Parameter wait_for_subdrp_write_rdy bound to: 4'b1011 
 	Parameter wait_for_50_us bound to: 4'b1100 
-WARNING: [Synth 8-6014] Unused sequential element por_timer_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:277]
-WARNING: [Synth 8-6014] Unused sequential element status_timer_count_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:302]
-WARNING: [Synth 8-6014] Unused sequential element status_timer_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:303]
-WARNING: [Synth 8-6014] Unused sequential element status_gnt_r_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:329]
-WARNING: [Synth 8-6014] Unused sequential element pll_ok_r_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:1031]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm' (6#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter_adc' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:47]
+WARNING: [Synth 8-6014] Unused sequential element por_timer_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:277]
+WARNING: [Synth 8-6014] Unused sequential element status_timer_count_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:302]
+WARNING: [Synth 8-6014] Unused sequential element status_timer_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:303]
+WARNING: [Synth 8-6014] Unused sequential element status_gnt_r_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:329]
+WARNING: [Synth 8-6014] Unused sequential element pll_ok_r_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:1031]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm' (6#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter_adc' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:47]
 	Parameter DRP_WRITE_DELAY bound to: 4 - type: integer 
 	Parameter idle bound to: 3'b000 
 	Parameter gnt_tile_config bound to: 3'b001 
@@ -272,9 +267,9 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp
 	Parameter gnt_bgt bound to: 3'b101 
 	Parameter gnt_user bound to: 3'b110 
 	Parameter gnt_dummy_read bound to: 3'b111 
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:300]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter_adc' (7#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm__parameterized0' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:300]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter_adc' (7#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter_adc.v:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm__parameterized0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
 	Parameter ADC bound to: 0 - type: integer 
 	Parameter NO_OF_SLICES bound to: 0 - type: integer 
 	Parameter PLL bound to: 1 - type: integer 
@@ -305,10 +300,10 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_por
 	Parameter write_subdrp bound to: 4'b1010 
 	Parameter wait_for_subdrp_write_rdy bound to: 4'b1011 
 	Parameter wait_for_50_us bound to: 4'b1100 
-WARNING: [Synth 8-6014] Unused sequential element por_timer_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:277]
-WARNING: [Synth 8-6014] Unused sequential element status_timer_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:303]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm__parameterized0' (7#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter.v:47]
+WARNING: [Synth 8-6014] Unused sequential element por_timer_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:277]
+WARNING: [Synth 8-6014] Unused sequential element status_timer_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:303]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm__parameterized0' (7#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter.v:47]
 	Parameter DRP_WRITE_DELAY bound to: 4 - type: integer 
 	Parameter idle bound to: 3'b000 
 	Parameter gnt_tile_config bound to: 3'b001 
@@ -317,9 +312,9 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp
 	Parameter gnt_bgt bound to: 3'b100 
 	Parameter gnt_user bound to: 3'b101 
 	Parameter gnt_dummy_read bound to: 3'b110 
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter' (8#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter.v:47]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm_top' (9#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm_top.sv:47]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_arbiter' (8#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_arbiter.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_por_fsm_top' (9#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_por_fsm_top.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl.sv:52]
 	Parameter MTS_NUM_TILES bound to: 1 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:13664]
 	Parameter INIT bound to: 1'b0 
@@ -334,7 +329,7 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized0' [/opt/
 	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
 	Parameter VERSION bound to: 0 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized0' (10#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl' (11#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl' (11#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_fifo_ctrl.sv:52]
 INFO: [Synth 8-6157] synthesizing module 'HSDAC' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:32755]
 	Parameter SIM_DEVICE bound to: ULTRASCALE_PLUS - type: string 
 	Parameter XPA_CFG0 bound to: 1 - type: integer 
@@ -371,8 +366,8 @@ INFO: [Synth 8-6157] synthesizing module 'HSADC__parameterized0' [/opt/Xilinx/Vi
 	Parameter XPA_PLL_USED bound to: No - type: string 
 	Parameter XPA_SAMPLE_RATE_MSPS bound to: 3520 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'HSADC__parameterized0' (13#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:32646]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_rf_wrapper' (14#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rf_wrapper.v:50]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_axi_lite_ipif' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_axi_lite_ipif.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_rf_wrapper' (14#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rf_wrapper.v:50]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_axi_lite_ipif' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_axi_lite_ipif.v:88]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_MIN_SIZE bound to: 262140 - type: integer 
 	Parameter C_USE_WSTRB bound to: 0 - type: integer 
@@ -382,7 +377,7 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_axi
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 64'b0000000000000000000000000000000000000000000000111111111111111100 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 8'b00000001 
 	Parameter C_FAMILY bound to: zynquplus - type: string 
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_slave_attachment' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_slave_attachment.v:83]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_slave_attachment' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_slave_attachment.v:83]
 	Parameter C_NUM_ADDRESS_RANGES bound to: 1 - type: integer 
 	Parameter C_TOTAL_NUM_CE bound to: 1 - type: integer 
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 64'b0000000000000000000000000000000000000000000000111111111111111100 
@@ -405,36 +400,36 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_sla
 	Parameter BRESP_WAIT bound to: 3'b110 
 	Parameter COUNTER_WIDTH bound to: 12 - type: integer 
 	Parameter DPTO_LD_VALUE bound to: 12'b011111111111 
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_counter_f' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:54]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_counter_f' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:54]
 	Parameter C_NUM_BITS bound to: 12 - type: integer 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_counter_f' (15#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:54]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_address_decoder' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_address_decoder.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_counter_f' (15#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:54]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_address_decoder' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_address_decoder.v:65]
 	Parameter C_NUM_ADDRESS_RANGES bound to: 1 - type: integer 
 	Parameter C_TOTAL_NUM_CE bound to: 1 - type: integer 
 	Parameter C_BUS_AWIDTH bound to: 18 - type: integer 
 	Parameter C_ARD_ADDR_RANGE_ARRAY bound to: 64'b0000000000000000000000000000000000000000000000111111111111111100 
 	Parameter C_ARD_NUM_CE_ARRAY bound to: 8'b00000001 
 	Parameter C_FAMILY bound to: nofamily - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_address_decoder' (16#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_address_decoder.v:65]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_slave_attachment' (17#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_slave_attachment.v:83]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_axi_lite_ipif' (18#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_axi_lite_ipif.v:88]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_register_decode' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:49]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:146]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_register_decode' (19#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_access_ctrl' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_access_ctrl.v:50]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_access_ctrl' (20#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_access_ctrl.v:50]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control_top' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control_top.v:50]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_address_decoder' (16#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_address_decoder.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_slave_attachment' (17#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_slave_attachment.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_axi_lite_ipif' (18#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_axi_lite_ipif.v:88]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_register_decode' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:49]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:146]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_register_decode' (19#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_register_decode.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_access_ctrl' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_access_ctrl.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_access_ctrl' (20#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_access_ctrl.v:50]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control_top' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control_top.v:50]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:50]
 	Parameter idle bound to: 3'b000 
 	Parameter send_enable bound to: 3'b001 
 	Parameter wait_rdy bound to: 3'b010 
 	Parameter write_done bound to: 3'b011 
 	Parameter read_done bound to: 3'b100 
-INFO: [Synth 8-155] case statement is not full and has no default [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:87]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control' (21#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:50]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control_top' (22#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control_top.v:50]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_sync' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_sync.v:48]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control' (21#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_drp_control_top' (22#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_drp_control_top.v:50]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_sync.v:48]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized1' [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
 	Parameter DEST_SYNC_FF bound to: 5 - type: integer 
 	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
@@ -442,22 +437,22 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized1' [/opt/
 	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
 	Parameter VERSION bound to: 0 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized1' (22#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_sync' (23#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_sync.v:48]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_powerup_state_irq' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_powerup_state_irq.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_req_ack' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_req_ack.v:49]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_req_ack' (24#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_req_ack.v:49]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_powerup_state_irq' (25#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_powerup_state_irq.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_overvol_irq' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_overvol_irq.v:49]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_overvol_irq' (26#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_overvol_irq.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0bufg_gt_ctrl.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_sync' (23#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_sync.v:48]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_powerup_state_irq' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_powerup_state_irq.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_req_ack' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_req_ack.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_irq_req_ack' (24#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_irq_req_ack.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_powerup_state_irq' (25#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_powerup_state_irq.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_overvol_irq' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_overvol_irq.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_overvol_irq' (26#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_overvol_irq.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0bufg_gt_ctrl.v:49]
 INFO: [Synth 8-6157] synthesizing module 'BUFG_GT' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1251]
 	Parameter SIM_DEVICE bound to: ULTRASCALE - type: string 
 	Parameter STARTUP_SYNC bound to: FALSE - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'BUFG_GT' (27#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1251]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl' (28#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0bufg_gt_ctrl.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_reset_count' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rst_cnt.v:49]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_reset_count' (29#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rst_cnt.v:49]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_sysref_count' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_sysref_count.sv:50]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl' (28#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0bufg_gt_ctrl.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_reset_count' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rst_cnt.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_reset_count' (29#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_rst_cnt.v:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_sysref_count' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_sysref_count.sv:50]
 	Parameter COUNT_NBITS bound to: 8 - type: integer 
 	Parameter FREQ_NBITS bound to: 15 - type: integer 
 	Parameter COUNT_MAX bound to: 255 - type: integer 
@@ -471,12 +466,12 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/opt/Xilinx/Vivado
 	Parameter INV_DEF_VAL bound to: 1'b1 
 INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1226]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (30#1) [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_sysref_count' (31#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_sysref_count.sv:50]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_sysref_count' (31#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_sysref_count.sv:50]
 INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:78091]
 	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
 INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (32#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:78091]
-INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_data_align' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_data_align.sv:49]
+INFO: [Synth 8-6157] synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_data_align' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_data_align.sv:49]
 	Parameter BITS_PER_WORD bound to: 16 - type: integer 
 	Parameter MAX_WORDS bound to: 16 - type: integer 
 	Parameter MAX_T1_DLY bound to: 32 - type: integer 
@@ -486,25 +481,25 @@ INFO: [Synth 8-6157] synthesizing module 'SRLC32E__parameterized0' [/opt/Xilinx/
 	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
 INFO: [Synth 8-6155] done synthesizing module 'SRLC32E__parameterized0' (32#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:78091]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_data_align' (33#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_data_align.sv:49]
-WARNING: [Synth 8-6014] Unused sequential element adc01_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2827]
-WARNING: [Synth 8-6014] Unused sequential element adc01_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2828]
-WARNING: [Synth 8-6014] Unused sequential element adc03_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2853]
-WARNING: [Synth 8-6014] Unused sequential element adc03_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2854]
-WARNING: [Synth 8-6014] Unused sequential element adc11_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3069]
-WARNING: [Synth 8-6014] Unused sequential element adc11_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3070]
-WARNING: [Synth 8-6014] Unused sequential element adc13_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3095]
-WARNING: [Synth 8-6014] Unused sequential element adc13_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3096]
-WARNING: [Synth 8-6014] Unused sequential element adc21_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3311]
-WARNING: [Synth 8-6014] Unused sequential element adc21_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3312]
-WARNING: [Synth 8-6014] Unused sequential element adc23_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3337]
-WARNING: [Synth 8-6014] Unused sequential element adc23_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3338]
-WARNING: [Synth 8-6014] Unused sequential element adc31_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3553]
-WARNING: [Synth 8-6014] Unused sequential element adc31_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3554]
-WARNING: [Synth 8-6014] Unused sequential element adc33_cal_freeze_reg_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3579]
-WARNING: [Synth 8-6014] Unused sequential element adc33_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3580]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_block' (34#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:56]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0' (35#1) [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_mt_data_align' (33#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_mt_data_align.sv:49]
+WARNING: [Synth 8-6014] Unused sequential element adc01_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2827]
+WARNING: [Synth 8-6014] Unused sequential element adc01_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2828]
+WARNING: [Synth 8-6014] Unused sequential element adc03_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2853]
+WARNING: [Synth 8-6014] Unused sequential element adc03_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:2854]
+WARNING: [Synth 8-6014] Unused sequential element adc11_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3069]
+WARNING: [Synth 8-6014] Unused sequential element adc11_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3070]
+WARNING: [Synth 8-6014] Unused sequential element adc13_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3095]
+WARNING: [Synth 8-6014] Unused sequential element adc13_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3096]
+WARNING: [Synth 8-6014] Unused sequential element adc21_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3311]
+WARNING: [Synth 8-6014] Unused sequential element adc21_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3312]
+WARNING: [Synth 8-6014] Unused sequential element adc23_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3337]
+WARNING: [Synth 8-6014] Unused sequential element adc23_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3338]
+WARNING: [Synth 8-6014] Unused sequential element adc31_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3553]
+WARNING: [Synth 8-6014] Unused sequential element adc31_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3554]
+WARNING: [Synth 8-6014] Unused sequential element adc33_cal_freeze_reg_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3579]
+WARNING: [Synth 8-6014] Unused sequential element adc33_disable_cal_freeze_input_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:3580]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0_block' (34#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_block.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_usp_rf_data_converter_0_0' (35#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.v:52]
 WARNING: [Synth 8-3331] design xpm_cdc_single__parameterized1 has unconnected port src_clk
 WARNING: [Synth 8-3331] design xpm_cdc_single__parameterized0 has unconnected port src_clk
 WARNING: [Synth 8-3331] design design_1_usp_rf_data_converter_0_0_register_decode has unconnected port bus2ip_addr[12]
@@ -607,7 +602,7 @@ WARNING: [Synth 8-3331] design design_1_usp_rf_data_converter_0_0_por_fsm__param
 WARNING: [Synth 8-3331] design design_1_usp_rf_data_converter_0_0_por_fsm__parameterized0 has unconnected port adc3_status[4]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2539.125 ; gain = 302.098 ; free physical = 40081 ; free virtual = 104982
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2535.934 ; gain = 301.066 ; free physical = 12750 ; free virtual = 64516
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -620,28 +615,28 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2559.938 ; gain = 322.910 ; free physical = 40113 ; free virtual = 105013
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2559.746 ; gain = 324.879 ; free physical = 12739 ; free virtual = 64510
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2559.938 ; gain = 322.910 ; free physical = 40113 ; free virtual = 105013
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2559.746 ; gain = 324.879 ; free physical = 12738 ; free virtual = 64510
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc] for cell 'inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc].
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc]
-Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc] for cell 'inst'
-WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc:119]
-WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc:121]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc] for cell 'inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc].
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc] for cell 'inst'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc:119]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc:121]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'inst/i_mts_sysref_count_dac/i_xpm_cdc_single_start_pulse'
 Finished Sourcing Tcl File [/opt/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'inst/i_mts_sysref_count_dac/i_xpm_cdc_single_start_pulse'
@@ -947,14 +942,14 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_usp_rf_data_converter_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2750.469 ; gain = 0.000 ; free physical = 39944 ; free virtual = 104844
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2747.309 ; gain = 0.000 ; free physical = 11992 ; free virtual = 63799
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.17 . Memory (MB): peak = 2756.406 ; gain = 5.938 ; free physical = 39942 ; free virtual = 104843
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2754.246 ; gain = 6.938 ; free physical = 11917 ; free virtual = 63725
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2756.406 ; gain = 519.379 ; free physical = 40076 ; free virtual = 104978
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 2754.246 ; gain = 519.379 ; free physical = 10885 ; free virtual = 62693
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -962,12 +957,12 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2756.406 ; gain = 519.379 ; free physical = 40076 ; free virtual = 104978
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 2754.246 ; gain = 519.379 ; free physical = 10880 ; free virtual = 62688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/dont_touch.xdc, line 9).
 Applied set_property DONT_TOUCH = true for inst/i_mts_sysref_count_dac/i_xpm_cdc_single_start_pulse. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/design_1_usp_rf_data_converter_0_0_rf_wrapper_i/cdc_adc0_clk_present_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/cdc_adc0_clk_valid_i. (constraint file  auto generated constraint, line ).
@@ -1118,20 +1113,20 @@ Applied set_property DONT_TOUCH = true for inst/i_design_1_usp_rf_data_converter
 Applied set_property DONT_TOUCH = true for inst/i_design_1_usp_rf_data_converter_0_0_irq_sync/sync_dac13_data_irq. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/i_design_1_usp_rf_data_converter_0_0_irq_sync/sync_dac13_fifo_irq. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2756.406 ; gain = 519.379 ; free physical = 40055 ; free virtual = 104956
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 2754.246 ; gain = 519.379 ; free physical = 10659 ; free virtual = 62467
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "data_array". This will be implemented in logic
-INFO: [Synth 8-4471] merging register 'drp_wen_reg' into 'drp_den_reg' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:218]
+INFO: [Synth 8-4471] merging register 'drp_wen_reg' into 'drp_den_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_tile_config.sv:218]
 INFO: [Synth 8-802] inferred FSM for state register 'tc_sm_state_reg' in module 'design_1_usp_rf_data_converter_0_0_tile_config'
-INFO: [Synth 8-4471] merging register 'adc0_drpwe_reg' into 'adc0_drpen_reg' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:455]
-INFO: [Synth 8-4471] merging register 'adc1_drpwe_reg' into 'adc1_drpen_reg' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:690]
-INFO: [Synth 8-4471] merging register 'adc2_drpwe_reg' into 'adc2_drpen_reg' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:925]
-INFO: [Synth 8-4471] merging register 'adc3_drpwe_reg' into 'adc3_drpen_reg' [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:1160]
+INFO: [Synth 8-4471] merging register 'adc0_drpwe_reg' into 'adc0_drpen_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:455]
+INFO: [Synth 8-4471] merging register 'adc1_drpwe_reg' into 'adc1_drpen_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:690]
+INFO: [Synth 8-4471] merging register 'adc2_drpwe_reg' into 'adc2_drpen_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:925]
+INFO: [Synth 8-4471] merging register 'adc3_drpwe_reg' into 'adc3_drpen_reg' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_constants_config.sv:1160]
 INFO: [Synth 8-802] inferred FSM for state register 'const_sm_state_adc0_reg' in module 'design_1_usp_rf_data_converter_0_0_constants_config'
 INFO: [Synth 8-802] inferred FSM for state register 'const_sm_state_adc1_reg' in module 'design_1_usp_rf_data_converter_0_0_constants_config'
 INFO: [Synth 8-802] inferred FSM for state register 'const_sm_state_adc2_reg' in module 'design_1_usp_rf_data_converter_0_0_constants_config'
 INFO: [Synth 8-802] inferred FSM for state register 'const_sm_state_adc3_reg' in module 'design_1_usp_rf_data_converter_0_0_constants_config'
-INFO: [Synth 8-3936] Found unconnected internal register 'rdata_status_reg' and it is trimmed from '16' to '1' bits. [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:293]
+INFO: [Synth 8-3936] Found unconnected internal register 'rdata_status_reg' and it is trimmed from '16' to '1' bits. [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_bgt_fsm.v:293]
 INFO: [Synth 8-802] inferred FSM for state register 'bgt_sm_state_reg' in module 'design_1_usp_rf_data_converter_0_0_bgt_fsm'
 INFO: [Synth 8-5587] ROM size for "drp_addr" is below threshold of ROM address width. It will be mapped to LUTs
 INFO: [Synth 8-5587] ROM size for "drp_di" is below threshold of ROM address width. It will be mapped to LUTs
@@ -1192,7 +1187,7 @@ INFO: [Synth 8-5544] ROM "done" won't be mapped to Block RAM because address siz
 INFO: [Synth 8-5544] ROM "enable_clock_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "por_sm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "por_sm_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:99]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/synth/design_1_usp_rf_data_converter_0_0_counter_f.v:99]
 INFO: [Synth 8-802] inferred FSM for state register 'access_cs_reg' in module 'design_1_usp_rf_data_converter_0_0_slave_attachment'
 INFO: [Synth 8-5546] ROM "reg_select" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p_8359_in" won't be mapped to RAM because it is too sparse
@@ -1469,7 +1464,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'access_cs_reg' using encod
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'design_1_usp_rf_data_converter_0_0_drp_control'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 2756.406 ; gain = 519.379 ; free physical = 40003 ; free virtual = 104908
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:06 . Memory (MB): peak = 2754.246 ; gain = 519.379 ; free physical = 12563 ; free virtual = 64367
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -3233,7 +3228,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_2/
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_2/\dac1_fifo_disable_reg[15] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/i_2/\dac0_fifo_disable_reg[15] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:35 . Memory (MB): peak = 2838.398 ; gain = 601.371 ; free physical = 39919 ; free virtual = 104859
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:02:40 . Memory (MB): peak = 2836.238 ; gain = 601.371 ; free physical = 11641 ; free virtual = 63517
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -3290,13 +3285,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'i_mts_sysref_count_dac/sy
 INFO: [Synth 8-5578] Moved timing constraint from pin 'i_mts_sysref_count_dac/sysref_freq[9]' to pin '{i_mts_sysref_count_dac/sysref_freq_r_reg[9]/Q}'
 INFO: [Synth 8-5819] Moved 15 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:49 ; elapsed = 00:02:05 . Memory (MB): peak = 3013.922 ; gain = 776.895 ; free physical = 39514 ; free virtual = 104454
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:50 ; elapsed = 00:03:23 . Memory (MB): peak = 3011.762 ; gain = 776.895 ; free physical = 23282 ; free virtual = 75146
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:07 . Memory (MB): peak = 3054.953 ; gain = 817.926 ; free physical = 39487 ; free virtual = 104429
+Finished Timing Optimization : Time (s): cpu = 00:02:53 ; elapsed = 00:03:26 . Memory (MB): peak = 3052.793 ; gain = 817.926 ; free physical = 24446 ; free virtual = 76309
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -3314,7 +3309,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:57 ; elapsed = 00:02:14 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39488 ; free virtual = 104427
+Finished Technology Mapping : Time (s): cpu = 00:03:05 ; elapsed = 00:03:39 . Memory (MB): peak = 3088.816 ; gain = 853.949 ; free physical = 23048 ; free virtual = 74910
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -3338,7 +3333,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:59 ; elapsed = 00:02:16 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39486 ; free virtual = 104425
+Finished IO Insertion : Time (s): cpu = 00:03:08 ; elapsed = 00:03:42 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 22401 ; free virtual = 74263
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -3351,7 +3346,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:59 ; elapsed = 00:02:16 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39486 ; free virtual = 104425
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:08 ; elapsed = 00:03:42 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 22347 ; free virtual = 74209
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -3363,25 +3358,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39484 ; free virtual = 104423
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:10 ; elapsed = 00:03:44 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 22183 ; free virtual = 74045
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39484 ; free virtual = 104423
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:10 ; elapsed = 00:03:44 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 22167 ; free virtual = 74029
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39484 ; free virtual = 104424
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:10 ; elapsed = 00:03:45 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 21840 ; free virtual = 73702
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39484 ; free virtual = 104424
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:10 ; elapsed = 00:03:45 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 21899 ; free virtual = 73761
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -3643,11 +3638,11 @@ Report Instance Areas:
 |221   |      sync_bypass                                          |xpm_cdc_single__parameterized1__166                                   |     5|
 +------+-----------------------------------------------------------+----------------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.977 ; gain = 860.949 ; free physical = 39484 ; free virtual = 104424
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:10 ; elapsed = 00:03:45 . Memory (MB): peak = 3092.785 ; gain = 857.918 ; free physical = 21896 ; free virtual = 73758
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:50 ; elapsed = 00:02:08 . Memory (MB): peak = 3097.977 ; gain = 664.480 ; free physical = 39520 ; free virtual = 104459
-Synthesis Optimization Complete : Time (s): cpu = 00:02:01 ; elapsed = 00:02:18 . Memory (MB): peak = 3097.984 ; gain = 860.949 ; free physical = 39534 ; free virtual = 104473
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:56 ; elapsed = 00:03:29 . Memory (MB): peak = 3092.785 ; gain = 663.418 ; free physical = 21900 ; free virtual = 73762
+Synthesis Optimization Complete : Time (s): cpu = 00:03:11 ; elapsed = 00:03:45 . Memory (MB): peak = 3092.793 ; gain = 857.918 ; free physical = 21916 ; free virtual = 73778
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 195 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -3659,24 +3654,24 @@ INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/design_1_usp_rf_data_converter_0_0
 INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/design_1_usp_rf_data_converter_0_0_rf_wrapper_i/BUFG_GT_SYNC_3 for BUFG_GT inst/i_design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl/adc3_bufg_gt
 INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/design_1_usp_rf_data_converter_0_0_rf_wrapper_i/BUFG_GT_SYNC_4 for BUFG_GT inst/i_design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl/dac0_bufg_gt
 INFO: [Opt 31-441] Inserted BUFG_GT_SYNC inst/design_1_usp_rf_data_converter_0_0_rf_wrapper_i/BUFG_GT_SYNC_5 for BUFG_GT inst/i_design_1_usp_rf_data_converter_0_0_bufg_gt_ctrl/dac1_bufg_gt
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3141.867 ; gain = 0.000 ; free physical = 39461 ; free virtual = 104401
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3141.645 ; gain = 0.000 ; free physical = 21793 ; free virtual = 73656
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-421 Infos, 160 Warnings, 0 Critical Warnings and 0 Errors encountered.
+421 Infos, 156 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:12 ; elapsed = 00:02:33 . Memory (MB): peak = 3141.867 ; gain = 1703.410 ; free physical = 39571 ; free virtual = 104510
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3141.867 ; gain = 0.000 ; free physical = 39571 ; free virtual = 104510
+synth_design: Time (s): cpu = 00:03:26 ; elapsed = 00:04:08 . Memory (MB): peak = 3141.645 ; gain = 1686.441 ; free physical = 21861 ; free virtual = 73724
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3141.645 ; gain = 0.000 ; free physical = 21856 ; free virtual = 73719
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/design_1_usp_rf_data_converter_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/design_1_usp_rf_data_converter_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_usp_rf_data_converter_0_0, cache-ID = 22d3d8c646189916
 INFO: [Coretcl 2-1174] Renamed 220 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3165.879 ; gain = 0.000 ; free physical = 39553 ; free virtual = 104510
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3165.656 ; gain = 0.000 ; free physical = 20193 ; free virtual = 72075
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/design_1_usp_rf_data_converter_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1/design_1_usp_rf_data_converter_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_usp_rf_data_converter_0_0_utilization_synth.rpt -pb design_1_usp_rf_data_converter_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 17:24:06 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:49:02 2021...

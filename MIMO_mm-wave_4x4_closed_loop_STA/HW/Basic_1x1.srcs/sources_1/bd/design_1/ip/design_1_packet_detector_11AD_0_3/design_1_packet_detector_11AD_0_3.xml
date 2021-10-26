@@ -1529,11 +1529,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 02 11:27:02 UTC 2021</spirit:value>
+            <spirit:value>Fri Oct 22 13:39:11 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:11840c51</spirit:value>
+            <spirit:value>9:dfa21ac6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1544,7 +1544,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:11840c51</spirit:value>
+            <spirit:value>9:dfa21ac6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1560,11 +1560,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 02 11:27:02 UTC 2021</spirit:value>
+            <spirit:value>Fri Oct 22 13:39:11 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:11840c51</spirit:value>
+            <spirit:value>9:dfa21ac6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1580,11 +1580,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 02 11:27:02 UTC 2021</spirit:value>
+            <spirit:value>Fri Oct 22 13:39:11 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:856d0d87</spirit:value>
+            <spirit:value>9:4b4b1b10</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1600,11 +1600,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 02 11:27:02 UTC 2021</spirit:value>
+            <spirit:value>Fri Oct 22 13:39:11 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:856d0d87</spirit:value>
+            <spirit:value>9:4b4b1b10</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1618,11 +1618,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Mar 02 11:27:45 UTC 2021</spirit:value>
+            <spirit:value>Fri Oct 22 13:43:29 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:11840c51</spirit:value>
+            <spirit:value>9:dfa21ac6</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2425,23 +2425,23 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogsynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../edit_packet_detector_11AD_v1_0.srcs/constrs_1/new/constraints.xdc</spirit:name>
+        <spirit:name>src/constraints.xdc</spirit:name>
         <spirit:userFileType>xdc</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/hdl/packet_detector_11AD_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/hdl/packet_detector_11AD_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/hdl/packet_detector_11AD_v1_0.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/hdl/packet_detector_11AD_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/src/packet_detector_v3.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/src/packet_detector_v3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/edit_packet_detector_11AD_v1_0.srcs/sources_1/imports/src/vt_single_sync.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/src/vt_single_sync.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -2456,19 +2456,19 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/hdl/packet_detector_11AD_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/hdl/packet_detector_11AD_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/hdl/packet_detector_11AD_v1_0.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/hdl/packet_detector_11AD_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/4cf3/src/packet_detector_v3.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/src/packet_detector_v3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/edit_packet_detector_11AD_v1_0.srcs/sources_1/imports/src/vt_single_sync.vhd</spirit:name>
+        <spirit:name>../../ipshared/c6e7/src/vt_single_sync.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -2490,14 +2490,14 @@
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>design_1_packet_detector_11AD_0_3_stub.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:name>design_1_packet_detector_11AD_0_3_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>design_1_packet_detector_11AD_0_3_stub.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:name>design_1_packet_detector_11AD_0_3_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
@@ -2652,7 +2652,7 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:displayName>packet_detector_11AD_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>18</xilinx:coreRevision>
+      <xilinx:coreRevision>22</xilinx:coreRevision>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2616589d_ARCHIVE_LOCATION">/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@4471689b_ARCHIVE_LOCATION">/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
@@ -2846,6 +2846,55 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@763088d7_ARCHIVE_LOCATION">/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2b4e659e_ARCHIVE_LOCATION">/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@7b2206ad_ARCHIVE_LOCATION">/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@451cee10_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1acaaa5b_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@482e0217_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@674be52f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5308b39b_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@be36f5a_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ad76cdb_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@263c31db_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30c65dea_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5768af7f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1684564c_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a9f4fda_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cfb8ee3_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2dffa4de_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6334101f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@97fbc9f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ee117bf_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@adde7a9_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@622b9c38_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2afb255_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@83dfa4f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f9bbfde_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18fd63c7_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ecc0b83_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f99bf8f_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@988ddef_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c7e3c1a_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b0f036_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a3c0221_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ca7ca4a_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7702209b_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a00c328_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dd52688_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54098284_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e599e_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b1b07a2_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c00f16c_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1fba1bfc_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54725334_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32a6fbd_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@436d9d15_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4470b44e_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1db7c60_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68a1189d_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e39dd3e_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5fca46c3_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68cacd54_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56b07be2_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42e000af_ARCHIVE_LOCATION">/home/rafael/Documents/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0</xilinx:tag>
       </xilinx:tags>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.ACLK.CLK_DOMAIN" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
@@ -2938,7 +2987,7 @@
       <xilinx:xilinxVersion>2019.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="10f9fba9"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d1804685"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="a72a3480"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="e9c57c83"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="eeb27204"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="14a7291a"/>

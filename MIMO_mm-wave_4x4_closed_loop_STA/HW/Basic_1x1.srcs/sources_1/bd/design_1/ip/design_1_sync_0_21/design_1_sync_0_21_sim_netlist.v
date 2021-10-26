@@ -1,18 +1,18 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Thu Nov 28 10:55:35 2019
+// Date        : Fri Oct 22 15:43:20 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_sync_0_21 -prefix
-//               design_1_sync_0_21_ design_1_sync_0_0_sim_netlist.v
-// Design      : design_1_sync_0_0
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_sync_0_21/design_1_sync_0_21_sim_netlist.v
+// Design      : design_1_sync_0_21
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xczu28dr-ffvg1517-2-e
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "design_1_sync_0_0,sync,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
+(* CHECK_LICENSE_TYPE = "design_1_sync_0_21,sync,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
 (* X_CORE_INFO = "sync,Vivado 2019.1" *) 
 (* NotValidForBitStream *)
 module design_1_sync_0_21
@@ -37,6 +37,7 @@ module design_1_sync_0_21
         .src_in(src_in));
 endmodule
 
+(* ORIG_REF_NAME = "sync" *) 
 module design_1_sync_0_21_sync
    (dest_out,
     src_clk,
@@ -66,9 +67,9 @@ module design_1_sync_0_21_sync
         .src_in(src_in));
 endmodule
 
-(* DEST_SYNC_FF = "4" *) (* INIT_SYNC_FF = "0" *) (* SIM_ASSERT_CHK = "0" *) 
-(* SRC_INPUT_REG = "0" *) (* VERSION = "0" *) (* XPM_MODULE = "TRUE" *) 
-(* xpm_cdc = "SINGLE" *) 
+(* DEST_SYNC_FF = "4" *) (* INIT_SYNC_FF = "0" *) (* ORIG_REF_NAME = "xpm_cdc_single" *) 
+(* SIM_ASSERT_CHK = "0" *) (* SRC_INPUT_REG = "0" *) (* VERSION = "0" *) 
+(* XPM_MODULE = "TRUE" *) (* xpm_cdc = "SINGLE" *) 
 module design_1_sync_0_21_xpm_cdc_single
    (src_clk,
     src_in,

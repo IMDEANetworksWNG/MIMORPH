@@ -32,7 +32,7 @@ port (  clk : in std_logic;
         rst_n : in std_logic;
         i_TRIGGER : in std_logic;
         i_P_TRN : in std_logic_vector(10-1 downto 0); -- P x T_TRN (T_TRN is the period of a TRN subfield, P is the number of repetitions of TRN subfields on the same TRN unit)
-        i_M : in std_logic_vector(4 downto 0);
+        i_M : in std_logic_vector(6 downto 0);
         i_N_TRN : in std_logic_vector(10-1 downto 0);
         i_L : in std_logic_vector(3 downto 0);
         i_T_INIT : in std_logic_vector(15 downto 0); -- 0 -> 48 cycles (128*6/16) ; 1 -> 96 cycles (2*128*6/16) 
@@ -56,7 +56,7 @@ architecture Behavioral of SIVERS_GPIO_CHANGE_v2 is
     signal b0_TRIGGER, i_TRIGGER_r : std_logic;
     signal b0_P_TRN : std_logic_vector(10-1 downto 0);
     signal b0_N_TRN : std_logic_vector(10-1 downto 0);
-    signal b0_M : std_logic_vector(5-1 downto 0);
+    signal b0_M : std_logic_vector(7-1 downto 0);
     signal b0_L : std_logic_vector(4-1 downto 0);
     signal b0_T_INIT : std_logic_vector(16-1 downto 0); -- 0 -> 48 cycles (128*6/16) ; 1 -> 96 cycles (2*128*6/16) 
     signal b0_T_HIGH : std_logic_vector(7-1 downto 0);

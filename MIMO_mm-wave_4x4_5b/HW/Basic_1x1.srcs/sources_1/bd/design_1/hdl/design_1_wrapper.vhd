@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
---Date        : Thu Nov 12 17:28:39 2020
+--Date        : Mon Oct 25 10:18:15 2021
 --Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -111,16 +111,8 @@ architecture STRUCTURE of design_1_wrapper is
     o_RST_BP_3 : out STD_LOGIC;
     o_RTN_BP_2 : out STD_LOGIC;
     o_RTN_BP_3 : out STD_LOGIC;
-    vout11_0_v_n : out STD_LOGIC;
-    vout11_0_v_p : out STD_LOGIC;
-    vin1_23_0_v_n : in STD_LOGIC;
-    vin1_23_0_v_p : in STD_LOGIC;
-    vin0_01_0_v_n : in STD_LOGIC;
-    vin0_01_0_v_p : in STD_LOGIC;
-    vin1_01_0_v_n : in STD_LOGIC;
-    vin1_01_0_v_p : in STD_LOGIC;
-    adc0_clk_0_clk_n : in STD_LOGIC;
-    adc0_clk_0_clk_p : in STD_LOGIC;
+    vout03_0_v_n : out STD_LOGIC;
+    vout03_0_v_p : out STD_LOGIC;
     ddr4_sdram_act_n : out STD_LOGIC;
     ddr4_sdram_adr : out STD_LOGIC_VECTOR ( 16 downto 0 );
     ddr4_sdram_ba : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -135,48 +127,56 @@ architecture STRUCTURE of design_1_wrapper is
     ddr4_sdram_dqs_t : inout STD_LOGIC_VECTOR ( 7 downto 0 );
     ddr4_sdram_odt : out STD_LOGIC;
     ddr4_sdram_reset_n : out STD_LOGIC;
-    vout10_0_v_n : out STD_LOGIC;
-    vout10_0_v_p : out STD_LOGIC;
+    dac1_clk_0_clk_n : in STD_LOGIC;
+    dac1_clk_0_clk_p : in STD_LOGIC;
     vout00_0_v_n : out STD_LOGIC;
     vout00_0_v_p : out STD_LOGIC;
-    vout13_0_v_n : out STD_LOGIC;
-    vout13_0_v_p : out STD_LOGIC;
-    vout01_0_v_n : out STD_LOGIC;
-    vout01_0_v_p : out STD_LOGIC;
-    vin3_01_0_v_n : in STD_LOGIC;
-    vin3_01_0_v_p : in STD_LOGIC;
-    CLK_DIFF_PL_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
-    CLK_DIFF_PL_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
-    vout03_0_v_n : out STD_LOGIC;
-    vout03_0_v_p : out STD_LOGIC;
+    CLK_DIFF_SYSREF_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
+    CLK_DIFF_SYSREF_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
+    vin2_01_0_v_n : in STD_LOGIC;
+    vin2_01_0_v_p : in STD_LOGIC;
     user_si570_sysclk_clk_n : in STD_LOGIC;
     user_si570_sysclk_clk_p : in STD_LOGIC;
-    vout02_0_v_n : out STD_LOGIC;
-    vout02_0_v_p : out STD_LOGIC;
+    vin1_23_0_v_n : in STD_LOGIC;
+    vin1_23_0_v_p : in STD_LOGIC;
+    vout13_0_v_n : out STD_LOGIC;
+    vout13_0_v_p : out STD_LOGIC;
+    vout11_0_v_n : out STD_LOGIC;
+    vout11_0_v_p : out STD_LOGIC;
+    vin0_01_0_v_n : in STD_LOGIC;
+    vin0_01_0_v_p : in STD_LOGIC;
+    vout01_0_v_n : out STD_LOGIC;
+    vout01_0_v_p : out STD_LOGIC;
+    adc1_clk_0_clk_n : in STD_LOGIC;
+    adc1_clk_0_clk_p : in STD_LOGIC;
+    dac0_clk_clk_n : in STD_LOGIC;
+    dac0_clk_clk_p : in STD_LOGIC;
+    vin3_23_0_v_n : in STD_LOGIC;
+    vin3_23_0_v_p : in STD_LOGIC;
+    vin1_01_0_v_n : in STD_LOGIC;
+    vin1_01_0_v_p : in STD_LOGIC;
+    adc3_clk_0_clk_n : in STD_LOGIC;
+    adc3_clk_0_clk_p : in STD_LOGIC;
+    sysref_in_diff_n : in STD_LOGIC;
+    sysref_in_diff_p : in STD_LOGIC;
+    adc0_clk_0_clk_n : in STD_LOGIC;
+    adc0_clk_0_clk_p : in STD_LOGIC;
+    vout10_0_v_n : out STD_LOGIC;
+    vout10_0_v_p : out STD_LOGIC;
     adc2_clk_0_clk_n : in STD_LOGIC;
     adc2_clk_0_clk_p : in STD_LOGIC;
     vin0_23_0_v_n : in STD_LOGIC;
     vin0_23_0_v_p : in STD_LOGIC;
-    adc1_clk_0_clk_n : in STD_LOGIC;
-    adc1_clk_0_clk_p : in STD_LOGIC;
-    vin2_23_0_v_n : in STD_LOGIC;
-    vin2_23_0_v_p : in STD_LOGIC;
-    sysref_in_diff_n : in STD_LOGIC;
-    sysref_in_diff_p : in STD_LOGIC;
+    CLK_DIFF_PL_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
+    CLK_DIFF_PL_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
     vout12_0_v_n : out STD_LOGIC;
     vout12_0_v_p : out STD_LOGIC;
-    CLK_DIFF_SYSREF_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
-    CLK_DIFF_SYSREF_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
-    dac0_clk_clk_n : in STD_LOGIC;
-    dac0_clk_clk_p : in STD_LOGIC;
-    adc3_clk_0_clk_n : in STD_LOGIC;
-    adc3_clk_0_clk_p : in STD_LOGIC;
-    vin3_23_0_v_n : in STD_LOGIC;
-    vin3_23_0_v_p : in STD_LOGIC;
-    vin2_01_0_v_n : in STD_LOGIC;
-    vin2_01_0_v_p : in STD_LOGIC;
-    dac1_clk_0_clk_n : in STD_LOGIC;
-    dac1_clk_0_clk_p : in STD_LOGIC
+    vin3_01_0_v_n : in STD_LOGIC;
+    vin3_01_0_v_p : in STD_LOGIC;
+    vout02_0_v_n : out STD_LOGIC;
+    vout02_0_v_p : out STD_LOGIC;
+    vin2_23_0_v_n : in STD_LOGIC;
+    vin2_23_0_v_p : in STD_LOGIC
   );
   end component design_1;
 begin

@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Tue Feb  4 11:44:14 2020
+// Date        : Fri Oct 22 16:48:12 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_adc_channel_mux_0_0 -prefix
-//               design_1_adc_channel_mux_0_0_ design_1_adc_channel_mux_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_adc_channel_mux_0_0/design_1_adc_channel_mux_0_0_sim_netlist.v
 // Design      : design_1_adc_channel_mux_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,6 +12,212 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
+(* CHECK_LICENSE_TYPE = "design_1_adc_channel_mux_0_0,adc_channel_mux,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
+(* X_CORE_INFO = "adc_channel_mux,Vivado 2019.1" *) 
+(* NotValidForBitStream *)
+module design_1_adc_channel_mux_0_0
+   (channels_active_mode,
+    channel_select,
+    s_axis_aclk,
+    resetn,
+    s0_axi_stream_tdata,
+    s0_axi_stream_tkeep,
+    s0_axi_stream_tvalid,
+    s0_axi_stream_tlast,
+    s0_axi_stream_tready,
+    s1_axi_stream_tdata,
+    s1_axi_stream_tkeep,
+    s1_axi_stream_tvalid,
+    s1_axi_stream_tlast,
+    s1_axi_stream_tready,
+    s2_axi_stream_tdata,
+    s2_axi_stream_tkeep,
+    s2_axi_stream_tvalid,
+    s2_axi_stream_tlast,
+    s2_axi_stream_tready,
+    s3_axi_stream_tdata,
+    s3_axi_stream_tkeep,
+    s3_axi_stream_tvalid,
+    s3_axi_stream_tlast,
+    s3_axi_stream_tready,
+    s4_axi_stream_tdata,
+    s4_axi_stream_tkeep,
+    s4_axi_stream_tvalid,
+    s4_axi_stream_tlast,
+    s4_axi_stream_tready,
+    s5_axi_stream_tdata,
+    s5_axi_stream_tkeep,
+    s5_axi_stream_tvalid,
+    s5_axi_stream_tlast,
+    s5_axi_stream_tready,
+    s6_axi_stream_tdata,
+    s6_axi_stream_tkeep,
+    s6_axi_stream_tvalid,
+    s6_axi_stream_tlast,
+    s6_axi_stream_tready,
+    s7_axi_stream_tdata,
+    s7_axi_stream_tkeep,
+    s7_axi_stream_tvalid,
+    s7_axi_stream_tlast,
+    s7_axi_stream_tready,
+    m_axi_stream_tdata,
+    m_axi_stream_tkeep,
+    m_axi_stream_tvalid,
+    m_axi_stream_tlast,
+    m_axi_stream_tready);
+  input [31:0]channels_active_mode;
+  input [2:0]channel_select;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 s_axis_aclk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s_axis_aclk, ASSOCIATED_RESET resetn, ASSOCIATED_BUSIF m_axi_stream:s0_axi_stream:s1_axi_stream:s2_axi_stream:s3_axi_stream:s4_axi_stream:s5_axi_stream:s6_axi_stream:s7_axi_stream, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, INSERT_VIP 0" *) input s_axis_aclk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 resetn RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input resetn;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TDATA" *) input [511:0]s0_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TKEEP" *) input [31:0]s0_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TVALID" *) input s0_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TLAST" *) input s0_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s0_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s0_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TDATA" *) input [511:0]s1_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TKEEP" *) input [31:0]s1_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TVALID" *) input s1_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TLAST" *) input s1_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s1_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s1_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TDATA" *) input [511:0]s2_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TKEEP" *) input [31:0]s2_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TVALID" *) input s2_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TLAST" *) input s2_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s2_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s2_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TDATA" *) input [511:0]s3_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TKEEP" *) input [31:0]s3_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TVALID" *) input s3_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TLAST" *) input s3_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s3_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s3_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TDATA" *) input [511:0]s4_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TKEEP" *) input [31:0]s4_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TVALID" *) input s4_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TLAST" *) input s4_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s4_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s4_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TDATA" *) input [511:0]s5_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TKEEP" *) input [31:0]s5_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TVALID" *) input s5_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TLAST" *) input s5_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s5_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s5_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TDATA" *) input [511:0]s6_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TKEEP" *) input [31:0]s6_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TVALID" *) input s6_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TLAST" *) input s6_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s6_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s6_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TDATA" *) input [511:0]s7_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TKEEP" *) input [31:0]s7_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TVALID" *) input s7_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TLAST" *) input s7_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s7_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s7_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TDATA" *) output [511:0]m_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TKEEP" *) output [31:0]m_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TVALID" *) output m_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TLAST" *) output m_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) input m_axi_stream_tready;
+
+  wire [2:0]channel_select;
+  wire [31:0]channels_active_mode;
+  wire [511:0]m_axi_stream_tdata;
+  wire [31:0]m_axi_stream_tkeep;
+  wire m_axi_stream_tlast;
+  wire m_axi_stream_tready;
+  wire m_axi_stream_tvalid;
+  wire resetn;
+  wire [511:0]s0_axi_stream_tdata;
+  wire [31:0]s0_axi_stream_tkeep;
+  wire s0_axi_stream_tlast;
+  wire s0_axi_stream_tready;
+  wire s0_axi_stream_tvalid;
+  wire [511:0]s1_axi_stream_tdata;
+  wire [31:0]s1_axi_stream_tkeep;
+  wire s1_axi_stream_tlast;
+  wire s1_axi_stream_tready;
+  wire s1_axi_stream_tvalid;
+  wire [511:0]s2_axi_stream_tdata;
+  wire [31:0]s2_axi_stream_tkeep;
+  wire s2_axi_stream_tlast;
+  wire s2_axi_stream_tready;
+  wire s2_axi_stream_tvalid;
+  wire [511:0]s3_axi_stream_tdata;
+  wire [31:0]s3_axi_stream_tkeep;
+  wire s3_axi_stream_tlast;
+  wire s3_axi_stream_tready;
+  wire s3_axi_stream_tvalid;
+  wire [511:0]s4_axi_stream_tdata;
+  wire [31:0]s4_axi_stream_tkeep;
+  wire s4_axi_stream_tlast;
+  wire s4_axi_stream_tready;
+  wire s4_axi_stream_tvalid;
+  wire [511:0]s5_axi_stream_tdata;
+  wire [31:0]s5_axi_stream_tkeep;
+  wire s5_axi_stream_tlast;
+  wire s5_axi_stream_tready;
+  wire s5_axi_stream_tvalid;
+  wire [511:0]s6_axi_stream_tdata;
+  wire [31:0]s6_axi_stream_tkeep;
+  wire s6_axi_stream_tlast;
+  wire s6_axi_stream_tready;
+  wire s6_axi_stream_tvalid;
+  wire [511:0]s7_axi_stream_tdata;
+  wire [31:0]s7_axi_stream_tkeep;
+  wire s7_axi_stream_tlast;
+  wire s7_axi_stream_tready;
+  wire s7_axi_stream_tvalid;
+  wire s_axis_aclk;
+
+  design_1_adc_channel_mux_0_0_adc_channel_mux inst
+       (.channel_select(channel_select),
+        .channels_active_mode({channels_active_mode[31],channels_active_mode[7:0]}),
+        .m_axi_stream_tdata(m_axi_stream_tdata),
+        .m_axi_stream_tkeep(m_axi_stream_tkeep),
+        .m_axi_stream_tlast(m_axi_stream_tlast),
+        .m_axi_stream_tready(m_axi_stream_tready),
+        .m_axi_stream_tvalid(m_axi_stream_tvalid),
+        .resetn(resetn),
+        .s0_axi_stream_tdata(s0_axi_stream_tdata),
+        .s0_axi_stream_tkeep(s0_axi_stream_tkeep),
+        .s0_axi_stream_tlast(s0_axi_stream_tlast),
+        .s0_axi_stream_tready(s0_axi_stream_tready),
+        .s0_axi_stream_tvalid(s0_axi_stream_tvalid),
+        .s1_axi_stream_tdata(s1_axi_stream_tdata),
+        .s1_axi_stream_tkeep(s1_axi_stream_tkeep),
+        .s1_axi_stream_tlast(s1_axi_stream_tlast),
+        .s1_axi_stream_tready(s1_axi_stream_tready),
+        .s1_axi_stream_tvalid(s1_axi_stream_tvalid),
+        .s2_axi_stream_tdata(s2_axi_stream_tdata),
+        .s2_axi_stream_tkeep(s2_axi_stream_tkeep),
+        .s2_axi_stream_tlast(s2_axi_stream_tlast),
+        .s2_axi_stream_tready(s2_axi_stream_tready),
+        .s2_axi_stream_tvalid(s2_axi_stream_tvalid),
+        .s3_axi_stream_tdata(s3_axi_stream_tdata),
+        .s3_axi_stream_tkeep(s3_axi_stream_tkeep),
+        .s3_axi_stream_tlast(s3_axi_stream_tlast),
+        .s3_axi_stream_tready(s3_axi_stream_tready),
+        .s3_axi_stream_tvalid(s3_axi_stream_tvalid),
+        .s4_axi_stream_tdata(s4_axi_stream_tdata),
+        .s4_axi_stream_tkeep(s4_axi_stream_tkeep),
+        .s4_axi_stream_tlast(s4_axi_stream_tlast),
+        .s4_axi_stream_tready(s4_axi_stream_tready),
+        .s4_axi_stream_tvalid(s4_axi_stream_tvalid),
+        .s5_axi_stream_tdata(s5_axi_stream_tdata),
+        .s5_axi_stream_tkeep(s5_axi_stream_tkeep),
+        .s5_axi_stream_tlast(s5_axi_stream_tlast),
+        .s5_axi_stream_tready(s5_axi_stream_tready),
+        .s5_axi_stream_tvalid(s5_axi_stream_tvalid),
+        .s6_axi_stream_tdata(s6_axi_stream_tdata),
+        .s6_axi_stream_tkeep(s6_axi_stream_tkeep),
+        .s6_axi_stream_tlast(s6_axi_stream_tlast),
+        .s6_axi_stream_tready(s6_axi_stream_tready),
+        .s6_axi_stream_tvalid(s6_axi_stream_tvalid),
+        .s7_axi_stream_tdata(s7_axi_stream_tdata),
+        .s7_axi_stream_tkeep(s7_axi_stream_tkeep),
+        .s7_axi_stream_tlast(s7_axi_stream_tlast),
+        .s7_axi_stream_tready(s7_axi_stream_tready),
+        .s7_axi_stream_tvalid(s7_axi_stream_tvalid),
+        .s_axis_aclk(s_axis_aclk));
+endmodule
+
+(* ORIG_REF_NAME = "adc_channel_mux" *) 
 module design_1_adc_channel_mux_0_0_adc_channel_mux
    (s4_axi_stream_tready,
     s5_axi_stream_tready,
@@ -15680,211 +15886,6 @@ module design_1_adc_channel_mux_0_0_adc_channel_mux
         .D(\tdm_chan_sel[2]_i_2_n_0 ),
         .Q(\tdm_chan_sel_reg_n_0_[2] ),
         .R(p_0_in__0));
-endmodule
-
-(* CHECK_LICENSE_TYPE = "design_1_adc_channel_mux_0_0,adc_channel_mux,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
-(* X_CORE_INFO = "adc_channel_mux,Vivado 2019.1" *) 
-(* NotValidForBitStream *)
-module design_1_adc_channel_mux_0_0
-   (channels_active_mode,
-    channel_select,
-    s_axis_aclk,
-    resetn,
-    s0_axi_stream_tdata,
-    s0_axi_stream_tkeep,
-    s0_axi_stream_tvalid,
-    s0_axi_stream_tlast,
-    s0_axi_stream_tready,
-    s1_axi_stream_tdata,
-    s1_axi_stream_tkeep,
-    s1_axi_stream_tvalid,
-    s1_axi_stream_tlast,
-    s1_axi_stream_tready,
-    s2_axi_stream_tdata,
-    s2_axi_stream_tkeep,
-    s2_axi_stream_tvalid,
-    s2_axi_stream_tlast,
-    s2_axi_stream_tready,
-    s3_axi_stream_tdata,
-    s3_axi_stream_tkeep,
-    s3_axi_stream_tvalid,
-    s3_axi_stream_tlast,
-    s3_axi_stream_tready,
-    s4_axi_stream_tdata,
-    s4_axi_stream_tkeep,
-    s4_axi_stream_tvalid,
-    s4_axi_stream_tlast,
-    s4_axi_stream_tready,
-    s5_axi_stream_tdata,
-    s5_axi_stream_tkeep,
-    s5_axi_stream_tvalid,
-    s5_axi_stream_tlast,
-    s5_axi_stream_tready,
-    s6_axi_stream_tdata,
-    s6_axi_stream_tkeep,
-    s6_axi_stream_tvalid,
-    s6_axi_stream_tlast,
-    s6_axi_stream_tready,
-    s7_axi_stream_tdata,
-    s7_axi_stream_tkeep,
-    s7_axi_stream_tvalid,
-    s7_axi_stream_tlast,
-    s7_axi_stream_tready,
-    m_axi_stream_tdata,
-    m_axi_stream_tkeep,
-    m_axi_stream_tvalid,
-    m_axi_stream_tlast,
-    m_axi_stream_tready);
-  input [31:0]channels_active_mode;
-  input [2:0]channel_select;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 s_axis_aclk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s_axis_aclk, ASSOCIATED_RESET resetn, ASSOCIATED_BUSIF m_axi_stream:s0_axi_stream:s1_axi_stream:s2_axi_stream:s3_axi_stream:s4_axi_stream:s5_axi_stream:s6_axi_stream:s7_axi_stream, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, INSERT_VIP 0" *) input s_axis_aclk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 resetn RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME resetn, POLARITY ACTIVE_LOW, INSERT_VIP 0" *) input resetn;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TDATA" *) input [511:0]s0_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TKEEP" *) input [31:0]s0_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TVALID" *) input s0_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TLAST" *) input s0_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s0_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s0_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TDATA" *) input [511:0]s1_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TKEEP" *) input [31:0]s1_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TVALID" *) input s1_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TLAST" *) input s1_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s1_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s1_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TDATA" *) input [511:0]s2_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TKEEP" *) input [31:0]s2_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TVALID" *) input s2_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TLAST" *) input s2_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s2_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s2_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s2_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TDATA" *) input [511:0]s3_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TKEEP" *) input [31:0]s3_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TVALID" *) input s3_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TLAST" *) input s3_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s3_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s3_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s3_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TDATA" *) input [511:0]s4_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TKEEP" *) input [31:0]s4_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TVALID" *) input s4_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TLAST" *) input s4_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s4_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s4_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s4_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TDATA" *) input [511:0]s5_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TKEEP" *) input [31:0]s5_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TVALID" *) input s5_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TLAST" *) input s5_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s5_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s5_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s5_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TDATA" *) input [511:0]s6_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TKEEP" *) input [31:0]s6_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TVALID" *) input s6_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TLAST" *) input s6_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s6_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s6_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s6_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TDATA" *) input [511:0]s7_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TKEEP" *) input [31:0]s7_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TVALID" *) input s7_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TLAST" *) input s7_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s7_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s7_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) output s7_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TDATA" *) output [511:0]m_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TKEEP" *) output [31:0]m_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TVALID" *) output m_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TLAST" *) output m_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_axi_stream, TDATA_NUM_BYTES 64, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 333250000, PHASE 0.00, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, LAYERED_METADATA undef, INSERT_VIP 0" *) input m_axi_stream_tready;
-
-  wire [2:0]channel_select;
-  wire [31:0]channels_active_mode;
-  wire [511:0]m_axi_stream_tdata;
-  wire [31:0]m_axi_stream_tkeep;
-  wire m_axi_stream_tlast;
-  wire m_axi_stream_tready;
-  wire m_axi_stream_tvalid;
-  wire resetn;
-  wire [511:0]s0_axi_stream_tdata;
-  wire [31:0]s0_axi_stream_tkeep;
-  wire s0_axi_stream_tlast;
-  wire s0_axi_stream_tready;
-  wire s0_axi_stream_tvalid;
-  wire [511:0]s1_axi_stream_tdata;
-  wire [31:0]s1_axi_stream_tkeep;
-  wire s1_axi_stream_tlast;
-  wire s1_axi_stream_tready;
-  wire s1_axi_stream_tvalid;
-  wire [511:0]s2_axi_stream_tdata;
-  wire [31:0]s2_axi_stream_tkeep;
-  wire s2_axi_stream_tlast;
-  wire s2_axi_stream_tready;
-  wire s2_axi_stream_tvalid;
-  wire [511:0]s3_axi_stream_tdata;
-  wire [31:0]s3_axi_stream_tkeep;
-  wire s3_axi_stream_tlast;
-  wire s3_axi_stream_tready;
-  wire s3_axi_stream_tvalid;
-  wire [511:0]s4_axi_stream_tdata;
-  wire [31:0]s4_axi_stream_tkeep;
-  wire s4_axi_stream_tlast;
-  wire s4_axi_stream_tready;
-  wire s4_axi_stream_tvalid;
-  wire [511:0]s5_axi_stream_tdata;
-  wire [31:0]s5_axi_stream_tkeep;
-  wire s5_axi_stream_tlast;
-  wire s5_axi_stream_tready;
-  wire s5_axi_stream_tvalid;
-  wire [511:0]s6_axi_stream_tdata;
-  wire [31:0]s6_axi_stream_tkeep;
-  wire s6_axi_stream_tlast;
-  wire s6_axi_stream_tready;
-  wire s6_axi_stream_tvalid;
-  wire [511:0]s7_axi_stream_tdata;
-  wire [31:0]s7_axi_stream_tkeep;
-  wire s7_axi_stream_tlast;
-  wire s7_axi_stream_tready;
-  wire s7_axi_stream_tvalid;
-  wire s_axis_aclk;
-
-  design_1_adc_channel_mux_0_0_adc_channel_mux inst
-       (.channel_select(channel_select),
-        .channels_active_mode({channels_active_mode[31],channels_active_mode[7:0]}),
-        .m_axi_stream_tdata(m_axi_stream_tdata),
-        .m_axi_stream_tkeep(m_axi_stream_tkeep),
-        .m_axi_stream_tlast(m_axi_stream_tlast),
-        .m_axi_stream_tready(m_axi_stream_tready),
-        .m_axi_stream_tvalid(m_axi_stream_tvalid),
-        .resetn(resetn),
-        .s0_axi_stream_tdata(s0_axi_stream_tdata),
-        .s0_axi_stream_tkeep(s0_axi_stream_tkeep),
-        .s0_axi_stream_tlast(s0_axi_stream_tlast),
-        .s0_axi_stream_tready(s0_axi_stream_tready),
-        .s0_axi_stream_tvalid(s0_axi_stream_tvalid),
-        .s1_axi_stream_tdata(s1_axi_stream_tdata),
-        .s1_axi_stream_tkeep(s1_axi_stream_tkeep),
-        .s1_axi_stream_tlast(s1_axi_stream_tlast),
-        .s1_axi_stream_tready(s1_axi_stream_tready),
-        .s1_axi_stream_tvalid(s1_axi_stream_tvalid),
-        .s2_axi_stream_tdata(s2_axi_stream_tdata),
-        .s2_axi_stream_tkeep(s2_axi_stream_tkeep),
-        .s2_axi_stream_tlast(s2_axi_stream_tlast),
-        .s2_axi_stream_tready(s2_axi_stream_tready),
-        .s2_axi_stream_tvalid(s2_axi_stream_tvalid),
-        .s3_axi_stream_tdata(s3_axi_stream_tdata),
-        .s3_axi_stream_tkeep(s3_axi_stream_tkeep),
-        .s3_axi_stream_tlast(s3_axi_stream_tlast),
-        .s3_axi_stream_tready(s3_axi_stream_tready),
-        .s3_axi_stream_tvalid(s3_axi_stream_tvalid),
-        .s4_axi_stream_tdata(s4_axi_stream_tdata),
-        .s4_axi_stream_tkeep(s4_axi_stream_tkeep),
-        .s4_axi_stream_tlast(s4_axi_stream_tlast),
-        .s4_axi_stream_tready(s4_axi_stream_tready),
-        .s4_axi_stream_tvalid(s4_axi_stream_tvalid),
-        .s5_axi_stream_tdata(s5_axi_stream_tdata),
-        .s5_axi_stream_tkeep(s5_axi_stream_tkeep),
-        .s5_axi_stream_tlast(s5_axi_stream_tlast),
-        .s5_axi_stream_tready(s5_axi_stream_tready),
-        .s5_axi_stream_tvalid(s5_axi_stream_tvalid),
-        .s6_axi_stream_tdata(s6_axi_stream_tdata),
-        .s6_axi_stream_tkeep(s6_axi_stream_tkeep),
-        .s6_axi_stream_tlast(s6_axi_stream_tlast),
-        .s6_axi_stream_tready(s6_axi_stream_tready),
-        .s6_axi_stream_tvalid(s6_axi_stream_tvalid),
-        .s7_axi_stream_tdata(s7_axi_stream_tdata),
-        .s7_axi_stream_tkeep(s7_axi_stream_tkeep),
-        .s7_axi_stream_tlast(s7_axi_stream_tlast),
-        .s7_axi_stream_tready(s7_axi_stream_tready),
-        .s7_axi_stream_tvalid(s7_axi_stream_tvalid),
-        .s_axis_aclk(s_axis_aclk));
 endmodule
 `ifndef GLBL
 `define GLBL

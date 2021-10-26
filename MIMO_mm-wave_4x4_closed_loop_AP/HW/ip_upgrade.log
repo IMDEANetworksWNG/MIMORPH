@@ -1,6 +1,174 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:55 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_3 (user.org:user:packet_detector_11AD:1.0) from (Rev. 18) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:55 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_2 (user.org:user:packet_detector_11AD:1.0) from (Rev. 18) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:55 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_1 (user.org:user:packet_detector_11AD:1.0) from (Rev. 18) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:54 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_packet_detector_11AD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_packet_detector_11AD_0_0 (user.org:user:packet_detector_11AD:1.0) from (Rev. 18) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:54 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_AP_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_AP_0_3 (user.org:user:RX_Block_AP:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:54 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_AP_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_AP_0_2 (user.org:user:RX_Block_AP:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:54 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_AP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_AP_0_1 (user.org:user:RX_Block_AP:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Oct 22 15:01:54 2021
+| Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
+| Command      : upgrade_ip
+| Device       : xczu28dr-ffvg1517-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_RX_Block_AP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_RX_Block_AP_0_0 (user.org:user:RX_Block_AP:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
 | Date         : Thu Apr 22 16:56:46 2021
 | Host         : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 | Command      : upgrade_ip

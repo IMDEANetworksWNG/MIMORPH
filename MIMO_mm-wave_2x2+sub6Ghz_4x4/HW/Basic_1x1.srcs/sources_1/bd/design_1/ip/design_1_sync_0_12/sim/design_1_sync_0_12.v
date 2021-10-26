@@ -1,4 +1,4 @@
-// (c) Copyright 1995-2019 Xilinx, Inc. All rights reserved.
+// (c) Copyright 1995-2021 Xilinx, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of Xilinx, Inc. and is protected under U.S. and
@@ -66,7 +66,7 @@ output wire dest_out;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME src_clk, ASSOCIATED_BUSIF src_in, FREQ_HZ 100000000, PHASE 0.000, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 src_clk CLK" *)
 input wire src_clk;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 440000000, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dest_clk, ASSOCIATED_BUSIF dest_out, FREQ_HZ 440000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 dest_clk CLK" *)
 input wire dest_clk;
 

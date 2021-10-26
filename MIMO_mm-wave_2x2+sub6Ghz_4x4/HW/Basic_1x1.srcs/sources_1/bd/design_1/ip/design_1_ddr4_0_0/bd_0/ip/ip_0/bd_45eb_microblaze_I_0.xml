@@ -13845,7 +13845,7 @@
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>workflow</spirit:name>
-              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_0.workflow">simulation</spirit:value>
+              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_0.workflow">implementation</spirit:value>
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>controlpaths</spirit:name>
@@ -13861,8 +13861,8 @@
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>combined</spirit:name>
-              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_0.combined">{&quot;AddressBlocks&quot;:[{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:0,&quot;AddrEnd&quot;:65535,&quot;Workflow&quot;:&quot;simulation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot; bd_45eb lmb_bram_I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:65536,&quot;MemFile&quot;:&quot;bd_45eb_lmb_bram_I_0.mem&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;dlmb_cntlr&quot;,&quot;Val&quot;:&quot;lmb_bram_I&quot;}]},{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:65536,&quot;AddrEnd&quot;:98303,&quot;Workflow&quot;:&quot;simulation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot; bd_45eb lmb_bram_I bd_45eb second_lmb_bram
-_I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;MemFile&quot;:&quot;bd_45eb_second_lmb_bram_I_0.mem&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;second_dlmb_cntlr&quot;,&quot;Val&quot;:&quot;second_lmb_bram_I&quot;}]}]}</spirit:value>
+              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_0.combined">{&quot;AddressBlocks&quot;:[{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:0,&quot;AddrEnd&quot;:65535,&quot;Workflow&quot;:&quot;implementation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot;&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:65536,&quot;MemFile&quot;:&quot;&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;dlmb_cntlr&quot;,&quot;Val&quot;:&quot;lmb_bram_I&quot;}]},{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:65536,&quot;AddrEnd&quot;:98303,&quot;Workflow&quot;:&quot;implementation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot;&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;MemFile&quot;:&quot;&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;second_dlmb_cntlr&quot;,&quot;Val&quot;
+:&quot;second_lmb_bram_I&quot;}]}]}</spirit:value>
             </spirit:parameter>
           </spirit:parameters>
         </spirit:addressBlock>
@@ -13882,7 +13882,7 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>workflow</spirit:name>
-              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_1.workflow">implementation</spirit:value>
+              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_1.workflow">simulation</spirit:value>
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>controlpaths</spirit:name>
@@ -13898,8 +13898,8 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
             </spirit:parameter>
             <spirit:parameter>
               <spirit:name>combined</spirit:name>
-              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_1.combined">{&quot;AddressBlocks&quot;:[{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:0,&quot;AddrEnd&quot;:65535,&quot;Workflow&quot;:&quot;implementation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot;&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:65536,&quot;MemFile&quot;:&quot;&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;dlmb_cntlr&quot;,&quot;Val&quot;:&quot;lmb_bram_I&quot;}]},{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:65536,&quot;AddrEnd&quot;:98303,&quot;Workflow&quot;:&quot;implementation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot;&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;MemFile&quot;:&quot;&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;second_dlmb_cntlr&quot;,&quot;Val&quot;
-:&quot;second_lmb_bram_I&quot;}]}]}</spirit:value>
+              <spirit:value spirit:id="ADDRSPACE_ADDRBLOCKPARAM_VALUE.DATA.LOCAL_MEMORY_MAP.MICROBLAZE_1.combined">{&quot;AddressBlocks&quot;:[{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:0,&quot;AddrEnd&quot;:65535,&quot;Workflow&quot;:&quot;simulation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot; bd_45eb lmb_bram_I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:65536,&quot;MemFile&quot;:&quot;bd_45eb_lmb_bram_I_0.mem&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;dlmb_cntlr&quot;,&quot;Val&quot;:&quot;lmb_bram_I&quot;}]},{&quot;Width&quot;:32,&quot;LSB&quot;:0,&quot;MSB&quot;:31,&quot;AddrBegin&quot;:65536,&quot;AddrEnd&quot;:98303,&quot;Workflow&quot;:&quot;simulation&quot;,&quot;ECC&quot;:false,&quot;ECCAlgo&quot;:&quot;&quot;,&quot;ECCLSB&quot;:0,&quot;ECCMSB&quot;:0,&quot;MemType&quot;:&quot; bd_45eb lmb_bram_I bd_45eb second_lmb_bram
+_I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;MemFile&quot;:&quot;bd_45eb_second_lmb_bram_I_0.mem&quot;,&quot;MemColl&quot;:[{&quot;Key&quot;:&quot;second_dlmb_cntlr&quot;,&quot;Val&quot;:&quot;second_lmb_bram_I&quot;}]}]}</spirit:value>
             </spirit:parameter>
           </spirit:parameters>
         </spirit:addressBlock>
@@ -13941,7 +13941,7 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 17 14:45:05 UTC 2020</spirit:value>
+            <spirit:value>Fri Oct 22 14:42:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -13972,7 +13972,7 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 17 14:45:05 UTC 2020</spirit:value>
+            <spirit:value>Fri Oct 22 14:42:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -13992,7 +13992,7 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 17 14:45:05 UTC 2020</spirit:value>
+            <spirit:value>Fri Oct 22 14:42:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
@@ -14012,7 +14012,7 @@ _I_MEM_DEVICE&quot;,&quot;MemWidth&quot;:32,&quot;MemDepth&quot;:32768,&quot;Mem
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 17 14:45:05 UTC 2020</spirit:value>
+            <spirit:value>Fri Oct 22 14:42:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>

@@ -1,0 +1,601 @@
+
+*** Running vivado
+    with args -log design_1_zynq_ultra_ps_e_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_zynq_ultra_ps_e_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_zynq_ultra_ps_e_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/srcs/ip/ip_repo'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_source'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo/tlast'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_zynq_ultra_ps_e_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28dr'
+INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13495 
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2382.707 ; gain = 142.715 ; free physical = 43048 ; free virtual = 75061
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/synth/design_1_zynq_ultra_ps_e_0_0.vhd:173]
+	Parameter C_DP_USE_AUDIO bound to: 0 - type: integer 
+	Parameter C_DP_USE_VIDEO bound to: 0 - type: integer 
+	Parameter C_MAXIGP0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_MAXIGP1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_MAXIGP2_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_SAXIGP0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP2_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP3_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP4_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP5_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP6_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP2 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP3 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP4 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP5 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP6 bound to: 0 - type: integer 
+	Parameter C_EN_FIFO_ENET0 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET1 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET2 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET3 bound to: 0 - type: string 
+	Parameter C_PL_CLK0_BUF bound to: TRUE - type: string 
+	Parameter C_PL_CLK1_BUF bound to: FALSE - type: string 
+	Parameter C_PL_CLK2_BUF bound to: FALSE - type: string 
+	Parameter C_PL_CLK3_BUF bound to: FALSE - type: string 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_DEBUG_TEST bound to: 0 - type: integer 
+	Parameter C_SD0_INTERNAL_BUS_WIDTH bound to: 8 - type: integer 
+	Parameter C_SD1_INTERNAL_BUS_WIDTH bound to: 8 - type: integer 
+	Parameter C_NUM_F2P_0_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_NUM_F2P_1_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 95 - type: integer 
+	Parameter C_NUM_FABRIC_RESETS bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e' declared at '/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:324' bound to instance 'U0' of component 'zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e' [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/synth/design_1_zynq_ultra_ps_e_0_0.vhd:1838]
+INFO: [Synth 8-6157] synthesizing module 'zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e' [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:324]
+	Parameter C_MAXIGP0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_MAXIGP1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_MAXIGP2_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_SAXIGP0_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP1_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP2_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP3_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP4_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP5_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SAXIGP6_DATA_WIDTH bound to: 128 - type: integer 
+	Parameter C_SD0_INTERNAL_BUS_WIDTH bound to: 8 - type: integer 
+	Parameter C_SD1_INTERNAL_BUS_WIDTH bound to: 8 - type: integer 
+	Parameter C_PL_CLK0_BUF bound to: TRUE - type: string 
+	Parameter C_PL_CLK1_BUF bound to: FALSE - type: string 
+	Parameter C_PL_CLK2_BUF bound to: FALSE - type: string 
+	Parameter C_PL_CLK3_BUF bound to: FALSE - type: string 
+	Parameter C_NUM_F2P_0_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_NUM_F2P_1_INTR_INPUTS bound to: 1 - type: integer 
+	Parameter C_NUM_FABRIC_RESETS bound to: 1 - type: integer 
+	Parameter C_EMIO_GPIO_WIDTH bound to: 95 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP0 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP1 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP2 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP3 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP4 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP5 bound to: 0 - type: integer 
+	Parameter C_USE_DIFF_RW_CLK_GP6 bound to: 0 - type: integer 
+	Parameter C_TRACE_PIPELINE_WIDTH bound to: 8 - type: integer 
+	Parameter C_EN_EMIO_TRACE bound to: 0 - type: integer 
+	Parameter C_EN_FIFO_ENET0 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET1 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET2 bound to: 0 - type: string 
+	Parameter C_EN_FIFO_ENET3 bound to: 0 - type: string 
+	Parameter C_TRACE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_USE_DEBUG_TEST bound to: 0 - type: integer 
+	Parameter C_DP_USE_AUDIO bound to: 0 - type: integer 
+	Parameter C_DP_USE_VIDEO bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BUFG_PS' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1299]
+	Parameter SIM_DEVICE bound to: ULTRASCALE_PLUS - type: string 
+	Parameter STARTUP_SYNC bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'BUFG_PS' (1#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1299]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:2358]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:2359]
+INFO: [Synth 8-6157] synthesizing module 'PS8' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:62953]
+INFO: [Synth 8-6155] done synthesizing module 'PS8' (2#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:62953]
+WARNING: [Synth 8-7023] instance 'PS8_i' of module 'PS8' has 1015 connections declared, but only 957 given [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:3878]
+WARNING: [Synth 8-3848] Net dp_audio_ref_clk in module/entity zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e does not have driver. [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:377]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_0 in module/entity zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e does not have driver. [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:1397]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_1 in module/entity zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e does not have driver. [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:1398]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_2 in module/entity zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e does not have driver. [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:1399]
+WARNING: [Synth 8-3848] Net irq_ipi_pl_3 in module/entity zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e does not have driver. [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:1400]
+INFO: [Synth 8-6155] done synthesizing module 'zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e' (3#1) [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_3_0.v:324]
+INFO: [Synth 8-256] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (4#1) [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/synth/design_1_zynq_ultra_ps_e_0_0.vhd:173]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port dp_audio_ref_clk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port irq_ipi_pl_0
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port irq_ipi_pl_1
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port irq_ipi_pl_2
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port irq_ipi_pl_3
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihpc0_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihpc0_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihpc1_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihpc1_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp0_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp0_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp1_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp1_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp2_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp2_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp3_fpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxihp3_fpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxi_lpd_rclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port saxi_lpd_wclk
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[15]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[14]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[13]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[12]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[11]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[10]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[9]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[8]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[7]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_awuser[6]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[15]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[14]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[13]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[12]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[11]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[10]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[9]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[8]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[7]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port sacefpd_aruser[6]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_clk[3]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_clk[2]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_clk[1]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_clk[0]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[31]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[30]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[29]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[28]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[27]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[26]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[25]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[24]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[23]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[22]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[21]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[20]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[19]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[18]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[17]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[16]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[15]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[14]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[13]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[12]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[11]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[10]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[9]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[8]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[7]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[6]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[5]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[4]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[3]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[2]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[1]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc_in[0]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[31]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[30]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[29]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[28]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[27]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[26]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[25]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[24]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[23]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[22]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[21]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[20]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[19]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[18]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[17]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[16]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[15]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[14]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[13]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[12]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[11]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[10]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[9]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[8]
+WARNING: [Synth 8-3331] design zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e has unconnected port test_adc2_in[7]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2446.426 ; gain = 206.434 ; free physical = 43071 ; free virtual = 75087
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2449.395 ; gain = 209.402 ; free physical = 43068 ; free virtual = 75083
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2449.395 ; gain = 209.402 ; free physical = 43068 ; free virtual = 75083
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'U0'
+Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2565.051 ; gain = 0.000 ; free physical = 42943 ; free virtual = 74969
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2565.051 ; gain = 0.000 ; free physical = 42943 ; free virtual = 74969
+load diablo GTM unisim library
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2565.051 ; gain = 325.059 ; free physical = 43021 ; free virtual = 75048
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu28dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2565.051 ; gain = 325.059 ; free physical = 43021 ; free virtual = 75048
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/PS8_i. (constraint file  /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc, line 25).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2565.051 ; gain = 325.059 ; free physical = 43021 ; free virtual = 75048
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2565.051 ; gain = 325.059 ; free physical = 43023 ; free virtual = 75050
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2565.051 ; gain = 325.059 ; free physical = 43012 ; free virtual = 75042
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 4018.168 ; gain = 1778.176 ; free physical = 41418 ; free virtual = 73462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 4043.176 ; gain = 1803.184 ; free physical = 41398 ; free virtual = 73442
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:53 . Memory (MB): peak = 4056.371 ; gain = 1816.379 ; free physical = 41417 ; free virtual = 73462
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[0]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[0]_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[7]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[6]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[5]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[4]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[3]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[2]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_ctl_pipe[1]_inferred:in0 to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[4] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[1] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[7]_inferred:in0[0] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[31] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[30] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[29] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[28] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[27] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[26] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[25] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[24] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[23] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[22] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[21] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[20] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[19] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[18] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[17] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[16] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[15] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[14] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[13] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[12] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[11] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[10] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[9] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[8] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[7] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[6] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[5] to constant 0
+INFO: [Synth 8-3295] tying undriven pin trace_data_pipe[6]_inferred:in0[4] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41417 ; free virtual = 73461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41418 ; free virtual = 73462
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41417 ; free virtual = 73462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41416 ; free virtual = 73461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41417 ; free virtual = 73461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41417 ; free virtual = 73462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG_PS |     1|
+|2     |LUT1    |   394|
+|3     |PS8     |     1|
+|4     |FDRE    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+---------------------------------------+------+
+|      |Instance |Module                                 |Cells |
++------+---------+---------------------------------------+------+
+|1     |top      |                                       |   397|
+|2     |  U0     |zynq_ultra_ps_e_v3_3_0_zynq_ultra_ps_e |   397|
++------+---------+---------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.277 ; gain = 1825.285 ; free physical = 41418 ; free virtual = 73462
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 569 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:50 . Memory (MB): peak = 4065.277 ; gain = 1709.629 ; free physical = 41462 ; free virtual = 73506
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:57 . Memory (MB): peak = 4065.285 ; gain = 1825.285 ; free physical = 41462 ; free virtual = 73506
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4109.902 ; gain = 0.000 ; free physical = 41389 ; free virtual = 73433
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+128 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:11 . Memory (MB): peak = 4109.902 ; gain = 2667.480 ; free physical = 42532 ; free virtual = 74577
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4109.902 ; gain = 0.000 ; free physical = 42533 ; free virtual = 74577
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_zynq_ultra_ps_e_0_0, cache-ID = f6220295b4de7855
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4109.902 ; gain = 0.000 ; free physical = 42529 ; free virtual = 74576
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_LS/Basic_1x1.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/design_1_zynq_ultra_ps_e_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_zynq_ultra_ps_e_0_0_utilization_synth.rpt -pb design_1_zynq_ultra_ps_e_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 30 15:57:48 2021...

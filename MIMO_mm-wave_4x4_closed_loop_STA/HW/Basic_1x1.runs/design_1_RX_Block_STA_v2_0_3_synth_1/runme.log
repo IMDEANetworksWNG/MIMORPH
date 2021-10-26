@@ -27,8 +27,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/srcs/ip/ip_repo'.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoC_Vivado/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
-INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_RX_Block_STA_v2_0_3, cache-ID = 6a0003fc9397eca7.
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 23 13:46:40 2021...
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_RX_Block_STA_v2_0_3, cache-ID = a77a318f932d2853.
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 15:49:54 2021...

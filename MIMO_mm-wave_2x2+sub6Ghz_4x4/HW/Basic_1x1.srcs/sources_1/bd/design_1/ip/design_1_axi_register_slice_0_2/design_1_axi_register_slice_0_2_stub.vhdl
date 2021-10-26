@@ -1,11 +1,11 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Mon Feb 24 17:00:27 2020
+-- Date        : Fri Oct 22 16:53:54 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_axi_register_slice_0_2 -prefix
---               design_1_axi_register_slice_0_2_ design_1_s02_regslice_0_stub.vhdl
--- Design      : design_1_s02_regslice_0
+-- Command     : write_vhdl -force -mode synth_stub
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axi_register_slice_0_2/design_1_axi_register_slice_0_2_stub.vhdl
+-- Design      : design_1_axi_register_slice_0_2
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu28dr-ffvg1517-2-e
 -- --------------------------------------------------------------------------------

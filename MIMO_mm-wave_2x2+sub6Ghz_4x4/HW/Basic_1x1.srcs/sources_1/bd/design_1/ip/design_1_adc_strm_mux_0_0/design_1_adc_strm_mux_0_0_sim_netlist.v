@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Mon Nov 25 10:29:11 2019
+// Date        : Fri Oct 22 16:46:04 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_adc_strm_mux_0_0 -prefix
-//               design_1_adc_strm_mux_0_0_ design_1_adc_strm_mux_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_adc_strm_mux_0_0/design_1_adc_strm_mux_0_0_sim_netlist.v
 // Design      : design_1_adc_strm_mux_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,6 +12,87 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
+(* CHECK_LICENSE_TYPE = "design_1_adc_strm_mux_0_0,adc_strm_mux,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
+(* X_CORE_INFO = "adc_strm_mux,Vivado 2019.1" *) 
+(* NotValidForBitStream *)
+module design_1_adc_strm_mux_0_0
+   (mux_select,
+    s_axis_aclk,
+    s0_axi_stream_tdata,
+    s0_axi_stream_tkeep,
+    s0_axi_stream_tvalid,
+    s0_axi_stream_tlast,
+    s0_axi_stream_tready,
+    s1_axi_stream_tdata,
+    s1_axi_stream_tkeep,
+    s1_axi_stream_tvalid,
+    s1_axi_stream_tlast,
+    s1_axi_stream_tready,
+    m0_axi_stream_tdata,
+    m0_axi_stream_tkeep,
+    m0_axi_stream_tvalid,
+    m0_axi_stream_tlast,
+    m0_axi_stream_tready);
+  input mux_select;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 s_axis_aclk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s_axis_aclk, ASSOCIATED_BUSIF m0_axi_stream:s0_axi_stream:s1_axi_stream, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *) input s_axis_aclk;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TDATA" *) input [255:0]s0_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TKEEP" *) input [31:0]s0_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TVALID" *) input s0_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TLAST" *) input s0_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s0_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) output s0_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TDATA" *) input [255:0]s1_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TKEEP" *) input [31:0]s1_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TVALID" *) input s1_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TLAST" *) input s1_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s1_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) output s1_axi_stream_tready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TDATA" *) output [255:0]m0_axi_stream_tdata;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TKEEP" *) output [31:0]m0_axi_stream_tkeep;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TVALID" *) output m0_axi_stream_tvalid;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TLAST" *) output m0_axi_stream_tlast;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m0_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) input m0_axi_stream_tready;
+
+  wire [255:0]m0_axi_stream_tdata;
+  wire [31:0]m0_axi_stream_tkeep;
+  wire m0_axi_stream_tlast;
+  wire m0_axi_stream_tready;
+  wire m0_axi_stream_tvalid;
+  wire mux_select;
+  wire [255:0]s0_axi_stream_tdata;
+  wire [31:0]s0_axi_stream_tkeep;
+  wire s0_axi_stream_tlast;
+  wire s0_axi_stream_tvalid;
+  wire [255:0]s1_axi_stream_tdata;
+  wire [31:0]s1_axi_stream_tkeep;
+  wire s1_axi_stream_tlast;
+  wire s1_axi_stream_tvalid;
+
+  assign s0_axi_stream_tready = m0_axi_stream_tready;
+  assign s1_axi_stream_tready = m0_axi_stream_tready;
+  design_1_adc_strm_mux_0_0_adc_strm_mux inst
+       (.m0_axi_stream_tdata(m0_axi_stream_tdata),
+        .m0_axi_stream_tkeep(m0_axi_stream_tkeep),
+        .mux_select(mux_select),
+        .s0_axi_stream_tdata(s0_axi_stream_tdata),
+        .s0_axi_stream_tkeep(s0_axi_stream_tkeep),
+        .s1_axi_stream_tdata(s1_axi_stream_tdata),
+        .s1_axi_stream_tkeep(s1_axi_stream_tkeep));
+  LUT3 #(
+    .INIT(8'hB8)) 
+    m0_axi_stream_tlast_INST_0
+       (.I0(s1_axi_stream_tlast),
+        .I1(mux_select),
+        .I2(s0_axi_stream_tlast),
+        .O(m0_axi_stream_tlast));
+  LUT3 #(
+    .INIT(8'hB8)) 
+    m0_axi_stream_tvalid_INST_0
+       (.I0(s1_axi_stream_tvalid),
+        .I1(mux_select),
+        .I2(s0_axi_stream_tvalid),
+        .O(m0_axi_stream_tvalid));
+endmodule
+
+(* ORIG_REF_NAME = "adc_strm_mux" *) 
 module design_1_adc_strm_mux_0_0_adc_strm_mux
    (m0_axi_stream_tdata,
     m0_axi_stream_tkeep,
@@ -2340,86 +2421,6 @@ module design_1_adc_strm_mux_0_0_adc_strm_mux
         .I1(s0_axi_stream_tkeep[9]),
         .I2(mux_select),
         .O(m0_axi_stream_tkeep[9]));
-endmodule
-
-(* CHECK_LICENSE_TYPE = "design_1_adc_strm_mux_0_0,adc_strm_mux,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
-(* X_CORE_INFO = "adc_strm_mux,Vivado 2019.1" *) 
-(* NotValidForBitStream *)
-module design_1_adc_strm_mux_0_0
-   (mux_select,
-    s_axis_aclk,
-    s0_axi_stream_tdata,
-    s0_axi_stream_tkeep,
-    s0_axi_stream_tvalid,
-    s0_axi_stream_tlast,
-    s0_axi_stream_tready,
-    s1_axi_stream_tdata,
-    s1_axi_stream_tkeep,
-    s1_axi_stream_tvalid,
-    s1_axi_stream_tlast,
-    s1_axi_stream_tready,
-    m0_axi_stream_tdata,
-    m0_axi_stream_tkeep,
-    m0_axi_stream_tvalid,
-    m0_axi_stream_tlast,
-    m0_axi_stream_tready);
-  input mux_select;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 s_axis_aclk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s_axis_aclk, ASSOCIATED_BUSIF m0_axi_stream:s0_axi_stream:s1_axi_stream, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0" *) input s_axis_aclk;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TDATA" *) input [255:0]s0_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TKEEP" *) input [31:0]s0_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TVALID" *) input s0_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TLAST" *) input s0_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s0_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) output s0_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TDATA" *) input [255:0]s1_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TKEEP" *) input [31:0]s1_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TVALID" *) input s1_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TLAST" *) input s1_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 s1_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME s1_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) output s1_axi_stream_tready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TDATA" *) output [255:0]m0_axi_stream_tdata;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TKEEP" *) output [31:0]m0_axi_stream_tkeep;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TVALID" *) output m0_axi_stream_tvalid;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TLAST" *) output m0_axi_stream_tlast;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 m0_axi_stream TREADY" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m0_axi_stream, TDATA_NUM_BYTES 32, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 1, HAS_TLAST 1, FREQ_HZ 220000000, PHASE 22.5, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, LAYERED_METADATA undef, INSERT_VIP 0" *) input m0_axi_stream_tready;
-
-  wire [255:0]m0_axi_stream_tdata;
-  wire [31:0]m0_axi_stream_tkeep;
-  wire m0_axi_stream_tlast;
-  wire m0_axi_stream_tready;
-  wire m0_axi_stream_tvalid;
-  wire mux_select;
-  wire [255:0]s0_axi_stream_tdata;
-  wire [31:0]s0_axi_stream_tkeep;
-  wire s0_axi_stream_tlast;
-  wire s0_axi_stream_tvalid;
-  wire [255:0]s1_axi_stream_tdata;
-  wire [31:0]s1_axi_stream_tkeep;
-  wire s1_axi_stream_tlast;
-  wire s1_axi_stream_tvalid;
-
-  assign s0_axi_stream_tready = m0_axi_stream_tready;
-  assign s1_axi_stream_tready = m0_axi_stream_tready;
-  design_1_adc_strm_mux_0_0_adc_strm_mux inst
-       (.m0_axi_stream_tdata(m0_axi_stream_tdata),
-        .m0_axi_stream_tkeep(m0_axi_stream_tkeep),
-        .mux_select(mux_select),
-        .s0_axi_stream_tdata(s0_axi_stream_tdata),
-        .s0_axi_stream_tkeep(s0_axi_stream_tkeep),
-        .s1_axi_stream_tdata(s1_axi_stream_tdata),
-        .s1_axi_stream_tkeep(s1_axi_stream_tkeep));
-  LUT3 #(
-    .INIT(8'hB8)) 
-    m0_axi_stream_tlast_INST_0
-       (.I0(s1_axi_stream_tlast),
-        .I1(mux_select),
-        .I2(s0_axi_stream_tlast),
-        .O(m0_axi_stream_tlast));
-  LUT3 #(
-    .INIT(8'hB8)) 
-    m0_axi_stream_tvalid_INST_0
-       (.I0(s1_axi_stream_tvalid),
-        .I1(mux_select),
-        .I2(s0_axi_stream_tvalid),
-        .O(m0_axi_stream_tvalid));
 endmodule
 `ifndef GLBL
 `define GLBL

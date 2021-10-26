@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Wed Jul 22 12:55:30 2020
+// Date        : Fri Oct 22 14:46:53 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_packet_counter_0_2 -prefix
-//               design_1_packet_counter_0_2_ design_1_packet_counter_0_2_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_PD/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_packet_counter_0_2/design_1_packet_counter_0_2_sim_netlist.v
 // Design      : design_1_packet_counter_0_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -184,6 +184,7 @@ module design_1_packet_counter_0_2
 endmodule
 
 (* C_AXIS_TDATA_WIDTH = "128" *) (* C_S00_AXI_ADDR_WIDTH = "4" *) (* C_S00_AXI_DATA_WIDTH = "32" *) 
+(* ORIG_REF_NAME = "packet_counter_v1_0" *) 
 module design_1_packet_counter_0_2_packet_counter_v1_0
    (PD_FLAG,
     aclk,
@@ -3957,6 +3958,7 @@ module design_1_packet_counter_0_2_packet_counter_v1_0
         .R(1'b0));
 endmodule
 
+(* ORIG_REF_NAME = "packet_counter_v1_0_S00_AXI" *) 
 module design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI
    (axi_awready_reg_0,
     axi_wready_reg_0,
@@ -5585,6 +5587,7 @@ module design_1_packet_counter_0_2_packet_counter_v1_0_S00_AXI
         .R(axi_awready_i_1_n_0));
 endmodule
 
+(* ORIG_REF_NAME = "vt_single_sync" *) 
 module design_1_packet_counter_0_2_vt_single_sync
    (S,
     DI,

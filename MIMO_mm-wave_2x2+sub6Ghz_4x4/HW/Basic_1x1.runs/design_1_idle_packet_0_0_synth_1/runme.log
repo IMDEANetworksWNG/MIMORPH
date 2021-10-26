@@ -12,6 +12,9 @@ source design_1_idle_packet_0_0.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
@@ -24,16 +27,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_idle_packet_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -42,135 +37,135 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12001 
+INFO: Helper process launched with PID 2867 
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2382.871 ; gain = 142.715 ; free physical = 90638 ; free virtual = 109584
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2383.809 ; gain = 142.684 ; free physical = 13570 ; free virtual = 65486
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'design_1_idle_packet_0_0' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_1_idle_packet_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:93]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_AXIS_TDATA_WIDTH bound to: 256 - type: integer 
-INFO: [Synth 8-3491] module 'idle_packet_v1_0' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:5' bound to instance 'U0' of component 'idle_packet_v1_0' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:183]
-INFO: [Synth 8-638] synthesizing module 'idle_packet_v1_0' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:66]
+INFO: [Synth 8-3491] module 'idle_packet_v1_0' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:5' bound to instance 'U0' of component 'idle_packet_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'idle_packet_v1_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:66]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_AXIS_TDATA_WIDTH bound to: 256 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'idle_packet_v1_0_S00_AXI' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:5' bound to instance 'idle_packet_v1_0_S00_AXI_inst' of component 'idle_packet_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:136]
-INFO: [Synth 8-638] synthesizing module 'idle_packet_v1_0_S00_AXI' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-3491] module 'idle_packet_v1_0_S00_AXI' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:5' bound to instance 'idle_packet_v1_0_S00_AXI_inst' of component 'idle_packet_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'idle_packet_v1_0_S00_AXI' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:86]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:224]
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:354]
-WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:222]
-INFO: [Synth 8-256] done synthesizing module 'idle_packet_v1_0_S00_AXI' (1#1) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:224]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:354]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:222]
+INFO: [Synth 8-256] done synthesizing module 'idle_packet_v1_0_S00_AXI' (1#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0_S00_AXI.vhd:86]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
-INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:26]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (2#1) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:26]
+INFO: [Synth 8-5534] Detected attribute (* shreg_extract = "NO" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'vt_single_sync' (2#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:26]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
 	Parameter STAGES bound to: 2 - type: integer 
 	Parameter STARTUP_VALUE bound to: 1'b0 
-INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
-INFO: [Synth 8-226] default block is never used [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:191]
-INFO: [Synth 8-256] done synthesizing module 'idle_packet_v1_0' (3#1) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:66]
-INFO: [Synth 8-256] done synthesizing module 'design_1_idle_packet_0_0' (4#1) [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:93]
+INFO: [Synth 8-3491] module 'vt_single_sync' declared at '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/src/vt_single_sync.vhd:14' bound to instance 'vt_single_sync_inst_X' of component 'vt_single_sync' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:169]
+INFO: [Synth 8-226] default block is never used [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:191]
+INFO: [Synth 8-256] done synthesizing module 'idle_packet_v1_0' (3#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ipshared/2034/hdl/idle_packet_v1_0.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'design_1_idle_packet_0_0' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/synth/design_1_idle_packet_0_0.vhd:93]
 WARNING: [Synth 8-3331] design idle_packet_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
 WARNING: [Synth 8-3331] design idle_packet_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
 WARNING: [Synth 8-3331] design idle_packet_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
@@ -179,7 +174,7 @@ WARNING: [Synth 8-3331] design idle_packet_v1_0_S00_AXI has unconnected port S_A
 WARNING: [Synth 8-3331] design idle_packet_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
 WARNING: [Synth 8-3331] design idle_packet_v1_0 has unconnected port m00_axis_tready
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2440.590 ; gain = 200.434 ; free physical = 90593 ; free virtual = 109540
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2440.527 ; gain = 199.402 ; free physical = 13539 ; free virtual = 65458
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -192,29 +187,29 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2446.527 ; gain = 206.371 ; free physical = 90640 ; free virtual = 109588
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2446.465 ; gain = 205.340 ; free physical = 13373 ; free virtual = 65291
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2446.527 ; gain = 206.371 ; free physical = 90640 ; free virtual = 109588
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2446.465 ; gain = 205.340 ; free physical = 13373 ; free virtual = 65291
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/src/constraints.xdc] for cell 'U0'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/src/constraints.xdc] for cell 'U0'
-Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/src/constraints.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_idle_packet_0_0/src/constraints.xdc] for cell 'U0'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2624.184 ; gain = 0.000 ; free physical = 90473 ; free virtual = 109445
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2625.121 ; gain = 0.000 ; free physical = 12782 ; free virtual = 64700
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2624.184 ; gain = 0.000 ; free physical = 90467 ; free virtual = 109439
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2625.121 ; gain = 0.000 ; free physical = 12771 ; free virtual = 64689
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2624.184 ; gain = 384.027 ; free physical = 90110 ; free virtual = 109067
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.121 ; gain = 383.996 ; free physical = 13045 ; free virtual = 65032
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -222,17 +217,17 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2624.184 ; gain = 384.027 ; free physical = 90199 ; free virtual = 109156
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.121 ; gain = 383.996 ; free physical = 13042 ; free virtual = 65030
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2624.184 ; gain = 384.027 ; free physical = 90200 ; free virtual = 109157
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.121 ; gain = 383.996 ; free physical = 13038 ; free virtual = 65025
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2624.184 ; gain = 384.027 ; free physical = 90204 ; free virtual = 109162
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2625.121 ; gain = 383.996 ; free physical = 12977 ; free virtual = 64966
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -311,7 +306,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\idle_
 INFO: [Synth 8-3886] merging instance 'U0/idle_packet_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/idle_packet_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\idle_packet_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2624.184 ; gain = 384.027 ; free physical = 90199 ; free virtual = 109159
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 2625.121 ; gain = 383.996 ; free physical = 13249 ; free virtual = 65181
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -323,13 +318,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 2904.863 ; gain = 664.707 ; free physical = 88091 ; free virtual = 107099
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 2906.832 ; gain = 665.707 ; free physical = 20058 ; free virtual = 72027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 2905.863 ; gain = 665.707 ; free physical = 88077 ; free virtual = 107086
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:56 . Memory (MB): peak = 2907.832 ; gain = 666.707 ; free physical = 20025 ; free virtual = 71993
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -341,7 +336,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:47 . Memory (MB): peak = 2926.895 ; gain = 686.738 ; free physical = 88031 ; free virtual = 107040
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:57 . Memory (MB): peak = 2927.871 ; gain = 686.746 ; free physical = 20047 ; free virtual = 72016
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -365,7 +360,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:48 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87939 ; free virtual = 106948
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19739 ; free virtual = 71708
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -378,7 +373,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:48 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87935 ; free virtual = 106944
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19735 ; free virtual = 71704
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -390,25 +385,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:48 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87929 ; free virtual = 106938
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19733 ; free virtual = 71701
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87928 ; free virtual = 106937
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19730 ; free virtual = 71698
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87923 ; free virtual = 106931
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19721 ; free virtual = 71690
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87920 ; free virtual = 106928
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19719 ; free virtual = 71688
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -475,34 +470,34 @@ Report Instance Areas:
 |35    |    idle_packet_v1_0_S00_AXI_inst                       |idle_packet_v1_0_S00_AXI |   227|
 +------+--------------------------------------------------------+-------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2932.832 ; gain = 692.676 ; free physical = 87921 ; free virtual = 106929
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.809 ; gain = 692.684 ; free physical = 19719 ; free virtual = 71688
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 2932.832 ; gain = 515.020 ; free physical = 87944 ; free virtual = 106952
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:49 . Memory (MB): peak = 2932.840 ; gain = 692.676 ; free physical = 87944 ; free virtual = 106952
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:54 . Memory (MB): peak = 2933.809 ; gain = 514.027 ; free physical = 19747 ; free virtual = 71716
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 2933.816 ; gain = 692.684 ; free physical = 19751 ; free virtual = 71720
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3007.535 ; gain = 0.000 ; free physical = 87983 ; free virtual = 106993
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3008.449 ; gain = 0.000 ; free physical = 19588 ; free virtual = 71557
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-68 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+68 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:01:06 . Memory (MB): peak = 3007.535 ; gain = 1567.980 ; free physical = 88075 ; free virtual = 107086
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3007.535 ; gain = 0.000 ; free physical = 88074 ; free virtual = 107085
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:01:17 . Memory (MB): peak = 3008.449 ; gain = 1567.926 ; free physical = 19781 ; free virtual = 71750
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3008.449 ; gain = 0.000 ; free physical = 19818 ; free virtual = 71787
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/design_1_idle_packet_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/design_1_idle_packet_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_idle_packet_0_0, cache-ID = 3c891a03a942d165
 INFO: [Coretcl 2-1174] Renamed 34 cell refs.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3031.547 ; gain = 0.000 ; free physical = 88609 ; free virtual = 107617
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3032.461 ; gain = 0.000 ; free physical = 19559 ; free virtual = 71529
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/MTS_8x8_PD/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/design_1_idle_packet_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_idle_packet_0_0_synth_1/design_1_idle_packet_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_idle_packet_0_0_utilization_synth.rpt -pb design_1_idle_packet_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Jul  9 11:08:39 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:50:39 2021...

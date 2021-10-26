@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:ddr_writer:1.0
-// IP Revision: 37
+// IP Revision: 38
 
 (* X_CORE_INFO = "ddr_writer_v1_0,Vivado 2019.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_ddr_writer_0_7,ddr_writer_v1_0,{}" *)

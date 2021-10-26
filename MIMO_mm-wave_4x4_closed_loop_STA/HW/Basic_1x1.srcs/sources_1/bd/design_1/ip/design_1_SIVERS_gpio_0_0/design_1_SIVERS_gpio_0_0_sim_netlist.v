@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Tue Mar  2 12:29:28 2021
+// Date        : Fri Oct 22 15:43:58 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /home/rafael/Documentos/RFSoC_Vivado/MTS_4x4_PD_STA/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/design_1_SIVERS_gpio_0_0_sim_netlist.v
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_4x4_closed_loop_STA/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_SIVERS_gpio_0_0/design_1_SIVERS_gpio_0_0_sim_netlist.v
 // Design      : design_1_SIVERS_gpio_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -139,7 +139,7 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
     aclk,
     aresetn,
     D,
-    \b0_M_reg[4]_0 ,
+    \b0_M_reg[6]_0 ,
     \b0_N_TRN_reg[9]_0 ,
     \b0_P_TRN_reg[9]_0 ,
     \b0_T_INIT_reg[15]_0 ,
@@ -152,7 +152,7 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   input aclk;
   input aresetn;
   input [3:0]D;
-  input [4:0]\b0_M_reg[4]_0 ;
+  input [6:0]\b0_M_reg[6]_0 ;
   input [9:0]\b0_N_TRN_reg[9]_0 ;
   input [9:0]\b0_P_TRN_reg[9]_0 ;
   input [15:0]\b0_T_INIT_reg[15]_0 ;
@@ -629,8 +629,8 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   wire aclk;
   wire aresetn;
   wire [3:0]b0_L;
-  wire [4:0]b0_M;
-  wire [4:0]\b0_M_reg[4]_0 ;
+  wire [6:0]b0_M;
+  wire [6:0]\b0_M_reg[6]_0 ;
   wire [9:0]b0_N_TRN;
   wire [9:0]\b0_N_TRN_reg[9]_0 ;
   wire [9:0]b0_P_TRN;
@@ -692,14 +692,8 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   wire i__carry_i_10_n_0;
   wire i__carry_i_11__0_n_0;
   wire i__carry_i_11_n_0;
+  wire i__carry_i_12__0_n_0;
   wire i__carry_i_12_n_0;
-  wire i__carry_i_12_n_1;
-  wire i__carry_i_12_n_2;
-  wire i__carry_i_12_n_3;
-  wire i__carry_i_12_n_4;
-  wire i__carry_i_12_n_5;
-  wire i__carry_i_12_n_6;
-  wire i__carry_i_12_n_7;
   wire i__carry_i_13_n_0;
   wire i__carry_i_13_n_1;
   wire i__carry_i_13_n_2;
@@ -708,6 +702,14 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   wire i__carry_i_13_n_5;
   wire i__carry_i_13_n_6;
   wire i__carry_i_13_n_7;
+  wire i__carry_i_14_n_0;
+  wire i__carry_i_14_n_1;
+  wire i__carry_i_14_n_2;
+  wire i__carry_i_14_n_3;
+  wire i__carry_i_14_n_4;
+  wire i__carry_i_14_n_5;
+  wire i__carry_i_14_n_6;
+  wire i__carry_i_14_n_7;
   wire i__carry_i_1__0_n_0;
   wire i__carry_i_1__1_n_0;
   wire i__carry_i_1__2_n_0;
@@ -4147,32 +4149,44 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   FDRE \b0_M_reg[0] 
        (.C(aclk),
         .CE(1'b1),
-        .D(\b0_M_reg[4]_0 [0]),
+        .D(\b0_M_reg[6]_0 [0]),
         .Q(b0_M[0]),
         .R(1'b0));
   FDRE \b0_M_reg[1] 
        (.C(aclk),
         .CE(1'b1),
-        .D(\b0_M_reg[4]_0 [1]),
+        .D(\b0_M_reg[6]_0 [1]),
         .Q(b0_M[1]),
         .R(1'b0));
   FDRE \b0_M_reg[2] 
        (.C(aclk),
         .CE(1'b1),
-        .D(\b0_M_reg[4]_0 [2]),
+        .D(\b0_M_reg[6]_0 [2]),
         .Q(b0_M[2]),
         .R(1'b0));
   FDRE \b0_M_reg[3] 
        (.C(aclk),
         .CE(1'b1),
-        .D(\b0_M_reg[4]_0 [3]),
+        .D(\b0_M_reg[6]_0 [3]),
         .Q(b0_M[3]),
         .R(1'b0));
   FDRE \b0_M_reg[4] 
        (.C(aclk),
         .CE(1'b1),
-        .D(\b0_M_reg[4]_0 [4]),
+        .D(\b0_M_reg[6]_0 [4]),
         .Q(b0_M[4]),
+        .R(1'b0));
+  FDRE \b0_M_reg[5] 
+       (.C(aclk),
+        .CE(1'b1),
+        .D(\b0_M_reg[6]_0 [5]),
+        .Q(b0_M[5]),
+        .R(1'b0));
+  FDRE \b0_M_reg[6] 
+       (.C(aclk),
+        .CE(1'b1),
+        .D(\b0_M_reg[6]_0 [6]),
+        .Q(b0_M[6]),
         .R(1'b0));
   FDRE \b0_N_TRN_reg[0] 
        (.C(aclk),
@@ -4528,7 +4542,7 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
         .I1(M_count_reg[30]),
         .O(i__carry__0_i_1_n_0));
   CARRY8 i__carry__0_i_10
-       (.CI(i__carry_i_13_n_0),
+       (.CI(i__carry_i_14_n_0),
         .CI_TOP(1'b0),
         .CO({i__carry__0_i_10_n_0,i__carry__0_i_10_n_1,i__carry__0_i_10_n_2,i__carry__0_i_10_n_3,i__carry__0_i_10_n_4,i__carry__0_i_10_n_5,i__carry__0_i_10_n_6,i__carry__0_i_10_n_7}),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
@@ -4681,46 +4695,62 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT4 #(
     .INIT(16'h9009)) 
     i__carry_i_10
-       (.I0(state2[3]),
-        .I1(b0_M[3]),
-        .I2(state2[2]),
-        .I3(b0_M[2]),
+       (.I0(state2[5]),
+        .I1(b0_M[5]),
+        .I2(state2[4]),
+        .I3(b0_M[4]),
         .O(i__carry_i_10_n_0));
   LUT4 #(
     .INIT(16'h9009)) 
     i__carry_i_10__0
-       (.I0(b0_M[3]),
-        .I1(M_count_reg[3]),
-        .I2(b0_M[2]),
-        .I3(M_count_reg[2]),
+       (.I0(b0_M[5]),
+        .I1(M_count_reg[5]),
+        .I2(b0_M[4]),
+        .I3(M_count_reg[4]),
         .O(i__carry_i_10__0_n_0));
   LUT4 #(
-    .INIT(16'h0990)) 
+    .INIT(16'h9009)) 
     i__carry_i_11
-       (.I0(state2[1]),
-        .I1(b0_M[1]),
-        .I2(M_count_reg[0]),
-        .I3(b0_M[0]),
+       (.I0(state2[3]),
+        .I1(b0_M[3]),
+        .I2(state2[2]),
+        .I3(b0_M[2]),
         .O(i__carry_i_11_n_0));
   LUT4 #(
     .INIT(16'h9009)) 
     i__carry_i_11__0
+       (.I0(b0_M[3]),
+        .I1(M_count_reg[3]),
+        .I2(b0_M[2]),
+        .I3(M_count_reg[2]),
+        .O(i__carry_i_11__0_n_0));
+  LUT4 #(
+    .INIT(16'h0990)) 
+    i__carry_i_12
+       (.I0(state2[1]),
+        .I1(b0_M[1]),
+        .I2(M_count_reg[0]),
+        .I3(b0_M[0]),
+        .O(i__carry_i_12_n_0));
+  LUT4 #(
+    .INIT(16'h9009)) 
+    i__carry_i_12__0
        (.I0(b0_M[1]),
         .I1(M_count_reg[1]),
         .I2(b0_M[0]),
         .I3(M_count_reg[0]),
-        .O(i__carry_i_11__0_n_0));
-  CARRY8 i__carry_i_12
+        .O(i__carry_i_12__0_n_0));
+  CARRY8 i__carry_i_13
        (.CI(M_count_reg[0]),
         .CI_TOP(1'b0),
-        .CO({i__carry_i_12_n_0,i__carry_i_12_n_1,i__carry_i_12_n_2,i__carry_i_12_n_3,i__carry_i_12_n_4,i__carry_i_12_n_5,i__carry_i_12_n_6,i__carry_i_12_n_7}),
+        .CO({i__carry_i_13_n_0,i__carry_i_13_n_1,i__carry_i_13_n_2,i__carry_i_13_n_3,i__carry_i_13_n_4,i__carry_i_13_n_5,i__carry_i_13_n_6,i__carry_i_13_n_7}),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(state2[8:1]),
         .S(M_count_reg[8:1]));
-  CARRY8 i__carry_i_13
-       (.CI(i__carry_i_12_n_0),
+  CARRY8 i__carry_i_14
+       (.CI(i__carry_i_13_n_0),
         .CI_TOP(1'b0),
-        .CO({i__carry_i_13_n_0,i__carry_i_13_n_1,i__carry_i_13_n_2,i__carry_i_13_n_3,i__carry_i_13_n_4,i__carry_i_13_n_5,i__carry_i_13_n_6,i__carry_i_13_n_7}),
+        .CO({i__carry_i_14_n_0,i__carry_i_14_n_1,i__carry_i_14_n_2,i__carry_i_14_n_3,i__carry_i_14_n_4,i__carry_i_14_n_5,i__carry_i_14_n_6,i__carry_i_14_n_7}),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(state2[16:9]),
         .S(M_count_reg[16:9]));
@@ -4734,32 +4764,32 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT3 #(
     .INIT(8'h04)) 
     i__carry_i_1__1
-       (.I0(state2[5]),
-        .I1(b0_M[4]),
-        .I2(state2[4]),
+       (.I0(state2[7]),
+        .I1(b0_M[6]),
+        .I2(state2[6]),
         .O(i__carry_i_1__1_n_0));
   LUT3 #(
     .INIT(8'h04)) 
     i__carry_i_1__2
-       (.I0(M_count_reg[5]),
-        .I1(b0_M[4]),
-        .I2(M_count_reg[4]),
+       (.I0(M_count_reg[7]),
+        .I1(b0_M[6]),
+        .I2(M_count_reg[6]),
         .O(i__carry_i_1__2_n_0));
   LUT4 #(
     .INIT(16'h22B2)) 
     i__carry_i_2
-       (.I0(b0_M[3]),
-        .I1(state2[3]),
-        .I2(b0_M[2]),
-        .I3(state2[2]),
+       (.I0(b0_M[5]),
+        .I1(state2[5]),
+        .I2(b0_M[4]),
+        .I3(state2[4]),
         .O(i__carry_i_2_n_0));
   LUT4 #(
     .INIT(16'h44D4)) 
     i__carry_i_2__0
-       (.I0(M_count_reg[3]),
-        .I1(b0_M[3]),
-        .I2(b0_M[2]),
-        .I3(M_count_reg[2]),
+       (.I0(M_count_reg[5]),
+        .I1(b0_M[5]),
+        .I2(b0_M[4]),
+        .I3(M_count_reg[4]),
         .O(i__carry_i_2__0_n_0));
   LUT3 #(
     .INIT(8'h01)) 
@@ -4776,20 +4806,20 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
         .I2(\state1_inferred__4/i__carry__1_n_14 ),
         .O(i__carry_i_2__2_n_0));
   LUT4 #(
-    .INIT(16'hB222)) 
+    .INIT(16'h22B2)) 
     i__carry_i_3
-       (.I0(b0_M[1]),
-        .I1(state2[1]),
-        .I2(b0_M[0]),
-        .I3(M_count_reg[0]),
+       (.I0(b0_M[3]),
+        .I1(state2[3]),
+        .I2(b0_M[2]),
+        .I3(state2[2]),
         .O(i__carry_i_3_n_0));
   LUT4 #(
     .INIT(16'h44D4)) 
     i__carry_i_3__0
-       (.I0(M_count_reg[1]),
-        .I1(b0_M[1]),
-        .I2(b0_M[0]),
-        .I3(M_count_reg[0]),
+       (.I0(M_count_reg[3]),
+        .I1(b0_M[3]),
+        .I2(b0_M[2]),
+        .I3(M_count_reg[2]),
         .O(i__carry_i_3__0_n_0));
   LUT3 #(
     .INIT(8'h01)) 
@@ -4805,17 +4835,21 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
         .I1(\state1_inferred__4/i__carry__1_n_15 ),
         .I2(\state1_inferred__4/i__carry__0_n_9 ),
         .O(i__carry_i_3__2_n_0));
-  LUT2 #(
-    .INIT(4'h1)) 
+  LUT4 #(
+    .INIT(16'hB222)) 
     i__carry_i_4
-       (.I0(state2[15]),
-        .I1(state2[14]),
+       (.I0(b0_M[1]),
+        .I1(state2[1]),
+        .I2(b0_M[0]),
+        .I3(M_count_reg[0]),
         .O(i__carry_i_4_n_0));
-  LUT2 #(
-    .INIT(4'h1)) 
+  LUT4 #(
+    .INIT(16'h44D4)) 
     i__carry_i_4__0
-       (.I0(M_count_reg[15]),
-        .I1(M_count_reg[14]),
+       (.I0(M_count_reg[1]),
+        .I1(b0_M[1]),
+        .I2(b0_M[0]),
+        .I3(M_count_reg[0]),
         .O(i__carry_i_4__0_n_0));
   LUT3 #(
     .INIT(8'h01)) 
@@ -4834,14 +4868,14 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_5
-       (.I0(state2[13]),
-        .I1(state2[12]),
+       (.I0(state2[15]),
+        .I1(state2[14]),
         .O(i__carry_i_5_n_0));
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_5__0
-       (.I0(M_count_reg[13]),
-        .I1(M_count_reg[12]),
+       (.I0(M_count_reg[15]),
+        .I1(M_count_reg[14]),
         .O(i__carry_i_5__0_n_0));
   LUT4 #(
     .INIT(16'h1001)) 
@@ -4862,14 +4896,14 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_6
-       (.I0(state2[11]),
-        .I1(state2[10]),
+       (.I0(state2[13]),
+        .I1(state2[12]),
         .O(i__carry_i_6_n_0));
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_6__0
-       (.I0(M_count_reg[11]),
-        .I1(M_count_reg[10]),
+       (.I0(M_count_reg[13]),
+        .I1(M_count_reg[12]),
         .O(i__carry_i_6__0_n_0));
   LUT6 #(
     .INIT(64'h9009000000009009)) 
@@ -4894,14 +4928,14 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_7
-       (.I0(state2[9]),
-        .I1(state2[8]),
+       (.I0(state2[11]),
+        .I1(state2[10]),
         .O(i__carry_i_7_n_0));
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_7__0
-       (.I0(M_count_reg[9]),
-        .I1(M_count_reg[8]),
+       (.I0(M_count_reg[11]),
+        .I1(M_count_reg[10]),
         .O(i__carry_i_7__0_n_0));
   LUT6 #(
     .INIT(64'h9009000000009009)) 
@@ -4926,22 +4960,22 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_8
-       (.I0(state2[7]),
-        .I1(state2[6]),
+       (.I0(state2[9]),
+        .I1(state2[8]),
         .O(i__carry_i_8_n_0));
   LUT2 #(
     .INIT(4'h1)) 
     i__carry_i_8__0
-       (.I0(M_count_reg[7]),
-        .I1(M_count_reg[6]),
+       (.I0(M_count_reg[9]),
+        .I1(M_count_reg[8]),
         .O(i__carry_i_8__0_n_0));
   LUT6 #(
-    .INIT(64'h6006000000006006)) 
+    .INIT(64'h0990000000000990)) 
     i__carry_i_8__1
-       (.I0(N_count_reg[0]),
-        .I1(b0_N_TRN[0]),
-        .I2(state3[1]),
-        .I3(b0_N_TRN[1]),
+       (.I0(state3[1]),
+        .I1(b0_N_TRN[1]),
+        .I2(N_count_reg[0]),
+        .I3(b0_N_TRN[0]),
         .I4(b0_N_TRN[2]),
         .I5(state3[2]),
         .O(i__carry_i_8__1_n_0));
@@ -4958,16 +4992,16 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
   LUT3 #(
     .INIT(8'h41)) 
     i__carry_i_9
-       (.I0(state2[5]),
-        .I1(state2[4]),
-        .I2(b0_M[4]),
+       (.I0(state2[7]),
+        .I1(state2[6]),
+        .I2(b0_M[6]),
         .O(i__carry_i_9_n_0));
   LUT3 #(
     .INIT(8'h41)) 
     i__carry_i_9__0
-       (.I0(M_count_reg[5]),
-        .I1(b0_M[4]),
-        .I2(M_count_reg[4]),
+       (.I0(M_count_reg[7]),
+        .I1(b0_M[6]),
+        .I2(M_count_reg[6]),
         .O(i__carry_i_9__0_n_0));
   LUT4 #(
     .INIT(16'hA800)) 
@@ -5391,10 +5425,10 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
     inc_enable1_carry_i_8
        (.I0(inc_enable1_carry_i_11_n_14),
         .I1(b0_T_HIGH[2]),
-        .I2(\inc_count_reg[1]_i_1_n_15 ),
-        .I3(b0_T_HIGH[0]),
-        .I4(b0_T_HIGH[1]),
-        .I5(inc_enable1_carry_i_11_n_15),
+        .I2(inc_enable1_carry_i_11_n_15),
+        .I3(b0_T_HIGH[1]),
+        .I4(b0_T_HIGH[0]),
+        .I5(\inc_count_reg[1]_i_1_n_15 ),
         .O(inc_enable1_carry_i_8_n_0));
   CARRY8 inc_enable1_carry_i_9
        (.CI(inc_enable1_carry_i_10_n_0),
@@ -6345,10 +6379,10 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
     rtn_enable1_carry_i_8
        (.I0(rtn_enable1_carry_i_11_n_14),
         .I1(b0_T_HIGH[2]),
-        .I2(\rtn_count_reg[1]_i_1_n_15 ),
-        .I3(b0_T_HIGH[0]),
-        .I4(b0_T_HIGH[1]),
-        .I5(rtn_enable1_carry_i_11_n_15),
+        .I2(rtn_enable1_carry_i_11_n_15),
+        .I3(b0_T_HIGH[1]),
+        .I4(b0_T_HIGH[0]),
+        .I5(\rtn_count_reg[1]_i_1_n_15 ),
         .O(rtn_enable1_carry_i_8_n_0));
   CARRY8 rtn_enable1_carry_i_9
        (.CI(rtn_enable1_carry_i_10_n_0),
@@ -6758,9 +6792,9 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
        (.CI(1'b0),
         .CI_TOP(1'b0),
         .CO({\state1_inferred__0/i__carry_n_0 ,\state1_inferred__0/i__carry_n_1 ,\state1_inferred__0/i__carry_n_2 ,\state1_inferred__0/i__carry_n_3 ,\state1_inferred__0/i__carry_n_4 ,\state1_inferred__0/i__carry_n_5 ,\state1_inferred__0/i__carry_n_6 ,\state1_inferred__0/i__carry_n_7 }),
-        .DI({1'b0,1'b0,1'b0,1'b0,1'b0,i__carry_i_1__1_n_0,i__carry_i_2_n_0,i__carry_i_3_n_0}),
+        .DI({1'b0,1'b0,1'b0,1'b0,i__carry_i_1__1_n_0,i__carry_i_2_n_0,i__carry_i_3_n_0,i__carry_i_4_n_0}),
         .O(\NLW_state1_inferred__0/i__carry_O_UNCONNECTED [7:0]),
-        .S({i__carry_i_4_n_0,i__carry_i_5_n_0,i__carry_i_6_n_0,i__carry_i_7_n_0,i__carry_i_8_n_0,i__carry_i_9_n_0,i__carry_i_10_n_0,i__carry_i_11_n_0}));
+        .S({i__carry_i_5_n_0,i__carry_i_6_n_0,i__carry_i_7_n_0,i__carry_i_8_n_0,i__carry_i_9_n_0,i__carry_i_10_n_0,i__carry_i_11_n_0,i__carry_i_12_n_0}));
   CARRY8 \state1_inferred__0/i__carry__0 
        (.CI(\state1_inferred__0/i__carry_n_0 ),
         .CI_TOP(1'b0),
@@ -6828,9 +6862,9 @@ module design_1_SIVERS_gpio_0_0_SIVERS_GPIO_CHANGE_v2
        (.CI(1'b0),
         .CI_TOP(1'b0),
         .CO({\state2_inferred__0/i__carry_n_0 ,\state2_inferred__0/i__carry_n_1 ,\state2_inferred__0/i__carry_n_2 ,\state2_inferred__0/i__carry_n_3 ,\state2_inferred__0/i__carry_n_4 ,\state2_inferred__0/i__carry_n_5 ,\state2_inferred__0/i__carry_n_6 ,\state2_inferred__0/i__carry_n_7 }),
-        .DI({1'b0,1'b0,1'b0,1'b0,1'b0,i__carry_i_1__2_n_0,i__carry_i_2__0_n_0,i__carry_i_3__0_n_0}),
+        .DI({1'b0,1'b0,1'b0,1'b0,i__carry_i_1__2_n_0,i__carry_i_2__0_n_0,i__carry_i_3__0_n_0,i__carry_i_4__0_n_0}),
         .O(\NLW_state2_inferred__0/i__carry_O_UNCONNECTED [7:0]),
-        .S({i__carry_i_4__0_n_0,i__carry_i_5__0_n_0,i__carry_i_6__0_n_0,i__carry_i_7__0_n_0,i__carry_i_8__0_n_0,i__carry_i_9__0_n_0,i__carry_i_10__0_n_0,i__carry_i_11__0_n_0}));
+        .S({i__carry_i_5__0_n_0,i__carry_i_6__0_n_0,i__carry_i_7__0_n_0,i__carry_i_8__0_n_0,i__carry_i_9__0_n_0,i__carry_i_10__0_n_0,i__carry_i_11__0_n_0,i__carry_i_12__0_n_0}));
   CARRY8 \state2_inferred__0/i__carry__0 
        (.CI(\state2_inferred__0/i__carry_n_0 ),
         .CI_TOP(1'b0),
@@ -6960,7 +6994,7 @@ module design_1_SIVERS_gpio_0_0_SIVERS_gpio_v1_0
   wire aresetn;
   wire control_T_o_23;
   wire [3:0]i_L;
-  wire [4:0]i_M;
+  wire [6:0]i_M;
   wire [9:0]i_N_TRN;
   wire i_TRIGGER;
   wire [6:0]i_T_HIGH;
@@ -7007,7 +7041,7 @@ module design_1_SIVERS_gpio_0_0_SIVERS_gpio_v1_0
        (.D(i_L),
         .aclk(aclk),
         .aresetn(aresetn),
-        .\b0_M_reg[4]_0 (i_M),
+        .\b0_M_reg[6]_0 (i_M),
         .\b0_N_TRN_reg[9]_0 (i_N_TRN),
         .\b0_P_TRN_reg[9]_0 ({port_o21_out,port_o22_out,port_o23_out,port_o24_out,port_o25_out,port_o26_out,port_o27_out,port_o28_out,port_o29_out,port_o30_out}),
         .\b0_T_HIGH_reg[6]_0 (i_T_HIGH),
@@ -7064,23 +7098,23 @@ module design_1_SIVERS_gpio_0_0_SIVERS_gpio_v1_0
   design_1_SIVERS_gpio_0_0_vt_single_sync_5 \SYNC_100_TO_220_BLOCK_1[15].vt_single_sync_inst_X 
        (.D(slv_reg0[15]),
         .aclk(aclk),
-        .out(i_N_TRN[0]));
+        .out(i_M[5]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_6 \SYNC_100_TO_220_BLOCK_1[16].vt_single_sync_inst_X 
        (.D(slv_reg0[16]),
         .aclk(aclk),
-        .out(i_N_TRN[1]));
+        .out(i_M[6]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_7 \SYNC_100_TO_220_BLOCK_1[17].vt_single_sync_inst_X 
        (.D(slv_reg0[17]),
         .aclk(aclk),
-        .out(i_N_TRN[2]));
+        .out(i_N_TRN[0]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_8 \SYNC_100_TO_220_BLOCK_1[18].vt_single_sync_inst_X 
        (.D(slv_reg0[18]),
         .aclk(aclk),
-        .out(i_N_TRN[3]));
+        .out(i_N_TRN[1]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_9 \SYNC_100_TO_220_BLOCK_1[19].vt_single_sync_inst_X 
        (.D(slv_reg0[19]),
         .aclk(aclk),
-        .out(i_N_TRN[4]));
+        .out(i_N_TRN[2]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_10 \SYNC_100_TO_220_BLOCK_1[1].vt_single_sync_inst_X 
        (.D(slv_reg0[1]),
         .aclk(aclk),
@@ -7088,49 +7122,51 @@ module design_1_SIVERS_gpio_0_0_SIVERS_gpio_v1_0
   design_1_SIVERS_gpio_0_0_vt_single_sync_11 \SYNC_100_TO_220_BLOCK_1[20].vt_single_sync_inst_X 
        (.D(slv_reg0[20]),
         .aclk(aclk),
-        .out(i_N_TRN[5]));
+        .out(i_N_TRN[3]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_12 \SYNC_100_TO_220_BLOCK_1[21].vt_single_sync_inst_X 
        (.D(slv_reg0[21]),
         .aclk(aclk),
-        .out(i_N_TRN[6]));
+        .out(i_N_TRN[4]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_13 \SYNC_100_TO_220_BLOCK_1[22].vt_single_sync_inst_X 
        (.D(slv_reg0[22]),
         .aclk(aclk),
-        .out(i_N_TRN[7]));
+        .out(i_N_TRN[5]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_14 \SYNC_100_TO_220_BLOCK_1[23].vt_single_sync_inst_X 
        (.D(slv_reg0[23]),
         .aclk(aclk),
-        .out(i_N_TRN[8]));
+        .out(i_N_TRN[6]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_15 \SYNC_100_TO_220_BLOCK_1[24].vt_single_sync_inst_X 
        (.D(slv_reg0[24]),
         .aclk(aclk),
-        .out(i_N_TRN[9]));
+        .out(i_N_TRN[7]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_16 \SYNC_100_TO_220_BLOCK_1[25].vt_single_sync_inst_X 
        (.D(slv_reg0[25]),
         .aclk(aclk),
-        .out(i_L[0]));
+        .out(i_N_TRN[8]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_17 \SYNC_100_TO_220_BLOCK_1[26].vt_single_sync_inst_X 
        (.D(slv_reg0[26]),
         .aclk(aclk),
-        .out(i_L[1]));
+        .out(i_N_TRN[9]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_18 \SYNC_100_TO_220_BLOCK_1[27].vt_single_sync_inst_X 
        (.D(slv_reg0[27]),
         .aclk(aclk),
-        .out(i_L[2]));
+        .out(i_L[0]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_19 \SYNC_100_TO_220_BLOCK_1[28].vt_single_sync_inst_X 
        (.D(slv_reg0[28]),
         .aclk(aclk),
-        .out(i_L[3]));
+        .out(i_L[1]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_20 \SYNC_100_TO_220_BLOCK_1[29].vt_single_sync_inst_X 
        (.D(slv_reg0[29]),
-        .aclk(aclk));
+        .aclk(aclk),
+        .out(i_L[2]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_21 \SYNC_100_TO_220_BLOCK_1[2].vt_single_sync_inst_X 
        (.D(slv_reg0[2]),
         .aclk(aclk),
         .out(port_o28_out));
   design_1_SIVERS_gpio_0_0_vt_single_sync_22 \SYNC_100_TO_220_BLOCK_1[30].vt_single_sync_inst_X 
        (.D(slv_reg0[30]),
-        .aclk(aclk));
+        .aclk(aclk),
+        .out(i_L[3]));
   design_1_SIVERS_gpio_0_0_vt_single_sync_23 \SYNC_100_TO_220_BLOCK_1[31].vt_single_sync_inst_X 
        (.D(slv_reg0[31]),
         .aclk(aclk));
@@ -9449,8 +9485,10 @@ endmodule
 
 (* ORIG_REF_NAME = "vt_single_sync" *) 
 module design_1_SIVERS_gpio_0_0_vt_single_sync_20
-   (aclk,
+   (out,
+    aclk,
     D);
+  output [0:0]out;
   input aclk;
   input [0:0]D;
 
@@ -9458,6 +9496,7 @@ module design_1_SIVERS_gpio_0_0_vt_single_sync_20
   wire aclk;
   (* async_reg = "true" *) (* shreg_extract = "no" *) wire [1:0]dff;
 
+  assign out[0] = dff[1];
   (* ASYNC_REG *) 
   (* KEEP = "yes" *) 
   (* SHREG_EXTRACT = "no" *) 
@@ -9522,8 +9561,10 @@ endmodule
 
 (* ORIG_REF_NAME = "vt_single_sync" *) 
 module design_1_SIVERS_gpio_0_0_vt_single_sync_22
-   (aclk,
+   (out,
+    aclk,
     D);
+  output [0:0]out;
   input aclk;
   input [0:0]D;
 
@@ -9531,6 +9572,7 @@ module design_1_SIVERS_gpio_0_0_vt_single_sync_22
   wire aclk;
   (* async_reg = "true" *) (* shreg_extract = "no" *) wire [1:0]dff;
 
+  assign out[0] = dff[1];
   (* ASYNC_REG *) 
   (* KEEP = "yes" *) 
   (* SHREG_EXTRACT = "no" *) 

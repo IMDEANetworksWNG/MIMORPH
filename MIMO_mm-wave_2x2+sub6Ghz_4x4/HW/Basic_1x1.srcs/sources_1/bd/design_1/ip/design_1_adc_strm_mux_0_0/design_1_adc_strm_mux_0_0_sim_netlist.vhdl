@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Mon Nov 25 10:29:11 2019
+-- Date        : Fri Oct 22 16:46:05 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_adc_strm_mux_0_0 -prefix
---               design_1_adc_strm_mux_0_0_ design_1_adc_strm_mux_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_adc_strm_mux_0_0/design_1_adc_strm_mux_0_0_sim_netlist.vhdl
 -- Design      : design_1_adc_strm_mux_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,6 +24,8 @@ entity design_1_adc_strm_mux_0_0_adc_strm_mux is
     s1_axi_stream_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s0_axi_stream_tkeep : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_adc_strm_mux_0_0_adc_strm_mux : entity is "adc_strm_mux";
 end design_1_adc_strm_mux_0_0_adc_strm_mux;
 
 architecture STRUCTURE of design_1_adc_strm_mux_0_0_adc_strm_mux is

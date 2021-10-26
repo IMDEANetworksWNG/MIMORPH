@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Wed Jul 22 12:55:33 2020
-# Process ID: 28436
-# Current directory: /home/rafael/Documentos/RFSoc/MTS_4x4_PD/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1
+# Start of session at: Fri Oct 22 16:55:46 2021
+# Process ID: 15089
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1
 # Command line: vivado -log design_1_packet_counter_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_packet_counter_0_1.tcl
-# Log file: /home/rafael/Documentos/RFSoc/MTS_4x4_PD/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1/design_1_packet_counter_0_1.vds
-# Journal file: /home/rafael/Documentos/RFSoc/MTS_4x4_PD/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1/vivado.jou
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1/design_1_packet_counter_0_1.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_packet_counter_0_1_synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_packet_counter_0_1.tcl -notrace

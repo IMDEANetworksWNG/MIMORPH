@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Mon Feb  3 14:21:51 2020
+-- Date        : Fri Oct 22 16:52:15 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_axis_broadcaster_0_3 -prefix
---               design_1_axis_broadcaster_0_3_ design_1_axis_broadcaster_0_3_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_broadcaster_0_3/design_1_axis_broadcaster_0_3_sim_netlist.vhdl
 -- Design      : design_1_axis_broadcaster_0_3
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,6 +24,8 @@ entity design_1_axis_broadcaster_0_3_axis_broadcaster_v1_1_18_core is
     aclk : in STD_LOGIC;
     s_axis_tvalid : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_axis_broadcaster_0_3_axis_broadcaster_v1_1_18_core : entity is "axis_broadcaster_v1_1_18_core";
 end design_1_axis_broadcaster_0_3_axis_broadcaster_v1_1_18_core;
 
 architecture STRUCTURE of design_1_axis_broadcaster_0_3_axis_broadcaster_v1_1_18_core is
@@ -203,6 +205,8 @@ entity design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3 is
   attribute G_TASK_SEVERITY_INFO of design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3 : entity is 0;
   attribute G_TASK_SEVERITY_WARNING : integer;
   attribute G_TASK_SEVERITY_WARNING of design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3 : entity is 1;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3 : entity is "top_design_1_axis_broadcaster_0_3";
   attribute P_TPAYLOAD_WIDTH : integer;
   attribute P_TPAYLOAD_WIDTH of design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3 : entity is 289;
 end design_1_axis_broadcaster_0_3_top_design_1_axis_broadcaster_0_3;

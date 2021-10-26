@@ -2,16 +2,19 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Thu Sep 10 14:40:12 2020
-# Process ID: 18087
-# Current directory: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1
+# Start of session at: Fri Oct 22 16:44:29 2021
+# Process ID: 25981
+# Current directory: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1
 # Command line: vivado -log design_1_clk_wiz_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_clk_wiz_0_0.tcl
-# Log file: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.vds
-# Journal file: /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/vivado.jou
+# Log file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.vds
+# Journal file: /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/vivado.jou
 #-----------------------------------------------------------
 source design_1_clk_wiz_0_0.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
@@ -25,16 +28,8 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/packet_detector_11AD_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_conversion_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/ddr_writer_1.0'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/srcs/ip/ip_repo'.
-WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/rafael/Documentos/RFSoc/ip_source'; Can't find the specified path.
-If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/rate_converter_5b_1.0'. The path is contained within another repository.
-WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/rafael/Documentos/RFSoc/ip_repo/tlast'. The path is contained within another repository.
-INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documentos/RFSoc/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/srcs/ip/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rafael/Documents/MIMORPH/MIMORPH/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2019.1/data/ip'.
 Command: synth_design -top design_1_clk_wiz_0_0 -part xczu28dr-ffvg1517-2-e -mode out_of_context
 Starting synth_design
@@ -43,13 +38,13 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu28d
 INFO: [Common 17-1540] The version limit for your license is '2020.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: [Device 21-403] Loading part xczu28dr-ffvg1517-2-e
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18271 
+INFO: Helper process launched with PID 26295 
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2371.699 ; gain = 142.715 ; free physical = 72687 ; free virtual = 104630
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2372.012 ; gain = 143.684 ; free physical = 13710 ; free virtual = 65468
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:73]
-INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:71]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:73]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:71]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:32856]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
@@ -112,10 +107,10 @@ INFO: [Synth 8-6157] synthesizing module 'MMCME4_ADV' [/opt/Xilinx/Vivado/2019.1
 INFO: [Synth 8-6155] done synthesizing module 'MMCME4_ADV' (2#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:40206]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1075]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [/opt/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp_diablo.v:1075]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' (4#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:71]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (5#1) [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' (4#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (5#1) [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:73]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2428.418 ; gain = 199.434 ; free physical = 72463 ; free virtual = 104421
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2428.730 ; gain = 200.402 ; free physical = 13368 ; free virtual = 65129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -128,10 +123,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2435.355 ; gain = 206.371 ; free physical = 72566 ; free virtual = 104525
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2434.668 ; gain = 206.340 ; free physical = 13590 ; free virtual = 65354
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2435.355 ; gain = 206.371 ; free physical = 72567 ; free virtual = 104526
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2434.668 ; gain = 206.340 ; free physical = 13590 ; free virtual = 65354
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -139,29 +134,29 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'inst'
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_clk_wiz_0_0_propImpl.xdc].
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_clk_wiz_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_clk_wiz_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
-Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2553.949 ; gain = 0.000 ; free physical = 72412 ; free virtual = 104377
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2554.262 ; gain = 0.000 ; free physical = 12962 ; free virtual = 64737
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 5 instances were transformed.
   BUFG => BUFGCE: 4 instances
   IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2553.949 ; gain = 0.000 ; free physical = 72409 ; free virtual = 104373
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2554.262 ; gain = 0.000 ; free physical = 12972 ; free virtual = 64746
 load diablo GTM unisim library
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2553.949 ; gain = 324.965 ; free physical = 72501 ; free virtual = 104476
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.262 ; gain = 325.934 ; free physical = 13275 ; free virtual = 65051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -169,17 +164,17 @@ Start Loading Part and Timing Information
 Loading part: xczu28dr-ffvg1517-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2553.949 ; gain = 324.965 ; free physical = 72500 ; free virtual = 104475
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.262 ; gain = 325.934 ; free physical = 13275 ; free virtual = 65051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for inst. (constraint file  /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2553.949 ; gain = 324.965 ; free physical = 72506 ; free virtual = 104482
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.262 ; gain = 325.934 ; free physical = 13267 ; free virtual = 65044
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2553.949 ; gain = 324.965 ; free physical = 72505 ; free virtual = 104480
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.262 ; gain = 325.934 ; free physical = 13290 ; free virtual = 65072
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -215,7 +210,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2553.949 ; gain = 324.965 ; free physical = 72504 ; free virtual = 104483
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 2554.262 ; gain = 325.934 ; free physical = 13213 ; free virtual = 65008
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -227,13 +222,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:46 . Memory (MB): peak = 2872.059 ; gain = 643.074 ; free physical = 69869 ; free virtual = 101968
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 2871.340 ; gain = 643.012 ; free physical = 8782 ; free virtual = 60589
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:46 . Memory (MB): peak = 2872.059 ; gain = 643.074 ; free physical = 69869 ; free virtual = 101968
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 2871.340 ; gain = 643.012 ; free physical = 8788 ; free virtual = 60595
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -245,7 +240,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:46 . Memory (MB): peak = 2881.074 ; gain = 652.090 ; free physical = 69867 ; free virtual = 101965
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:01:04 . Memory (MB): peak = 2881.355 ; gain = 653.027 ; free physical = 8840 ; free virtual = 60647
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -269,7 +264,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102027
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12719 ; free virtual = 64522
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -282,7 +277,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12718 ; free virtual = 64521
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -294,25 +289,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12711 ; free virtual = 64515
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12709 ; free virtual = 64512
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12716 ; free virtual = 64520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12716 ; free virtual = 64520
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -341,36 +336,36 @@ Report Instance Areas:
 |2     |  inst   |design_1_clk_wiz_0_0_clk_wiz |     6|
 +------+---------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.949 ; gain = 666.965 ; free physical = 69928 ; free virtual = 102026
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.230 ; gain = 666.902 ; free physical = 12718 ; free virtual = 64522
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 2895.949 ; gain = 548.371 ; free physical = 69964 ; free virtual = 102062
-Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 2895.957 ; gain = 666.965 ; free physical = 69963 ; free virtual = 102062
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 2895.230 ; gain = 547.309 ; free physical = 12750 ; free virtual = 64554
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2895.238 ; gain = 666.902 ; free physical = 12750 ; free virtual = 64554
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-326] The CLKFBOUT to CLKFBIN net for instance inst/mmcme4_adv_inst with COMPENSATION=INTERNAL is optimized away to aid design routability
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.574 ; gain = 0.000 ; free physical = 69725 ; free virtual = 101827
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.855 ; gain = 0.000 ; free physical = 12423 ; free virtual = 64227
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 5 instances were transformed.
   BUFG => BUFGCE: 4 instances
   IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-32 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+32 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 2940.574 ; gain = 1497.254 ; free physical = 69785 ; free virtual = 101887
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.574 ; gain = 0.000 ; free physical = 69785 ; free virtual = 101887
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:25 . Memory (MB): peak = 2940.855 ; gain = 1506.824 ; free physical = 12573 ; free virtual = 64377
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.855 ; gain = 0.000 ; free physical = 12573 ; free virtual = 64377
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
 INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_clk_wiz_0_0, cache-ID = a5c40f3e0f8bf333
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.574 ; gain = 0.000 ; free physical = 69926 ; free virtual = 102028
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2940.855 ; gain = 0.000 ; free physical = 11766 ; free virtual = 63571
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint '/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz2x2/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_clk_wiz_0_0_utilization_synth.rpt -pb design_1_clk_wiz_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Sep 10 14:41:24 2020...
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 22 16:46:09 2021...

@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/rafael/Documentos/RFSoC_Vivado/mmW_2x2+uW_4x4/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1'
+HD_PWD='/home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.runs/design_1_SIVERS_gpio_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,4 +1,4 @@
--- (c) Copyright 1995-2020 Xilinx, Inc. All rights reserved.
+-- (c) Copyright 1995-2021 Xilinx, Inc. All rights reserved.
 -- 
 -- This file contains confidential and proprietary information
 -- of Xilinx, Inc. and is protected under U.S. and
@@ -63,7 +63,7 @@ COMPONENT DDR_WRITER_FIFO
     dout : OUT STD_LOGIC_VECTOR(511 DOWNTO 0);
     full : OUT STD_LOGIC;
     empty : OUT STD_LOGIC;
-    rd_data_count : OUT STD_LOGIC_VECTOR(10 DOWNTO 0);
+    rd_data_count : OUT STD_LOGIC_VECTOR(13 DOWNTO 0);
     prog_full : OUT STD_LOGIC;
     prog_empty : OUT STD_LOGIC;
     wr_rst_busy : OUT STD_LOGIC;

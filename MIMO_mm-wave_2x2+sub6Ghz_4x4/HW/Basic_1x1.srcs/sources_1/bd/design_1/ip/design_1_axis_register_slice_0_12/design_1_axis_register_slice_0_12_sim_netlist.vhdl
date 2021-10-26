@@ -1,11 +1,11 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
--- Date        : Wed Dec  4 17:37:20 2019
+-- Date        : Fri Oct 22 16:52:12 2021
 -- Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_axis_register_slice_0_12 -prefix
---               design_1_axis_register_slice_0_12_ design_1_axis_register_slice_0_2_sim_netlist.vhdl
--- Design      : design_1_axis_register_slice_0_2
+-- Command     : write_vhdl -force -mode funcsim
+--               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_register_slice_0_12/design_1_axis_register_slice_0_12_sim_netlist.vhdl
+-- Design      : design_1_axis_register_slice_0_12
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xczu28dr-ffvg1517-2-e
@@ -27,6 +27,8 @@ entity design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axisc_regis
     s_axis_tvalid : in STD_LOGIC;
     D : in STD_LOGIC_VECTOR ( 288 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axisc_register_slice : entity is "axis_register_slice_v1_1_19_axisc_register_slice";
 end design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axisc_register_slice;
 
 architecture STRUCTURE of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axisc_register_slice is
@@ -8065,6 +8067,8 @@ entity design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_regist
   attribute G_TASK_SEVERITY_INFO of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_register_slice : entity is 0;
   attribute G_TASK_SEVERITY_WARNING : integer;
   attribute G_TASK_SEVERITY_WARNING of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_register_slice : entity is 1;
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_register_slice : entity is "axis_register_slice_v1_1_19_axis_register_slice";
   attribute P_TPAYLOAD_WIDTH : integer;
   attribute P_TPAYLOAD_WIDTH of design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_register_slice : entity is 289;
 end design_1_axis_register_slice_0_12_axis_register_slice_v1_1_19_axis_register_slice;
@@ -8168,7 +8172,7 @@ entity design_1_axis_register_slice_0_12 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of design_1_axis_register_slice_0_12 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of design_1_axis_register_slice_0_12 : entity is "design_1_axis_register_slice_0_2,axis_register_slice_v1_1_19_axis_register_slice,{}";
+  attribute CHECK_LICENSE_TYPE of design_1_axis_register_slice_0_12 : entity is "design_1_axis_register_slice_0_12,axis_register_slice_v1_1_19_axis_register_slice,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_axis_register_slice_0_12 : entity is "yes";
   attribute X_CORE_INFO : string;

@@ -1,109 +1,16 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-// Date        : Mon Feb  3 14:21:51 2020
+// Date        : Fri Oct 22 16:52:57 2021
 // Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_axis_broadcaster_0_4 -prefix
-//               design_1_axis_broadcaster_0_4_ design_1_axis_broadcaster_0_4_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rafael/Documents/MIMORPH/MIMORPH/MIMO_mm-wave_2x2+sub6Ghz_4x4/HW/Basic_1x1.srcs/sources_1/bd/design_1/ip/design_1_axis_broadcaster_0_4/design_1_axis_broadcaster_0_4_sim_netlist.v
 // Design      : design_1_axis_broadcaster_0_4
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xczu28dr-ffvg1517-2-e
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
-
-module design_1_axis_broadcaster_0_4_axis_broadcaster_v1_1_18_core
-   (m_axis_tvalid,
-    s_axis_tready,
-    m_axis_tready,
-    aclken,
-    aresetn,
-    aclk,
-    s_axis_tvalid);
-  output [1:0]m_axis_tvalid;
-  output s_axis_tready;
-  input [1:0]m_axis_tready;
-  input aclken;
-  input aresetn;
-  input aclk;
-  input s_axis_tvalid;
-
-  wire aclk;
-  wire aclken;
-  wire aresetn;
-  wire [1:0]m_axis_tready;
-  wire [1:0]m_axis_tvalid;
-  wire [1:0]m_ready_d0;
-  wire \m_ready_d[1]_i_1_n_0 ;
-  wire \m_ready_d_reg_n_0_[0] ;
-  wire \m_ready_d_reg_n_0_[1] ;
-  wire s_axis_tready;
-  wire s_axis_tvalid;
-
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT3 #(
-    .INIT(8'h08)) 
-    \m_axis_tvalid[0]_INST_0 
-       (.I0(aresetn),
-        .I1(s_axis_tvalid),
-        .I2(\m_ready_d_reg_n_0_[0] ),
-        .O(m_axis_tvalid[0]));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT3 #(
-    .INIT(8'h08)) 
-    \m_axis_tvalid[1]_INST_0 
-       (.I0(aresetn),
-        .I1(s_axis_tvalid),
-        .I2(\m_ready_d_reg_n_0_[1] ),
-        .O(m_axis_tvalid[1]));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT3 #(
-    .INIT(8'hF8)) 
-    \m_ready_d[0]_i_1 
-       (.I0(m_axis_tready[0]),
-        .I1(s_axis_tvalid),
-        .I2(\m_ready_d_reg_n_0_[0] ),
-        .O(m_ready_d0[0]));
-  LUT6 #(
-    .INIT(64'hEEE00000FFFFFFFF)) 
-    \m_ready_d[1]_i_1 
-       (.I0(\m_ready_d_reg_n_0_[1] ),
-        .I1(m_axis_tready[1]),
-        .I2(\m_ready_d_reg_n_0_[0] ),
-        .I3(m_axis_tready[0]),
-        .I4(aclken),
-        .I5(aresetn),
-        .O(\m_ready_d[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT3 #(
-    .INIT(8'hF8)) 
-    \m_ready_d[1]_i_2 
-       (.I0(m_axis_tready[1]),
-        .I1(s_axis_tvalid),
-        .I2(\m_ready_d_reg_n_0_[1] ),
-        .O(m_ready_d0[1]));
-  FDRE \m_ready_d_reg[0] 
-       (.C(aclk),
-        .CE(aclken),
-        .D(m_ready_d0[0]),
-        .Q(\m_ready_d_reg_n_0_[0] ),
-        .R(\m_ready_d[1]_i_1_n_0 ));
-  FDRE \m_ready_d_reg[1] 
-       (.C(aclk),
-        .CE(aclken),
-        .D(m_ready_d0[1]),
-        .Q(\m_ready_d_reg_n_0_[1] ),
-        .R(\m_ready_d[1]_i_1_n_0 ));
-  LUT5 #(
-    .INIT(32'hEEE00000)) 
-    s_axis_tready_INST_0
-       (.I0(\m_ready_d_reg_n_0_[1] ),
-        .I1(m_axis_tready[1]),
-        .I2(\m_ready_d_reg_n_0_[0] ),
-        .I3(m_axis_tready[0]),
-        .I4(aresetn),
-        .O(s_axis_tready));
-endmodule
 
 (* CHECK_LICENSE_TYPE = "design_1_axis_broadcaster_0_4,top_design_1_axis_broadcaster_0_4,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "top_design_1_axis_broadcaster_0_4,Vivado 2019.1" *) 
 (* NotValidForBitStream *)
@@ -203,6 +110,100 @@ module design_1_axis_broadcaster_0_4
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
+(* ORIG_REF_NAME = "axis_broadcaster_v1_1_18_core" *) 
+module design_1_axis_broadcaster_0_4_axis_broadcaster_v1_1_18_core
+   (m_axis_tvalid,
+    s_axis_tready,
+    m_axis_tready,
+    aclken,
+    aresetn,
+    aclk,
+    s_axis_tvalid);
+  output [1:0]m_axis_tvalid;
+  output s_axis_tready;
+  input [1:0]m_axis_tready;
+  input aclken;
+  input aresetn;
+  input aclk;
+  input s_axis_tvalid;
+
+  wire aclk;
+  wire aclken;
+  wire aresetn;
+  wire [1:0]m_axis_tready;
+  wire [1:0]m_axis_tvalid;
+  wire [1:0]m_ready_d0;
+  wire \m_ready_d[1]_i_1_n_0 ;
+  wire \m_ready_d_reg_n_0_[0] ;
+  wire \m_ready_d_reg_n_0_[1] ;
+  wire s_axis_tready;
+  wire s_axis_tvalid;
+
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT3 #(
+    .INIT(8'h08)) 
+    \m_axis_tvalid[0]_INST_0 
+       (.I0(aresetn),
+        .I1(s_axis_tvalid),
+        .I2(\m_ready_d_reg_n_0_[0] ),
+        .O(m_axis_tvalid[0]));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT3 #(
+    .INIT(8'h08)) 
+    \m_axis_tvalid[1]_INST_0 
+       (.I0(aresetn),
+        .I1(s_axis_tvalid),
+        .I2(\m_ready_d_reg_n_0_[1] ),
+        .O(m_axis_tvalid[1]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT3 #(
+    .INIT(8'hF8)) 
+    \m_ready_d[0]_i_1 
+       (.I0(m_axis_tready[0]),
+        .I1(s_axis_tvalid),
+        .I2(\m_ready_d_reg_n_0_[0] ),
+        .O(m_ready_d0[0]));
+  LUT6 #(
+    .INIT(64'hEEE00000FFFFFFFF)) 
+    \m_ready_d[1]_i_1 
+       (.I0(\m_ready_d_reg_n_0_[1] ),
+        .I1(m_axis_tready[1]),
+        .I2(\m_ready_d_reg_n_0_[0] ),
+        .I3(m_axis_tready[0]),
+        .I4(aclken),
+        .I5(aresetn),
+        .O(\m_ready_d[1]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT3 #(
+    .INIT(8'hF8)) 
+    \m_ready_d[1]_i_2 
+       (.I0(m_axis_tready[1]),
+        .I1(s_axis_tvalid),
+        .I2(\m_ready_d_reg_n_0_[1] ),
+        .O(m_ready_d0[1]));
+  FDRE \m_ready_d_reg[0] 
+       (.C(aclk),
+        .CE(aclken),
+        .D(m_ready_d0[0]),
+        .Q(\m_ready_d_reg_n_0_[0] ),
+        .R(\m_ready_d[1]_i_1_n_0 ));
+  FDRE \m_ready_d_reg[1] 
+       (.C(aclk),
+        .CE(aclken),
+        .D(m_ready_d0[1]),
+        .Q(\m_ready_d_reg_n_0_[1] ),
+        .R(\m_ready_d[1]_i_1_n_0 ));
+  LUT5 #(
+    .INIT(32'hEEE00000)) 
+    s_axis_tready_INST_0
+       (.I0(\m_ready_d_reg_n_0_[1] ),
+        .I1(m_axis_tready[1]),
+        .I2(\m_ready_d_reg_n_0_[0] ),
+        .I3(m_axis_tready[0]),
+        .I4(aresetn),
+        .O(s_axis_tready));
+endmodule
+
 (* C_AXIS_SIGNAL_SET = "27" *) (* C_AXIS_TDEST_WIDTH = "1" *) (* C_AXIS_TID_WIDTH = "1" *) 
 (* C_FAMILY = "zynquplus" *) (* C_M_AXIS_TDATA_WIDTH = "256" *) (* C_M_AXIS_TUSER_WIDTH = "1" *) 
 (* C_NUM_MI_SLOTS = "2" *) (* C_S_AXIS_TDATA_WIDTH = "256" *) (* C_S_AXIS_TUSER_WIDTH = "1" *) 
@@ -212,7 +213,7 @@ endmodule
 (* G_MASK_SS_TDEST = "64" *) (* G_MASK_SS_TID = "32" *) (* G_MASK_SS_TKEEP = "8" *) 
 (* G_MASK_SS_TLAST = "16" *) (* G_MASK_SS_TREADY = "1" *) (* G_MASK_SS_TSTRB = "4" *) 
 (* G_MASK_SS_TUSER = "128" *) (* G_TASK_SEVERITY_ERR = "2" *) (* G_TASK_SEVERITY_INFO = "0" *) 
-(* G_TASK_SEVERITY_WARNING = "1" *) (* P_TPAYLOAD_WIDTH = "289" *) 
+(* G_TASK_SEVERITY_WARNING = "1" *) (* ORIG_REF_NAME = "top_design_1_axis_broadcaster_0_4" *) (* P_TPAYLOAD_WIDTH = "289" *) 
 module design_1_axis_broadcaster_0_4_top_design_1_axis_broadcaster_0_4
    (aclk,
     aresetn,

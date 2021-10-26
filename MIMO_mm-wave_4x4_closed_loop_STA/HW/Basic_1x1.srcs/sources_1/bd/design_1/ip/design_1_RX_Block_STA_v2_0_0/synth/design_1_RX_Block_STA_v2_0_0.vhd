@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: user.org:user:RX_Block_STA_v2:1.0
--- IP Revision: 32
+-- IP Revision: 33
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

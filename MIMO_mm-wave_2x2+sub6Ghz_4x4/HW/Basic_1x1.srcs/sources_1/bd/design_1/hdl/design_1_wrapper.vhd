@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
---Date        : Fri Jun 25 17:18:45 2021
+--Date        : Fri Oct 22 16:42:05 2021
 --Host        : imdea-System running 64-bit Ubuntu 18.04.3 LTS
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -95,6 +95,8 @@ architecture STRUCTURE of design_1_wrapper is
     vout01_0_v_p : out STD_LOGIC;
     vout11_0_v_n : out STD_LOGIC;
     vout11_0_v_p : out STD_LOGIC;
+    CLK_DIFF_PL_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
+    CLK_DIFF_PL_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
     vin1_01_0_v_n : in STD_LOGIC;
     vin1_01_0_v_p : in STD_LOGIC;
     vin1_23_0_v_n : in STD_LOGIC;
@@ -103,8 +105,6 @@ architecture STRUCTURE of design_1_wrapper is
     sysref_in_diff_p : in STD_LOGIC;
     vin3_01_0_v_n : in STD_LOGIC;
     vin3_01_0_v_p : in STD_LOGIC;
-    CLK_DIFF_PL_CLK_clk_p : in STD_LOGIC_VECTOR ( 0 to 0 );
-    CLK_DIFF_PL_CLK_clk_n : in STD_LOGIC_VECTOR ( 0 to 0 );
     vout00_0_v_n : out STD_LOGIC;
     vout00_0_v_p : out STD_LOGIC;
     vout10_0_v_n : out STD_LOGIC;

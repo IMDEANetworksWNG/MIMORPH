@@ -470,22 +470,20 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_xbar_3/sim/design_1_xbar_3.v" \
   "../../../bd/design_1/ip/design_1_xlconstant_0_14/sim/design_1_xlconstant_0_14.v" \
-  "../../../bd/design_1/ip/edit_ddr_writer_v1_0.srcs/sources_1/ip/DDR_WRITER_FIFO/sim/DDR_WRITER_FIFO.v" \
-  "../../../bd/design_1/ip/edit_ddr_writer_v1_0.srcs/sources_1/ip/ila_0_3/sim/ila_0.v" \
-  "../../../bd/design_1/ipshared/4e6e/src/DDR_writer.v" \
-  "../../../bd/design_1/ipshared/4e6e/hdl/ddr_writer_v1_0_S00_AXI.v" \
+  "../../../bd/design_1/ip/design_1_ddr_writer_0_7/src/DDR_WRITER_FIFO/sim/DDR_WRITER_FIFO.v" \
+  "../../../bd/design_1/ipshared/1ab7/src/DDR_writer.v" \
+  "../../../bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0_S00_AXI.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/design_1/ipshared/4e6e/src/vt_single_sync.vhd" \
+  "../../../bd/design_1/ipshared/1ab7/src/vt_single_sync.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/design_1/ipshared/4e6e/hdl/ddr_writer_v1_0.v" \
+  "../../../bd/design_1/ipshared/1ab7/hdl/ddr_writer_v1_0.v" \
   "../../../bd/design_1/ip/design_1_ddr_writer_0_7/sim/design_1_ddr_writer_0_7.v" \
   "../../../bd/design_1/ip/design_1_util_vector_logic_0_26/sim/design_1_util_vector_logic_0_26.v" \
   "../../../bd/design_1/ip/design_1_util_vector_logic_1_22/sim/design_1_util_vector_logic_1_22.v" \
   "../../../bd/design_1/ip/design_1_util_vector_logic_0_27/sim/design_1_util_vector_logic_0_27.v" \
   "../../../bd/design_1/ip/design_1_util_vector_logic_1_23/sim/design_1_util_vector_logic_1_23.v" \
-  "../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/sim/bd_48ac.v" \
   "../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_48ac_one_0.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
@@ -569,6 +567,9 @@
   "../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_37/sim/bd_48ac_m00e_0.sv" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/sim/bd_48ac.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_smartconnect_0_0/sim/design_1_smartconnect_0_0.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
@@ -637,8 +638,8 @@
   "../../../bd/design_1/ip/design_1_idle_packet_0_0/sim/design_1_idle_packet_0_0.vhd" \
   "../../../bd/design_1/ip/design_1_idle_packet_0_2/sim/design_1_idle_packet_0_2.vhd" \
   "../../../bd/design_1/ip/design_1_idle_packet_0_3/sim/design_1_idle_packet_0_3.vhd" \
-  "../../../bd/design_1/ipshared/51c7/hdl/packet_counter_v1_0_S00_AXI.vhd" \
-  "../../../bd/design_1/ipshared/51c7/hdl/packet_counter_v1_0.vhd" \
+  "../../../bd/design_1/ipshared/490f/hdl/packet_counter_v1_0_S00_AXI.vhd" \
+  "../../../bd/design_1/ipshared/490f/hdl/packet_counter_v1_0.vhd" \
   "../../../bd/design_1/ip/design_1_packet_counter_0_2/sim/design_1_packet_counter_0_2.vhd" \
   "../../../bd/design_1/ip/design_1_packet_counter_0_4/sim/design_1_packet_counter_0_4.vhd" \
   "../../../bd/design_1/ip/design_1_packet_counter_0_1/sim/design_1_packet_counter_0_1.vhd" \
@@ -672,9 +673,9 @@
   "../../../bd/design_1/ip/design_1_axis_dwidth_converter_0_11/sim/design_1_axis_dwidth_converter_0_11.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/design_1/ipshared/86c8/hdl/packet_detector_SSR1_v1_0_S00_AXI.vhd" \
-  "../../../bd/design_1/ipshared/86c8/src/packet_detector_v3_SSR1.vhd" \
-  "../../../bd/design_1/ipshared/86c8/hdl/packet_detector_SSR1_v1_0.vhd" \
+  "../../../bd/design_1/ipshared/8938/hdl/packet_detector_SSR1_v1_0_S00_AXI.vhd" \
+  "../../../bd/design_1/ipshared/8938/src/packet_detector_v3_SSR1.vhd" \
+  "../../../bd/design_1/ipshared/8938/hdl/packet_detector_SSR1_v1_0.vhd" \
   "../../../bd/design_1/ip/design_1_packet_detector_SSR1_0_0/sim/design_1_packet_detector_SSR1_0_0.vhd" \
   "../../../bd/design_1/ip/design_1_packet_detector_SSR1_0_1/sim/design_1_packet_detector_SSR1_0_1.vhd" \
   "../../../bd/design_1/ip/design_1_packet_detector_SSR1_1_0/sim/design_1_packet_detector_SSR1_1_0.vhd" \
@@ -684,11 +685,6 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_util_vector_logic_0_41/sim/design_1_util_vector_logic_0_41.v" \
   "../../../bd/design_1/ip/design_1_util_vector_logic_1_41/sim/design_1_util_vector_logic_1_41.v" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
-  "../../../bd/design_1/sim/design_1.vhd" \
--endlib
--makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_tier2_xbar_0_0/sim/design_1_tier2_xbar_0_0.v" \
   "../../../bd/design_1/ip/design_1_tier2_xbar_1_0/sim/design_1_tier2_xbar_1_0.v" \
   "../../../bd/design_1/ip/design_1_tier2_xbar_2_0/sim/design_1_tier2_xbar_2_0.v" \
@@ -705,6 +701,9 @@
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_auto_ds_0/sim/design_1_auto_ds_0.v" \
   "../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/sim/design_1.vhd" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v
