@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_xbar_3_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_usp_rf_data_converter_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axis_combiner_0_5_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_axis_combiner_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axis_combiner_0_6_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_axis_combiner_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axis_combiner_0_5_synth_1"/>
+	</Run>
+	<Run Id="design_1_axis_register_slice_0_23_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_axis_register_slice_0_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axis_register_slice_0_24_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_axis_register_slice_0_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axis_register_slice_0_23_synth_1"/>
+	</Run>
+	<Run Id="design_1_axis_broadcaster_1_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_axis_broadcaster_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_tier2_xbar_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_1_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_tier2_xbar_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_tier2_xbar_2_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_tier2_xbar_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ds_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ds_1_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_ds_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_ds_2_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_ds_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_ds_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_auto_ds_3_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_ds_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_ds_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_auto_ds_4_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/design_1_auto_ds_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_ds_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_xbar_3_synth_1"/>
+		<Parent Id="design_1_usp_rf_data_converter_0_0_synth_1"/>
+		<Parent Id="design_1_axis_combiner_0_5_synth_1"/>
+		<Parent Id="design_1_axis_combiner_0_6_synth_1"/>
+		<Parent Id="design_1_axis_register_slice_0_23_synth_1"/>
+		<Parent Id="design_1_axis_register_slice_0_24_synth_1"/>
+		<Parent Id="design_1_axis_broadcaster_1_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_0_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_1_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_2_0_synth_1"/>
+		<Parent Id="design_1_auto_ds_0_synth_1"/>
+		<Parent Id="design_1_auto_ds_1_synth_1"/>
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_auto_ds_2_synth_1"/>
+		<Parent Id="design_1_auto_ds_3_synth_1"/>
+		<Parent Id="design_1_auto_ds_4_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/rafael/Documentos/RFSoc/mmW2x2+sub6GHz4x4/Basic_1x1.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_1_xbar_3_synth_1"/>
+		<Parent Id="design_1_usp_rf_data_converter_0_0_synth_1"/>
+		<Parent Id="design_1_axis_combiner_0_5_synth_1"/>
+		<Parent Id="design_1_axis_combiner_0_6_synth_1"/>
+		<Parent Id="design_1_axis_register_slice_0_23_synth_1"/>
+		<Parent Id="design_1_axis_register_slice_0_24_synth_1"/>
+		<Parent Id="design_1_axis_broadcaster_1_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_0_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_1_0_synth_1"/>
+		<Parent Id="design_1_tier2_xbar_2_0_synth_1"/>
+		<Parent Id="design_1_auto_ds_0_synth_1"/>
+		<Parent Id="design_1_auto_ds_1_synth_1"/>
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+		<Parent Id="design_1_auto_ds_2_synth_1"/>
+		<Parent Id="design_1_auto_ds_3_synth_1"/>
+		<Parent Id="design_1_auto_ds_4_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

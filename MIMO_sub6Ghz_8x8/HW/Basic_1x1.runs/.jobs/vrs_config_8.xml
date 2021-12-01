@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_usp_rf_data_converter_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/Basic_1x1/Basic_1x1.runs/design_1_usp_rf_data_converter_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axis_data_fifo_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/Basic_1x1/Basic_1x1.runs/design_1_axis_data_fifo_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_dds_compiler_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/Basic_1x1/Basic_1x1.runs/design_1_dds_compiler_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_util_ds_buf_0_2_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/Basic_1x1/Basic_1x1.runs/design_1_util_ds_buf_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_clk_wiz_0_0_synth_1" LaunchDir="/home/rafael/Documentos/RFSoc/Basic_1x1/Basic_1x1.runs/design_1_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

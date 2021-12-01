@@ -1,0 +1,33 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port slowest_sync_clk -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port ext_reset_in -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port slowest_sync_clk1 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port slowest_sync_clk2 -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port ext_reset_in1 -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace port slowest_sync_clk3 -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -lvl 2 -x 400 -y 320 -defaultsOSRD
+preplace portBus peripheral_aresetn1 -pg 1 -lvl 2 -x 400 -y 140 -defaultsOSRD
+preplace portBus peripheral_aresetn2 -pg 1 -lvl 2 -x 400 -y 680 -defaultsOSRD
+preplace portBus peripheral_aresetn3 -pg 1 -lvl 2 -x 400 -y 500 -defaultsOSRD
+preplace inst rst_ps8_0_96M -pg 1 -lvl 1 -x 200 -y 280 -defaultsOSRD
+preplace inst rst_ps8_0_96M1 -pg 1 -lvl 1 -x 200 -y 100 -defaultsOSRD
+preplace inst rst_ddr4_0_333M -pg 1 -lvl 1 -x 200 -y 640 -defaultsOSRD
+preplace inst rst_ps8_0_96M2 -pg 1 -lvl 1 -x 200 -y 460 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 NJ 240
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 1 20 80n
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 1 NJ 320
+preplace netloc MTS_Block_dac_clk 1 0 1 NJ 60
+preplace netloc rst_ps8_0_96M1_peripheral_aresetn 1 1 1 NJ 140
+preplace netloc rst_ddr4_0_333M_peripheral_aresetn 1 1 1 NJ 680
+preplace netloc slowest_sync_clk2_1 1 0 1 NJ 600
+preplace netloc ext_reset_in1_1 1 0 1 NJ 620
+preplace netloc rst_ps8_0_96M2_peripheral_aresetn 1 1 1 NJ 500
+preplace netloc slowest_sync_clk3_1 1 0 1 NJ 420
+levelinfo -pg 1 0 200 400
+pagesize -pg 1 -db -bbox -sgen -180 0 630 740
+"
+}
+0
