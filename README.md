@@ -8,6 +8,7 @@ The platform supports mixed configurations with simultaneous use of mm-wave and 
 
 ###### *Receiver path configurations: 1.- 4×4 mm-wave Channels;  2.-8×8 sub-6 GHz Channels ; 3.-4×4 sub-6 GHz Channels+2×2 mm-wave Channels*  
 
+## Content
 This repository contains 5 different designs, the IP block repository and two decoders, one for 11ad and other for 11ay. You can also find a more detailed MIMORPH GUIDE and a quick guide to setup the RFSoC.
 
 - DECODER -> contains MATLAB encoder/decoder functions for 802.11ad and an ad-hoc version of 802.11ay.
@@ -25,6 +26,18 @@ This repository contains 5 different designs, the IP block repository and two de
 - MIMO_mm-wave_4x4_closed_loop_STA -> this design is used for the Closed loop beam training experiment. The STA will compute the CIR values of the different TRN fields and will choose the best BP. Then it will encode a message to be sent to the AP.
   
 - ip_repo -> contains each custom IP block used for the different designs
+
+## Open Source License
+
+MIMORPH is publicly offered under the GNU General Public License version 3 (GPLv3). If you use the GPLv3-licensed version of MIMORPH in your application, your application must then also be licensed under the GPLv3. If you want to create a proprietary product with our work you need to use the Alternative License.
+
+## Alternative License
+
+If the GPLv3 is not suitable for your needs, MIMORPH is also available under an alternative license. The Alternative License allows you to create proprietary applications without being required to meet the obligations of the GPLv3.
+
+In case you need an alternative license, please contact us at mimorph@imdea.org
+
+## Cite this work
 
 If you use it in your research work, please acknowledge the source and cite the publication below:  
 >***A Real-Time Experimentation Platform for sub-6 GHz andMillimeter-Wave MIMO Systems***
